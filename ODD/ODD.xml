@@ -1,0 +1,433 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron" xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>ODD - Mirabelle</title>
+<author xml:id="CJ">
+<name>Claire Jahan</name>
+<idno type="ORCID" n="0000-0001-7268-9706"/>
+</author>
+<author xml:id="AB">
+<name>Alexandre Bartz</name>
+<idno type="ORCID" n="0000-0003-0850-8266"/>
+</author>
+</titleStmt>
+<publicationStmt>
+<publisher>E-Ditiones project</publisher>
+<ref target="https://github.com/e-ditiones"/>
+<publisher>Antonomaz project</publisher>
+<ref target="https://github.com/Antonomaz"/>
+<availability status="restricted" n="cc-by">
+<licence target="https://creativecommons.org/licenses/by/4.0"/>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>
+Created
+<date when="2021-06-22">22/06/2021</date>
+by
+<name ref="#CJ">CJ</name>
+and
+<name ref="#AB">AB</name>
+.
+</p>
+<p>
+Modified
+<date when="2021-07-27">22/07/2021</date>
+by
+<name ref="#CJ">CJ</name>
+.
+</p>
+</sourceDesc>
+</fileDesc>
+</teiHeader>
+<text>
+<body>
+<schemaSpec ident="Mirabelle" start="teiCorpus">
+<moduleRef key="tei"/>
+<moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt availability licence sourceDesc profileDesc editionStmt revisionDesc listChange extent change edition idno"/>
+<moduleRef key="core" include="teiCorpus title publisher p bibl address label measure street date author gb pb label respStmt resp name listBibl"/>
+<moduleRef key="namesdates" include="forename surname addName settlement country persName roleName listEvent event person listPerson sex birth death occupation residence objectName"/>
+<moduleRef key="textstructure" include="TEI text body div"/>
+<moduleRef key="figures" include="figure"/>
+<moduleRef key="corpus" include="particDesc"/>
+<moduleRef key="msdescription" include="msDesc msIdentifier physDesc decoDesc decoNote repository"/>
+<moduleRef key="transcr" include="facsimile surfaceGrp surface"/>
+<elementSpec ident="teiCorpus" mode="change">
+<attList>
+<attDef ident="xml:id" mode="change" usage="req"/>
+</attList>
+<constraintSpec ident="xml:id" scheme="schematron">
+<constraint>
+<sch:rule context="tei:teiCorpus">
+<sch:assert test="./starts-with(@xml:id, 'IL')" role="error">Un @xml:id est nécessaire.</sch:assert>
+</sch:rule>
+</constraint>
+</constraintSpec>
+</elementSpec>
+<elementSpec ident="titleStmt" mode="change">
+<content>
+<elementRef key="title" minOccurs="1" maxOccurs="1"/>
+<elementRef key="author" minOccurs="0" maxOccurs="unbounded"/>
+</content>
+<constraintSpec ident="author" scheme="schematron">
+<constraint>
+<sch:rule context="tei:teiCorpus/tei:teiHeader//tei:titleStmt">
+<sch:assert test="not(./tei:author)" role="error">Usage d'author interdit dans le teiCorpus.</sch:assert>
+</sch:rule>
+</constraint>
+</constraintSpec>
+</elementSpec>
+<elementSpec ident="author" mode="change">
+<constraintSpec ident="ref_syntaxe" scheme="schematron">
+<constraint>
+<sch:rule context="tei:TEI//tei:author">
+<sch:assert test="./@ref/starts-with(.,'isni:') or ./@ref/starts-with(.,'viaf:') or ./@ref/starts-with(.,'IL:')" role="error">Vérifier la syntaxe de l'identifiant.</sch:assert>
+</sch:rule>
+</constraint>
+</constraintSpec>
+</elementSpec>
+<elementSpec ident="title" mode="change">
+<constraintSpec ident="ref" scheme="schematron">
+<constraint>
+<sch:rule context="tei:teiCorpus/tei:teiHeader//tei:title">
+<sch:assert test="./@ref" role="error">Un @ref est nécessaire.</sch:assert>
+</sch:rule>
+</constraint>
+</constraintSpec>
+<constraintSpec ident="ref_syntaxe" scheme="schematron">
+<constraint>
+<sch:rule context="tei:teiCorpus/tei:teiHeader//tei:title">
+<sch:assert test="./@ref/starts-with(.,'isni:') or ./@ref/starts-with(.,'viaf:') or ./@ref/starts-with(.,'IL:')" role="error">Vérifier la syntaxe de l'identifiant.</sch:assert>
+</sch:rule>
+</constraint>
+</constraintSpec>
+<constraintSpec ident="type" scheme="schematron">
+<constraint>
+<sch:rule context="tei:teiCorpus/tei:teiHeader//tei:title">
+<sch:assert test="./contains(./@type, 'standard')" role="error">Un @type est nécessaire.</sch:assert>
+</sch:rule>
+</constraint>
+</constraintSpec>
+</elementSpec>
+<elementSpec ident="editionStmt" mode="change">
+<content>
+<elementRef key="edition" minOccurs="1" maxOccurs="1"/>
+<elementRef key="respStmt" minOccurs="1" maxOccurs="unbounded"/>
+</content>
+</elementSpec>
+<elementSpec ident="respStmt" mode="change">
+<content>
+<elementRef key="name" minOccurs="1" maxOccurs="1"/>
+<elementRef key="resp" minOccurs="1" maxOccurs="1"/>
+</content>
+<attList>
+<attDef ident="xml:id" mode="change" usage="req"/>
+</attList>
+</elementSpec>
+<elementSpec ident="publicationStmt" mode="change">
+<content>
+<elementRef key="publisher" minOccurs="1" maxOccurs="1"/>
+<elementRef key="availability" minOccurs="1" maxOccurs="1"/>
+</content>
+</elementSpec>
+<elementSpec ident="availability" mode="change">
+<attList>
+<attDef ident="status" mode="change" usage="req"/>
+<attDef ident="n" mode="change" usage="req"/>
+</attList>
+</elementSpec>
+<elementSpec ident="licence" mode="change">
+<attList>
+<attDef ident="target" mode="change" usage="req"/>
+</attList>
+</elementSpec>
+<elementSpec ident="publisher" mode="change">
+<attList>
+<attDef ident="ref" mode="change" usage="req"/>
+</attList>
+<constraintSpec ident="xml:id" scheme="schematron">
+<constraint>
+<sch:rule context="tei:teiCorpus/tei:teiHeader//tei:publisher">
+<sch:assert test="@xml:id" role="error">Un @xml:id est nécessaire.</sch:assert>
+</sch:rule>
+</constraint>
+</constraintSpec>
+</elementSpec>
+<elementSpec ident="sourceDesc" mode="change">
+<content>
+<elementRef key="listBibl" minOccurs="0" maxOccurs="1"/>
+<elementRef key="bibl" minOccurs="0" maxOccurs="1"/>
+<elementRef key="msDesc" minOccurs="0" maxOccurs="1"/>
+</content>
+<constraintSpec ident="msDesc" scheme="schematron">
+<constraint>
+<sch:rule context="tei:teiCorpus/tei:teiHeader//tei:sourceDesc">
+<sch:assert test="not(./tei:msDesc)" role="error">Usage de msDesc interdit dans le teiCorpus.</sch:assert>
+</sch:rule>
+</constraint>
+</constraintSpec>
+</elementSpec>
+<elementSpec ident="bibl" mode="change">
+<attList>
+<attDef ident="source" mode="change" usage="req"/>
+</attList>
+<constraintSpec ident="gallica" scheme="schematron">
+<constraint>
+<sch:rule context="tei:TEI/tei:teiHeader//tei:sourceDesc/tei:bibl">
+<sch:assert test="./contains(@source, 'gallica.bnf.fr')" role="error">Mettre le lien Gallica.</sch:assert>
+</sch:rule>
+</constraint>
+</constraintSpec>
+</elementSpec>
+<elementSpec ident="profileDesc" mode="change">
+<content>
+<elementRef key="particDesc" minOccurs="1" maxOccurs="1"/>
+</content>
+</elementSpec>
+<elementSpec ident="particDesc" mode="change">
+<content>
+<elementRef key="listPerson" minOccurs="1" maxOccurs="1"/>
+</content>
+</elementSpec>
+<elementSpec ident="listPerson" mode="change">
+<content>
+<elementRef key="person" minOccurs="1" maxOccurs="1"/>
+</content>
+</elementSpec>
+<elementSpec ident="person" mode="change">
+<content>
+<elementRef key="persName" minOccurs="1" maxOccurs="unbounded"/>
+<elementRef key="sex" minOccurs="1" maxOccurs="1"/>
+<elementRef key="birth" minOccurs="1" maxOccurs="1"/>
+<elementRef key="death" minOccurs="1" maxOccurs="1"/>
+<elementRef key="occupation" minOccurs="0" maxOccurs="unbounded"/>
+<elementRef key="residence" minOccurs="0" maxOccurs="unbounded"/>
+<elementRef key="listEvent" minOccurs="1" maxOccurs="1"/>
+</content>
+</elementSpec>
+<elementSpec ident="persName" mode="change">
+<attList>
+<attDef ident="type" mode="change" usage="req">
+<valList mode="add" type="closed">
+<!--  Standard = nom officiel, nom retenu
+                           alias = autre nom de l'imprimeur, s'il a changé de nom par ex
+                           alternative = formes rejetées par la BnF par ex, variantes orthographiques, étrangères, etc.  -->
+<valItem ident="standard"/>
+<valItem ident="alias"/>
+<valItem ident="alternative"/>
+</valList>
+</attDef>
+</attList>
+</elementSpec>
+<elementSpec ident="sex" mode="change">
+<constraintSpec ident="sex" scheme="schematron">
+<constraint>
+<sch:rule context="tei:person/tei:sex">
+<sch:assert test="./starts-with(., 'M') or ./starts-with(., 'F') or ./starts-with(., '?')" role="error"> La valeur doit être "M" ou "F" ou "?".</sch:assert>
+</sch:rule>
+</constraint>
+</constraintSpec>
+</elementSpec>
+<elementSpec ident="birth" mode="change">
+<attList>
+<attDef ident="cert" mode="change" usage="req"/>
+</attList>
+</elementSpec>
+<elementSpec ident="death" mode="change">
+<attList>
+<attDef ident="cert" mode="change" usage="req"/>
+</attList>
+</elementSpec>
+<elementSpec ident="residence" mode="change">
+<content>
+<elementRef key="address" minOccurs="1" maxOccurs="1"/>
+</content>
+<attList>
+<attDef ident="cert" mode="change" usage="req">
+<valList type="closed" mode="add">
+<valItem ident="high"/>
+<valItem ident="medium"/>
+<valItem ident="low"/>
+<valItem ident="unknown"/>
+<valItem ident="alleged"/>
+</valList>
+</attDef>
+</attList>
+</elementSpec>
+<elementSpec ident="address" mode="change">
+<content>
+<elementRef key="objectName" minOccurs="0" maxOccurs="unbounded"/>
+<elementRef key="street" minOccurs="0" maxOccurs="unbounded"/>
+<elementRef key="settlement" minOccurs="0" maxOccurs="unbounded"/>
+<elementRef key="country" minOccurs="0" maxOccurs="unbounded"/>
+</content>
+</elementSpec>
+<elementSpec ident="listEvent" mode="change">
+<content>
+<elementRef key="event" minOccurs="1" maxOccurs="unbounded"/>
+</content>
+</elementSpec>
+<elementSpec ident="event" mode="change">
+<content>
+<elementRef key="label" minOccurs="1" maxOccurs="unbounded"/>
+</content>
+</elementSpec>
+<elementSpec ident="label" mode="change">
+<attList>
+<attDef ident="type" mode="change" usage="req">
+<valList mode="add" type="closed">
+<valItem ident="publication"/>
+<valItem ident="bio"/>
+</valList>
+</attDef>
+</attList>
+</elementSpec>
+<elementSpec ident="revisionDesc" mode="change">
+<content>
+<elementRef key="listChange" minOccurs="1" maxOccurs="1"/>
+</content>
+</elementSpec>
+<elementSpec ident="listChange" mode="change">
+<content>
+<elementRef key="change" minOccurs="1" maxOccurs="unbounded"/>
+</content>
+</elementSpec>
+<elementSpec ident="change" mode="change">
+<attList>
+<attDef ident="when" mode="change" usage="req"/>
+<attDef ident="who" mode="change" usage="req"/>
+</attList>
+</elementSpec>
+<elementSpec ident="TEI" mode="change">
+<attList>
+<attDef ident="corresp" mode="add" usage="req"/>
+</attList>
+</elementSpec>
+<elementSpec ident="msDesc" mode="change">
+<content>
+<elementRef key="msIdentifier" minOccurs="1" maxOccurs="1"/>
+<elementRef key="physDesc" minOccurs="1" maxOccurs="1"/>
+</content>
+</elementSpec>
+<elementSpec ident="msIdentifier" mode="change">
+<content>
+<elementRef key="repository" minOccurs="1" maxOccurs="1"/>
+<elementRef key="location" minOccurs="1" maxOccurs="1"/>
+<elementRef key="idno" minOccurs="1" maxOccurs="1"/>
+</content>
+</elementSpec>
+<elementSpec ident="idno" mode="change">
+<attList>
+<attDef ident="source" mode="change" usage="req"/>
+</attList>
+<constraintSpec ident="catalogue" scheme="schematron">
+<constraint>
+<sch:rule context="tei:TEI/tei:teiHeader//tei:sourceDesc/tei:idno">
+<sch:assert test="./contains(@source, 'catalogue.bnf.fr')" role="error">Mettre le lien du catalogue BnF.</sch:assert>
+</sch:rule>
+</constraint>
+</constraintSpec>
+</elementSpec>
+<elementSpec ident="physDesc" mode="change">
+<content>
+<elementRef key="decoDesc" minOccurs="1" maxOccurs="1"/>
+</content>
+</elementSpec>
+<elementSpec ident="decoDesc" mode="change">
+<content>
+<elementRef key="decoNote" minOccurs="1" maxOccurs="unbounded"/>
+</content>
+</elementSpec>
+<elementSpec ident="decoNote" mode="change">
+<attList>
+<attDef ident="ref" mode="change" usage="req"/>
+</attList>
+</elementSpec>
+<elementSpec ident="text" mode="change">
+<content>
+<elementRef key="body" minOccurs="1" maxOccurs="1"/>
+</content>
+</elementSpec>
+<elementSpec ident="body" mode="change">
+<content>
+<elementRef key="div" minOccurs="1" maxOccurs="unbounded"/>
+</content>
+</elementSpec>
+<elementSpec ident="gb" mode="change">
+<attList>
+<attDef ident="xml:id" mode="change" usage="req"/>
+</attList>
+<constraintSpec ident="id" scheme="schematron">
+<constraint>
+<sch:rule context="tei:gb">
+<sch:assert test="./@xml:id/starts-with(., ancestor::tei:TEI/@corresp)" role="error">Le @xml:id doit commencer par le nom de fichier du texte.</sch:assert>
+</sch:rule>
+</constraint>
+</constraintSpec>
+</elementSpec>
+<elementSpec ident="pb" mode="change">
+<attList>
+<attDef ident="xml:id" mode="change" usage="req"/>
+</attList>
+<constraintSpec ident="id" scheme="schematron">
+<constraint>
+<sch:rule context="tei:pb">
+<sch:assert test="./@xml:id/starts-with(., ancestor::tei:TEI/@corresp)" role="error">Le @xml:id doit commencer par le nom de fichier du texte.</sch:assert>
+</sch:rule>
+</constraint>
+</constraintSpec>
+</elementSpec>
+<elementSpec ident="figure" mode="change">
+<attList>
+<attDef ident="type" mode="change" usage="req">
+<valList type="closed" mode="add">
+<valItem ident="decoration"/>
+<valItem ident="dropCapital"/>
+</valList>
+</attDef>
+<attDef ident="corresp" mode="add" usage="req"/>
+<attDef ident="facs" mode="add" usage="req"/>
+</attList>
+</elementSpec>
+<elementSpec ident="settlement" mode="change">
+<attList>
+<attDef ident="ref" mode="change" usage="req"/>
+</attList>
+<constraintSpec ident="ref" scheme="schematron">
+<constraint>
+<sch:rule context="tei:settlement[@ref]">
+<sch:assert test="./@ref/starts-with(.,'geonames:')" role="error">Ajouter un identifiant geonames.</sch:assert>
+</sch:rule>
+</constraint>
+</constraintSpec>
+</elementSpec>
+<elementSpec ident="measure" mode="change">
+<attList>
+<attDef ident="quantity" mode="change" usage="req"/>
+<attDef ident="unit" mode="change" usage="req">
+<valList type="closed" mode="add">
+<valItem ident="pages"/>
+<valItem ident="decoration"/>
+</valList>
+</attDef>
+</attList>
+</elementSpec>
+</schemaSpec>
+<classSpec ident="att.global.linking" type="atts" mode="change">
+<attList>
+<attDef ident="synch" mode="delete"/>
+<attDef ident="sameAs" mode="delete"/>
+<attDef ident="copyOf" mode="delete"/>
+<attDef ident="next" mode="delete"/>
+<attDef ident="prev" mode="delete"/>
+<attDef ident="exclude" mode="delete"/>
+<attDef ident="select" mode="delete"/>
+</attList>
+</classSpec>
+</body>
+</text>
+</TEI>
