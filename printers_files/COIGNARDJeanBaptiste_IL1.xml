@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="out/ODD_Mirabelle.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/ODD_Mirabelle.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- Un ID par imprimeur -->
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="Il1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- doit pointer vers les metadata -->
+            <title ref="isni:0000000121022477" type="standard">
+               <forename>Jean-Baptiste</forename>
+               <surname>Coignard</surname>
+            </title>
+         </titleStmt>
+         <editionStmt>
+            <edition>décrit les particularités de l’édition d’un texte</edition>
+            <!-- a multiplier par personne qui va créer ou modifier le document -->
+            <respStmt xml:id="CJ">
+               <!-- respStmt avec un id pour faire la ref vers le revisionDecs -->
+               <name>Claire Jahan</name>
+               <resp>author</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <!-- il faudrait imaginer un projet commun, reprendre le nom du github par exemple -->
+            <publisher ref="github" xml:id="projet">projet</publisher>
+            <availability status="restricted" n="cc-by">
+               <licence target="https://creativecommons.org/licenses/by/4.0"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <!-- ajouter un listBibl au cas où on voudrait ajouter quelques autres sources -->
+            <bibl source="https://data.bnf.fr/fr/12413928/jean-baptiste_coignard/"/>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <!-- Mettre les noms alternatifs avec un type -->
+                  <persName type="standard">Jean-Baptiste Coignard</persName>
+                  <sex>M</sex>
+                  <birth when="1637" cert="low"/>
+                  <death when="1689-09-10" cert="high"/>
+                  <occupation/>
+                  <!-- On peut imaginer qu'on peut ajouter les publications/impressions dans les évènements + principaux évènements de sa vie -->
+                  <listEvent>
+                     <event>
+                        <label type="bio">Imprimeur-libraire ; imprimeur ordinaire du Roi (1678) ;
+                           imprimeur-libraire de l'Académie française (1687). - Fils de Charles I
+                           Coignard. Reçu maître le 2 mai 1658. Comme imprimeur du Roi, succède à
+                           Damien Foucault, et à Pierre Le Petit comme imprimeur de l'Académie
+                           française. Également fondeur de caractères. Dit âgé de 52 ans lors de son
+                           décès. Sa veuve et son fils lui succèdent En 1668, travaille en
+                           association avec son beau-père Jean Hénault</label>
+                     </event>
+                     <event>
+                        <label type="publication"/>
+                     </event>
+                  </listEvent>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <!-- décrire le changement en faisant référence à l'id du resp -->
+            <change when="2021-07-27" who="#CJ">first commit</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <!-- correspond à un livre -->
+   <TEI corresp="RacineIphigénie1675_btv1b8610816f.xml">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Iphigénie , tragédie par M. Racine</title>
+               <author ref="isni:0000000123212338">Jean Racine</author>
+            </titleStmt>
+            <extent>
+               <measure unit="pages" quantity="83"/>
+               <measure unit="decoration" quantity="63"/>
+               <measure unit="dropcapital" quantity="41"/>
+               <measure unit="figure" quantity="0"/>
+            </extent>
+            <publicationStmt>
+               <publisher ref="github">Editiones</publisher>
+               <availability status="restricted" n="cc-by">
+                  <licence target="https://creativecommons.org/licenses/by/4.0"/>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <!-- Lien gallica dans le bibl -->
+               <bibl source="https://gallica.bnf.fr/ark:/12148/btv1b8610816f"/>
+               <msDesc>
+                  <msIdentifier>
+                     <!-- lien vers le catalogue dans le msDesc -->
+                     <repository>BnF</repository>
+                     <idno source="https://catalogue.bnf.fr/ark:/12148/cb31169276w"/>
+                  </msIdentifier>
+                  <physDesc>
+                     <decoDesc>
+                        <!--il faudrait y décrire les watermark, la plus belle représentation de chaque ornement dans l'ouvrage-->
+                        <!-- permettrait de penser au teipublisher -->
+                        <decoNote/>
+                     </decoDesc>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile corresp="#RacineIphigénie1675" source="https://gallica.bnf.fr/ark:/12148/btv1b8610816f">
+        <surfaceGrp corresp="#RacineIphigénie1675_0007" type="page">
+            <surface type="decoration" corresp="#RacineIphigénie1675_0007_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0007/231,1449,1394,947/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0009" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0009_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0009/89,943,547,555/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0009_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0009/89,307,1664,369/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0017" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0017_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0017/25,1004,10,10/full/0/native"/>
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0017_BT5_2"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0017/64,837,155,203/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0017_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0017/38,309,1713,202/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0018" type="page">
+            <surface type="decoration" corresp="#RacineIphigénie1675_0018_BT4_3"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0018/356,295,1634,221/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0019" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0019_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0019/683,1043,22,9/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0019_BT4_5"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0019/51,319,1678,424/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0024" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0024_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0024/305,2782,168,202/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0024_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0024/268,2029,1680,195/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0028" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0028_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0028/315,2709,130,174/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0028_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0028/320,2037,1634,164/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0030" type="page">
+            <surface type="decoration" corresp="#RacineIphigénie1675_0030_BT4_3"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0030/326,2409,1652,189/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0031" type="page">
+            <surface type="decoration" corresp="#RacineIphigénie1675_0031_BT4_2"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0031/690,2824,343,344/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0032" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0032_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0032/326,1046,83,177/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0032_BT4_3"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0032/329,358,1649,177/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0033" type="page">
+            <surface type="decoration" corresp="#RacineIphigénie1675_0033_BT4_3"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0033/257,1622,1337,1040/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0034" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0034_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0034/329,1491,172,178/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0034_BT4_3"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0034/333,371,1651,317/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0038" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0038_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0038/331,3007,120,177/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0038_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0038/303,2231,1661,149/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0041" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0041_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0041/261,1417,147,153/full/0/native"/>
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0041_BT5_2"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0041/128,2056,23,9/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0041_BT4_5"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0041/38,796,1634,177/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0042" type="page">
+            <surface type="decoration" corresp="#RacineIphigénie1675_0042_BT4_3"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0042/931,2672,493,387/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0043" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0043_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0043/51,1259,196,228/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0043_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0043/68,398,1626,157/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0044" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0044_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0044/363,1991,144,188/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0044_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0044/335,1294,1636,209/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0046" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0046_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0046/382,3118,106,173/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0046_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0046/384,2415,1605,132/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0047" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0047_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0047/88,1557,108,176/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0047_BT4_5"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0047/51,783,1643,196/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0048" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0048_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0048/322,1984,198,195/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0048_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0048/354,1230,1613,206/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0049" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0049_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0049/40,1366,167,173/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0049_BT4_3"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0049/51,295,1611,254/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0051" type="page">
+            <surface type="decoration" corresp="#RacineIphigénie1675_0051_BT4_3"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0051/59,2308,1626,216/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0051_BT4_7"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0051/55,667,1611,169/full/0/native"/>
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0051_BT5_8"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0051/291,1197,177,148/full/0/native"/>
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0051_BT5_9"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0051/81,3018,147,158/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0052" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0052_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0052/329,2682,130,216/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0052_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0052/340,1794,1644,234/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0052_BT4_5"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0052/1923,3780,61,36/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0054" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0054_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0054/352,2153,200,176/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0054_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0054/371,1163,1586,192/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0057" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0057_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0057/40,1100,165,201/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0057_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0057/58,399,1585,195/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0060" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0060_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0060/238,1991,184,183/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0060_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0060/241,1170,1670,173/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0062" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0062_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0062/316,1603,172,185/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0062_BT4_3"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0062/333,358,1638,356/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0064" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0064_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0064/269,2189,262,202/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0064_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0064/974,3140,266,105/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0064_BT4_5"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0064/254,1461,1723,216/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0065" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0065_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0065/98,1256,145,181/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0065_BT4_3"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0065/708,3146,293,117/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0065_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0065/53,349,1688,219/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0066" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0066_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0066/316,1226,177,180/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0066_BT4_3"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0066/333,371,1638,176/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0067" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0067_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0067/90,398,35,10/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0070" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0070_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0070/322,2829,179,179/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0070_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0070/334,2236,1637,232/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0070_BT4_5"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0070/1923,3780,61,23/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0071" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0071_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0071/72,1112,116,180/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0071_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0071/64,295,1645,241/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0072" type="page">
+            <surface type="decoration" corresp="#RacineIphigénie1675_0072_BT4_2"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0072/1885,3780,99,61/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0074" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0074_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0074/303,2718,155,192/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0074_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0074/301,2089,1657,234/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0074_BT4_5"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0074/1897,3780,74,36/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0075" type="page">
+            <surface type="decoration" corresp="#RacineIphigénie1675_0075_BT4_3"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0075/77,51,48,48/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0075_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0075/90,719,1638,177/full/0/native"/>
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0075_BT5_7"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0075/271,1561,104,156/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0076" type="page">
+            <surface type="decoration" corresp="#RacineIphigénie1675_0076_BT4_2"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0076/884,2845,574,496/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0076_BT4_6"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0076/322,1418,1638,138/full/0/native"/>
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0076_BT5_7"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0076/685,2065,172,169/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0077" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0077_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0077/44,1448,139,189/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0077_BT4_3"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0077/71,436,1632,190/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0078" type="page">
+            <surface type="decoration" corresp="#RacineIphigénie1675_0078_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0078/292,403,1683,241/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0078_BT4_5"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0078/602,2435,1113,894/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0078_BT4_6"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0078/1872,3793,74,10/full/0/native"/>
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0078_BT5_9"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0078/322,1208,112,158/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0079" type="page">
+            <surface type="decoration" corresp="#RacineIphigénie1675_0079_BT4_3"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0079/115,3767,36,36/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0079_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0079/49,347,1628,388/full/0/native"/>
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0079_BT5_7"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0079/67,1631,126,164/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0080" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0080_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0080/752,1887,161,160/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0080_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0080/318,1098,1692,270/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0080_BT4_5"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0080/1833,3780,164,61/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0081" type="page">
+            <surface type="decoration" corresp="#RacineIphigénie1675_0081_BT4_3"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0081/25,51,74,48/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0083" type="page">
+            <surface type="decoration" corresp="#RacineIphigénie1675_0083_BT4_3"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0083/102,3799,35,10/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0083_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0083/204,2712,10,9/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0083_BT4_5"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0083/332,2392,1159,572/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0084" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0084_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0084/307,1238,202,207/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0084_BT4_3"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0084/253,294,1719,256/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0085" type="page">
+            <surface type="decoration" corresp="#RacineIphigénie1675_0085_BT4_2"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0085/77,64,48,35/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0086" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0086_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0086/333,1174,174,179/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0086_BT4_3"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0086/307,270,1675,182/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0086_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0086/1820,3780,164,61/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0087" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0087_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0087/115,2387,151,164/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0087_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0087/60,1566,1657,146/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0088" type="page">
+            <surface type="dropcapital" corresp="#RacineIphigénie1675_0088_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0088/260,2125,160,189/full/0/native"/>
+            <surface type="decoration" corresp="#RacineIphigénie1675_0088_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0088/252,1384,1701,134/full/0/native"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#RacineIphigénie1675_0089" type="page">
+            <surface type="decoration" corresp="#RacineIphigénie1675_0089_BT4_3"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8610816f/f0089/64,3761,126,100/full/0/native"/>
+        </surfaceGrp>
+    </facsimile>
+      <text>
+         <body>
+            <div/>
+         </body>
+      </text>
+   </TEI>
+   <TEI corresp="CorneillePulchérie1673_bpt6k70455s.xml">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Pulchérie : comédie héroïque / [par P. Corneille]</title>
+            </titleStmt>
+            <extent>
+               <measure unit="pages" quantity="79"/>
+               <measure unit="decoration" quantity="32"/>
+               <measure unit="dropcapital" quantity="30"/>
+               <measure unit="figure" quantity="0"/>
+            </extent>
+            <publicationStmt>
+               <publisher ref="github">Editiones</publisher>
+               <availability status="restricted" n="cc-by">
+                  <licence target="https://creativecommons.org/licenses/by/4.0"/>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <!-- lien vers le catalogue dans le msDesc -->
+                     <repository>BnF</repository>
+                     <idno source="https://catalogue.bnf.fr/ark:/12148/cb302719090"/>
+                  </msIdentifier>
+                  <physDesc>
+                     <decoDesc>
+                        <!--il faudrait y décrire les watermark, la plus belle représentation de chaque ornement dans l'ouvrage-->
+                        <!-- permettrait de penser au teipublisher -->
+                        <decoNote/>
+                     </decoDesc>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile corresp="#CorneillePulchérie1673" source="https://gallica.bnf.fr/ark:/12148/bpt6k70455s">
+         <surfaceGrp corresp="#CorneillePulchérie1673_0002" type="page">
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0002_BT4_3"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0002/870,709,772,734/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0003" type="page">
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0003_BT5_1"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0003/713,418,142,175/full/0/native"/>
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0003_BT4_3"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0003/697,2,1075,264/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0004" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0005" type="page">
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0005_BT4_1"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0005/772,982,848,465/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0006" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0007" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0008" type="page">
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0008_BT4_2"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0008/833,23,1115,196/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0009" type="page">
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0009_BT5_1"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0009/710,1222,92,178/full/0/native"/>
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0009_BT4_3"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0009/713,93,1083,217/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0010" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0011" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0012" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0013" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0014" type="page">
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0014_BT4_6"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0014/804,867,1103,131/full/0/native"/>
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0014_BT5_7"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0014/809,1291,116,113/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0015" type="page">
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0015_BT4_4"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0015/718,135,1070,135/full/0/native"/>
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0015_BT5_6"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0015/1044,599,105,103/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0016" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0017" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0018" type="page">
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0018_BT5_1"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0018/812,1487,99,100/full/0/native"/>
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0018_BT4_6"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0018/811,1016,1040,137/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0019" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0020" type="page">
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0020_BT4_6"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0020/816,251,1058,117/full/0/native"/>
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0020_BT5_7"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0020/823,653,63,112/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0021" type="page">
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0021_BT5_1"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0021/702,1005,8,9/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0022" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0023" type="page">
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0023_BT4_4"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0023/912,795,685,406/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0024" type="page">
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0024_BT4_2"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0024/830,84,1050,228/full/0/native"/>
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0024_BT5_5"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0024/837,730,100,121/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0025" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0026" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0027" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0028" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0029" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0030" type="page">
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0030_BT5_1"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0030/830,245,33,9/full/0/native"/>
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0030_BT4_2"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0030/816,157,1038,138/full/0/native"/>
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0030_BT5_7"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0030/811,636,75,99/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0031" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0032" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0033" type="page">
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0033_BT4_6"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0033/730,1005,1088,102/full/0/native"/>
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0033_BT5_7"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0033/758,1438,81,121/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0034" type="page">
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0034_BT5_5"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0034/816,1105,91,128/full/0/native"/>
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0034_BT4_6"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0034/802,648,1063,119/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0035" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0036" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0037" type="page">
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0037_BT5_1"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0037/743,694,61,116/full/0/native"/>
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0037_BT4_4"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0037/744,231,1062,122/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0038" type="page">
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0038_BT4_2"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0038/810,124,1065,223/full/0/native"/>
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0038_BT5_5"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0038/823,834,69,115/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0039" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0040" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0041" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0042" type="page">
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0042_BT5_1"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0042/821,589,137,116/full/0/native"/>
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0042_BT4_2"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0042/811,133,1102,121/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0043" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0044" type="page">
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0044_BT4_5"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0044/816,632,1063,125/full/0/native"/>
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0044_BT5_6"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0044/813,1084,87,102/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0045" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0046" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0047" type="page">
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0047_BT5_1"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0047/702,1333,32,102/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0048" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0049" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0050" type="page">
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0050_BT5_1"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0050/847,954,102,100/full/0/native"/>
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0050_BT4_6"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0050/834,492,1054,107/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0051" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0052" type="page">
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0052_BT4_1"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0052/842,935,825,430/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0053" type="page">
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0053_BT5_1"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0053/746,897,112,105/full/0/native"/>
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0053_BT4_3"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0053/713,177,1075,215/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0054" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0055" type="page">
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0055_BT4_5"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0055/725,965,1058,121/full/0/native"/>
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0055_BT5_6"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0055/1070,1420,116,114/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0056" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0057" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0058" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0059" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0060" type="page">
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0060_BT4_1"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0060/798,105,1115,147/full/0/native"/>
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0060_BT5_6"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0060/1312,541,136,116/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0061" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0062" type="page">
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0062_BT4_2"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0062/1881,2058,8,8/full/0/native"/>
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0062_BT4_6"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0062/834,459,1047,131/full/0/native"/>
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0062_BT5_7"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0062/1128,879,119,109/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0063" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0064" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0065" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0066" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0067" type="page">
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0067_BT4_2"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0067/725,128,1085,208/full/0/native"/>
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0067_BT5_7"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0067/734,853,70,116/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0068" type="page">
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0068_BT5_1"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0068/830,1145,44,21/full/0/native"/>
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0068_BT4_3"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0068/830,612,1015,122/full/0/native"/>
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0068_BT5_9"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0068/811,1117,117,116/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0069" type="page">
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0069_BT4_5"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0069/723,1044,1039,117/full/0/native"/>
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0069_BT5_6"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0069/723,1508,102,105/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0070" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0071" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0072" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0073" type="page">
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0073_BT4_1"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0073/725,211,1052,132/full/0/native"/>
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0073_BT5_5"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0073/732,685,79,112/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0074" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0075" type="page">
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0075_BT4_4"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0075/728,149,1045,107/full/0/native"/>
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0075_BT4_6"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0075/734,1168,1054,74/full/0/native"/>
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0075_BT5_8"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0075/741,1548,54,131/full/0/native"/>
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0075_BT5_9"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0075/739,557,95,105/full/0/native"/>
+         </surfaceGrp>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0076" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0077" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0078" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0079" type="page"/>
+         <surfaceGrp corresp="#CorneillePulchérie1673_0080" type="page">
+            <surface type="decoration" corresp="#CorneillePulchérie1673_0080_BT4_1"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0080/779,107,1080,121/full/0/native"/>
+            <surface type="dropcapital" corresp="#CorneillePulchérie1673_0080_BT5_7"
+               facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k70455s/f0080/1135,576,131,105/full/0/native"/>
+         </surfaceGrp>
+      </facsimile>
+      <text>
+         <body>
+            <div/>
+         </body>
+      </text>
+   </TEI>
+   <TEI corresp="Epithalame1687_bpt6k58185917.xml">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Epithalame de madame la contesse de Guiche</title>
+            </titleStmt>
+            <extent>
+               <measure unit="pages" quantity="7"/>
+               <measure unit="decoration" quantity="3"/>
+               <measure unit="dropcapital" quantity="1"/>
+               <measure unit="figure" quantity="0"/>
+            </extent>
+            <publicationStmt>
+               <publisher ref="github">Editiones</publisher>
+               <availability status="restricted" n="cc-by">
+                  <licence target="https://creativecommons.org/licenses/by/4.0"/>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <!-- lien vers le catalogue dans le msDesc -->
+                     <repository>BnF</repository>
+                     <idno source="http://catalogue.bnf.fr/ark:/12148/cb33370525g"/>
+                  </msIdentifier>
+                  <physDesc>
+                     <decoDesc>
+                        <!--il faudrait y décrire les watermark, la plus belle représentation de chaque ornement dans l'ouvrage-->
+                        <!-- permettrait de penser au teipublisher -->
+                        <decoNote/>
+                     </decoDesc>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile corresp="#Epithalame1687" source="https://gallica.bnf.fr/ark:/12148/bpt6k57078011">
+        <surfaceGrp corresp="#Epithalame1687_0002" type="page"/>
+        <surfaceGrp corresp="#Epithalame1687_0004" type="page">
+            <surface corresp="#Epithalame1687_0004_BT5_1"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k57078011/f0004/330,1369,198,187/full/0/native"
+                     type="dropcapital"/>
+           <surface corresp="#Epithalame1687_0004_BT4_4"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k57078011/f0004/1393,430,17,7/full/0/native"
+                     type="decoration"/>
+           <surface corresp="#Epithalame1687_0004_BT4_5"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k57078011/f0004/1627,514,26,25/full/0/native"
+                     type="decoration"/>
+           <surface corresp="#Epithalame1687_0004_BT4_6"
+                     facs="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k57078011/f0004/348,67,1508,793/full/0/native"
+                     type="decoration"/>
+        </surfaceGrp>
+        <surfaceGrp corresp="#Epithalame1687_0005" type="page"/>
+            
+        
+        <surfaceGrp corresp="#Epithalame1687_0006" type="page"/>
+
+        <surfaceGrp corresp="#Epithalame1687_0007" type="page"/>
+            
+            
+        
+        <surfaceGrp corresp="#Epithalame1687_0008" type="page"/>
+            
+            
+        
+        <surfaceGrp corresp="#Epithalame1687_0009" type="page"/>
+            
+        
+    </facsimile>
+      <text>
+         <body>
+            <div/>
+         </body>
+      </text>
+   </TEI>
+   
+   
+</teiCorpus>
