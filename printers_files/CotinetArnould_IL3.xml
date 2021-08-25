@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../ODD_Mirabelle/out/ODD_Mirabelle.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../ODD_Mirabelle/out/ODD_Mirabelle.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="isni:0000000109126804" type="standard">
+               <forename>Arnould</forename>
+               <surname>Cotinet</surname>
+            </title>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+            <respStmt xml:id="AB" ref="orcid:0000-0003-0850-8266">
+               <name>Alexandre Bartz</name>
+               <resp>Créateur de la fiche</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher ref="https://github.com/Imprinters" xml:id="Imprinters">Imprinters</publisher>
+            <availability status="restricted" n="cc-by">
+               <licence target="https://creativecommons.org/licenses/by/4.0"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <!-- Ajouter Riffaud en source, voir comment le mettre -->
+            <listBibl>
+               <bibl source="https://data.bnf.fr/fr/13527051/arnoul_cotinet"/>
+               <bibl
+                  source="http://mazarinades.org/2011/04/liste-normalisee-des-imprimeurs-et-libraires-des-mazarinades"
+               />
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName type="standard">Arnould Cotinet</persName>
+                  <persName type="alternative">Arnould Cottinet</persName>
+                  <persName type="alternative">Arnould II Cottinet</persName>
+                  <persName type="alternative">Arnould Cottinet II</persName>
+                  <sex>M</sex>
+                  <birth when="1600" cert="low"/>
+                  <death notAfter="1666" cert="high"/>
+                  <occupation>Imprimeur libraire</occupation>
+                  <residence cert="high">
+                     <address>
+                        <objectName>Au petit Jésus</objectName>
+                        <street>Rue des carmes</street>
+                        <settlement ref="geonames:2988507">Paris</settlement>
+                        <country>France</country>
+                     </address>
+                  </residence>
+                  <residence cert="high">
+                     <address>
+                        <objectName>A l’Image Sainte Catherine</objectName>
+                        <street>A la place Maubert, près les Trois Faucilles</street>
+                        <settlement ref="geonames:2988507">Paris</settlement>
+                        <country>France</country>
+                     </address>
+                  </residence>
+                  <listEvent>
+                     <event>
+                        <label type="bio">Reçu maître le 22 janv. 1637</label>
+                     </event>
+                     <event>
+                        <label type="bio">Accusé d'avoir produit le libelle "Souspirs françois sur
+                           la paix italienne", son atelier fait l'objet d'une perquisition du
+                           lieutenant civil au Châtelet le 13 avril 1649 ; s'étant sauvé par une
+                           fenêtre à l'arrivée de la police, Arnoul II Cotinet est condamné à mort
+                           par contumace et pendu en effigie le 7 mai suivant; la foule s'en prend
+                           alors au bourreau et abat la potence. Après avoir commué la sentence de
+                           mort en une condamnation aux galères, le parlement de Paris, par un arrêt
+                           d'absolution rendu fin septembre, permet enfin à Arnoul II Cotinet de
+                           sortir de la clandestinité.</label>
+                     </event>
+                     <event>
+                        <label type="bio">Encore en activité en 1662, il n'est plus attesté au
+                           procès-verbal d'oct. 1666</label>
+                     </event>
+                     <event>
+                        <label type="publication"/>
+                     </event>
+                  </listEvent>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2021-07-21" who="#AB">Création de la fiche</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <!-- un TEI correspond à une publication - À COMPLÉTER PLUS TARD -->
+   <TEI corresp="test.xml">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Le second theologien d’Estat, a messieurs les generaux.</title>
+               <author ref="isni:0000">Anonyme</author>
+            </titleStmt>
+            <extent>
+               <measure unit="decoration" quantity="2"/>
+               <measure unit="pages" quantity="12"/>
+            </extent>
+            <publicationStmt>
+               <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+               <availability status="restricted" n="cc-by">
+                  <licence target="https://creativecommons.org/licenses/by/4.0"/>
+               </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <!-- Lien gallica dans le bibl -->
+               <bibl source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17802"/>
+               <msDesc>
+                  <msIdentifier>
+                     <!-- lien vers le catalogue dans le msDesc -->
+                     <repository>Mazarine</repository>
+                     <idno source="https://mazarinades.bibliotheque-mazarine.fr/ark:/61562/bm50239"/>
+                  </msIdentifier>
+                  <physDesc>
+                     <decoDesc>
+                        <!--il faudrait y décrire les watermark, la plus belle représentation de chaque ornement dans l'ouvrage-->
+                        <!-- permettrait de penser au teipublisher -->
+                        <decoNote/>
+                     </decoDesc>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <text>
+         <body>
+            <div>
+               <!-- division par cahier, optionnelle / le @xml:id doit commencer par le nom du fichier xml (= la valeur de TEI/@corresp) -->
+               <gb xml:id="test.xml_gb1"/>
+               <!-- division par folio/page / le @xml:id doit commencer par le nom du fichier xml (= la valeur de TEI/@corresp) -->
+               <pb xml:id="test.xml_p1"/>
+               <figure corresp="#1" type="decoration" facs="iiif"/>
+            </div>
+         </body>
+      </text>
+   </TEI>
+</teiCorpus>
