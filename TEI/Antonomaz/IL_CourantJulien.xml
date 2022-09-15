@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_CourantJulien">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="standard" ref="isni:0000000005438555">
+                    <forename>Julien</forename>
+                    <surname>Courant</surname>
+                </title>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+                <respStmt xml:id="ZC" ref="orcid:0000-0002-3327-3967">
+                    <name>Zoé Cappe</name>
+                    <resp>Créateur de la fiche</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher ref="https://github.com/Antonomaz" xml:id="Antonomaz"
+                    >Antonomaz</publisher>
+                <availability status="restricted" n="cc-by">
+                    <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl source="http://data.bnf.fr/ark:/12148/cb15742427h#foaf:Person"/>
+                    <bibl source="http://viaf.org/viaf/44631930"/>
+                    <bibl source="http://isni.org/isni/0000000005438555"/>
+                    <bibl source="http://www.idref.fr/128183276/id"/>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person>
+                        <persName type="standard">Courant, Julien</persName>
+                        <persName type="alternative">Courant II, Julien</persName>
+                        <sex>M</sex>
+                        <birth when="1625-06" cert="high"/>
+                        <death when="1691-10-22" cert="high"/>
+                        <occupation>Imprimeur-libraire</occupation>
+                        <residence cert="high">
+                            <address>
+                                <objectName/>
+                                <street>rue des Limandes ; près de Saint-Maclou</street>
+                                <settlement ref="geonames:2986140">Pontoise</settlement>
+                                <country>France</country>
+                            </address>
+                        </residence>
+                        <listEvent>
+                            <event>
+                                <label type="bio" source="IdRef">Lieu d'activité : Pontoise. Dates
+                                    d'activité : 1652. Adresse : Rue des Limandes. Adresse : Près
+                                    Saint-Maclou</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef">Lieu d'activité : Compiègne. Dates
+                                    d'activité : 1652</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef">Lieu d'activité : Rouen. Dates
+                                    d'activité : 1646?-1691. Adresse : Derrière le Palais, près la
+                                    Bastille. Adresse : Devant la porte du Palais, à la Tour carrée.
+                                    Adresse : Sur le Quai. Adresse : Au bas des degrés du Palais.
+                                    Enseigne : À l'Image Saint Nicolas. Enseigne : Aux Armes de
+                                    France. Enseigne : À l'Encre</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef">Variante(s) de prénom : Jullianus.
+                                    - Imprimeur-libraire ; imprimeur ordinaire du Roi (1652). - Fils
+                                    de l'imprimeur-libraire de Rouen Nicolas Courant ; baptisé le 23
+                                    juin 1625. Reçu maître à Rouen en 1646 ou peu avant. Semble
+                                    avoir succédé à sa mère, veuve de Nicolas Courant, décédée en
+                                    déc. 1644. Réimprime la 'Gazette' à Rouen, peut-être dès 1646.
+                                    Pendant la Fronde, entre juillet et le 15 oct. 1652 au moins,
+                                    met ses presses au service du roi et de la Cour, tant à Pontoise
+                                    qu'à Compiègne, et imprime dans des conditions difficiles de
+                                    nombreuses petites publications officielles (aurait également
+                                    imprimé, sous la fausse adresse de 'Paris, Veuve
+                                    Guillemot</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef"> le libelle 'Le Parlement burlesque
+                                    de Paris</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef"> 1652). Récompensé par des lettres
+                                    patentes royales du 7 sept. 1652 qui le nomment imprimeur
+                                    ordinaire du Roi. Maintenu dans ces prérogatives, pour les
+                                    publications de toutes les juridictions séant à Rouen sauf le
+                                    parlement de Normandie, par arrêt du Conseil du 30 déc. 1673, en
+                                    dépit du procès intenté par Eustache I Viret, autre imprimeur du
+                                    Roi à Rouen, qui conserve cependant l'exclusivité de
+                                    l'impression des arrêts du parlement et du Conseil du Roi.
+                                    Épouse en 2es noces, en nov. 1675, Marguerite Maurry
+                                    (1650-1722), fille de l'imprimeur-libraire Louis I Maurry et
+                                    veuve de l'imprimeur-libraire Jean-Baptiste Dumesnil, qui lui
+                                    succédera à sa mort (en oct. 1691, dit alors âgé de 66 ans), en
+                                    attendant l'établissement de son jeune fils Julien III Courant
+                                    (1676-1694). Inventaire après décès 22 nov. 1691</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="Antonomaz">imprimeur</label>
+                            </event>
+                        </listEvent>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-07-10" who="#ZC">Création de la fiche</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <TEI corresp="Moreau766_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Consentement (le) donné par le roi à l’éloignement du cardinal Mazarin,
+                        le 12 août 1652</title>
+                    <author ref="isni:0000000383255772">Louis XIV</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=6zOcDdPZRQAC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3960_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Véritable (la) réponse faite par le roi à la lettre envoyée par Son
+                        Altesse Royale, du 27 août 1652, touchant les motifs de l'accommodement à la
+                        paix générale.</title>
+                    <author ref="isni:0000000121430729">Henri du Plessis-Guénégaud</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=ukH2_U6OwZoC&amp;hl=fr"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau928_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Déclaration du roi, portant injonction à tous les officiers du parlement
+                        qui sont à Paris, de se rendre, dans trois jours, dans la ville de Pontoise,
+                        à peine de suppression de leurs charges.</title>
+                    <author ref="isni:0000000121209573">Louis De Bourbon</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
+                            <idno source="https://books.google.fr/books?id=vW08AAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1645_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Histoire journalière.</title>
+                    <author ref="viaf:100263317">Jacques Gaudin</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="1"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17728"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2173_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettre du roi envoyée à messieurs les colonels de sa bonne ville de
+                        Paris.</title>
+                    <author ref="isni:0000000383255772">Louis XIV</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=Jx_JjhkHXRoC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1018_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Dernière déclaration du roi, portant attribution des affaires de la
+                        chambre de l’édit à la cour de parlement de Paris, transférée à Pontoise,
+                        vérifiée en parlement, le premier jour d’octobre 1652, avec la Lettre de M.
+                        de Mondejeux (sic), gouverneur d'Arras, écrite à Sa Majesté sur le sujet des
+                        présentes affaires.</title>
+                    <author ref="isni:0000000383255772">Louis XIV </author>
+                    <author ref="isni:0000000450947585">Jean Schulemberg de</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=ER9JSMrRviYC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2056_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettre de Son Altesse Royale écrite au roi, avec la Réponse du roi à Son
+                        Altesse Royale.</title>
+                    <author ref="isni:0000000121336441">Gaston France de</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=fc0eGPtbuTsC&amp;hl=fr"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3153_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Relation des députés du Parlement, séant à Pontoise, pour l'éloignement
+                        de M. le cardinal Mazarin.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=M-Ia54pL93IC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1184_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Édit du roi portant amnistie de tout ce qui s’est passé à l'occasion des
+                        présents mouvements, à la charge de se remettre, dans trois jours, dans
+                        l’obéissance du roi, vérifié en parlement le 26 août 1652.</title>
+                    <author ref="isni:0000000383255772">Louis XIV</author>
+                    <author ref="isni:0000">France</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="15"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17451"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2suppl84_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Extrait des registres du parlement, séant à Pontoise, contenant la
+                        relation faite par M. le président de Novion, de ce qui s'est passé au sujet
+                        de léloignement du cardinal Mazarin.</title>
+                    <author ref="isni:0000000121755355">Parlement de Paris</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno
+                                source="https://www.google.fr/books/edition/Extraict_des_registres_dv_parlement_séa/M-Ia54pL93IC?hl=fr&amp;gbpv=0"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>

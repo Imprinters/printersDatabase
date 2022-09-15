@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_SevestreLouis">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="standard" ref="isni:000000038598758X">
+                    <forename>Louis</forename>
+                    <surname>Sevestre</surname>
+                </title>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+                <respStmt xml:id="ZC" ref="orcid:0000-0002-3327-3967">
+                    <name>Zoé Cappe</name>
+                    <resp>Créateur de la fiche</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher ref="https://github.com/Antonomaz" xml:id="Antonomaz"
+                    >Antonomaz</publisher>
+                <availability status="restricted" n="cc-by">
+                    <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl source="http://isni.org/isni/000000038598758X"/>
+                    <bibl source="http://data.bnf.fr/ark:/12148/cb122310161#foaf:Person"/>
+                    <bibl source="http://viaf.org/viaf/250902354"/>
+                    <bibl source="http://www.idref.fr/031009255/id"/>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person>
+                        <persName type="standard">Sevestre, Louis</persName>
+                        <persName type="alternative">Sevestre III, Louis</persName>
+                        <sex>M</sex>
+                        <birth when="1600" cert="low"/>
+                        <death when="1700" cert="low"/>
+                        <occupation>Imprimeur-libraire</occupation>
+                        <residence cert="high">
+                            <address>
+                                <objectName/>
+                                <street>rue des Cordiers ; près Saint-Nicolas du Chardonnet</street>
+                                <settlement ref="geonames:2988507">Paris</settlement>
+                                <country>France</country>
+                            </address>
+                        </residence>
+                        <listEvent>
+                            <event>
+                                <label type="bio" source="IdRef">2e fils de Louis II Sevestre; né
+                                    après 1605. Décédé entre 1690 et déc. 1692 (veuve
+                                    attestée)</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef">Paris : 1634-1690 ; Rue du Mûrier,
+                                    près Saint-Nicolas-du-Chardonnet</label>
+                            </event>
+                        </listEvent>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-07-10" who="#ZC">Création de la fiche</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <TEI corresp="Moreau2775_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Plainte à la reine des dames qui ont leurs maris dans l'armée
+                        mazarine.</title>
+                    <author ref="isni:0000">L. M. R. L. D. R. M. N. C. D. R. S. V. A. B. G.</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="http://books.google.fr/books?id=AxV83rHxHf4C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1603_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Harangue faite par monseigneur le duc de Beaufort aux soldats
+                        parisiens.</title>
+                    <author ref="isni:000000012095909X">François de Bourbon-Vendôme, duc de
+                        Beaufort</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
+                            <idno source="https://books.google.fr/books?id=iU1KAAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2930_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Pyralide (la), dédiée à monseigneur, monseigneur le duc de Beaufort, par
+                        le sieur Barrois.</title>
+                    <author ref="isni:0000000061693956">Sieur Barrois</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="5"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5576455b"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1084_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Dialogue (le) de Saint-Germain en Laye en forme de tragédie, par lequel
+                        on remarquera la fidélité des Parisiens au roi, dédié à monseigneur le duc
+                        de Beaufort, par le S. D. B. P. C. D. S. M. Première partie.</title>
+                    <author ref="isni:0000000121002759">Claude Dubosc de Montandré</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5691649j"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1276_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Espérance (l') de la paix et de l'abondance des vivres à Paris.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=bajFZdy8fz4C&amp;hl=fr"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1101_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Discours adressé aux soldats françois, dédié à M. Deslandes Payen,
+                        conseiller au parlement.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=rmS6LEpHXfoC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau683_pp.7-8_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Chant royal du siége de Paris, dédié à monseigneur de Beaufort</title>
+                    <author ref="isni:0000000061693956">H. Barrois de</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon, bibliothèque jésuite
+                                des Fontaines</repository>
+                            <idno source="https://books.google.fr/books?id=KAbYLt1T7kYC&amp;hl=fr"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>

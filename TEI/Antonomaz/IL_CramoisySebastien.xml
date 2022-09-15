@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_CramoisySebastien">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="standard" ref="isni:0000000423421174">
+                    <forename>Sébastien</forename>
+                    <surname>Cramoisy</surname>
+                </title>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+                <respStmt xml:id="ZC" ref="orcid:0000-0002-3327-3967">
+                    <name>Zoé Cappe</name>
+                    <resp>Créateur de la fiche</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher ref="https://github.com/Antonomaz" xml:id="Antonomaz"
+                    >Antonomaz</publisher>
+                <availability status="restricted" n="cc-by">
+                    <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl source="http://viaf.org/viaf/64428283"/>
+                    <bibl source="http://data.bnf.fr/ark:/12148/cb122930320#foaf:Person"/>
+                    <bibl source="http://isni.org/isni/0000000423421174"/>
+                    <bibl source="http://www.idref.fr/031778143/id"/>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person>
+                        <persName type="standard">Cramoisy, Sébastien</persName>
+                        <persName type="alternative">Cramoisy I, Sébastien</persName>
+                        <sex>M</sex>
+                        <birth when="1584" cert="high"/>
+                        <death when="1669-01-29" cert="high"/>
+                        <occupation>Imprimeur-libraire</occupation>
+                        <residence cert="high">
+                            <address>
+                                <objectName>Aux deux cigognes</objectName>
+                                <street>rue Saint-Jacques</street>
+                                <settlement ref="geonames:2988507">Paris</settlement>
+                                <country>France</country>
+                            </address>
+                        </residence>
+                        <listEvent>
+                            <event>
+                                <label type="bio" source="IdRef">Joue un rôle important durant la
+                                    Fronde, participant notamment aux délibérations de l'Hôtel de
+                                    ville. Son petit-fils Sébastien Mabre-Cramoisy est pourvu en
+                                    1660 de la survivance de ses places d'imprimeur du Roi et de
+                                    directeur de l'Imprimerie royale. Dit âgé de 83 ou 84 ans lors
+                                    de son décès (janv. 1669)</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef">Pont-à-Mousson : 1621-1627</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef">Reçoit dès 1640 la direction
+                                    technique de l'Imprimerie royale avant d'en être officiellement
+                                    nommé directeur en 1643. Échevin de Paris (1639-1641), grand
+                                    juge-consul (1652), administrateur de l'église et hôpital
+                                    Saint-Jacques (1636), un des 4 directeurs et administrateurs
+                                    perpétuels du nouvel hôpital général (1656) ; contrôleur du
+                                    dépôt des publications à la Bibliothèque du Roi (1656) et garde
+                                    des poinçons du Roi (1660)</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef">Paris : 1606-1669 ; (En la boutique
+                                    de Nivelle,) Rue Saint-Jacques - Aux (Deux) Cigognes</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef">Imprimeur-libraire ; à
+                                    Pont-à-Mousson, imprimeur du duc de Lorraine ; à Paris,
+                                    imprimeur (ordinaire) du Roi (1633) (et de la Reine régente). Né
+                                    en 1583 ou 1584 ; fils de Pierre Cramoisy, marchand bourgeois de
+                                    Paris, et non d'un premier Sébastien libraire ; petit-fils par
+                                    sa mère et successeur de Sébastien Nivelle, mort en 1603. Paie
+                                    la taxe d'ouverture de boutique en 1606. Membre de la Compagnie
+                                    de la Grand-Navire, qu'il dirige, et de la Compagnie des usages
+                                    (1631)</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef">Devise(s) : Honora patrem tuum et
+                                    matrem tuam ut sis longaevus super Terram. Justorum his nomina
+                                    fulgent</label>
+                            </event>
+                        </listEvent>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-07-10" who="#ZC">Création de la fiche</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <TEI corresp="Moreau577_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Bataille (la) de Lens</title>
+                    <author ref="isni:0000000110638153">Isaac de la Peyrère</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="22"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/btv1b8608271s"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3suppl58_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Ministère (le) victorieux de l'envie, par M. du Faur, prédicateur du
+                        Roy.</title>
+                    <author ref="isni:0000000122809183">François Faure</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="95"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k1520548g"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1769_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Jugement de tout ce qui a été imprimé contre le cardinal Mazarin, depuis
+                        le sixième janvier jusqu'à la déclaration du premier avril mil six cent
+                        quarante neuf.</title>
+                    <author ref="isni:0000000121393331">Gabriel Naudé</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="718"/><measure unit="decoration"
+                        quantity="0"/></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
+                            <idno source="https://books.google.fr/books?id=LsxBAAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>

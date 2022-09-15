@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_BechetDenis">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="standard" ref="isni:0000000361002686">
+                    <forename>Denis</forename>
+                    <surname>Béchet</surname>
+                </title>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+                <respStmt xml:id="ZC" ref="orcid:0000-0002-3327-3967">
+                    <name>Zoé Cappe</name>
+                    <resp>Créateur de la fiche</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher ref="https://github.com/Antonomaz" xml:id="Antonomaz"
+                    >Antonomaz</publisher>
+                <availability status="restricted" n="cc-by">
+                    <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl source="http://isni.org/isni/0000000361002686"/>
+                    <bibl source="http://data.bnf.fr/ark:/12148/cb122388534#foaf:Person"/>
+                    <bibl source="http://viaf.org/viaf/29327546"/>
+                    <bibl source="http://www.idref.fr/031109233/id"/>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person>
+                        <persName type="standard">Béchet, Denis</persName>
+                        <persName type="alternative">Bechet, Dionysius (libraire)</persName>
+                        <sex>M</sex>
+                        <birth when="1600" cert="low"/>
+                        <death when="1700" cert="low"/>
+                        <occupation>Imprimeur-libraire</occupation>
+                        <residence cert="high">
+                            <address>
+                                <objectName>au compas d’or</objectName>
+                                <street>rue Saint-Jacques</street>
+                                <settlement ref="geonames:2988507">Paris</settlement>
+                                <country>France</country>
+                            </address>
+                        </residence>
+                        <listEvent>
+                            <event>
+                                <label type="bio" source="IdRef">Adresse(s) : Paris (1632-1675), Rue
+                                    Saint-Jacques. - À l'Écu au Soleil ; Au Compas d'or (et à l'Écu
+                                    au Soleil)</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef">Jusqu'en 1650, travaille en
+                                    association avec Claude Sonnius, puis lui succède ; de 1658 à
+                                    1661 environ, associé à Louis Billaine</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef">Neveu du libraire parisien Jérôme
+                                    Drouart chez qui il est apprenti de mai 1626 à fév. 1632. Reçu
+                                    maître en fév. 1632. Membre de la Compagnie des usages réformés.
+                                    Ne semble pas avoir exercé au-delà de 1675. Élu consul en 1669,
+                                    puis grand juge-consul en 1682, il est administrateur des
+                                    hôpitaux en 1689. Encore attesté en 1695 (rôles de la
+                                    capitation), il est décédé avant 1705 et n'est pas mentionné
+                                    lors de l'enquête de nov.-déc. 1701, mais figure encore sur la
+                                    liste établie en sept. 1703, en qualité d'ancien syndic</label>
+                            </event>
+                        </listEvent>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-07-10" who="#ZC">Création de la fiche</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <TEI corresp="Moreau2132_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettre du R. P. N. Caussin, de la compagnie de Jésus, à une personne
+                        illustre sur sa curiosité des horoscopes.</title>
+                    <author ref="isni:0000000110632827">Nicolas Caussin</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="10"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/btv1b8626177v"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>

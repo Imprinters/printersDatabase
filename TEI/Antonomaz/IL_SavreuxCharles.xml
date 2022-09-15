@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_SavreuxCharles">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard" ref="isni:0000000110445191">
+          <forename>Charles</forename>
+          <surname>Savreux</surname>
+        </title>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+        <respStmt xml:id="ZC" ref="orcid:0000-0002-3327-3967">
+          <name>Zoé Cappe</name>
+          <resp>Créateur de la fiche</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://github.com/Antonomaz" xml:id="Antonomaz">Antonomaz</publisher>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <bibl source="http://data.bnf.fr/ark:/12148/cb124360695#foaf:Person"/>
+          <bibl source="http://isni.org/isni/0000000110445191"/>
+          <bibl source="http://viaf.org/viaf/22233563"/>
+          <bibl source="http://www.idref.fr/033500088/id"/>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <persName type="standard">Savreux, Charles</persName>
+            <persName type="alternative"/>
+            <sex>M</sex>
+            <birth when="1600" cert="low"/>
+            <death when="1669-09-22" cert="high"/>
+            <occupation>Imprimeur-libraire</occupation>
+            <residence cert="high">
+              <address>
+                <objectName>aux trois Vertus</objectName>
+                <street>rue Neuve Notre-Dame</street>
+                <settlement ref="geonames:2988507">Paris</settlement>
+                <country>France</country>
+              </address>
+            </residence>
+            <listEvent>
+              <event>
+                <label type="bio" source="IdRef">Paris : 1642-1669 ; Sur la terre de Cambrai,
+                  vis-à-vis le collège des Trois-Évêques ; Rue (Neuve-) Notre-Dame (, proche
+                  l'église Sainte-Geneviève-des-Ardents) ; Au pied (ou : Sous) la (grosse) tour (de)
+                  Notre-Dame (, du côté de l'archevêché) ; Au parvis Notre-Dame - À l'enseigne des
+                  Trois Vertus</label>
+              </event>
+              <event>
+                <label type="bio" source="IdRef">Devise(s) : Hoc fac et vives. Ardet amans spe nixa
+                  fides</label>
+              </event>
+              <event>
+                <label type="bio" source="IdRef">Libraire ; libraire et relieur ordinaire du
+                  chapitre de léglise de Paris ; imprimeur ordinaire de l'archevêché. En oct. 1626
+                  entre en apprentissage pour 5 ans chez François Piot. Ouvre boutique en juillet
+                  1641 avant d'être reçu et doit fermer. Reçu maître le 20 mars 1642. En fév. 1656
+                  embastillé 15 jours pour avoir imprimé la 1re \'Provinciale\' de Pascal. En
+                  1673-1674 son fonds sera racheté par Guillaume I Desprez qui publiera aussi
+                  quelques années sous la raison :\'En la boutique de Charles Savreux</label>
+              </event>
+            </listEvent>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-07-10" who="#ZC">Création de la fiche</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <TEI corresp="none">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title/>
+          <author ref="isni:0000"/>
+        </titleStmt>
+        <extent>
+          <measure unit="pages" quantity="0"/>
+        </extent>
+        <publicationStmt>
+          <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+          <availability status="restricted" n="cc-by">
+            <licence target="https://creativecommons.org/licenses/by/4.0"/>
+          </availability>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <repository>Sans lieu</repository>
+              <idno source="None"/>
+            </msIdentifier>
+            <physDesc>
+              <decoDesc>
+                <decoNote/>
+              </decoDesc>
+            </physDesc>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div/>
+      </body>
+    </text>
+  </TEI>
+</teiCorpus>

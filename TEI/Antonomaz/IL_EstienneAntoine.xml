@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_EstienneAntoine">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="standard" ref="isni:0000000121209450">
+                    <forename>Antoine</forename>
+                    <surname>Estienne</surname>
+                </title>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+                <respStmt xml:id="ZC" ref="orcid:0000-0002-3327-3967">
+                    <name>Zoé Cappe</name>
+                    <resp>Créateur de la fiche</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher ref="https://github.com/Antonomaz" xml:id="Antonomaz"
+                    >Antonomaz</publisher>
+                <availability status="restricted" n="cc-by">
+                    <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl source="http://isni.org/isni/0000000121209450"/>
+                    <bibl source="http://data.bnf.fr/ark:/12148/cb12317537k#foaf:Person"/>
+                    <bibl source="http://viaf.org/viaf/12376969"/>
+                    <bibl source="http://www.idref.fr/032075944/id"/>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person>
+                        <persName type="standard">Estienne, Antoine</persName>
+                        <persName type="alternative">Etienne, Antoine</persName>
+                        <persName type="alternative">Estiene, Antoine</persName>
+                        <persName type="alternative">Stephanus, Antonius</persName>
+                        <sex>M</sex>
+                        <birth when="1592-06" cert="high"/>
+                        <death when="1674" cert="high"/>
+                        <occupation>Imprimeur-libraire</occupation>
+                        <residence cert="high">
+                            <address>
+                                <objectName/>
+                                <street>rue Saint-Jacques ; au Collège Royal, devant
+                                    Saint-Benoît</street>
+                                <settlement ref="geonames:2988507">Paris</settlement>
+                                <country>France</country>
+                            </address>
+                        </residence>
+                        <listEvent>
+                            <event>
+                                <label type="bio" source="IdRef">Est vite confronté à de graves
+                                    difficultés financières, fait faillite en 1630 et séjourne
+                                    plusieurs fois en prison pour dettes entre 1633 et 1636. Est
+                                    nommé imprimeur-libraire du Roi à La Rochelle en fév. 1630. En
+                                    juin 1635 Antoine Vitré lui succède comme imprimeur du Clergé
+                                    mais Antoine Estienne conserve sa pension. En août 1662 vend sa
+                                    charge d'imprimeur du Roi à Sébastien Huré. Aurait cessé
+                                    d'imprimer en 1664. Également auteur et poète. Serait mort à
+                                    l'Hôtel-Dieu aveugle, infirme et ruiné. Veuve attestée en
+                                    exercice en 1675</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef">Autre(s) graphie(s) : Estiene.
+                                    Imprimeur-libraire ; imprimeur du clergé de France (1612-1635) ;
+                                    premier imprimeur et libraire ordinaire du Roi (1613-1662). Fils
+                                    du libraire genevois Paul Estienne qui se réfugie en France vers
+                                    1612. À Paris en 1612 il abjure la religion réformée entre les
+                                    mains du cardinal Du Perron qui devient son protecteur. Obtient
+                                    ses lettres de naturalité en sept. 1612 ; est nommé la même
+                                    année huissier et imprimeur de l'Assemblée du clergé, et en déc.
+                                    1613 imprimeur ordinaire du Roi. Ne sera reçu maître qu'en oct.
+                                    1618 après des démêlés avec la communauté des libraires</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef">Paris : 1613-1674? ; Rue des
+                                    Carmes, au collège (des Lombards ; des Italiens) ; Rue
+                                    Saint-Jacques (au collège de Clermont ; devant le collège du
+                                    Plessis ; près (ou : devant) Saint-Yves ; au Collège royal,
+                                    devant Saint-Benoît ; au nouveau collège de France) - À l'Image
+                                    Saint Martin - À l'Olivier - À l'enseigne de l'Amandier</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef">Devise(s) : Noli altum sapere sed
+                                    time</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="Antonomaz">premier imprimeur et libraire
+                                    ordinaire du roi</label>
+                            </event>
+                        </listEvent>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-07-10" who="#ZC">Création de la fiche</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <TEI corresp="Moreau3046_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Recueil de toutes les déclarations du roi rendues pour la police, justice
+                        et finances de son royaume énoncées en la dernière du mois de mars 1649,
+                        insérée au présent receuil et donnée pour faire cesser les mouvements et
+                        rétablir le repos et tranquilité publique, toutes lesquelles déclarations Sa
+                        Majesté veut être exécutées selon leur forme et teneur, avec tous les arrêts
+                        de vérification et modification d'icelles tant du Parlement, chambre des
+                        Comptes que cour des Aydes, ensemble autres déclarations des rois Louis XI
+                        et Henry III, avec les articles des ordenances de Blois et d'Orléans pour
+                        l'éclaircissement des articles 13, 14 et 15 mentionnés en la déclaration du
+                        22 octobre 1648, et encore une table desdites déclarations avec un abrégé de
+                        ce qui y est contenu.</title>
+                    <author ref="isni:0000000383255772">Louis XIV</author>
+                    <author ref="isni:0000000121755355">Parlement de Paris</author>
+                    <author ref="isni:0000000115476931">Cour des aides</author>
+                    <author ref="isni:0000000107259769">Chambre des comptes</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="56"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=GwFvOg92t6cC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1336_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Exposition et explication des devises, emblêmes et figures énigmatiques
+                        du feu construit devant l’Hôtel de Ville, par messieurs les prévôt des
+                        marchands et échevins de Paris, sur l’heureuse naissance et retour du roi,
+                        faite par Henry Estienne, écuyer, sieur Des Fossés, poëte et interprète du
+                        roi ès langues grecque et latine.</title>
+                    <author ref="isni:0000000080192698">Henri Estienne</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k3101352"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau936_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Déclaration du roi, portant réglement sur le fait de la justice, police,
+                        finances et soulagement des sujets de Sa Majesté, vérifiée en parlement , le
+                        24 octobre 1648.</title>
+                    <author ref="isni:0000000055360231 ">Anne d'Autriche</author>
+                    <author ref="isni:0000000383255772">Louis XIV</author>
+                    <author ref="isni:0000000121755355">France. Parlement de Paris</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="19"/><measure unit="decoration" quantity="2"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17596"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau947_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Déclaration du roi pour l'innocence de monseigneur le prince de Condé,
+                        vérifiée en parlement , Sa Majesté y séant, le 7 septembre 1651.</title>
+                    <author ref="isni:0000000121209573">Louis De Bourbon</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=XMpWXsYuEBgC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau944_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Déclaration du roi, pour faire cesser les mouvements et rétablir le repos
+                        et la tranquillité de son royaume, vérifiée en parlement, le 1er avril
+                        1649.</title>
+                    <author ref="isni:0000000121755355">France. Parlement de Paris</author>
+                    <author ref="isni:0000000383255772">Louis XIV</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="15"/><measure unit="decoration" quantity="2"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17599"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau946_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Déclaration du roi pour l'innocence de messieurs les princes de Condé et
+                        de Conty, et duc de Longueville, avec rétablissements (sic) de toutes leurs
+                        charges et gouvernements, vérifiée en parlement, le 28 février 1651.</title>
+                    <author ref="isni:0000000383255772">Louis XIV</author>
+                    <author ref="isni:0000000121755355">France. Parlement de Paris</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="2"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17624"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau925_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Déclaration du roi, portant défenses au cardinal Mazarin, ses parents,
+                        alliés et domestiques étrangers, sous quelque prétexte que ce soit, de
+                        rentrer dans ce royaume et autres pays sous la protection de Sa Majesté, et,
+                        à tous gouverneurs et autres officiers, de les y souffrir sur les peines y
+                        mentionnées, vérifiée en parlement, le sixième septembre 1651.</title>
+                    <author ref="isni:0000000383255772">Louis XIV</author>
+                    <author ref="isni:0000000121755355">France. Parlement de Paris</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="14"/><measure unit="decoration" quantity="2"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17622"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau909_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Déclaration du roi contre madame la duchesse de Longueville, les sieurs
+                        duc de Bouillon, maréchal de Turenne, prince de Marsillac, et leurs
+                        adherents vérifiée en parlement, le 16 mai 1650.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="13"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17595"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1001_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Départ (le) de Leurs Majestés de la vilie de Bordeaux, avec toutes les
+                        particularités de ce qui s’est passé en leur séjour de ladite ville, depuis
+                        la déclaration, ensemble le rétablissement de tous les officiers qui s'en
+                        étoient retirés, avec les victoires de l'armée dans la Champagne et dans la
+                        Lorraine.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Londres, The British Library</repository>
+                            <idno
+                                source="https://www.google.fr/books/edition/Le_Depart_de_leurs_Maiest%C3%A9s_Louis_XIV_a/b9mL5Aduy7UC?hl=fr&amp;gbpv=0"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3718_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Stances sur le départ de monseigneur le premier président, garde des
+                        sceaux de France.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k56199775"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1582_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Harangue faite au roi, après sa majorité, par le recteur de l'Université
+                        de Paris, accompagné de tous les corps de l'Université, le dimanche 10
+                        septembre 1651 , pour désabuser le public d 'un libelle qu 'on a publié à
+                        Paris sous un titre semblable.</title>
+                    <author ref="isni:0000000116518769">Guy Patin</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="2"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=nQSNyBn2EY8C&amp;hl=fr"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3139_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Relation de la victoire obtenue par les armées de la sérénissime
+                        république de Venise sous le commandement de l'illustrissime et
+                        excellentissime seigneur Jacques de Riva, capitaine des vaisseaux, contre
+                        l'armée turquesque en Asie au port de Foquie, traduit d'italien en françois
+                        par N. D. F., et par lui donnée à l'illurissime et excellentissime seigneur
+                        Michel Morosini, ambassadeur ordinaire de ladite sérénissime république de
+                        Venise auprès du roi très-chrétien.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=nlaSBsUHgTsC&amp;hl=fr"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2suppl61_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Dédaration du roy pour faire cesser les mouvements et restablir le repos
+                        et la tranquillité en son royaume, vérifiée en parlement, Chambre des
+                        comptes et Cour des aydes les 1er et 3 avril 1649, avec les arrêts de
+                        vérification desdites cours.</title>
+                    <author ref="isni:0000">France</author>
+                    <author ref="isni:000000011940779X">France. Chambre des comptes de
+                        Paris</author>
+                    <author ref="isni:0000000115476931">France. Cour des aides</author>
+                    <author ref="isni:0000000121755355">France. Parlement de Paris</author>
+                    <author ref="isni:0000000383255772">Louis XIV</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15076"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2suppl132_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Letrre et déclaration du roy, avec les articles eu conséquence accordés
+                        par Sa Majesté pour le repos et pour la tranquillité publique de ses sujets
+                        de la ville de Bourdeaux, vérifiée au parlement de ludite ville de
+                        Bourdeaux, le 7 janvier 1650.</title>
+                    <author ref="isni:0000000119572170">France. Parlement de Bordeaux</author>
+                    <author ref="isni:0000000055360231 ">Anne d'Autriche</author>
+                    <author ref="isni:0000000383255772">Louis XIV</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17754"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>

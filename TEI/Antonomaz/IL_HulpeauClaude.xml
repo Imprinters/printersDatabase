@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_HulpeauClaude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard" ref="isni:0000000364479041">
+          <forename>Claude</forename>
+          <surname>Hulpeau</surname>
+        </title>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+        <respStmt xml:id="ZC" ref="orcid:0000-0002-3327-3967">
+          <name>Zoé Cappe</name>
+          <resp>Créateur de la fiche</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://github.com/Antonomaz" xml:id="Antonomaz">Antonomaz</publisher>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <bibl source="http://data.bnf.fr/ark:/12148/cb12239213g#foaf:Person"/>
+          <bibl source="http://isni.org/isni/0000000364479041"/>
+          <bibl source="http://viaf.org/viaf/229030646"/>
+          <bibl source="http://www.idref.fr/031113753/id"/>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <persName type="standard">Hulpeau, Claude</persName>
+            <persName type="alternative"/>
+            <sex>M</sex>
+            <birth when="1600" cert="low"/>
+            <death when="1649" cert="high"/>
+            <occupation>Imprimeur-libraire</occupation>
+            <residence cert="high">
+              <address>
+                <objectName/>
+                <street>rue Saint-Denis ; sous les halles de Saint-Jacques de l'Hôpital</street>
+                <settlement ref="geonames:2988507">Paris</settlement>
+                <country>France</country>
+              </address>
+            </residence>
+            <listEvent>
+              <event>
+                <label type="bio" source="IdRef">Paris : 1606-1649? ; Rue Saint-Jacques ; Rue
+                  Saint-Germain, près de la Tour d'argent ; Près du portail de la Monnaie ; Au bout
+                  du pont Saint-Michel, à l'entrée du marché Neuf ; Rue de la Calandre, près le
+                  Palais ; Sous les halles de Saint-Jacques-l'Hôpital, rue Saint-Denis - À l'Écu de
+                  Bourgogne - À l'Image Saint Nicolas</label>
+              </event>
+              <event>
+                <label type="bio" source="IdRef">Imprimeur-libraire. Vraisemblablement apparenté au
+                  libraire Jean II Hulpeau. Recu libraire en 1606, il commence aussi à imprimer peu
+                  après. Veuve attestée en fév. 1650</label>
+              </event>
+            </listEvent>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-07-10" who="#ZC">Création de la fiche</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <TEI corresp="none">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title/>
+          <author ref="isni:0000"/>
+        </titleStmt>
+        <extent>
+          <measure unit="pages" quantity="0"/>
+        </extent>
+        <publicationStmt>
+          <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+          <availability status="restricted" n="cc-by">
+            <licence target="https://creativecommons.org/licenses/by/4.0"/>
+          </availability>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <repository>Sans lieu</repository>
+              <idno source="None"/>
+            </msIdentifier>
+            <physDesc>
+              <decoDesc>
+                <decoNote/>
+              </decoDesc>
+            </physDesc>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div/>
+      </body>
+    </text>
+  </TEI>
+</teiCorpus>

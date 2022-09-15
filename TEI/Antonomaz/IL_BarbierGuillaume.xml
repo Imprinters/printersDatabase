@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_BarbierGuillaume">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard" ref="viaf:225408084">
+          <forename>Guillaume</forename>
+          <surname>Barbier</surname>
+        </title>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+        <respStmt xml:id="ZC" ref="orcid:0000-0002-3327-3967">
+          <name>Zoé Cappe</name>
+          <resp>Créateur de la fiche</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://github.com/Antonomaz" xml:id="Antonomaz">Antonomaz</publisher>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <bibl source="http://viaf.org/viaf/225408084"/>
+          <bibl source="http://data.bnf.fr/ark:/12148/cb12238804x#foaf:Person"/>
+          <bibl source="http://www.idref.fr/031108571/id"/>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <persName type="standard">Barbier, Guillaume</persName>
+            <persName type="alternative">Barbier I, Guillaume</persName>
+            <sex>M</sex>
+            <birth when="1600" cert="low"/>
+            <death when="1665" cert="high"/>
+            <occupation>Imprimeur-libraire</occupation>
+            <residence cert="high">
+              <address>
+                <objectName/>
+                <street>rue Mercière ; en la place de Confort</street>
+                <settlement ref="geonames:2996944">Lyon</settlement>
+                <country>France</country>
+              </address>
+            </residence>
+            <listEvent>
+              <event>
+                <label type="bio" source="IdRef">Imprimeur-libraire ; imprimeur ordinaire du Roi
+                  (1647). Originaire de Chalon-sur-Saône. Établi à Lyon vers 1633. En apprentissage
+                  jusqu'en oct. 1643 chez Jacques Roussin dont il rachète le fonds (dès sept. 1643)
+                  et à qui il succède. Beau-frère du libraire François Comba. Veuve attestée à
+                  partir de 1665</label>
+              </event>
+              <event>
+                <label type="bio" source="IdRef">Associé à Jean-Aimé Candy entre 1648 et 1651 au
+                  moins ; à Jean Girin et François Comba de 1658 à 1663 ; à Philippe et Pierre Borde
+                  et à Laurent Arnaud de 1663 à 1665</label>
+              </event>
+              <event>
+                <label type="bio" source="IdRef">Devise(s) : Vincit Prudentia vires. Saloque soloque
+                  coeloque</label>
+              </event>
+              <event>
+                <label type="bio" source="IdRef">Lyon : 1643-1665 ; Rue Mercière ; En la place de
+                  Confort</label>
+              </event>
+              <event>
+                <label type="bio" source="Antonomaz">imprimeur du roi à Lyon.</label>
+              </event>
+            </listEvent>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-07-10" who="#ZC">Création de la fiche</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <TEI corresp="none">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title/>
+          <author ref="isni:0000"/>
+        </titleStmt>
+        <extent>
+          <measure unit="pages" quantity="0"/>
+        </extent>
+        <publicationStmt>
+          <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+          <availability status="restricted" n="cc-by">
+            <licence target="https://creativecommons.org/licenses/by/4.0"/>
+          </availability>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <repository>Sans lieu</repository>
+              <idno source="None"/>
+            </msIdentifier>
+            <physDesc>
+              <decoDesc>
+                <decoNote/>
+              </decoDesc>
+            </physDesc>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div/>
+      </body>
+    </text>
+  </TEI>
+</teiCorpus>

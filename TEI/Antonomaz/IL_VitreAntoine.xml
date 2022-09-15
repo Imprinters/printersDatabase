@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_VitreAntoine">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="standard" ref="isni:0000000109189477">
+                    <forename>Antoine</forename>
+                    <surname>Vitré</surname>
+                </title>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+                <respStmt xml:id="ZC" ref="orcid:0000-0002-3327-3967">
+                    <name>Zoé Cappe</name>
+                    <resp>Créateur de la fiche</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher ref="https://github.com/Antonomaz" xml:id="Antonomaz"
+                    >Antonomaz</publisher>
+                <availability status="restricted" n="cc-by">
+                    <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl source="http://data.bnf.fr/ark:/12148/cb12353896s#foaf:Person"/>
+                    <bibl source="http://isni.org/isni/0000000109189477"/>
+                    <bibl source="http://viaf.org/viaf/249288237"/>
+                    <bibl source="http://www.idref.fr/032525559/id"/>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person>
+                        <persName type="standard">Vitré, Antoine</persName>
+                        <persName type="alternative">Vitray, Antoine (159.?-1674)</persName>
+                        <persName type="alternative">Vitré, Antonius (159.?-1674)</persName>
+                        <sex>M</sex>
+                        <birth when="1600" cert="low"/>
+                        <death when="1674-07-10" cert="high"/>
+                        <occupation>Imprimeur-libraire</occupation>
+                        <residence cert="high">
+                            <address>
+                                <objectName/>
+                                <street>Rue Saint-Jacques ; proche le Petit Châtelet</street>
+                                <settlement ref="geonames:2988507">Paris</settlement>
+                                <country>France</country>
+                            </address>
+                        </residence>
+                        <listEvent>
+                            <event>
+                                <label type="bio" source="IdRef">Imprimeur-libraire ; imprimeur
+                                    (-libraire ordinaire) du Roi (, de la Reine régente mère de Sa
+                                    Majesté, pour les langues orientales (ou : ès langues
+                                    orientales)) (1630) ; imprimeur du clergé de France (1635). -
+                                    Fils du libraire parisien Pierre Vitré. Probablement reçu en
+                                    1609, il travaille d'abord avec sa mère, veuve de Pierre Vitré.
+                                    Membre de la Compagnie des usages. Publie en 1628-1645 une Bible
+                                    polyglotte en sept langues (10 vol. in-fol.). Imprime des
+                                    ouvrages en langues orientales pour les missions soutenues par
+                                    le cardinal de Richelieu, ainsi que de nombreux ouvrages
+                                    jansénistes. Emprisonné en 1645 pour avoir imprimé les œuvres de
+                                    l'abbé de Saint-Cyran. Élu syndic de la communauté des libraires
+                                    et imprimeurs de Paris en 1639, il est à nouveau nommé à cette
+                                    charge en oct. 1643 par le Conseil d'État pour faire observer
+                                    les règlements de la profession. À la demande de Richelieu,
+                                    achète aux héritiers de François Savary de Brèves des poinçons
+                                    et des matrices de caractères orientaux. Dit à tort âgé de 81
+                                    ans en août 1654. Élu consul en 1664. Décédé à Paris en juillet
+                                    1674. Lambert Roulland continue à publier sous son adresse
+                                    jusqu'en 1679 environ. Également auteur de divers mémoires et
+                                    d'un ouvrage sur l'aumône</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef">Paris : 1609?-1674 ; 1674-1679? ;
+                                    (Rue Perdue ; Proche l'horloge du Palais et ; Devant l'horloge
+                                    du Palais et) Au collège Saint-Michel (, près (ou : à) la place
+                                    Maubert) 1610-1623. - (Rue des Carmes, proche (ou : au)) Collège
+                                    des Lombards 1627-1646. - Rue Saint-Jacques (, devant (la
+                                    chapelle) Saint-Yves ; proche (le) Petit Châtelet)
+                                    1649-1655</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef">Devise(s) : Virtus non territa
+                                    monstris</label>
+                            </event>
+                        </listEvent>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-07-10" who="#ZC">Création de la fiche</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <TEI corresp="Moreau3315_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Remontrance du clergé de France faite au roi et à la reine régente, sa
+                        mère, par révérend père en Dieu messire Antoine Godeau, évêque de Grasse et
+                        de Vence, assisté de Mgr. le prince de Conty et de MM. les archevêques qui
+                        se sont trouvés à Paris.</title>
+                    <author ref="isni:0000">le clergé</author>
+                    <author ref="isni:0000000115684570">Antoine Godeau</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="22"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=1Bi1pkCSpd0C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3316_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Remontrance du clergé de France faite au roi, la reine régente, sa mère,
+                        présente, par révérend père en Dieu messire Gillebert de Choiseuil du Plessy
+                        Praslain (sic), évèque de Comange (sic), assisté de MM. les évêques et
+                        députés de l'assemblée générale.</title>
+                    <author ref="viaf:34495750">Gilbert de Choiseul du Plessis-Praslain</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="22"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=nmWe8axzDPMC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_HernaultAntoine">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard" ref="isni:0000000363386820">
+          <forename>Antoine</forename>
+          <surname>Hernault</surname>
+        </title>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+        <respStmt xml:id="ZC" ref="orcid:0000-0002-3327-3967">
+          <name>Zoé Cappe</name>
+          <resp>Créateur de la fiche</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://github.com/Antonomaz" xml:id="Antonomaz">Antonomaz</publisher>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <bibl source="http://viaf.org/viaf/227714018"/>
+          <bibl source="http://data.bnf.fr/ark:/12148/cb12239199r#foaf:Person"/>
+          <bibl source="http://isni.org/isni/0000000363386820"/>
+          <bibl source="http://www.idref.fr/113981716/id"/>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <persName type="standard">Hernault, Antoine</persName>
+            <persName type="alternative">Hernault III, Antoine</persName>
+            <sex>M</sex>
+            <birth when="1614-03-26" cert="high"/>
+            <death when="1656" cert="high"/>
+            <occupation>Imprimeur-libraire</occupation>
+            <residence cert="high">
+              <address>
+                <objectName>au nom de Jésus</objectName>
+                <street/>
+                <settlement ref="geonames:2975758">Saumur</settlement>
+                <country>France</country>
+              </address>
+            </residence>
+            <listEvent>
+              <event>
+                <label type="bio" source="IdRef">Lieu d'activité : Saumur. Dates d'activité :
+                  1646-1656. Enseigne : Au Nom de Jésus</label>
+              </event>
+              <event>
+                <label type="bio" source="IdRef">Imprimeur-libraire ; imprimeur ordinaire du Roi.
+                  Fils de René Hernault, de Saumur ; frère puîné et successeur d'André Hernault. À
+                  distinguer d'Antoine II Hernault, imprimeur-libraire à Angers</label>
+              </event>
+              <event>
+                <label type="bio" source="Antonomaz">imprimeur du roi</label>
+              </event>
+            </listEvent>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-07-10" who="#ZC">Création de la fiche</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <TEI corresp="none">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title/>
+          <author ref="isni:0000"/>
+        </titleStmt>
+        <extent>
+          <measure unit="pages" quantity="0"/>
+        </extent>
+        <publicationStmt>
+          <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+          <availability status="restricted" n="cc-by">
+            <licence target="https://creativecommons.org/licenses/by/4.0"/>
+          </availability>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <repository>Sans lieu</repository>
+              <idno source="None"/>
+            </msIdentifier>
+            <physDesc>
+              <decoDesc>
+                <decoNote/>
+              </decoDesc>
+            </physDesc>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div/>
+      </body>
+    </text>
+  </TEI>
+</teiCorpus>

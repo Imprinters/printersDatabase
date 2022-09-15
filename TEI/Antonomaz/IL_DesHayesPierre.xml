@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_DesHayesPierre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="standard" ref="isni:0000000000546733">
+                    <forename>Pierre</forename>
+                    <surname>Des Hayes</surname>
+                </title>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+                <respStmt xml:id="ZC" ref="orcid:0000-0002-3327-3967">
+                    <name>Zoé Cappe</name>
+                    <resp>Créateur de la fiche</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher ref="https://github.com/Antonomaz" xml:id="Antonomaz"
+                    >Antonomaz</publisher>
+                <availability status="restricted" n="cc-by">
+                    <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl source="http://isni.org/isni/0000000000546733"/>
+                    <bibl source="http://viaf.org/viaf/68981549"/>
+                    <bibl source="http://catalogue.bnf.fr/ark:/12148/cb12229398r"/>
+                    <bibl source="https://www.idref.fr/030987768"/>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person>
+                        <persName type="standard">Des Hayes, Pierre</persName>
+                        <persName type="alternative">Des-Hays, Pierre’,’Des Hays II,
+                            Pierre’</persName>
+                        <sex>M</sex>
+                        <birth when="1600" cert="low"/>
+                        <death when="1659" cert="high"/>
+                        <occupation>Imprimeur-libraire</occupation>
+                        <residence cert="high">
+                            <address>
+                                <objectName>aux grandes couronnes</objectName>
+                                <street>rue de la Harpe</street>
+                                <settlement ref="geonames:2988507">Paris</settlement>
+                                <country>France</country>
+                            </address>
+                        </residence>
+                        <listEvent>
+                            <event>
+                                <label type="bio" source="IdRef">Autre(s) graphie(s) : Des-Hayes. -
+                                    Imprimeur-libraire. - De confession calviniste. En activité dès
+                                    fév. 1606. Le début de son exercice se confond avec la fin de
+                                    celui de son père, l'imprimeur-libraire Pierre I Des Hayes.
+                                    Épouse avant 1627 Marie Aignan (m. en janv. 1654), veuve, mère
+                                    d'Antoine Cellier qu'il a pris pour apprenti en janv. 1624 et
+                                    qui sera son associé. Oncle de François Muguet, son apprenti à
+                                    partir d'oct. 1655. Décédé en 1659</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef">Adresse : Paris (1606?-1658), Rue
+                                    de la Harpe (, proche la Rose rouge) (1606-1658) ; En l'île du
+                                    Palais, vis-à-vis des Augustins (1620). - Enseigne(s) : Au
+                                    Pilier rouge (1606-1624) ; À la Limace (1625) ; À l'Écu de
+                                    France (1629-1631) ; À la Limace (1632-1639) ; À la Rose rouge
+                                    (1640-1651) ; Aux Gants couronnés (1652-1657)</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef">Adresse : Charenton-le-Pont
+                                    (Charenton) (1608-1658)</label>
+                            </event>
+                        </listEvent>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-07-10" who="#ZC">Création de la fiche</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <TEI corresp="Socard68_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Relation véritable dv grand Combat naval donné les 8, 9 et 10 d’Aoust
+                        1653 entre les Flottes d’Hollandes et d’Angleterre, sur les Costes
+                        d’Hollandes ; et de la Victoire signalée demeurée aux Hollandois</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
+                            <idno source="http://books.google.fr/books?id=60xKAAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>

@@ -1,11 +1,13 @@
-# printersDatabase
+# PrintersDatabase
 
-Database of decorations, drop capitals, figures from differents books divided 
-according to their printer.
+Ce dossier contient l'ensemble des données produites dans le cadre du projet Imprinters.
 
-## Production
-Those files were producted thanks to a pipeline described in 
-[extractor repo](https://github.com/e-ditiones/extractor).
+## Structure
 
-Those files are produced according to TEI format, thanks to a specific ODD.
+- `CSV` : contient l'ensemble des données d'ordre biographiques des imprimeurs.
+- `TEI` : contient l'ensemble des fiches-imprimeurs encodées en XML-TEI.
+- `scripts` : contient les scripts qui ont permis d'automatiquement récupéré les données sur idRef.
 
+## Crédits
+
+Zoé Cappe a conçu les scripts qui ont permis de récupéré automatiquement les données et de les encoder en XML-TEI.

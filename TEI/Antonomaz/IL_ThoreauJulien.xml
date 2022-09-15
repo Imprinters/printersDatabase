@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_ThoreauJulien">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard" ref="isni:0000000000548480">
+          <forename>Julien</forename>
+          <surname>Thoreau</surname>
+        </title>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+        <respStmt xml:id="ZC" ref="orcid:0000-0002-3327-3967">
+          <name>Zoé Cappe</name>
+          <resp>Créateur de la fiche</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://github.com/Antonomaz" xml:id="Antonomaz">Antonomaz</publisher>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <bibl source="http://data.bnf.fr/ark:/12148/cb122527785#foaf:Person"/>
+          <bibl source="http://viaf.org/viaf/68985564"/>
+          <bibl source="http://isni.org/isni/0000000000548480"/>
+          <bibl source="http://www.idref.fr/031282008/id"/>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <persName type="standard">Thoreau, Julien</persName>
+            <persName type="alternative">Thorellus, Julianus</persName>
+            <sex>M</sex>
+            <birth when="1600" cert="low"/>
+            <death when="1656-03-17" cert="high"/>
+            <occupation>Imprimeur-libraire</occupation>
+            <residence cert="high">
+              <address>
+                <objectName/>
+                <street/>
+                <settlement ref="geonames:2986495">Poitiers</settlement>
+                <country>France</country>
+              </address>
+            </residence>
+            <listEvent>
+              <event>
+                <label type="bio" source="IdRef">À partir de 1647, travaille en association avec son
+                  gendre Jean Fleuriau; en janv. 1652, résigne en faveur de ce dernier sa charge
+                  d'imprimeur du Roi. Jean Fleuriau semble avoir encore publié sous le nom de J.
+                  Thoreau jusque vers 1663</label>
+              </event>
+              <event>
+                <label type="bio" source="IdRef">Imprimeur-libraire; libraire et imprimeur de
+                  l'université; imprimeur du Roi (1612-1652). Originaire de Saint-Hilaire-le-Lierru,
+                  près de Mamers (Sarthe). Succède à Jean I Blanchet dont il épouse la veuve en
+                  avril 1608</label>
+              </event>
+              <event>
+                <label type="bio" source="IdRef">Poitiers : 1608-1656; 1661-1663</label>
+              </event>
+            </listEvent>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-07-10" who="#ZC">Création de la fiche</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <TEI corresp="none">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title/>
+          <author ref="isni:0000"/>
+        </titleStmt>
+        <extent>
+          <measure unit="pages" quantity="0"/>
+        </extent>
+        <publicationStmt>
+          <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+          <availability status="restricted" n="cc-by">
+            <licence target="https://creativecommons.org/licenses/by/4.0"/>
+          </availability>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <repository>Sans lieu</repository>
+              <idno source="None"/>
+            </msIdentifier>
+            <physDesc>
+              <decoDesc>
+                <decoNote/>
+              </decoDesc>
+            </physDesc>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div/>
+      </body>
+    </text>
+  </TEI>
+</teiCorpus>

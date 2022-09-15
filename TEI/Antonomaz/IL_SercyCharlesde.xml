@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_SercyCharlesde">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="standard" ref="isni:000000012121564X">
+                    <forename>Charles de</forename>
+                    <surname>Sercy</surname>
+                </title>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+                <respStmt xml:id="ZC" ref="orcid:0000-0002-3327-3967">
+                    <name>Zoé Cappe</name>
+                    <resp>Créateur de la fiche</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher ref="https://github.com/Antonomaz" xml:id="Antonomaz"
+                    >Antonomaz</publisher>
+                <availability status="restricted" n="cc-by">
+                    <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl source="http://data.bnf.fr/ark:/12148/cb122408135#foaf:Person"/>
+                    <bibl source="http://isni.org/isni/000000012121564X"/>
+                    <bibl source="http://viaf.org/viaf/14825870"/>
+                    <bibl source="http://www.idref.fr/031133460/id"/>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person>
+                        <persName type="standard">Sercy, Charles de</persName>
+                        <persName type="alternative">De Sercy, Charles</persName>
+                        <sex>M</sex>
+                        <birth when="1623" cert="high"/>
+                        <death when="1700" cert="high"/>
+                        <occupation>Imprimeur-libraire</occupation>
+                        <residence cert="high">
+                            <address>
+                                <objectName>à la bonne foi couronnée</objectName>
+                                <street>rue de la Vieille-Draperie ; au Palais, en la galerie
+                                    Dauphine</street>
+                                <settlement ref="geonames:2988507">Paris</settlement>
+                                <country>France</country>
+                            </address>
+                        </residence>
+                        <listEvent>
+                            <event>
+                                <label type="bio" source="IdRef">Paris : 1649-1700? ; Sur le pont
+                                    Notre-Dame ; Rue de la Vieille-Draperie ; Au Palais (, dans la
+                                    salle Dauphine ; au sixième pilier de la grande salle, vis-à-vis
+                                    (de l'escalier ; de la montée) de la cour des Aides) ; Rue de la
+                                    Pelleterie - À la Bonne Foi (couronnée)</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef">Libraire. Originaire de Soissons.
+                                    Frère puîné de Nicolas de Sercy. En avril 1637 entre en
+                                    apprentissage chez Nicolas Delaulne qu'il quitte en nov. 1639
+                                    pour entrer chez Jacques I Villery, dont il a peut-être déjà
+                                    épousé la fille. Après son temps d'apprentissage et de
+                                    compagnonnage, est libraire étalant sur le Pont-Neuf, qu'il
+                                    s'engage à quitter lors de sa réception en sept. 1649. En mai
+                                    1694 prend pour apprenti son neveu Claude II Prudhomme qui lui
+                                    succédera. Également auteur de préfaces et de l''Abrégé
+                                    méthodique de la géographie</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef"> 1698 et de 'L'Amant de bonne
+                                    foi</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef"> 1672. Mort après le 29 mai 1700 ;
+                                    n'est plus attesté lors de l'enquête de nov.-déc. 1701</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef">Devise(s) : Fidem Fortuna
+                                    coronat</label>
+                            </event>
+                        </listEvent>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-07-10" who="#ZC">Création de la fiche</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <TEI corresp="Moreau2994_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Récit du fort du Palais-Royal pour le divertissement du roi, avec le nom
+                        des seigneurs qui l'attaqueront, et de ceux qui seront sur la
+                        défensive</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="15"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=0nmgiW-a4GoC&amp;hl=fr"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>

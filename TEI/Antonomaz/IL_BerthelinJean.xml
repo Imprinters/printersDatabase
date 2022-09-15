@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_BerthelinJean">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard" ref="isni:0000000108849250">
+          <forename>Jean</forename>
+          <surname>Berthelin</surname>
+        </title>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+        <respStmt xml:id="ZC" ref="orcid:0000-0002-3327-3967">
+          <name>Zoé Cappe</name>
+          <resp>Créateur de la fiche</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://github.com/Antonomaz" xml:id="Antonomaz">Antonomaz</publisher>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <bibl source="http://isni.org/isni/0000000108849250"/>
+          <bibl source="http://data.bnf.fr/ark:/12148/cb12229229n#foaf:Person"/>
+          <bibl source="http://viaf.org/viaf/32049192"/>
+          <bibl source="http://www.idref.fr/03098551X/id"/>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <persName type="standard">Berthelin, Jean</persName>
+            <persName type="alternative">Berthelin I, Jean (1577-1652)</persName>
+            <sex>M</sex>
+            <birth when="1577-10" cert="high"/>
+            <death when="1652-06-23" cert="high"/>
+            <occupation>Imprimeur-libraire</occupation>
+            <residence cert="high">
+              <address>
+                <objectName/>
+                <street>dans la cour du Palais</street>
+                <settlement ref="geonames:2982652">Rouen</settlement>
+                <country>France</country>
+              </address>
+            </residence>
+            <listEvent>
+              <event>
+                <label type="bio" source="IdRef">Devise(s) : Cuncta in tempore</label>
+              </event>
+              <event>
+                <label type="bio" source="IdRef">A souvent travaillé en association avec ses
+                  beaux-frères Jacques I Besongne et David Du Petit Val</label>
+              </event>
+              <event>
+                <label type="bio" source="IdRef">Libraire. Reçu maître en 1602 en qualité de gendre
+                  de Raphae͏̈l Du Petit Val, semble avoir exercé dès janv. 1601. Dit âgé de 74 ans
+                  et 8 mois lors de son décès (juin 1652)</label>
+              </event>
+              <event>
+                <label type="bio" source="IdRef">Le Petit-Quevilly (Quevilly) : 1601?-1652</label>
+              </event>
+              <event>
+                <label type="bio" source="IdRef">Rouen : 1601?-1652 ; Dans la cour du Palais</label>
+              </event>
+            </listEvent>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-07-10" who="#ZC">Création de la fiche</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <TEI corresp="none">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title/>
+          <author ref="isni:0000"/>
+        </titleStmt>
+        <extent>
+          <measure unit="pages" quantity="0"/>
+        </extent>
+        <publicationStmt>
+          <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+          <availability status="restricted" n="cc-by">
+            <licence target="https://creativecommons.org/licenses/by/4.0"/>
+          </availability>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <repository>Sans lieu</repository>
+              <idno source="None"/>
+            </msIdentifier>
+            <physDesc>
+              <decoDesc>
+                <decoNote/>
+              </decoDesc>
+            </physDesc>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div/>
+      </body>
+    </text>
+  </TEI>
+</teiCorpus>

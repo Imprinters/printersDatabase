@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_StaelMichiel">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="standard" ref="isni:0000000070610366">
+                    <forename>Michiel</forename>
+                    <surname>Stael</surname>
+                </title>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+                <respStmt xml:id="ZC" ref="orcid:0000-0002-3327-3967">
+                    <name>Zoé Cappe</name>
+                    <resp>Créateur de la fiche</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher ref="https://github.com/Antonomaz" xml:id="Antonomaz"
+                    >Antonomaz</publisher>
+                <availability status="restricted" n="cc-by">
+                    <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl source="http://catalogue.bnf.fr/ark:/12148/cb12239435b"/>
+                    <bibl source="http://isni.org/isni/0000000070610366"/>
+                    <bibl source="https://www.idref.fr/256645167/id"/>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person>
+                        <persName type="standard">Stael, Michiel</persName>
+                        <persName type="alternative">Staal, Michiel’</persName>
+                        <sex>M</sex>
+                        <birth when="1625" cert="high"/>
+                        <death when="1700" cert="low"/>
+                        <occupation>Imprimeur-libraire</occupation>
+                        <residence cert="high">
+                            <address>
+                                <objectName/>
+                                <street>à la Cour, vis-à-vis de la Prison</street>
+                                <settlement ref="geonames:2747373">Den Haag</settlement>
+                                <country>France</country>
+                            </address>
+                        </residence>
+                        <listEvent>
+                            <event>
+                                <label type="bio" source="IdRef">Variante(s) de prénom : Michael ;
+                                    Michel. - Imprimeur. - Fils d'un boulanger de Delft. Condamné à
+                                    plusieurs reprises pour impressions prohibées (mars 1651-avril
+                                    1652), il est banni de La Haye puis aussi de Delft mais semble
+                                    avoir continué à y exercer. Arrêté à Delft en oct. 1652, il
+                                    émigre ensuite en Angleterre et semble n'être revenu à La Haye
+                                    qu'occasionnellement. Encore en vie en 1662-1663</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef">A travaillé en association avec
+                                    Johannes Breeckevelt, en 1649-1650</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef">Lieu d'activité : Den Haag. Dates
+                                    d'activité : 1648?-1651?. Adresse : À la Cour, vis-à-vis de la
+                                    Prison</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef">Lieu d'activité : Delft. Dates
+                                    d'activité : 1651</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="IdRef">Lieu d'activité : Rotterdam. Dates
+                                    d'activité : 1652-1654?</label>
+                            </event>
+                        </listEvent>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-07-10" who="#ZC">Création de la fiche</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <TEI corresp="Moreau1889_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettre d'un particulier au parlement de Paris, sur la détention des
+                        princes de Condé, de Conty et de Longneville, pour répondre à celle qui a
+                        été publiée au nom du roy sur le même sujet.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="25"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Gand, Université de Gand</repository>
+                            <idno source="https://books.google.fr/books?id=6c5KAAAAcAAJ&amp;hl=fr"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2suppl125_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettre du maréchal de Turenne à la reyne.</title>
+                    <author ref="isni:0000000083439713">Henri La Tour de</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Amsterdam, Bibliothèque nationale des Pays-Bas</repository>
+                            <idno source="https://books.google.fr/books?id=BhZjAAAAcAAJ&amp;hl=fr"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>
