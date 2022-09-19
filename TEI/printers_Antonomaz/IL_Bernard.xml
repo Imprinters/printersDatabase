@@ -33,7 +33,7 @@
       <particDesc>
         <listPerson>
           <person>
-            <persName type="standard">Bernard, </persName>
+            <persName type="standard">Bernard</persName>
             <persName type="alternative"/>
             <sex>M</sex>
             <birth when="1600" cert="low"/>

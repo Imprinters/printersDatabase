@@ -37,13 +37,13 @@
             <particDesc>
                 <listPerson>
                     <person>
-                        <persName type="standard">Imprimerie Royale, </persName>
+                        <persName type="standard">Imprimerie Royale</persName>
                         <persName type="alternative">Paris (France) -- Imprimerie royale</persName>
                         <persName type="alternative">Imprimerie du Louvre (France)</persName>
                         <persName type="alternative">Typographia regia (France ;
                             1640-1792)</persName>
                         <persName type="alternative">Typographia regia Luparae (France)</persName>
-                        <sex>M</sex>
+                        <sex>?</sex>
                         <birth when="1640" cert="high"/>
                         <death when="1792" cert="high"/>
                         <occupation>Imprimeur-libraire</occupation>
