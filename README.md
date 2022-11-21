@@ -10,4 +10,4 @@ Ce dossier contient l'ensemble des données produites dans le cadre du projet Im
 
 ## Crédits
 
-Zoé Cappe a conçu les scripts qui ont permis de récupéré automatiquement les données et de les encoder en XML-TEI.
+Zoé Cappe a conçu les scripts qui ont permis de récupérer automatiquement les données et de les encoder en XML-TEI.
