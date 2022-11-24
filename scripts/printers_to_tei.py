@@ -416,18 +416,16 @@ def to_tei():
 
             # ajout des éléments biographiques provenant d'Idref
             bio = row[11]
-            list_bios = list(bio.split("',"))
 
             listevent = ET.SubElement(person, 'listEvent')
-            if list_bios:
-                for bio in range(len(list_bios)):
-                    event = ET.SubElement(listevent, 'event')
-                    label = ET.SubElement(event, 'label')
-                    label.set('type', 'bio')
-                    label.set('source', 'IdRef')
-                    list_bio = re.sub("^'", "", str(list_bios[bio]))
-                    list_bio = re.sub("'$", "", str(list_bio))
-                    label.text = str(list_bio)
+            if bio:
+                event = ET.SubElement(listevent, 'event')
+                label = ET.SubElement(event, 'label')
+                label.set('type', 'bio')
+                label.set('source', 'IdRef')
+                bio = re.sub("^'", "", str(bio))
+                bio = re.sub("'$", "", str(bio))
+                label.text = str(bio)
             else:
                 event = ET.SubElement(listevent, 'event')
                 label = ET.SubElement(event, 'label')
