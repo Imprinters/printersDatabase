@@ -203,7 +203,7 @@ def to_tei():
     """
 
     # on ouvre le fichier CSV de la base imprimeurs
-    with open("base_imprimeurs_joined.csv") as csvfile:
+    with open("../CSV/Antonomaz/base_imprimeurs_joined.csv") as csvfile:
         csvreader = csv.reader(csvfile, delimiter=",")
         next(csvreader, None)  # cette ligne sert à ne pas lire les headers du fichier
         for row in csvreader:
@@ -424,7 +424,7 @@ def to_tei():
                 label.set('type', 'bio')
                 label.set('source', 'IdRef')
                 bio = re.sub("^'", "", str(bio))
-                bio = re.sub("'$", "", str(bio))
+                bio= re.sub("'$", "", str(bio)
                 label.text = str(bio)
             else:
                 event = ET.SubElement(listevent, 'event')
@@ -564,7 +564,7 @@ def to_tei():
                 fullname2 = row[0] + row[1]
                 fullname2 = re.sub(" |\(|\)|'|’|-|,|\.", "", fullname2)
                 fullname2 = re.sub("é|è|ë|ê", "e", fullname2)
-                fullname2 = re.sub("É||È||Ë||Ê|", "E", fullname2)
+                fullname2 = re.sub("É|È|Ë|Ê", "E", fullname2)
                 fullname2 = re.sub("ç|Ç", "c", fullname2)
                 fullname2 = re.sub("ô|Ô", "o", fullname2)
                 xmlids = "IL_" + fullname2
