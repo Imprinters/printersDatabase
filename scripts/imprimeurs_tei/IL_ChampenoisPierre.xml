@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf-8'?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_ChampenoisPierre">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard" ref="viaf:218396028">
+          <forename>Pierre</forename>
+          <surname>Champenois</surname>
+        </title>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+        <respStmt xml:id="ZC" ref="orcid:0000-0002-3327-3967">
+          <name>Zoé Cappe</name>
+          <resp>Créateur de la fiche</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://github.com/Antonomaz" xml:id="Antonomaz">Antonomaz</publisher>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <bibl source="http://viaf.org/viaf/218396028"/>
+          <bibl source="http://www.idref.fr/109902726/id"/>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <persName type="standard">Champenois, Pierre</persName>
+            <persName type="alternative">Champenois, P.</persName>
+            <persName type="alternative">Champenois, Pierre Ier</persName>
+            <sex>M</sex>
+            <birth when="1600" cert="low"/>
+            <death when="1649-03" cert="high"/>
+            <occupation>Imprimeur-libraire</occupation>
+            <residence cert="high">
+              <address>
+                <objectName/>
+                <street>sur le Pont-Neuf  ; proche la Samaritaine</street>
+                <settlement ref="geonames:2988507">Paris</settlement>
+                <country>France</country>
+              </address>
+            </residence>
+            <listEvent>
+              <event>
+                <label type="bio" source="IdRef">En 1633, travaille en association avec le libraire Pierre Trichard</label>
+              </event>
+              <event>
+                <label type="bio" source="IdRef">Libraire-relieur. - En apprentissage chez le libraire parisien Guillaume I Macé à partir de juin 1610. Reçu maître le 14 mai 1626. En 1645 obtient des lettres de colporteur. Le 1er mars 1648, des pièces de théâtre de Pierre Corneille contrefaites sont saisies dans sa boutique ainsi que chez d'autres libraires parisiens ; une sentence du Châtelet du 28 nov. 1648 les condamne aux dommages et intérêts et porte confiscation des livres saisis (cf. G. Lepreux, 'Revue des bibliothèques</label>
+              </event>
+              <event>
+                <label type="bio" source="IdRef"> XXIV, 1914, pp. 159-161). Sépulture le 5 mars 1649 à Paris</label>
+              </event>
+              <event>
+                <label type="bio" source="IdRef">Lieu d'activité : Paris. Dates d'activité : 1626-1649. Adresse : (Dessus (ou : Sur) le Pont-Neuf,) Proche (ou : vis-à-vis ; devant) la Samaritaine</label>
+              </event>
+            </listEvent>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-07-10" who="#ZC">Création de la fiche</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <TEI corresp="none">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title/>
+          <author ref="isni:0000"/>
+        </titleStmt>
+        <extent>
+          <measure unit="pages" quantity="0"/>
+        </extent>
+        <publicationStmt>
+          <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+          <availability status="restricted" n="cc-by">
+            <licence target="https://creativecommons.org/licenses/by/4.0"/>
+          </availability>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <repository>Sans lieu</repository>
+              <idno source="None"/>
+            </msIdentifier>
+            <physDesc>
+              <decoDesc>
+                <decoNote/>
+              </decoDesc>
+            </physDesc>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div/>
+      </body>
+    </text>
+  </TEI>
+</teiCorpus>

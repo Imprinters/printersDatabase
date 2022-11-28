@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_PepingueEtienne">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="standard" ref="isni:0000000361026338">
+          <forename>Etienne</forename>
+          <surname>Pépingué</surname>
+        </title>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+        <respStmt xml:id="ZC" ref="orcid:0000-0002-3327-3967">
+          <name>Zoé Cappe</name>
+          <resp>Créateur de la fiche</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher ref="https://github.com/Antonomaz" xml:id="Antonomaz">Antonomaz</publisher>
+        <availability status="restricted" n="cc-by">
+          <licence target="https://creativecommons.org/licenses/by/4.0"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <bibl source="http://data.bnf.fr/ark:/12148/cb16557653t#foaf:Person"/>
+          <bibl source="http://viaf.org/viaf/222132884"/>
+          <bibl source="http://isni.org/isni/0000000361026338"/>
+          <bibl source="http://www.idref.fr/104623683/id"/>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <persName type="standard">Pépingué, Etienne</persName>
+            <persName type="alternative">Pepingué, Estienne</persName>
+            <persName type="alternative">Pépingué, Stephanus</persName>
+            <sex>M</sex>
+            <birth when="1625" cert="high"/>
+            <death when="1679" cert="high"/>
+            <occupation>Imprimeur-libraire</occupation>
+            <residence cert="high">
+              <address>
+                <objectName>au Bras d'Hercule</objectName>
+                <street>rue de la Harpe  ; au-dessus de Saint-Côme, entre les collèges de Narbonne et Bayeux</street>
+                <settlement ref="geonames:2988507">Paris</settlement>
+                <country>France</country>
+              </address>
+            </residence>
+            <listEvent>
+              <event>
+                <label type="bio" source="IdRef">Imprimeur-libraire ; imprimeur ordinaire de l'abbaye Saint-Germain-des-Prés (1656). - Fils de l'imprimeur-libraire parisien Théodore Pépingué et frère des libraires Edme et Nicolas Pépingué. Épouse Henriette Sara, vraisemblablement apparentée aux libraires parisiens Henri et Robert Sara. Reçu maître le 27 oct. 1650. S'établit imprimeur dès 1650 d'après la déclaration de sa veuve lors de l'enquête de nov.-déc. 1701. Figure aux procès-verbaux de visite des imprimeries parisiennes en juillet 1657 et oct. 1666 (BnF, ms. fr. 17566, fol. 17, et 17563, fol. 107-108), mais non plus en mars 1679. Décédé en 1679 ou peu avant (veuve attestée en sa succession)</label>
+              </event>
+              <event>
+                <label type="bio" source="IdRef">Paris : 1650-1679?. - Rue de la Harpe, au-dessus de Saint-Côme (, entre les collèges de Narbonne et Bayeux). - Enseigne(s) : Au Bras d'Hercule</label>
+              </event>
+            </listEvent>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2022-07-10" who="#ZC">Création de la fiche</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <TEI corresp="none">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title/>
+          <author ref="isni:0000"/>
+        </titleStmt>
+        <extent>
+          <measure unit="pages" quantity="0"/>
+        </extent>
+        <publicationStmt>
+          <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+          <availability status="restricted" n="cc-by">
+            <licence target="https://creativecommons.org/licenses/by/4.0"/>
+          </availability>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <repository>Sans lieu</repository>
+              <idno source="None"/>
+            </msIdentifier>
+            <physDesc>
+              <decoDesc>
+                <decoNote/>
+              </decoDesc>
+            </physDesc>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div/>
+      </body>
+    </text>
+  </TEI>
+</teiCorpus>
