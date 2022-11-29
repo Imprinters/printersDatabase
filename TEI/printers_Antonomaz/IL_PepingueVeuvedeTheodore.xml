@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_PepingueVeuvedeTheodore">
     <teiHeader>
         <fileDesc>
@@ -54,15 +52,15 @@
                         <listEvent>
                             <event>
                                 <label type="bio" source="IdRef">Nom de jeune fille : Marie
-                                    L'Écuyer. Imprimeur-libraire</label>
+                                    L'Écuyer. Imprimeur-libraire','Travaille en association avec son
+                                    gendre Étienne Maucroy','Paris : 1648-1652? ; Rue de la Harpe,
+                                    vis-à-vis la rue des Mathurins</label>
                             </event>
                             <event>
-                                <label type="bio" source="IdRef">Travaille en association avec son
-                                    gendre Étienne Maucroy</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Paris : 1648-1652? ; Rue de la
-                                    Harpe, vis-à-vis la rue des Mathurins</label>
+                                <label type="bio" source="Antonomaz">Etienne Maucroy s’associe en
+                                    1640 avec Théodore Pépingué pour une durée de 6 ans minimum.
+                                    L’imprimerie de Th. Pépingué est alors évalué à 1.000 livres
+                                    (Archives nationales, MC/ET/CV/782).</label>
                             </event>
                         </listEvent>
                     </person>
@@ -75,52 +73,14 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="Moreau3350_GBOOKS.xml">
+    <TEI corresp="Moreau2660_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Renommée (la) de monsieur le maréchal de Turenne.</title>
-                    <author ref="isni:0000"/>
+                    <title>Panégyrique à l'honneur du roi, présenté à Sa Majesté.</title>
+                    <author ref="isni:0000000039582088">Nicolas Mercier de Poissy</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=xPOW0DE84oYC"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau226_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Arrêt de la cour de parlement, portant absolution de la calomnieuse
-                        accusation intentée contre monseigneur le duc de Beaufort par le cardinal
-                        Mazarin.</title>
-                    <author ref="isni:0000000121755355">France. Parlement de Paris</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="15"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -133,7 +93,7 @@
                         <msIdentifier>
                             <repository>Paris, Bibliothèque Mazarine</repository>
                             <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15105"
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14964"
                             />
                         </msIdentifier>
                         <physDesc>
@@ -151,15 +111,14 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3089_GALL.xml">
+    <TEI corresp="Moreau1431_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Regrets (les) héroïques du soldat amoureux résolu à mourir pour sa
-                        patrie.</title>
+                    <title>La france irritée contre ses tyrans.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -170,8 +129,10 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k54275754"/>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14639"
+                            />
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -226,12 +187,87 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1961_GBOOKS.xml">
+    <TEI corresp="Moreau1326_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Lettre de mademoiselle la Paix à madame la Guerre, avec la
-                        réponse.</title>
+                    <title>Les exemples politiques.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
+                            <idno
+                                source="https://www.google.fr/books/edition/Les_Exemples_politiques/0kdCAAAAcAAJ?hl=fr&amp;gbpv=0"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau463_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Avertissements charitables faits à Mazarin par son bon ange, par N. S. B.
+                        D. C. Beausseron.</title>
+                    <author ref="isni:0000">N. S. B. D. C. Beausseron</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=p-uQ4r9j4yUC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau538_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Avis salutaire pour le temps présent, sur le sujet du mot de
+                        Mazariniste.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
@@ -246,7 +282,44 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=BLqkGEKajbAC&amp;hl=fr"/>
+                            <idno source="https://books.google.fr/books?id=4ivUuCFSEWoC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2884_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Procès burlesque entre monsieur le Prince et madame la duchesse
+                        d'Aiguillon, avec les plaidoiries, par le S. D. S. M.</title>
+                    <author ref="isni:0000">S. D. S. M.</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="36"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5540086t"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -267,7 +340,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Cris (les) des pauvres aux pieds de Leurs Majestés, demandans (sic) la
+                    <title>Les cris des pauvres aux pieds de Leurs Majestés, demandans la
                         paix.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
@@ -300,11 +373,11 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1326_GBOOKS.xml">
+    <TEI corresp="Moreau3775_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Les exemples politiques.</title>
+                    <title>Le ti Oeiov de la maladie de l'État, pièce docte et curieuse.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="0"
@@ -318,10 +391,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
-                            <idno
-                                source="https://www.google.fr/books/edition/Les_Exemples_politiques/0kdCAAAAcAAJ?hl=fr&amp;gbpv=0"
-                            />
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=dUHXYrl_t8UC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -338,14 +409,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1866_MAZ.xml">
+    <TEI corresp="Moreau3774_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Lettre d'un gentilhomme à la reine.</title>
-                    <author ref="isni:0000"/>
+                    <title>Thèses d'État tirées de la politique chrétienne, présentées à monseigneur
+                        le prince de Conty.</title>
+                    <author ref="isni:0000">René de Saint-Clément</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -356,10 +428,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17495"
-                            />
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=gY-boQtHZ1wC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -376,14 +446,52 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1098_GBOOKS.xml">
+    <TEI corresp="Moreau3283_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Dirœ in Angliam ob patratum scelus, IX februarii 1649.</title>
-                    <author ref="isni:0000">S. P., Ph., SI. S. C. R.</author>
+                    <title>Remercîment fait à monseigneur le coadjuteur par une demoiselle
+                        parisienne.</title>
+                    <author ref="viaf:77180575">Elisabeth Salete</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=wCgaOfnS7cQC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2231_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettre envoyée à Sa Sainteté, touchant le rétablissement de la paix
+                        générale de France.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -395,7 +503,7 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
-                            <idno source="https://books.google.fr/books?id=KHhKAAAAcAAJ"/>
+                            <idno source="https://books.google.fr/books?id=Q01KAAAAcAAJ"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -450,19 +558,14 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1059_GBOOKS.xml">
+    <TEI corresp="Moreau1098_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Description des vies, mœurs et façons de faire des péagers, publicains,
-                        maletostiers (sic), monopoleurs, fermiers et partisans, non moins
-                        facétieuse, naïve et véritable que sérieuse et mystique, composée par
-                        Demophile. Le juste s'éjouira quand il verra la vengeance, et lavera ses
-                        mains au sang du pêcheur. Pseaume LVII. « ...... Ridendo dicere verum Quis
-                        vetat ?...»</title>
-                    <author ref="isni:0000">Démophile</author>
+                    <title>Dirœ in Angliam ob patratum scelus, IX februarii 1649.</title>
+                    <author ref="isni:0000">S. P., Ph., SI. S. C. R.</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="38"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -473,8 +576,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=jo6GHNAUbP8C"/>
+                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
+                            <idno source="https://books.google.fr/books?id=KHhKAAAAcAAJ"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -498,7 +601,7 @@
                     <title>Dernière requête présentée à nosseigneurs du parlement par monseigneur le
                         duc de Beaufort, avant le jugement de la calomnieuse accusation intentée par
                         le cardinal Jules Mazarin.</title>
-                    <author ref="isni:000000012095909X">François de Bourbon-Vendôme
+                    <author ref="isni:000000012095909X">François de Bourbon-Vendôme, duc de
                         Beaufort</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
@@ -532,12 +635,12 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2098_GBOOKS.xml">
+    <TEI corresp="Moreau1096_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Lettre du cavalier Courtois à mademoiselle Rudesse, avec la Réponse de
-                        mademoiselle Rudesse.</title>
+                    <title>Dialogue ou Entretien de deux cavaliers, l’un françois, l’autre anglois,
+                        touchant les affaires de France et d'Angleterre.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
@@ -551,8 +654,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
-                            <idno source="https://books.google.fr/books?id=Dk5KAAAAcAAJ&amp;hl=fr"/>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=MxvmJxSaY-cC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -569,12 +672,52 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2231_GBOOKS.xml">
+    <TEI corresp="Moreau1059_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Lettre envoyée à Sa Sainteté, touchant le rétablissement de la paix
-                        générale de France.</title>
+                    <title>Description des vies, mœurs et façons de faire des péagers, publicains,
+                        maletostiers , monopoleurs, fermiers et partisans, non moins facétieuse,
+                        naïve et véritable que sérieuse et mystique, composée par Demophile. Le
+                        juste s'éjouira quand il verra la vengeance, et lavera ses mains au sang du
+                        pêcheur. Pseaume LVII. « ...... Ridendo dicere verum Quis vetat
+                        ?...»</title>
+                    <author ref="isni:0000">Démophile</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="38"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=jo6GHNAUbP8C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3511_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La résolution des bons François adressée au roi et à la reine.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
@@ -588,8 +731,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
-                            <idno source="https://books.google.fr/books?id=Q01KAAAAcAAJ&amp;hl=fr"/>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=J6tV3Y6PuQYC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -606,89 +749,14 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2884_GALL.xml">
+    <TEI corresp="Moreau1866_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Procès burlesque entre monsieur le Prince et madame la duchesse
-                        d'Aiguillon, avec les plaidoiries, par le S. D. S. M.</title>
-                    <author ref="isni:0000">S. D. S. M.</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="36"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5540086t"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau3774_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Thèses d'État tirées de la politique chrétienne, présentées à monseigneur
-                        le prince de Conty.</title>
-                    <author ref="isni:0000">René de Saint-Clément</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=gY-boQtHZ1wC"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1538_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Haine (la) irréconciliable de la paix et de la guerre, en vers
-                        burlesques.</title>
+                    <title>Lettre d'un gentilhomme à la reine.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -701,83 +769,7 @@
                         <msIdentifier>
                             <repository>Paris, Bibliothèque Mazarine</repository>
                             <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz18483"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2660_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Panégyrique à l'honneur du roi, présenté à Sa Majesté.</title>
-                    <author ref="isni:0000000039582088">Nicolas Mercier de Poissy</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="15"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14964"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1431_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>France (la) irritée contre ses tyrans.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14639"
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17495"
                             />
                         </msIdentifier>
                         <physDesc>
@@ -802,7 +794,7 @@
                     <title>Arrêt de la cour de parlement de Rennes en Bretagne contre le nommé Jules
                         Mazarin et ses fauteurs et adhérents, par lequel ils sont tous déclarés
                         criminels de lèse majesté, tous leurs biens acquis et confisqués.</title>
-                    <author ref="isni:0000000123225884">France. Parlement de Bretagne</author>
+                    <author ref="isni:0000000123225884">Parlement de Bretagne</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
                     /></extent>
@@ -835,15 +827,16 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2438_GBOOKS.xml">
+    <TEI corresp="Moreau226_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Médecin (le) politique, ou Consultation pour la maladie de
-                        l'État.</title>
-                    <author ref="isni:0000"/>
+                    <title>Arrêt de la cour de parlement, portant absolution de la calomnieuse
+                        accusation intentée contre monseigneur le duc de Beaufort par le cardinal
+                        Mazarin.</title>
+                    <author ref="isni:0000000121755355">Parlement de Paris</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -854,8 +847,90 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Barcelone, Bibliothèque de Montserrat</repository>
-                            <idno source="https://books.google.fr/books?id=cOdarfSYzDIC"/>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15105"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3311_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Remontrance des ministres de la province de Londres, adressée par eux au
+                        général Fairfax et à son conseil de guerre, douze jours avant la mort du roi
+                        de la Grand'Bretagne. Si tu te retiens pour ne délivrer point ceux qui sont
+                        trainés à la mort, et ceux qui penchent à être tués, d'autant que tu diras:
+                        « Voici, nous n'en avons rien su, » celui qui pèse les cœurs, ne
+                        l'entendra-t-il point ? et celui qui garde ton âme, ne le saura-t-il point ?
+                        et ne rendra-t-il point à chacun selon son œuvre? PROV., XXIV, 11, 12.
+                        Traduit en français sur la copie imprimée à Londres par Samuel Gellibrand et
+                        Raphaël Smith.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=iRYyKm7gS7EC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3350_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La renommée de monsieur le maréchal de Turenne.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=xPOW0DE84oYC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -876,7 +951,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Monopoleur (le) rendant gorge.</title>
+                    <title>Le monopoleur rendant gorge.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
@@ -908,15 +983,14 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau463_GBOOKS.xml">
+    <TEI corresp="Moreau2438_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Avertissements charitables faits à Mazarin par son bon ange, par N. S. B.
-                        D. C. Beausseron.</title>
-                    <author ref="isni:0000">N. S. B. D. C. Beausseron</author>
+                    <title>Le médecin politique, ou Consultation pour la maladie de l'État.</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -927,8 +1001,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=p-uQ4r9j4yUC"/>
+                            <repository>Barcelone, Bibliothèque de Montserrat</repository>
+                            <idno source="https://books.google.fr/books?id=cOdarfSYzDIC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -982,11 +1056,127 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1714_GBOOKS.xml">
+    <TEI corresp="Moreau1111_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Intérêt (l') des provinces.</title>
+                    <title>Discours d'un théologien, d'un astrologue et d’un politique touchant les
+                        affaires du temps.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Florence, Bibliothèque nationale centrale</repository>
+                            <idno
+                                source="https://www.google.fr/books/edition/Discours_d_vn_theologien_d_vn_astrologue/1pcMjF1bQeYC"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1961_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettre de mademoiselle la Paix à madame la Guerre, avec la
+                        réponse.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=BLqkGEKajbAC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1538_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La haine irréconciliable de la paix et de la guerre, en vers
+                        burlesques.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz18483"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3089_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Les regrets héroïques du soldat amoureux résolu à mourir pour sa
+                        patrie.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
@@ -1000,8 +1190,45 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=A8E95ZgVWZ4C"/>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k54275754"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2098_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettre du cavalier Courtois à mademoiselle Rudesse, avec la Réponse de
+                        mademoiselle Rudesse.</title>
+                    <author ref="isni:0000">Mademoiselle Rudesse</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
+                            <idno source="https://books.google.fr/books?id=Dk5KAAAAcAAJ"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -1038,6 +1265,42 @@
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale de Lyon</repository>
                             <idno source="https://books.google.fr/books?id=dNbNAYv_uo0C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1714_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>L'intérêt des provinces.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=A8E95ZgVWZ4C"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

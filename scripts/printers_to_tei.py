@@ -3,6 +3,8 @@ import glob
 from lxml import etree
 import xml.etree.ElementTree as ET
 import re
+import os
+
 
 ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
@@ -197,14 +199,14 @@ def to_tei():
     """
     Cette fonction sert à créer automatiquement tout l'encodage des fiches des imprimeurs.
     Elle est construite sur la base d'un élément <teiCorpus>, dont le <teiHeader> contient
-    toutes les informations sur l'imprimeur récupérées dans la base imprimeurs (fichier CSV).
+    toutes les informations sur l'imprimeur récupérées dans la base imprimeurs (fichier TSV).
     Les élements <TEI> ajoutés à la suite du <teiHeader> contiennent les informations des mazarinades
     imprimées par cet imprimeur, si l'identifiant de l'imprimeur est renseigné dans les mazarinades.
     """
 
     # on ouvre le fichier CSV de la base imprimeurs
-    with open("../CSV/Antonomaz/base_imprimeurs_joined.csv") as csvfile:
-        csvreader = csv.reader(csvfile, delimiter=",")
+    with open("../CSV/Antonomaz/base_imprimeurs_joined.tsv") as csvfile:
+        csvreader = csv.reader(csvfile, delimiter="\t")
         next(csvreader, None)  # cette ligne sert à ne pas lire les headers du fichier
         for row in csvreader:
             # pour chaque ligne (chaque imprimeur) du CSV, on crée les éléments suivants en TEI
@@ -424,7 +426,7 @@ def to_tei():
                 label.set('type', 'bio')
                 label.set('source', 'IdRef')
                 bio = re.sub("^'", "", str(bio))
-                bio= re.sub("'$", "", str(bio)
+                bio= re.sub("'$", "", str(bio))
                 label.text = str(bio)
             else:
                 event = ET.SubElement(listevent, 'event')
@@ -575,14 +577,14 @@ def to_tei():
             # Écriture des fichiers xml
             tree = ET.ElementTree(root)
 
-            tree.write("imprimeurs_tei/%s.xml" % name_file, xml_declaration=True, encoding="utf-8")
+            tree.write("printers_Antonomaz/%s.xml" % name_file, xml_declaration=True, encoding="utf-8")
 
 
 def add_empty_maz():
     """Cette fonction sert à ajouter un élément <TEI> sans information dans les <teiCorpus> des imprimeurs pour lesquels
     on n'a pas de mazarinade"""
 
-    files = glob.glob("imprimeurs_tei/*.xml", recursive=True)
+    files = glob.glob("printers_Antonomaz/*.xml", recursive=True)
     output = []
     for file in files:
         parser = etree.XMLParser(remove_blank_text=True)
@@ -658,8 +660,11 @@ def add_empty_maz():
 
 
 if __name__ == "__main__":
+    try:
+        os.mkdir('printers_Antonomaz')
+    except:
+        pass
     # On procède d'abord à l'encodage automatique des fiches d'imprimeurs
     to_tei()
     # Puis on ajoute les <TEI> neutres
     add_empty_maz()
-

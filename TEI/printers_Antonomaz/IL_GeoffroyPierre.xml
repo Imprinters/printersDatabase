@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_GeoffroyPierre">
   <teiHeader>
     <fileDesc>
@@ -56,12 +54,9 @@
                 <label type="bio" source="IdRef">Imprimeur-libraire. Fils de David I Geoffroy. Reçu
                   maître en 1631 ou peu avant. De confession protestante. Dit âgé de 67 ans lors de
                   son décès (oct. 1669). - Associé à son frère David II Geoffroy jusqu'à la mort de
-                  celui-ci (1665)</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Rouen : 1631?-1669. - Rue du Petit-Mont-Lévrier. -
-                  Rue de la Prison, près l'Écu d'Orléans, dans la cour (ou : proche l'hôtel) des
-                  Deux Anges</label>
+                  celui-ci (1665)','Rouen : 1631?-1669. - Rue du Petit-Mont-Lévrier. - Rue de la
+                  Prison, près l'Écu d'Orléans, dans la cour (ou : proche l'hôtel) des Deux
+                  Anges</label>
               </event>
             </listEvent>
           </person>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_MongironMillangesJacques">
     <teiHeader>
         <fileDesc>
@@ -55,11 +53,8 @@
                             <event>
                                 <label type="bio" source="IdRef">Imprimeur ordinaire du roi et de la
                                     ville de Bordeaux. Successeur de Guillaume Millanges à partir de
-                                    1649.Imprime de nombreuses Mazarinades</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Bordeaux : 1649-1692 ; La réole :
-                                    1680-1689</label>
+                                    1649.Imprime de nombreuses Mazarinades','Bordeaux : 1649-1692 ;
+                                    La réole : 1680-1689</label>
                             </event>
                         </listEvent>
                     </person>
@@ -72,12 +67,330 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
+    <TEI corresp="Moreau2123_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettre du Parlement de Bordeaux écrite à M. le duc d 'Orléans, avec la
+                        lettre circulaire envoyée à tous les parlements de France.</title>
+                    <author ref="isni:0000000119572170">Parlement de Bordeaux</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=xbtFuFsH1PgC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3136_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Relation de la marche et progrès de l'armée commandée par M. le marquis
+                        de Sauvebœuf, général de l'armée du roi sous l'autorité du parlement de
+                        Bourdeaux.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=CgsFWlK_JdgC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau194_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Arrêt de la cour de parlement de Bordeaux, portant que très-humbles et
+                        itératives remontrances seront faites au roi sur le sujet de la retraite de
+                        monsieur le prince et des affaires présentes, avec les remontrances faites
+                        en conséquence dudit arrêt.</title>
+                    <author ref="isni:0000000119572170">Parlement de Bordeaux</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="30"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15052"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau182_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Arrêt de la cour de parlement de Bordeaux, portant que les maîtres
+                        boulangers de la présente ville achèteront des blés, pour faire magasin et
+                        les convertir en farines , pour les nécessités du public.</title>
+                    <author ref="isni:0000000119572170">Parlement de Bordeaux</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15188"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau180_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Arrêt de la cour de parlement de Bordeaux , portant que le roi sera
+                        très-humblement supplié d'agréer que madame la princesse de Condé et
+                        monsieur le duc d'Anguien , son fils, demeureront en la présente ville, sous
+                        sa sauvegarde et de sa justice, avec le registre y mentionné.</title>
+                    <author ref="isni:0000000119572170">Parlement de Bordeaux</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15173"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau190_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Arrêt de la cour de parlement de Bordeaux, portant qu’il sera informé
+                        contre ceux qui font des brigues, pratiques et menées, pour le
+                        rétablissement du duc d’Épernon dans le gouvernement de Guyenne.</title>
+                    <author ref="isni:0000000119572170">Parlement de Bordeaux</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15189"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau181_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Arrêt de la cour de parlement de Bordeaux, portant que le sieur duc
+                        d’Épernon, le chevalier de La Valette, son frère, et leurs adhérans sont
+                        déclarés infracteurs de la paix, perturbateurs du repos publie, ennemis du
+                        roi et de son État.</title>
+                    <author ref="isni:0000000119572170">Parlement de Bordeaux</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15172"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="M15259_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Arrest de la cour de parlement de Bourdeax [sic]. Du quinziesme jour de
+                        juin 1649. Portant cassation de l'arrest du dix-huictiesme de mars 1649.
+                        donné par la Cour des aydes.</title>
+                    <author ref="isni:0000000119572170">Parlement de Bordeaux</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17638"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
     <TEI corresp="Labadie88_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
                     <title>ARREST de la Cour de Parlement de Bourdeaux</title>
-                    <author ref="isni:0000000119572170">France. Parlement de Bordeaux</author>
+                    <author ref="isni:0000000119572170">Parlement de Bordeaux</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
                     /></extent>
@@ -110,50 +423,12 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Labadie58_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>ARREST de la Cour de Parlement de Bourdeaux</title>
-                    <author ref="isni:0000000119572170">France. Parlement de Bordeaux</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15185"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
     <TEI corresp="Labadie90_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
                     <title>ARREST de la Cour de Parlement de Bourdeaux</title>
-                    <author ref="isni:0000000119572170">France. Parlement de Bordeaux</author>
+                    <author ref="isni:0000000119572170">Parlement de Bordeaux</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
                     /></extent>
@@ -194,7 +469,7 @@
                         Gouvernement de Guyenne, &amp; prestation de son serment de fidélité, fait
                         en qualité de Gouverneur de la dite Province, entre les mains de Sa
                         Majesté</title>
-                    <author ref="isni:0000000119572170">France. Parlement de Bordeaux</author>
+                    <author ref="isni:0000000119572170">Parlement de Bordeaux</author>
                     <author ref="isni:0000000383255772">Louis XIV</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="1"
@@ -228,50 +503,12 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Labadie243_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>LETTRE de Monsieur le Prince à Son Altesse Royale</title>
-                    <author ref="isni:0000000121209573">Louis de Bourbon Condé</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15192"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
     <TEI corresp="Labadie66_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
                     <title>ARREST de la Cour de Parlement de Bourdeaux</title>
-                    <author ref="isni:0000000119572170">France. Parlement de Bordeaux</author>
+                    <author ref="isni:0000000119572170">Parlement de Bordeaux</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
                     /></extent>
@@ -304,12 +541,89 @@
             </body>
         </text>
     </TEI>
+    <TEI corresp="Labadie243_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>LETTRE de Monsieur le Prince à Son Altesse Royale</title>
+                    <author ref="isni:0000000121209573">Louis II de Bourbon, prince de
+                        Condé</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15192"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Labadie58_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>ARREST de la Cour de Parlement de Bourdeaux</title>
+                    <author ref="isni:0000000119572170">Parlement de Bordeaux</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15185"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
     <TEI corresp="Labadie63_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
                     <title>ARREST de la Cour de Parlement de Bourdeaux</title>
-                    <author ref="isni:0000000119572170">France. Parlement de Bordeaux</author>
+                    <author ref="isni:0000000119572170">Parlement de Bordeaux</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
                     /></extent>
@@ -342,292 +656,6 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="M15259_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Arrest de la cour de parlement de Bourdeax [sic]. Du quinziesme jour de
-                        juin 1649. Portant cassation de l'arrest du dix-huictiesme de mars 1649.
-                        donné par la Cour des aydes.</title>
-                    <author ref="isni:0000000119572170">France. Parlement de Bordeaux</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17638"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau194_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Arrêt de la cour de parlement de Bordeaux, portant que très-humbles et
-                        itératives remontrances seront faites au roi sur le sujet de la retraite de
-                        monsieur le prince et des affaires présentes, avec les remontrances faites
-                        en conséquence dudit arrêt.</title>
-                    <author ref="isni:0000000119572170">France. Parlement de Bordeaux</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="30"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15052"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau190_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Arrêt de la cour de parlement de Bordeaux, portant qu’il sera informé
-                        contre ceux qui font des brigues, pratiques et menées, pour le
-                        rétablissement du duc d’Épernon dans le gouvernement de Guyenne.</title>
-                    <author ref="isni:0000000119572170">France. Parlement de Bordeaux</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15189"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau180_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Arrêt de la cour de parlement de Bordeaux , portant que le roi sera
-                        très-humblement supplié d'agréer que madame la princesse de Condé et
-                        monsieur le duc d'Anguien (sic), son fils, demeureront en la présente ville,
-                        sous sa sauvegarde et de sa justice, avec le registre y mentionné.</title>
-                    <author ref="isni:0000000119572170">France. Parlement de Bordeaux</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15173"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau181_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Arrêt de la cour de parlement de Bordeaux, portant que le sieur duc
-                        d’Épernon, le chevalier de La Valette, son frère, et leurs adhérans (sic)
-                        sont déclarés infracteurs de la paix, perturbateurs du repos publie, ennemis
-                        du roi et de son État.</title>
-                    <author ref="isni:0000000119572170">France. Parlement de Bordeaux</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15172"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau182_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Arrêt de la cour de parlement de Bordeaux, portant que les maîtres
-                        boulangers de la présente ville achèteront des blés, pour faire magasin et
-                        les convertir en farines , pour les nécessités du public.</title>
-                    <author ref="isni:0000000119572170">France. Parlement de Bordeaux</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15188"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau902_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Déclaration du roi, accordée à son parlement et ville de Bordeaux, du 1er
-                        octobre 1650, portant amnistie générale de ce qui a été fait depuis la
-                        dernière déclaration de Sa Majesté, du 26 décembre 1649, enregistrée en
-                        ladite cour le 7 janvier 1650, ensemble les Propositions de monseigneur le
-                        duc d’Orléans, registres du parlement de Paris, lettres de Sadite Majesté,
-                        portant approbation d'iceux et révocation de M. le duc d'Épernon du
-                        gouvernement de Guyenne, avec l'Arrêt d'enregistrement et de
-                        publication.</title>
-                    <author ref="isni:0000000121209573">Louis De Bourbon</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Londres, The British Library</repository>
-                            <idno source="https://books.google.fr/books?id=Hj4GreXvV74C"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
     <TEI corresp="Moreau1643_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
@@ -636,7 +664,7 @@
                     <author ref="isni:0000000393482485">Jacques Fonteneil</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="456"/><measure unit="decoration"
-                        quantity="0"/></extent>
+                        quantity="1"/></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
                     <availability status="restricted" n="cc-by">
@@ -666,15 +694,21 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2123_GBOOKS.xml">
+    <TEI corresp="Moreau902_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Lettre du Parlement de Bordeaux écrite à M. le duc d 'Orléans, avec la
-                        lettre circulaire envoyée à tous les parlements de France.</title>
-                    <author ref="isni:0000000119572170">Parlement de Bordeaux</author>
+                    <title>Déclaration du roi, accordée à son parlement et ville de Bordeaux, du 1er
+                        octobre 1650, portant amnistie générale de ce qui a été fait depuis la
+                        dernière déclaration de Sa Majesté, du 26 décembre 1649, enregistrée en
+                        ladite cour le 7 janvier 1650, ensemble les Propositions de monseigneur le
+                        duc d’Orléans, registres du parlement de Paris, lettres de Sadite Majesté,
+                        portant approbation d'iceux et révocation de M. le duc d'Épernon du
+                        gouvernement de Guyenne, avec l'Arrêt d'enregistrement et de
+                        publication.</title>
+                    <author ref="isni:0000000383255772">Louis XIV</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -685,8 +719,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=xbtFuFsH1PgC"/>
+                            <repository>Londres, The British Library</repository>
+                            <idno source="https://books.google.fr/books?id=Hj4GreXvV74C"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

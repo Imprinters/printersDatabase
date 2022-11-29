@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_HototGilles">
     <teiHeader>
         <fileDesc>
@@ -55,11 +53,8 @@
                             <event>
                                 <label type="bio" source="IdRef">Lieu d'activité : Orléans. Dates
                                     d'activité : 1642-1672. Adresse : Rue de l'Escrivinerie. Adresse
-                                    : Proche Sainte-Croix</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Imprimeur-libraire ; imprimeur du
-                                    Roi (1649) et de monseigneur le duc d'Orléans. Fils de Gilles I
+                                    : Proche Sainte-Croix','Imprimeur-libraire ; imprimeur du Roi
+                                    (1649) et de monseigneur le duc d'Orléans. Fils de Gilles I
                                     Hotot. Exerce sans doute dès 1642 en association avec sa mère,
                                     veuve de Gilles I Hotot</label>
                             </event>
@@ -77,14 +72,18 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="M15436-35_MAZ.xml">
+    <TEI corresp="Moreau2197_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>L'accommodement des habitans de Bordeaux avec le duc d'Espernon.</title>
-                    <author ref="isni:0000"/>
+                    <title>Lettre du roi sur la détention des princes de Condé, de Conty et duc de
+                        Longueville, envoyée au Parlement, le 20 janvier 1650.</title>
+                    <author ref="isni:0000000121223121">Jules Mazarin</author>
+                    <author ref="isni:0000000121327537">Hugues de Lionne</author>
+                    <author ref="isni:0000000061366576">Abel Servien</author>
+                    <author ref="isni:0000000383255772">Louis XIV</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -97,7 +96,86 @@
                         <msIdentifier>
                             <repository>Paris, Bibliothèque Mazarine</repository>
                             <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17684"
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17701"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1452-i_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le frondeur désintéressé.</title>
+                    <author ref="isni:0000000080867659">Isaac de Laffemas</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17706"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau412_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Articles de la paix, accordés entre messieurs du parlement de Bordeaux et
+                        monsieur d'Argençon </title>
+                    <author ref="isni:0000000383255772">Louis XIV</author>
+                    <author ref="isni:0000000115726371">René de Voyer Argenson</author>
+                    <author ref="isni:0000000119572170">Parlement de Bordeaux</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17680"
                             />
                         </msIdentifier>
                         <physDesc>
@@ -155,6 +233,44 @@
             </body>
         </text>
     </TEI>
+    <TEI corresp="M15436-35_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>L'accommodement des habitans de Bordeaux avec le duc d'Espernon.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17684"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
     <TEI corresp="M15436-4_MAZ.xml">
         <teiHeader>
             <fileDesc>
@@ -194,48 +310,6 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2197_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Lettre du roi sur la détention des princes de Condé, de Conty et duc de
-                        Longueville, envoyée au Parlement, le 20 janvier 1650.</title>
-                    <author ref="isni:0000000121223121">Jules Mazarin</author>
-                    <author ref="isni:0000000121327537">Hugues de Lionne</author>
-                    <author ref="isni:0000000061366576">Abel Servien</author>
-                    <author ref="isni:0000000383255772">Louis XIV</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17701"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
     <TEI corresp="Moreau1543_GALL.xml">
         <teiHeader>
             <fileDesc>
@@ -257,85 +331,6 @@
                         <msIdentifier>
                             <repository>Paris, Bibliothèque nationale de France</repository>
                             <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k725697"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1452-i_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Frondeur (le) désintéressé.</title>
-                    <author ref="isni:0000000080867659">Isaac de Laffemas</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17706"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau412_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Articles de la paix, accordés entre messieurs du parlement de Bordeaux et
-                        monsieur d'Argençon (sic)</title>
-                    <author ref="isni:0000000383255772">Louis XIV</author>
-                    <author ref="isni:0000000115726371">René de Voyer Argenson</author>
-                    <author ref="isni:0000000119572170">France. Parlement de Bordeaux</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17680"
-                            />
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

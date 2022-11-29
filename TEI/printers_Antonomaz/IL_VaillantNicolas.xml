@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_VaillantNicolas">
     <teiHeader>
         <fileDesc>
@@ -50,7 +48,7 @@
                         </residence>
                         <listEvent>
                             <event>
-                                <label type="bio" source="IdRef"/>
+                                <label type="bio"/>
                             </event>
                         </listEvent>
                     </person>
@@ -63,13 +61,54 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
+    <TEI corresp="Moreau403_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Articles accordés entre monsieur le comte de Palluau, maistre de camp de
+                        la cavalerie légère de France, commandant, pour le service du roi, en sa
+                        province du, Berry, lieutenant général ès armées de Sa Majesté, et monsieur
+                        le marquis de Persan, commandant dans le château de Mouron, appartenant à
+                        monsieur le prince, situé dans la rivière de Cher entre le Bourbonnais et le
+                        Berry, assiégé, il y a un an, par ledit sieur de Palluau.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=7Lmy1OgzmeoC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
     <TEI corresp="Moreau1023_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
                     <title>Dernière remontrance faite au roi par messieurs les députés du
                         parlement.</title>
-                    <author ref="isni:0000000121755355">Députés du Parlement de Paris</author>
+                    <author ref="isni:0000000121755355">Parlement de Paris</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="15"/><measure unit="decoration" quantity="1"
                     /></extent>

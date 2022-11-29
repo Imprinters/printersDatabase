@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_LesselinAlexandre">
     <teiHeader>
         <fileDesc>
@@ -57,10 +55,7 @@
                                 <label type="bio" source="IdRef">Apprenti puis gendre du
                                     libraire-relieur Louis I Frémery. Libraire en 1644, il est reçu
                                     imprimeur en 1656. Doit fermer son atelier en 1667 sur décision
-                                    du Conseil de police du 17 fév</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Paris : 1644-1667 ; Rue
+                                    du Conseil de police du 17 fév','Paris : 1644-1667 ; Rue
                                     Saint-Jean-de-Beauvais ; Rue de la (Vieille-) Bouclerie (, près
                                     le pont Saint-Michel ; proche la grand-porte du Palais, au coin
                                     de la rue de Calandre) ; Au coin de la rue Dauphine, devant le
@@ -78,45 +73,6 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="Moreau213_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Arrêt du parlement, donné toutes les chambres assemblées, pour le rabais
-                        des entrées de vin</title>
-                    <author ref="isni:0000000121755355">France. Parlement de Paris</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15091"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
     <TEI corresp="Moreau167_MAZ.xml">
         <teiHeader>
             <fileDesc>
@@ -126,7 +82,7 @@
                         Majesté, qu’en ont un nommé le Bailly et autres marchands de ladite ville de
                         Paris d’y en amener; et défenses sont faites, sur peine de la vie, d’y
                         mettre empêchement</title>
-                    <author ref="isni:0000000119572170">France. Parlement de Bordeaux</author>
+                    <author ref="isni:0000000119572170">Parlement de Bordeaux</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
                     /></extent>
@@ -159,15 +115,52 @@
             </body>
         </text>
     </TEI>
+    <TEI corresp="Moreau3864_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Triolets ( les ) royaux présentés à Leurs Majestés sur leur retour à
+                        Paris.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5429365p"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
     <TEI corresp="Moreau886_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Déclaration (la) de monseigneur le prince de Conty et de messieurs les
+                    <title>La déclaration de monseigneur le prince de Conty et de messieurs les
                         généraux, enregistrée en parlement, pour l’exécution de l’arrêt du huitième
                         janvier dernier contre le cardinal Mazarin, pour le soulagement du peuple et
                         la paix générale.</title>
-                    <author ref="isni:0000000121755355">France. Parlement de Paris</author>
+                    <author ref="isni:0000000121755355">Parlement de Paris</author>
                     <author ref="isni:0000000119302891">Armand de Bourbon Conti</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
@@ -184,6 +177,201 @@
                             <repository>Paris, Bibliothèque Mazarine</repository>
                             <idno
                                 source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14842"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2230_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La lettre envoyée à monsieur le lieutenant général de la ville de
+                        Soissons, le 15 février 1649, touchant la grande affection que ledit
+                        lieutenant a témoigné avoir pour le roi et son Parlement, d'avoir fait
+                        fermer les portes de ladite ville contre les traitres échevins qui venoient
+                        d'offrir les clefs au cardinal Mazarin. A Saint-Germain-en-Laye, écrite par
+                        un fidèle sujet du roi, affectionné au bien de sa patrie.</title>
+                    <author ref="isni:0000000011948578">Albin Tilmarrit</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=1hQADjEq97QC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2579_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Ode panégyrique à monseigneur l'archevêque de Corinthe, coadjuteur de
+                        Paris.</title>
+                    <author ref="viaf:209292486">Jean Du Teil</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5707898b"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau346_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Arrêt de la cour de parlement de Rouen, portant que le cardinal Mazarin,
+                        qui séjourne dans les places de ladite province, lève les garnisons et les
+                        change, ait à s'en retirer promptement, ses parents et domestiques
+                        étrangers, autrement permis, aux communes et autres, de courir sus.</title>
+                    <author ref="isni:0000000480502587">Parlement de Normandie</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k6323218s"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau333_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Arrêt de la cour de parlement, portant décharge entière du loyer du terme
+                        de Pâques dernier; et, pour faire droit sur la remise de celui de la
+                        Saint-Jean ensuivant, à renvoyé les parties à la barre de ladite cour, pour
+                        contester par instances séparées.</title>
+                    <author ref="isni:0000000121755355">Parlement de Paris</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=wA9D-XwymPsC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau213_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Arrêt du parlement, donné toutes les chambres assemblées, pour le rabais
+                        des entrées de vin</title>
+                    <author ref="isni:0000000121755355">Parlement de Paris</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15091"
                             />
                         </msIdentifier>
                         <physDesc>
@@ -239,14 +427,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2054_MAZ.xml">
+    <TEI corresp="Moreau4014_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Lettre de Son Altesse Royale au roi.</title>
-                    <author ref="isni:0000000121336441">Gaston Orléans</author>
+                    <title>Vers à la Fronde sur la mode des hommes, présentés aux curieux du
+                        temps.</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -257,88 +446,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14688"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2579_GALL.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Ode panégyrique à monseigneur l'archevêque de Corinthe, coadjuteur de
-                        Paris.</title>
-                    <author ref="viaf:209292486">Jean Du Teil</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5707898b"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2230_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Lettre (la) envoyée à monsieur le lieutenant général de la ville de
-                        Soissons, le 15 février 1649, touchant la grande affection que ledit
-                        lieutenant a témoigné avoir pour le roi et son Parlement, d'avoir fait
-                        fermer les portes de ladite ville contre les traitres échevins qui venoient
-                        d'offrir les clefs au cardinal Mazarin. A Saint-Germain-en-Laye, écrite par
-                        un fidèle sujet du roi, affectionné au bien de sa patrie.</title>
-                    <author ref="isni:0000">Albin Tilmarrit</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=1hQADjEq97QC&amp;hl=fr"/>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k54275739"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -391,164 +500,12 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau4014_GALL.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Vers à la Fronde sur la mode des hommes, présentés aux curieux du
-                        temps.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k54275739"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1595_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Harangue (la) faite au roi par M. Charpentier, conseiller en Parlement et
-                        un des députés vers Sa Ma jesté , pour l'éloignement du cardinal Mazarin, et
-                        pour la conclusion de la paix générale, prononcée à Saint Denys, le huitième
-                        juillet 1652.</title>
-                    <author ref="idref:260745049">Thierry Charpentier</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=8X5ekVOiA-QC"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau3864_GALL.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Triolets ( les ) royaux présentés à Leurs Majestés sur leur retour à
-                        Paris.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5429365p"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau346pp66-69_GALL.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Arrêt de la cour de parlement de Rouen, portant que le cardinal Mazarin,
-                        qui séjourne dans les places de ladite province, lève les garnisons et les
-                        change, ait à s'en retirer promptement, ses parents et domestiques
-                        étrangers, autrement permis, aux communes et autres, de courir sus.</title>
-                    <author ref="isni:0000000480502587">Parlement de Rouen</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k6323218s"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
     <TEI corresp="Moreau1199_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Effets (les) admirables de la providence de Dieu sur la ville de Paris,
-                        ou Réflexions d’un théologien, envoyées à un sien ami solitaire, sur les
+                    <title>Les effets admirables de la providence de Dieu sur la ville de Paris, ou
+                        Réflexions d’un théologien, envoyées à un sien ami solitaire, sur les
                         affaires du temps présent.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
@@ -583,15 +540,17 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1796_GBOOKS.xml">
+    <TEI corresp="Moreau1595_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Justification (la) du Parlement et de la ville de Paris dans la prise des
-                        armes contre l'oppression et tyrannie du cardinal Mazarin.</title>
-                    <author ref="isni:0000"/>
+                    <title>La harangue faite au roi par M. Charpentier, conseiller en Parlement et
+                        un des députés vers Sa Ma jesté , pour l'éloignement du cardinal Mazarin, et
+                        pour la conclusion de la paix générale, prononcée à Saint Denys, le huitième
+                        juillet 1652.</title>
+                    <author ref="idref:260745049">Thierry Charpentier</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="19"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -603,7 +562,45 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?vid=BML37001100802524"/>
+                            <idno source="https://books.google.fr/books?id=8X5ekVOiA-QC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2054_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettre de Son Altesse Royale au roi.</title>
+                    <author ref="isni:0000000121336441">Gaston d'Orléans</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14688"
+                            />
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -624,8 +621,8 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Insignes (les) obligations que les rois de France et leurs couronnes
-                        (sic) ont toujours eu (sic) au Parlement de Paris.</title>
+                    <title>Les insignes obligations que les rois de France et leurs couronnes ont
+                        toujours eu au Parlement de Paris.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
@@ -641,6 +638,43 @@
                         <msIdentifier>
                             <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
                             <idno source="https://books.google.fr/books?id=2E1KAAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1796_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La justification du Parlement et de la ville de Paris dans la prise des
+                        armes contre l'oppression et tyrannie du cardinal Mazarin.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="19"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?vid=BML37001100802524"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

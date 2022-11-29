@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_LaHayeRolinde">
     <teiHeader>
         <fileDesc>
@@ -55,16 +53,10 @@
                         <listEvent>
                             <event>
                                 <label type="bio" source="IdRef">Devise(s) : Si in viridi, quid in
-                                    arido ?</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Par sentence du 27 fév. 1671, il
-                                    lui est défendu de servir de prête-nom à des compagnons tenant
-                                    boutique</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Paris : 1634-1668? ; Rue d'Écosse,
-                                    (au Mont Saint-Hilaire,) près le Puits Certain</label>
+                                    arido ?','Par sentence du 27 fév. 1671, il lui est défendu de
+                                    servir de prête-nom à des compagnons tenant boutique','Paris :
+                                    1634-1668? ; Rue d'Écosse, (au Mont Saint-Hilaire,) près le
+                                    Puits Certain</label>
                             </event>
                         </listEvent>
                     </person>
@@ -77,14 +69,50 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="Moreau3394_GBOOKS.xml">
+    <TEI corresp="Moreau3695_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Réponse (la) de La Rallière à l'Adieu de Catelan, son associé, ou
-                        l'Abrégé de la vie de ces deux infâmes ministres et auteurs des principaux
-                        brigandages, voleries et extorsions de la France.</title>
-                    <author ref="viaf:118157883028860442880">Samuel Gaudon de La Rallière</author>
+                    <title>La sortie de monseigneur le duc de Beaufort du bois de Vincennes.
+                        Stances.</title>
+                    <author ref="isni:0000000381379333">Salomon de Priezac</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5723645t"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1487_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Les généreux sentiments d'un bon François, présentés à la reine par un de
+                        ses aumôniers.</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
                     /></extent>
@@ -98,7 +126,7 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=kpUZnEO_1q8C&amp;hl=fr"/>
+                            <idno source="hhttps://books.google.fr/books?id=H9s0AyOdV0AC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -156,12 +184,12 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Courrier (le) françois, apportant toutes les nouvelles véritables de ce
-                        qui s’est passé depuis l’enlèvement du roi, tant à Paris qu'à
+                    <title>Le courrier françois, apportant toutes les nouvelles véritables de ce qui
+                        s’est passé depuis l’enlèvement du roi, tant à Paris qu'à
                         Saint-Germain-en-Laye.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="94"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="94"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -196,12 +224,12 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Courrier (le) extraordinaire, apportant les nouvelles de la réception de
+                    <title>Le courrier extraordinaire, apportant les nouvelles de la réception de
                         messieurs les gens du roi à Saint-Germain-en-Laye et de celle du courrier
                         d'Espagne au palais, avec les harangues qui ont été faites.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -215,6 +243,84 @@
                             <repository>Lyon, Bibliothèque municipale</repository>
                             <idno
                                 source="https://www.google.fr/books/edition/Le_Covrier_extraordinaire_apportant_les/5AVjf7szb2AC?hl=fr&amp;gbpv=0"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2535_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Nouveau discours politique contre les ennemis du Parlement et de la ville
+                        de Paris, où il est traité de l'usage légitime de la puissance royale dans
+                        l'imposition des subsides, de la dignité du Parlement de Paris dans la
+                        France, et de l'innocence de la ville de Paris.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14718"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3suppl85_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La sortie de monseigneur le duc de Beaufort du bois de Vincennes.</title>
+                    <author ref="isni:0000000381379333">Salomon de Priezac</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
+                            <idno source="https://books.google.fr/books?id=Os88AAAAcAAJ&amp;pg=PP1"
                             />
                         </msIdentifier>
                         <physDesc>
@@ -312,90 +418,11 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2535_MAZ.xml">
+    <TEI corresp="Moreau2suppl195_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Nouveau discours politique contre les ennemis du Parlement et de la ville
-                        de Paris, où il est traité de l'usage légitime de la puissance royale dans
-                        l'imposition des subsides, de la dignité du Parlement de Paris dans la
-                        France, et de l'innocence de la ville de Paris.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14718"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau3695_GALL.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Sortie (la) de monseigneur le duc de Beaufort du bois de Vincennes.
-                        Stances.</title>
-                    <author ref="isni:0000000381379333">Salomon de Priezac</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5723645t"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1487_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Généreux (les) sentiments d'un bon François, présentés à la reine par un
-                        de ses aumôniers.</title>
+                    <title>Suite et seconde lettre du bon pauvre à la reyne végente.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
@@ -409,8 +436,46 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
+                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
+                            <idno source="https://books.google.fr/books?id=vH1KAAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3394_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La réponse de La Rallière à l'Adieu de Catelan, son associé, ou l'Abrégé
+                        de la vie de ces deux infâmes ministres et auteurs des principaux
+                        brigandages, voleries et extorsions de la France.</title>
+                    <author ref="viaf:118157883028860442880">Samuel Gaudon de La Rallière</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="hhttps://books.google.fr/books?id=H9s0AyOdV0AC"/>
+                            <idno source="https://books.google.fr/books?id=kpUZnEO_1q8C&amp;hl=fr"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -431,7 +496,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Militante (la) république de Venise prosternée aux pieds de la France,
+                    <title>La militante république de Venise prosternée aux pieds de la France,
                         implorant son secours contre la tyrannie du Turc.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
@@ -448,81 +513,6 @@
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale</repository>
                             <idno source="https://books.google.fr/books?id=F5PkG6frBtEC&amp;hl=fr"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau3suppl85_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Sortie (la) de monseigneur le duc de Beaufort du bois de
-                        Vincennes.</title>
-                    <author ref="isni:0000000381379333">Salomon de Priezac</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
-                            <idno source="https://books.google.fr/books?id=Os88AAAAcAAJ&amp;pg=PP1"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1729_GALL.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Inventaire des merveilles du monde rencontrées dans le palais du cardinal
-                        Mazarin.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k64671418"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -562,6 +552,43 @@
                             <repository>Florence, Bibliothèque nationale centrale de
                                 Florence</repository>
                             <idno source="https://books.google.fr/books?id=0sVE1FIeA_AC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1729_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Inventaire des merveilles du monde rencontrées dans le palais du cardinal
+                        Mazarin.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k64671418"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

@@ -1,300 +1,347 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_SaraRobert">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title type="standard" ref="isni:0000000003330006">
-                    <forename>Robert</forename>
-                    <surname>Sara</surname>
-                </title>
-            </titleStmt>
-            <editionStmt>
-                <edition/>
-                <respStmt xml:id="ZC" ref="orcid:0000-0002-3327-3967">
-                    <name>Zoé Cappe</name>
-                    <resp>Créateur de la fiche</resp>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher ref="https://github.com/Antonomaz" xml:id="Antonomaz"
-                    >Antonomaz</publisher>
-                <availability status="restricted" n="cc-by">
-                    <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <listBibl>
-                    <bibl source="http://data.bnf.fr/ark:/12148/cb13770968b#foaf:Person"/>
-                    <bibl source="http://isni.org/isni/0000000003330006"/>
-                    <bibl source="http://viaf.org/viaf/37098984"/>
-                    <bibl source="http://www.idref.fr/069065624/id"/>
-                </listBibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <particDesc>
-                <listPerson>
-                    <person>
-                        <persName type="standard">Sara, Robert</persName>
-                        <persName type="alternative"/>
-                        <sex>M</sex>
-                        <birth when="1600" cert="low"/>
-                        <death when="1650" cert="high"/>
-                        <occupation>Imprimeur-libraire</occupation>
-                        <residence cert="high">
-                            <address>
-                                <objectName>au bras d'Hercule</objectName>
-                                <street>rue de la Harpe</street>
-                                <settlement ref="geonames:2988507">Paris</settlement>
-                                <country>France</country>
-                            </address>
-                        </residence>
-                        <listEvent>
-                            <event>
-                                <label type="bio" source="IdRef">Paris : 1629-1650 ; Rue de la Harpe
-                                    - Au Bras d'Hercule</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Imprimeur-libraire. Fils d'un
-                                    laboureur de la région parisienne. En apprentissage chez
-                                    l'imprimeur-libraire Pierre I Chevalier à partir de sept. 1604.
-                                    Se marie en 1611. Reçu maître le 26 avril 1629. Auteur de
-                                    plusieurs préfaces et avis liminaires d'éditions. Encore en
-                                    activité en fév. 1650 ; veuve attestée en 1651</label>
-                            </event>
-                        </listEvent>
-                    </person>
-                </listPerson>
-            </particDesc>
-        </profileDesc>
-        <revisionDesc>
-            <listChange>
-                <change when="2022-07-10" who="#ZC">Création de la fiche</change>
-            </listChange>
-        </revisionDesc>
-    </teiHeader>
-    <TEI corresp="Moreau3919_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Véritable (la) apparition d'Hortensia Buffalini à Jules Mazarini, son
-                        fils, par P. D. P. P. sieur de Carigny.</title>
-                    <author ref="viaf:309700747">P.D.P.P., Sieur de Carigny</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=lpR1Sb1Pz9wC"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau142_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Apparition merveilleuse de l’Ange gardien à la reine végente.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=y6g7rAqNMP4C"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1415_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>France (la) à la reyne.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=pTZk1kCB3cwC"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2486_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Monarchie (la) affligée, avec ses consolations politiques et religieuses,
-                        à monseigneur le prince de Conty.</title>
-                    <author ref="isni:0000000061373231">Suzanne de Nervèze</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14938"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1264_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Épilogue, ou Dernier appareil du bon citoyen sur les misères
-                        publiques.</title>
-                    <author ref="isni:0000000108917831">Charles Ogier</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Florence, Bibliothèque nationale de Florence</repository>
-                            <idno source="https://books.google.fr/books?id=vzudxq-t8RAC"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau472_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Avis à la reine, sur la conférence de Ruel.</title>
-                    <author ref="isni:0000000110344972">Daniel Hay du Chastelet, abbé de Chambon E.
-                        B. P.</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=js8HJjdfZKwC"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
+            <teiHeader>
+                        <fileDesc>
+                                    <titleStmt>
+                                                <title type="standard" ref="isni:0000000003330006">
+                                                  <forename>Robert</forename>
+                                                  <surname>Sara</surname>
+                                                </title>
+                                    </titleStmt>
+                                    <editionStmt>
+                                                <edition/>
+                                                <respStmt xml:id="ZC"
+                                                  ref="orcid:0000-0002-3327-3967">
+                                                  <name>Zoé Cappe</name>
+                                                  <resp>Créateur de la fiche</resp>
+                                                </respStmt>
+                                    </editionStmt>
+                                    <publicationStmt>
+                                                <publisher ref="https://github.com/Antonomaz"
+                                                  xml:id="Antonomaz">Antonomaz</publisher>
+                                                <availability status="restricted" n="cc-by">
+                                                  <licence
+                                                  target="https://creativecommons.org/licenses/by/4.0"
+                                                  />
+                                                </availability>
+                                    </publicationStmt>
+                                    <sourceDesc>
+                                                <listBibl>
+                                                  <bibl
+                                                  source="http://data.bnf.fr/ark:/12148/cb13770968b#foaf:Person"/>
+                                                  <bibl
+                                                  source="http://isni.org/isni/0000000003330006"/>
+                                                  <bibl source="http://viaf.org/viaf/37098984"/>
+                                                  <bibl source="http://www.idref.fr/069065624/id"/>
+                                                </listBibl>
+                                    </sourceDesc>
+                        </fileDesc>
+                        <profileDesc>
+                                    <particDesc>
+                                                <listPerson>
+                                                  <person>
+                                                  <persName type="standard">Sara, Robert</persName>
+                                                  <persName type="alternative"/>
+                                                  <sex>M</sex>
+                                                  <birth when="1600" cert="low"/>
+                                                  <death when="1650" cert="high"/>
+                                                  <occupation>Imprimeur-libraire</occupation>
+                                                  <residence cert="high">
+                                                  <address>
+                                                  <objectName>au bras d'Hercule</objectName>
+                                                  <street>rue de la Harpe</street>
+                                                  <settlement ref="geonames:2988507"
+                                                  >Paris</settlement>
+                                                  <country>France</country>
+                                                  </address>
+                                                  </residence>
+                                                  <listEvent>
+                                                  <event>
+                                                  <label type="bio" source="IdRef">Paris : 1629-1650
+                                                  ; Rue de la Harpe - Au Bras
+                                                  d'Hercule','Imprimeur-libraire. Fils d'un
+                                                  laboureur de la région parisienne. En
+                                                  apprentissage chez l'imprimeur-libraire Pierre I
+                                                  Chevalier à partir de sept. 1604. Se marie en
+                                                  1611. Reçu maître le 26 avril 1629. Auteur de
+                                                  plusieurs préfaces et avis liminaires d'éditions.
+                                                  Encore en activité en fév. 1650 ; veuve attestée
+                                                  en 1651</label>
+                                                  </event>
+                                                  </listEvent>
+                                                  </person>
+                                                </listPerson>
+                                    </particDesc>
+                        </profileDesc>
+                        <revisionDesc>
+                                    <listChange>
+                                                <change when="2022-07-10" who="#ZC">Création de la
+                                                  fiche</change>
+                                    </listChange>
+                        </revisionDesc>
+            </teiHeader>
+            <TEI corresp="Moreau3919_GBOOKS.xml">
+                        <teiHeader>
+                                    <fileDesc>
+                                                <titleStmt>
+                                                  <title>La véritable apparition d'Hortensia
+                                                  Buffalini à Jules Mazarini, son fils, par P. D. P.
+                                                  P. sieur de Carigny.</title>
+                                                  <author ref="viaf:309700747">Sieur de Carigny P.
+                                                  D. P. P. </author>
+                                                </titleStmt>
+                                                <extent><measure unit="pages" quantity="8"/><measure
+                                                  unit="decoration" quantity="1"/></extent>
+                                                <publicationStmt>
+                                                  <publisher ref="https://github.com/Antonomaz"
+                                                  >Antonomaz</publisher>
+                                                  <availability status="restricted" n="cc-by">
+                                                  <licence
+                                                  target="https://creativecommons.org/licenses/by/4.0"
+                                                  />
+                                                  </availability>
+                                                </publicationStmt>
+                                                <sourceDesc>
+                                                  <msDesc>
+                                                  <msIdentifier>
+                                                  <repository>Lyon, Bibliothèque
+                                                  municipale</repository>
+                                                  <idno
+                                                  source="https://books.google.fr/books?id=lpR1Sb1Pz9wC"
+                                                  />
+                                                  </msIdentifier>
+                                                  <physDesc>
+                                                  <decoDesc>
+                                                  <decoNote/>
+                                                  </decoDesc>
+                                                  </physDesc>
+                                                  </msDesc>
+                                                </sourceDesc>
+                                    </fileDesc>
+                        </teiHeader>
+                        <text>
+                                    <body>
+                                                <div/>
+                                    </body>
+                        </text>
+            </TEI>
+            <TEI corresp="Moreau1415_GBOOKS.xml">
+                        <teiHeader>
+                                    <fileDesc>
+                                                <titleStmt>
+                                                  <title>La france à la reyne.</title>
+                                                  <author ref="isni:0000"/>
+                                                </titleStmt>
+                                                <extent><measure unit="pages" quantity="7"/><measure
+                                                  unit="decoration" quantity="0"/></extent>
+                                                <publicationStmt>
+                                                  <publisher ref="https://github.com/Antonomaz"
+                                                  >Antonomaz</publisher>
+                                                  <availability status="restricted" n="cc-by">
+                                                  <licence
+                                                  target="https://creativecommons.org/licenses/by/4.0"
+                                                  />
+                                                  </availability>
+                                                </publicationStmt>
+                                                <sourceDesc>
+                                                  <msDesc>
+                                                  <msIdentifier>
+                                                  <repository>Lyon, Bibliothèque
+                                                  municipale</repository>
+                                                  <idno
+                                                  source="https://books.google.fr/books?id=pTZk1kCB3cwC"
+                                                  />
+                                                  </msIdentifier>
+                                                  <physDesc>
+                                                  <decoDesc>
+                                                  <decoNote/>
+                                                  </decoDesc>
+                                                  </physDesc>
+                                                  </msDesc>
+                                                </sourceDesc>
+                                    </fileDesc>
+                        </teiHeader>
+                        <text>
+                                    <body>
+                                                <div/>
+                                    </body>
+                        </text>
+            </TEI>
+            <TEI corresp="Moreau142_GBOOKS.xml">
+                        <teiHeader>
+                                    <fileDesc>
+                                                <titleStmt>
+                                                  <title>Apparition merveilleuse de l’Ange gardien à
+                                                  la reine régente.</title>
+                                                  <author ref="isni:0000"/>
+                                                </titleStmt>
+                                                <extent><measure unit="pages" quantity="8"/><measure
+                                                  unit="decoration" quantity="0"/></extent>
+                                                <publicationStmt>
+                                                  <publisher ref="https://github.com/Antonomaz"
+                                                  >Antonomaz</publisher>
+                                                  <availability status="restricted" n="cc-by">
+                                                  <licence
+                                                  target="https://creativecommons.org/licenses/by/4.0"
+                                                  />
+                                                  </availability>
+                                                </publicationStmt>
+                                                <sourceDesc>
+                                                  <msDesc>
+                                                  <msIdentifier>
+                                                  <repository>Lyon, Bibliothèque
+                                                  municipale</repository>
+                                                  <idno
+                                                  source="https://books.google.fr/books?id=y6g7rAqNMP4C"
+                                                  />
+                                                  </msIdentifier>
+                                                  <physDesc>
+                                                  <decoDesc>
+                                                  <decoNote/>
+                                                  </decoDesc>
+                                                  </physDesc>
+                                                  </msDesc>
+                                                </sourceDesc>
+                                    </fileDesc>
+                        </teiHeader>
+                        <text>
+                                    <body>
+                                                <div/>
+                                    </body>
+                        </text>
+            </TEI>
+            <TEI corresp="Moreau472_GBOOKS.xml">
+                        <teiHeader>
+                                    <fileDesc>
+                                                <titleStmt>
+                                                  <title>Avis à la reine, sur la conférence de
+                                                  Ruel.</title>
+                                                  <author ref="isni:0000000110344972">Daniel Hay du
+                                                  Chastelet, abbé de Chambon E. B. P.</author>
+                                                </titleStmt>
+                                                <extent><measure unit="pages" quantity="4"/><measure
+                                                  unit="decoration" quantity="1"/></extent>
+                                                <publicationStmt>
+                                                  <publisher ref="https://github.com/Antonomaz"
+                                                  >Antonomaz</publisher>
+                                                  <availability status="restricted" n="cc-by">
+                                                  <licence
+                                                  target="https://creativecommons.org/licenses/by/4.0"
+                                                  />
+                                                  </availability>
+                                                </publicationStmt>
+                                                <sourceDesc>
+                                                  <msDesc>
+                                                  <msIdentifier>
+                                                  <repository>Lyon, Bibliothèque
+                                                  municipale</repository>
+                                                  <idno
+                                                  source="https://books.google.fr/books?id=js8HJjdfZKwC"
+                                                  />
+                                                  </msIdentifier>
+                                                  <physDesc>
+                                                  <decoDesc>
+                                                  <decoNote/>
+                                                  </decoDesc>
+                                                  </physDesc>
+                                                  </msDesc>
+                                                </sourceDesc>
+                                    </fileDesc>
+                        </teiHeader>
+                        <text>
+                                    <body>
+                                                <div/>
+                                    </body>
+                        </text>
+            </TEI>
+            <TEI corresp="Moreau2486_MAZ.xml">
+                        <teiHeader>
+                                    <fileDesc>
+                                                <titleStmt>
+                                                  <title>La monarchie affligée, avec ses
+                                                  consolations politiques et religieuses, à
+                                                  monseigneur le prince de Conty.</title>
+                                                  <author ref="isni:0000000061373231">Suzanne de
+                                                  Nervèze</author>
+                                                </titleStmt>
+                                                <extent><measure unit="pages" quantity="7"/><measure
+                                                  unit="decoration" quantity="1"/></extent>
+                                                <publicationStmt>
+                                                  <publisher ref="https://github.com/Antonomaz"
+                                                  >Antonomaz</publisher>
+                                                  <availability status="restricted" n="cc-by">
+                                                  <licence
+                                                  target="https://creativecommons.org/licenses/by/4.0"
+                                                  />
+                                                  </availability>
+                                                </publicationStmt>
+                                                <sourceDesc>
+                                                  <msDesc>
+                                                  <msIdentifier>
+                                                  <repository>Paris, Bibliothèque
+                                                  Mazarine</repository>
+                                                  <idno
+                                                  source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14938"
+                                                  />
+                                                  </msIdentifier>
+                                                  <physDesc>
+                                                  <decoDesc>
+                                                  <decoNote/>
+                                                  </decoDesc>
+                                                  </physDesc>
+                                                  </msDesc>
+                                                </sourceDesc>
+                                    </fileDesc>
+                        </teiHeader>
+                        <text>
+                                    <body>
+                                                <div/>
+                                    </body>
+                        </text>
+            </TEI>
+            <TEI corresp="Moreau1264_GBOOKS.xml">
+                        <teiHeader>
+                                    <fileDesc>
+                                                <titleStmt>
+                                                  <title>Épilogue, ou Dernier appareil du bon
+                                                  citoyen sur les misères publiques.</title>
+                                                  <author ref="isni:0000000108917831">Charles
+                                                  Ogier</author>
+                                                </titleStmt>
+                                                <extent><measure unit="pages" quantity="11"
+                                                  /><measure unit="decoration" quantity="1"
+                                                  /></extent>
+                                                <publicationStmt>
+                                                  <publisher ref="https://github.com/Antonomaz"
+                                                  >Antonomaz</publisher>
+                                                  <availability status="restricted" n="cc-by">
+                                                  <licence
+                                                  target="https://creativecommons.org/licenses/by/4.0"
+                                                  />
+                                                  </availability>
+                                                </publicationStmt>
+                                                <sourceDesc>
+                                                  <msDesc>
+                                                  <msIdentifier>
+                                                  <repository>Florence, Bibliothèque nationale de
+                                                  Florence</repository>
+                                                  <idno
+                                                  source="https://books.google.fr/books?id=vzudxq-t8RAC"
+                                                  />
+                                                  </msIdentifier>
+                                                  <physDesc>
+                                                  <decoDesc>
+                                                  <decoNote/>
+                                                  </decoDesc>
+                                                  </physDesc>
+                                                  </msDesc>
+                                                </sourceDesc>
+                                    </fileDesc>
+                        </teiHeader>
+                        <text>
+                                    <body>
+                                                <div/>
+                                    </body>
+                        </text>
+            </TEI>
 </teiCorpus>

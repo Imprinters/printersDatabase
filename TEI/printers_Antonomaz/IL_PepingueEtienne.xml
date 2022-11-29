@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_PepingueEtienne">
   <teiHeader>
     <fileDesc>
@@ -62,12 +60,9 @@
                   déclaration de sa veuve lors de l'enquête de nov.-déc. 1701. Figure aux
                   procès-verbaux de visite des imprimeries parisiennes en juillet 1657 et oct. 1666
                   (BnF, ms. fr. 17566, fol. 17, et 17563, fol. 107-108), mais non plus en mars 1679.
-                  Décédé en 1679 ou peu avant (veuve attestée en sa succession)</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Paris : 1650-1679?. - Rue de la Harpe, au-dessus de
-                  Saint-Côme (, entre les collèges de Narbonne et Bayeux). - Enseigne(s) : Au Bras
-                  d'Hercule</label>
+                  Décédé en 1679 ou peu avant (veuve attestée en sa succession)','Paris :
+                  1650-1679?. - Rue de la Harpe, au-dessus de Saint-Côme (, entre les collèges de
+                  Narbonne et Bayeux). - Enseigne(s) : Au Bras d'Hercule</label>
               </event>
             </listEvent>
           </person>

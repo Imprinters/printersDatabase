@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_AnguerrandPierre">
     <teiHeader>
         <fileDesc>
@@ -59,16 +57,13 @@
                                 <label type="bio" source="IdRef">Paris : 1639?-1659? ; Sur le
                                     Pont-Neuf, proche la porte de la Samaritaine ; Rue Sainte-Anne
                                     (, proche le Palais) ; Sur le Pont-Neuf ; Rue de la Monnaie ;
-                                    Rue Saint-Germain</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Autre(s) graphie(s) : Anguerant ;
-                                    Anguerran. Compagnon imprimeur attesté dès août 1636 ; établi
-                                    libraire (1639) puis imprimeur (1641) sans avoir été reçu
-                                    maître. En fév. 1650, il étale encore sur le Pont-Neuf malgré
-                                    les défenses qui lui en ont été faites en août 1649. Encore
-                                    qualifié d''imprimeur-libraire' en mai 1659, bien qu'il ne
-                                    figure pas parmi les imprimeurs recensés en juillet 1657</label>
+                                    Rue Saint-Germain','Autre(s) graphie(s) : Anguerant ; Anguerran.
+                                    Compagnon imprimeur attesté dès août 1636 ; établi libraire
+                                    (1639) puis imprimeur (1641) sans avoir été reçu maître. En fév.
+                                    1650, il étale encore sur le Pont-Neuf malgré les défenses qui
+                                    lui en ont été faites en août 1649. Encore qualifié
+                                    d''imprimeur-libraire' en mai 1659, bien qu'il ne figure pas
+                                    parmi les imprimeurs recensés en juillet 1657</label>
                             </event>
                         </listEvent>
                     </person>

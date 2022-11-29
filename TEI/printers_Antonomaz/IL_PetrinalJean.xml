@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_PetrinalJean">
     <teiHeader>
         <fileDesc>
@@ -55,14 +53,11 @@
                             <event>
                                 <label type="bio" source="IdRef">Paris : 1628-1652 ; Rue de la
                                     Bûcherie (, près le Petit Châtelet) - Aux Trois
-                                    Marmousets</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Imprimeur-libraire. Apprenti de
-                                    Louis Sevestre à partir d'oct. 1603, il est reçu maître le 14
-                                    déc. 1628. En janv. 1650 libéré de la prison du Petit Châtelet
-                                    où il a été incarcéré pour avoir imprimé des libelles défendus.
-                                    Encore en activité en 1652</label>
+                                    Marmousets','Imprimeur-libraire. Apprenti de Louis Sevestre à
+                                    partir d'oct. 1603, il est reçu maître le 14 déc. 1628. En janv.
+                                    1650 libéré de la prison du Petit Châtelet où il a été incarcéré
+                                    pour avoir imprimé des libelles défendus. Encore en activité en
+                                    1652</label>
                             </event>
                         </listEvent>
                     </person>
@@ -75,49 +70,12 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="Moreau800_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Coup (le) d’État de monseigneur le duc d'Orléans, envoyé à monseigneur le
-                        Prince, touchant les affaires présentes.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=Qvj-6r_M_ikC"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
     <TEI corresp="Moreau3932_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Véritable (le) entretien de la reine d'Angleterre avec le roi et la reine
-                        à Saint-Germain en Laye, en présence de plusieurs seigneurs de la cour et
+                    <title>Le véritable entretien de la reine d'Angleterre avec le roi et la reine à
+                        Saint-Germain en Laye, en présence de plusieurs seigneurs de la cour et
                         autres personnes de considération, ensemble les particularités de ce qui
                         s'est passé de plus remarquable dans leurs résolutions touchant les affaires
                         pressantes pour la paix générale.</title>
@@ -154,11 +112,164 @@
             </body>
         </text>
     </TEI>
+    <TEI corresp="Moreau447_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Avertissement à messieurs les prévost des marchands et eschevins de la
+                        ville de Paris, contenant l’explication de l’éclipse qui se doit faire le
+                        huitiesme jour d'avril de la présente année, et autres choses qui doivent
+                        arriver à la poursuite du cardinal Mazarin, avec le dénombrement des villes
+                        qui seront investies ou vexés par les gens de guerre, prédit par Michel
+                        Nostradamus</title>
+                    <author ref="isni:0000000061384678">Jacques Mengau</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="15"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
+                            <idno source="https://books.google.fr/books?id=PGZCAAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau800_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le coup d’État de monseigneur le duc d'Orléans, envoyé à monseigneur le
+                        Prince, touchant les affaires présentes.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=Qvj-6r_M_ikC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau801_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le coup d’État de monseigneur le Prince, avec la défaite du mareschal
+                        d’Hocquincour par monseigneur le duc de Nemours, et la prise de huict cents
+                        prisonniers portant l’écharpe verte.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=nrsY9YuKer4C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3299_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Remontrance d'un bon François sur les impiétés du cardinal
+                        Mazarin.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=ba1IBAt3eIEC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
     <TEI corresp="Moreau2277_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Lettres (les) du cardinal Mazarin envoyées à la reine et à monsieur le
+                    <title>Les lettres du cardinal Mazarin envoyées à la reine et à monsieur le
                         prévôt des marchands de la ville de Paris.</title>
                     <author ref="isni:0000000121223121">Jules Mazarin</author>
                 </titleStmt>
@@ -174,7 +285,7 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Munich, Bibliothèque de l'Etat de Bavière</repository>
-                            <idno source="https://books.google.fr/books?id=XmZCAAAAcAAJ&amp;hl=fr"/>
+                            <idno source="https://books.google.fr/books?id=XmZCAAAAcAAJ"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -233,8 +344,8 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Manifeste (le) de monseigneur le duc d'Orléans, avec les conspirations du
-                        cardinal Mazarin découvertes par Son Altesse Royale, envoyées (sic) aux bons
+                    <title>Le manifeste de monseigneur le duc d'Orléans, avec les conspirations du
+                        cardinal Mazarin découvertes par Son Altesse Royale, envoyées aux bons
                         François et la prise de quatre cents casaques.</title>
                     <author ref="isni:0000000121336441">Gaston d'Orléans</author>
                 </titleStmt>
@@ -267,19 +378,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau447_GBOOKS.xml">
+    <TEI corresp="Moreau1200_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Avertissement à messieurs les prévost des marchands et eschevins de la
-                        ville de Paris, contenant l’explication de l’éclipse qui se doit faire le
-                        huitiesme jour d'avril de la présente année, et autres choses qui doivent
-                        arriver à la poursuite du cardinal Mazarin, avec le dénombrement des villes
-                        qui seront investies ou vexés (sic) par les gens de guerre, prédit par
-                        Michel Nostradamus</title>
-                    <author ref="isni:0000000061384678">Jacques Mengau</author>
+                    <title>L'éffroyable accouchement d’un monstre dans Paris et de ce qui s’est
+                        ensuivi apres sa naissance.</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="15"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -290,8 +397,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
-                            <idno source="https://books.google.fr/books?id=PGZCAAAAcAAJ"/>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k131965x"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

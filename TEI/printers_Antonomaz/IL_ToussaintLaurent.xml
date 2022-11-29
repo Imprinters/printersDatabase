@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_ToussaintLaurent">
     <teiHeader>
         <fileDesc>
@@ -53,11 +51,8 @@
                         <listEvent>
                             <event>
                                 <label type="bio" source="IdRef">Lieu d'activité : Paris. Dates
-                                    d'activité : 1652</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Publie des mazarinades en 1652.
-                                    Peut-être s'agit-il d'un pseudonyme</label>
+                                    d'activité : 1652','Publie des mazarinades en 1652. Peut-être
+                                    s'agit-il d'un pseudonyme</label>
                             </event>
                         </listEvent>
                     </person>
@@ -70,17 +65,16 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="Moreau3024_GBOOKS.xml">
+    <TEI corresp="Moreau421_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Recit veritable de tout ce qui s'est fait et passé en Parlement, le
-                        mercredy 16. octobre 1652. En presence de son Alt. Royale, et autres ducs
-                        &amp; pairs de France. Avec la response du Roy à la derniere lettre &amp;
-                        declaration de son Altesse Royale.</title>
-                    <author ref="isni:0000"/>
+                    <title>Les articles donnés par Son Altesse Royale à M. le prince, sur son départ
+                        de la ville de Paris, avec les ordres qu'il lui a baillés pour le sujet de
+                        la paix.</title>
+                    <author ref="isni:0000000121336441">Gaston d'Orléans</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -91,8 +85,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=3aLd99qW_XIC&amp;hl=fr"/>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=4gdY22lucB0C"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -109,14 +103,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau421_GBOOKS.xml">
+    <TEI corresp="Moreau3205_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Articles (les) donnés par Son Altesse Royale à M. le prince, sur son
-                        départ de la ville de Paris, avec les ordres qu'il lui a baillés pour le
-                        sujet de la paix.</title>
-                    <author ref="isni:0000000121336441">Gaston d'Orléans</author>
+                    <title>Relation véritable de ce qui s'est fait et passé en Parlement, le lundi
+                        14 octobre 1652, en présence de Son Altesse Royale et de plusieurs ducs et
+                        pairs de France, avec la déclaration de Son Altesse Royale et de M. le duc
+                        de Beaufort pour l'éloignement sans retour des gens de guerre.</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
                     /></extent>
@@ -129,8 +124,86 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=4gdY22lucB0C"/>
+                            <repository>Munich, Bibliothèque de l'Etat de Bavière</repository>
+                            <idno source="https://books.google.fr/books?id=D9lBAAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3024_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Recit veritable de tout ce qui s'est fait et passé en Parlement, le
+                        mercredy 16. octobre 1652. En presence de son Alt. Royale, et autres ducs
+                        &amp; pairs de France. Avec la response du Roy à la derniere lettre &amp;
+                        declaration de son Altesse Royale.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=3aLd99qW_XIC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1753_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Journal de tout ce qui s'est fait et passé en Parlement, les jeudi,
+                        vendredi et samedi 10, 11 et 12 octobre 1652, en présence de Son Altesse
+                        Royale, avec les ordres donnés pour l'éloignement des troupes des environs
+                        de Paris, et les derniers moyens pour la paix.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=4BSalEHQkP8C"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

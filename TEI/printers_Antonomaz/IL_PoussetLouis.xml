@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_PoussetLouis">
     <teiHeader>
         <fileDesc>
@@ -54,11 +52,8 @@
                         <listEvent>
                             <event>
                                 <label type="bio" source="IdRef">Paris : 1644-1652? ; Rue d'Écosse,
-                                    près Saint-Hilaire (ou : Au Mont Saint-Hilaire)</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Fils aîné d'Adam Pousset ; reçu
-                                    maître le 30 juin 1644</label>
+                                    près Saint-Hilaire (ou : Au Mont Saint-Hilaire)','Fils aîné
+                                    d'Adam Pousset ; reçu maître le 30 juin 1644</label>
                             </event>
                         </listEvent>
                     </person>
@@ -75,12 +70,12 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Particularités (les) de ce qui s'est fait et passé en l'assemblée de la
-                        Maison de ville pour l'élection de M. de Brusselles (sic) à la charge de
-                        prévôt des marchands, le sixième juillet 1652.</title>
+                    <title>Les particularités de ce qui s'est fait et passé en l'assemblée de la
+                        Maison de ville pour l'élection de M. de Brusselles à la charge de prévôt
+                        des marchands, le sixième juillet 1652.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -92,9 +87,45 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno
-                                source="https://books.google.fr/books?id=O4Hca2YvtFkC&amp;hl=fr&amp;redir_esc=y"
-                            />
+                            <idno source="https://books.google.fr/books?id=O4Hca2YvtFkC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3suppl3_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>L'agréable conférence de deux Normands s'estant rencontrés sur le pont
+                        Neuf de cette ville de Paris, traitant sur les affaires du temps présent,
+                        dont l’un se nomme Perrin et l'autre Colas.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k1335801"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

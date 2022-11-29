@@ -1,118 +1,114 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_JosseGeorges">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title type="standard" ref="isni:000000036638226X">
-          <forename>Georges</forename>
-          <surname>Josse</surname>
-        </title>
-      </titleStmt>
-      <editionStmt>
-        <edition/>
-        <respStmt xml:id="ZC" ref="orcid:0000-0002-3327-3967">
-          <name>Zoé Cappe</name>
-          <resp>Créateur de la fiche</resp>
-        </respStmt>
-      </editionStmt>
-      <publicationStmt>
-        <publisher ref="https://github.com/Antonomaz" xml:id="Antonomaz">Antonomaz</publisher>
-        <availability status="restricted" n="cc-by">
-          <licence target="https://creativecommons.org/licenses/by/4.0"/>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <listBibl>
-          <bibl source="http://isni.org/isni/000000036638226X"/>
-          <bibl source="http://data.bnf.fr/ark:/12148/cb12352728s#foaf:Person"/>
-          <bibl source="http://viaf.org/viaf/230020025"/>
-          <bibl source="http://www.idref.fr/032511469/id"/>
-        </listBibl>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <persName type="standard">Josse, Georges</persName>
-            <persName type="alternative">Josse I, Georges</persName>
-            <persName type="alternative">Iosse, Georges</persName>
-            <sex>M</sex>
-            <birth when="1600" cert="low"/>
-            <death when="1678-03-04" cert="high"/>
-            <occupation>Imprimeur-libraire</occupation>
-            <residence cert="high">
-              <address>
-                <objectName>A la couronne d'épines</objectName>
-                <street>rue Saint-Jacques</street>
-                <settlement ref="geonames:2988507">Paris</settlement>
-                <country>France</country>
-              </address>
-            </residence>
-            <listEvent>
-              <event>
-                <label type="bio" source="IdRef">Devise(s) : In spinis collige rosas</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Variante(s) de prénom : Georgius. - Libraire. -
-                  Entre en apprentissage chez le libraire-relieur parisien Claude Bazin en juin
-                  1609. Reçu maître le 2 sept. 1627. Gendre du libraire Jean II de Heuqueville à qui
-                  il succède. Membre des Compagnies des usages et de la Grand-Navire. Décédé à Paris
-                  en mars 1678. Père des libraires Claude, Georges II, Louis et Pierre II Josse ;
-                  beau-père du libraire Charles Angot</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Paris : 1627-1678 ; Rue Saint-Jacques - À la
-                  Couronne d'épine(s)</label>
-              </event>
-            </listEvent>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2022-07-10" who="#ZC">Création de la fiche</change>
-      </listChange>
-    </revisionDesc>
-  </teiHeader>
-  <TEI corresp="none">
     <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title/>
-          <author ref="isni:0000"/>
-        </titleStmt>
-        <extent>
-          <measure unit="pages" quantity="0"/>
-        </extent>
-        <publicationStmt>
-          <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-          <availability status="restricted" n="cc-by">
-            <licence target="https://creativecommons.org/licenses/by/4.0"/>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <msDesc>
-            <msIdentifier>
-              <repository>Sans lieu</repository>
-              <idno source="None"/>
-            </msIdentifier>
-            <physDesc>
-              <decoDesc>
-                <decoNote/>
-              </decoDesc>
-            </physDesc>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
+        <fileDesc>
+            <titleStmt>
+                <title type="standard" ref="isni:000000036638226X">
+                    <forename>Georges</forename>
+                    <surname>Josse</surname>
+                </title>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+                <respStmt xml:id="ZC" ref="orcid:0000-0002-3327-3967">
+                    <name>Zoé Cappe</name>
+                    <resp>Créateur de la fiche</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher ref="https://github.com/Antonomaz" xml:id="Antonomaz"
+                    >Antonomaz</publisher>
+                <availability status="restricted" n="cc-by">
+                    <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl source="http://isni.org/isni/000000036638226X"/>
+                    <bibl source="http://data.bnf.fr/ark:/12148/cb12352728s#foaf:Person"/>
+                    <bibl source="http://viaf.org/viaf/230020025"/>
+                    <bibl source="http://www.idref.fr/032511469/id"/>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person>
+                        <persName type="standard">Josse, Georges</persName>
+                        <persName type="alternative">Josse I, Georges</persName>
+                        <persName type="alternative">Iosse, Georges</persName>
+                        <sex>M</sex>
+                        <birth when="1600" cert="low"/>
+                        <death when="1678-03-04" cert="high"/>
+                        <occupation>Imprimeur-libraire</occupation>
+                        <residence cert="high">
+                            <address>
+                                <objectName>A la couronne d'épines</objectName>
+                                <street>rue Saint-Jacques</street>
+                                <settlement ref="geonames:2988507">Paris</settlement>
+                                <country>France</country>
+                            </address>
+                        </residence>
+                        <listEvent>
+                            <event>
+                                <label type="bio" source="IdRef">Devise(s) : In spinis collige
+                                    rosas','Variante(s) de prénom : Georgius. - Libraire. - Entre en
+                                    apprentissage chez le libraire-relieur parisien Claude Bazin en
+                                    juin 1609. Reçu maître le 2 sept. 1627. Gendre du libraire Jean
+                                    II de Heuqueville à qui il succède. Membre des Compagnies des
+                                    usages et de la Grand-Navire. Décédé à Paris en mars 1678. Père
+                                    des libraires Claude, Georges II, Louis et Pierre II Josse ;
+                                    beau-père du libraire Charles Angot','Paris : 1627-1678 ; Rue
+                                    Saint-Jacques - À la Couronne d'épine(s)</label>
+                            </event>
+                        </listEvent>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-07-10" who="#ZC">Création de la fiche</change>
+            </listChange>
+        </revisionDesc>
     </teiHeader>
-    <text>
-      <body>
-        <div/>
-      </body>
-    </text>
-  </TEI>
+    <TEI corresp="Moreau2278_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettres du roi aux cours souveraines du royaume et aux trésoriers de
+                        France sur le rétablissement de M. de La Vieuville dans la surintendance des
+                        finances, et celle de M. de La Vieuville sur le même sujet.</title>
+                    <author ref="isni:0000000383255772">Louis XIV</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=2z05lKSLUP0C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
 </teiCorpus>

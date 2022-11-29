@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_LeGentilJacques">
     <teiHeader>
         <fileDesc>
@@ -57,29 +55,32 @@
                                     d'activité : 1651-1672?. Adresse : Rue d'Écosse, près
                                     Saint-Hilaire. Adresse : Rue des Noyers, au coin de la rue
                                     Saint-Jean-de-Beauvais. Enseigne : À l'enseigne de Saint
-                                    Jérôme</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Variante(s) de prénom : Jacobus. -
-                                    Imprimeur-libraire. - De confession calviniste. Frère puîné du
-                                    libraire parisien Jean Le Gentil. Reçu apprenti de
-                                    l'imprimeur-libraire parisien Pierre II Des Hayes en août 1622.
-                                    Reçu maître le 7 mars 1652, mais attesté en activité dès oct.
-                                    1651 (il est alors arrêté par le lieutenant civil du Châtelet
-                                    pour impression d'un libelle annonçant le mariage prétendu du
-                                    cardinal Mazarin et de la reine mère Anne d'Autriche). Auteur de
-                                    plusieurs mazarinades, dont 'Le Dernier Combat donné devant
-                                    Etampes...' et 'Relation véritable contenant tout ce qui s'est
-                                    passé à la défaite des troupes du maréchal de Turenne...'
-                                    (mai-juin 1652). Arrêté en mai 1652 sur ordre du parlement de
-                                    Paris pour la publication des 'Dernieres Resolutions faites en
-                                    parlement</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef"> libelle annonçant l'abandon
+                                    Jérôme','Variante(s) de prénom : Jacobus. - Imprimeur-libraire.
+                                    - De confession calviniste. Frère puîné du libraire parisien
+                                    Jean Le Gentil. Reçu apprenti de l'imprimeur-libraire parisien
+                                    Pierre II Des Hayes en août 1622. Reçu maître le 7 mars 1652,
+                                    mais attesté en activité dès oct. 1651 (il est alors arrêté par
+                                    le lieutenant civil du Châtelet pour impression d'un libelle
+                                    annonçant le mariage prétendu du cardinal Mazarin et de la reine
+                                    mère Anne d'Autriche). Auteur de plusieurs mazarinades, dont 'Le
+                                    Dernier Combat donné devant Etampes...' et 'Relation véritable
+                                    contenant tout ce qui s'est passé à la défaite des troupes du
+                                    maréchal de Turenne...' (mai-juin 1652). Arrêté en mai 1652 sur
+                                    ordre du parlement de Paris pour la publication des 'Dernieres
+                                    Resolutions faites en parlement', libelle annonçant l'abandon
                                     d'autorité du parlement entre les mains de Gaston d'Orléans.
                                     Encore en activité en 1670. Veuve attestée de 1672 à sept. 1694
                                     au moins</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="Antonomaz">Dans l'inventaire
+                                    FRAN_IR_041365 des Archives nationales, on lit : Association
+                                    d'imprimeurs entre Isaac Dedin et de Jacques Le Gentil, après
+                                    estimation de l'imprimerie dud. Dedin, qui se monte à la somme
+                                    de 810 livres sur lesquelles Le Gentil paiera 405 livres. Ils
+                                    partageront également gains et frais et l'association ne prendra
+                                    fin qu'au décès de l'un d'eux (estimation de l'imprimerie
+                                    jointe), acte daté du 17 mai 1639.</label>
                             </event>
                         </listEvent>
                     </person>
@@ -92,15 +93,19 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="Moreau3370_GBOOKS.xml">
+    <TEI corresp="Moreau3179_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Réponse à la prétendue déclaration du roi pour la translation du
-                        Parlement en la ville de Pontoise.</title>
+                    <title>Relation véritable contenant l'état du siège de la ville d'Etampes et ce
+                        qui s'est passé aux attaques des 6 e 7 juin entre les troupes de Son Altesse
+                        Royale, commandées par les comtes de Tavannes, baron de Clinchamp et de
+                        Vallon, et celles du maréchal de Turenne, avec la réponse de Son Altesse
+                        Royale à messieurs les députés du Parlement sur le sujet de l'arrivée des
+                        troupes du duc de Lorraine.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -112,7 +117,7 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=0FJrFT7uZmsC"/>
+                            <idno source="https://books.google.fr/books?id=K5hwGQjwV0UC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -129,17 +134,17 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3256_GBOOKS.xml">
+    <TEI corresp="Moreau1424_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Relation véritable de tout ce qui s'est fait et passé à la défaite des
-                        troupes du maréchal de Turenne, à l'attaque de la ville d'Étampes, par
-                        l'année de Son Altesse Royale, commandée par messieurs les comtes de
-                        Tavannes et de Clinchamps.</title>
-                    <author ref="isni:0000"/>
+                    <title>La france désolée, parlant au roi étant à la chasse, où elle lui
+                        représente la fin tragique du marquis d’Ancre et la vie du cardinal Mazarin,
+                        avec le moyen de mettre la France en paix, dédiée à monsieur le prince de
+                        Condé.</title>
+                    <author ref="isni:0000">R. G.</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -150,10 +155,126 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Munich, Bibliothèque de l'Etat de Bavière</repository>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k855547s"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1461_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La fureur des juifs, dédié à messieurs de la Synagogue, en vers
+                        burlesques, par Claude Veyras.</title>
+                    <author ref="viaf:619160483810604991686">Claude Veyras</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
                             <idno
-                                source="https://www.google.fr/books/edition/Relation_véritable_contenant_tout_ce_qu/gGVCAAAAcAAJ?hl=fr&amp;gbpv=0"
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz18481"
                             />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3892_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le troisième combat donné le trentième mai, jour de la Fête-Dieu, devant
+                        la ville d'Étampes, entre les troupes de Son Altesse Royale, commandées par
+                        le comte de Tavannes et le baron de Clinchamp, et celles du maréchal
+                        d'Hocquincourt, de Broglio et de Chil , avec les noms des morts et blessés
+                        et des prisonniers, entre lesquels sont les généraux Broglio, italien, et
+                        Chil, polonois.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
+                            <idno source="https://books.google.fr/books?id=fWVCAAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2871_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La prise de la ville de Creil par les troupes de M. le Prince, avec
+                        l'état de tout ce qui s'est passé parmi lesdites troupes depuis leur
+                        décampement des environs de Paris.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
+                            <idno source="https://books.google.fr/books?id=VmVCAAAAcAAJ"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -174,13 +295,13 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Courrier (le) de la cour, apportant nouvelles de tout ce qui s'est passé
-                        en cour, depuis le dixiesme de ce mois (d’avril) jusqu’au départ du roy de
-                        la ville de Gien (20), et de la route qu'a prise Sa Majesté pour son retour
-                        à Paris.</title>
+                    <title>Le courrier de la cour, apportant nouvelles de tout ce qui s'est passé en
+                        cour, depuis le dixiesme de ce mois (d’avril) jusqu’au départ du roy de la
+                        ville de Gien (20), et de la route qu'a prise Sa Majesté pour son retour à
+                        Paris.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -211,17 +332,17 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau978_GBOOKS.xml">
+    <TEI corresp="Moreau2721_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Défaite (la) des troupes mazarines, à l’attaque du château du Plessis,
-                        par les paysans réfugies dans le même château, et les désordres commis dans
-                        le château de Villebon près Palaiseau, appartenant à M. le président de
-                        Novion, avec la route de Sa Majesté.</title>
+                    <title>Les particularités du traité fait entre Son Altesse Royale, messieurs les
+                        Princes et le duc de Lorraine au camp de Choisy-sur-Seine, le mercredi 12
+                        juin 1652, avec l'ordre donné pour la jonction des deux armées, et du lieu
+                        où est l'armée mazarine.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -233,47 +354,7 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno
-                                source="https://www.google.fr/books/edition/La_Defaite_des_troupes_mazarines_%C3%A0_l_at/wJvnFnCy1lQC?hl=fr&amp;gbpv=0"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1820_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Lettre circulaire de messieurs du Parlement de Provence, envoyée à toutes
-                        les villes de France sur le sujet de l'arrivée de M . de Mercœur en
-                        Provence.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=nJcNQw1o9nwC&amp;hl=fr"/>
+                            <idno source="https://books.google.fr/books?id=SncO6Bum5BYC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -294,11 +375,11 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Particularités (les) de tout ce qui s'est fait en l'assemblée du
-                        Parlement, au sujet de la réponse par écrit faite à messieurs les députés,
-                        avec la députation de la cour vers M. le chancelier, et l'ordre donné pour
-                        la sûreté du retour desdits sieurs députés par M. le prince de Condé, du
-                        mercredi 17 juillet 1652.</title>
+                    <title>Les particularités de tout ce qui s'est fait en l'assemblée du Parlement,
+                        au sujet de la réponse par écrit faite à messieurs les députés, avec la
+                        députation de la cour vers M. le chancelier, et l'ordre donné pour la sûreté
+                        du retour desdits sieurs députés par M. le prince de Condé, du mercredi 17
+                        juillet 1652.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
@@ -334,7 +415,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Particularités (les) du second combat donné entre l'armée de Son Altesse
+                    <title>Les particularités du second combat donné entre l'armée de Son Altesse
                         Royale, commandée par messieurs le comte de Tavannes et le baron de
                         Clinchamp, et l'armée commandée par le maréchal de Turenne, devant la ville
                         d'Etampes, le 29ᵉ mai 1652, avec la prise de leurs drapeaux, canons et
@@ -372,14 +453,14 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2721_GBOOKS.xml">
+    <TEI corresp="Moreau3256_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Particularités (les) du traité fait entre Son Altesse Royale, messieurs
-                        les Princes et le duc de Lorraine au camp de Choisy-sur-Seine, le mercredi
-                        12 juin 1652, avec l'ordre donné pour la jonction des deux armées, et du
-                        lieu où est l'armée mazarine.</title>
+                    <title>Relation véritable de tout ce qui s'est fait et passé à la défaite des
+                        troupes du maréchal de Turenne, à l'attaque de la ville d'Étampes, par
+                        l'année de Son Altesse Royale, commandée par messieurs les comtes de
+                        Tavannes et de Clinchamps.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
@@ -393,8 +474,207 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
+                            <repository>Munich, Bibliothèque de l'Etat de Bavière</repository>
+                            <idno
+                                source="https://www.google.fr/books/edition/Relation_véritable_contenant_tout_ce_qu/gGVCAAAAcAAJ"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2295_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La levée du siége de la ville d'Étampes, avec la défaite des troupes
+                        commandées par le maréchal de Turenne dans le faubourg de ladite ville, et
+                        la mort du sieur de Baradas, conducteur des volontaires, ensemble la liste
+                        des noms des colonels, capitaines et lieutenants, tant françois que
+                        polonois, qui y sont demeurés.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=kyOQyjROwAIC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3510_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La résolution de Son Altesse Royale et de MM. du Parlement sur la réponse
+                        faite à messieurs les députés, avec l'avis de monsieur le prince de Condé,
+                        touchant l'éloignement du cardinal Mazarin, en Parlement, le 17 juillet
+                        1652.</title>
+                    <author ref="isni:0000000121336441">Gaston d'Orléans</author>
+                    <author ref="isni:0000000121755355">Parlement de Paris</author>
+                    <author ref="isni:0000000121209573">Louis II de Bourbon, prince de
+                        Condé</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=odLZbqeuzg8C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1820_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettre circulaire de messieurs du Parlement de Provence, envoyée à toutes
+                        les villes de France sur le sujet de l'arrivée de M . de Mercœur en
+                        Provence.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=nJcNQw1o9nwC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2315_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La liste des troupes du duc de Lorraine et les noms de tous les
+                        régiments, tant de cavalerie que d'infanterie, suivant la revue qui en a été
+                        faite en présence de Son Altesse Royale, de monsieur le prince de Condé, du
+                        duc de Beaufort et autres seigneurs, avec le conseil de guerre séant proche
+                        de Choisy-sous-Thiers, touchant le passage desdites troupes.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=Hvzbfd3gzW4C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3370_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Réponse à la prétendue déclaration du roi pour la translation du
+                        Parlement en la ville de Pontoise.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=SncO6Bum5BYC"/>
+                            <idno source="https://books.google.fr/books?id=0FJrFT7uZmsC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -415,8 +695,8 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Réponse (la) du roy faite aux remontrances de messieurs du Parlement et
-                        de la ville de Paris, avec l'offre, faite à Son Altesse Royale par les
+                    <title>La réponse du roy faite aux remontrances de messieurs du Parlement et de
+                        la ville de Paris, avec l'offre, faite à Son Altesse Royale par les
                         bourgeois de ladite ville, d'entretenir douze mille hommes à leurs dépens,
                         et l'assurance de sadite Altesse de l'approche du duc de Lorraine pour le
                         secours de Paris.</title>
@@ -451,49 +731,14 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2061_GBOOKS.xml">
+    <TEI corresp="Moreau978_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Lettre de Son Altesse Royale envoyée au roi, le 25 juin 1652.</title>
-                    <author ref="isni:0000000121336441">Gaston France de</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=dewgkqQjl2YC&amp;hl=fr"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2871_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Prise (la) de la ville de Creil par les troupes de M. le Prince, avec
-                        l'état de tout ce qui s'est passé parmi lesdites troupes depuis leur
-                        décampement des environs de Paris.</title>
+                    <title>La défaite des troupes mazarines, à l’attaque du château du Plessis, par
+                        les paysans réfugies dans le même château, et les désordres commis dans le
+                        château de Villebon près Palaiseau, appartenant à M. le président de Novion,
+                        avec la route de Sa Majesté.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
@@ -507,8 +752,10 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
-                            <idno source="https://books.google.fr/books?id=VmVCAAAAcAAJ&amp;hl=fr"/>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno
+                                source="https://www.google.fr/books/edition/La_Defaite_des_troupes_mazarines_%C3%A0_l_at/wJvnFnCy1lQC?hl=fr&amp;gbpv=0"
+                            />
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -562,19 +809,14 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3892_GBOOKS.xml">
+    <TEI corresp="Moreau2061_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Troisième (le) combat donné le trentième mai, jour de la Fête-Dieu,
-                        devant la ville d'Étampes, entre les troupes de Son Altesse Royale,
-                        commandées par le comte de Tavannes et le baron de Clinchamp, et celles du
-                        maréchal d'Hocquincourt, de Broglio et de Chil (sic), avec les noms des
-                        morts et blessés et des prisonniers, entre lesquels sont les généraux
-                        Broglio, italien, et Chil, polonois.</title>
-                    <author ref="isni:0000"/>
+                    <title>Lettre de Son Altesse Royale envoyée au roi, le 25 juin 1652.</title>
+                    <author ref="isni:0000000121336441">Gaston d'Orléans</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -585,127 +827,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
-                            <idno source="https://books.google.fr/books?id=fWVCAAAAcAAJ"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1461_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Fureur (la) des juifs, dédié à messieurs de la Synagogue, en vers
-                        burlesques, par Claude Veyras.</title>
-                    <author ref="viaf:619160483810604991686">Claude Veyras</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz18481"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1424_GALL.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>France (la) désolée, parlant au roi étant à la chasse, où elle lui
-                        représente la fin tragique du marquis d’Ancre et la vie du cardinal Mazarin,
-                        avec le moyen de mettre la France en paix, dédiée à monsieur le prince de
-                        Condé.</title>
-                    <author ref="isni:0000">R. G.</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k855547s"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau3179_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Relation véritable contenant l'état du siège de la ville d'Etampes et ce
-                        qui s'est passé aux attaques des 6 e 7 juin entre les troupes de Son Altesse
-                        Royale, commandées par les comtes de Tavannes, baron de Clinchamp et de
-                        Vallon, et celles du maréchal de Turenne, avec la réponse de Son Altesse
-                        Royale à messieurs les députés du Parlement sur le sujet de l'arrivée des
-                        troupes du duc de Lorraine.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=K5hwGQjwV0UC"/>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=dewgkqQjl2YC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -732,7 +855,7 @@
                         Normandie et du Parlement de Rouen.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -744,7 +867,7 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=gULCU8MLQBEC&amp;hl=fr"/>
+                            <idno source="https://books.google.fr/books?id=gULCU8MLQBEC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

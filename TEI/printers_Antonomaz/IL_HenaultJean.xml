@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_HenaultJean">
     <teiHeader>
         <fileDesc>
@@ -59,18 +57,13 @@
                                     Reçu maître le 27 sept. 1635. Publie en 1667 un 'Catalogue des
                                     livres imprimez par Jean Henault...' et des 'Epreuves des
                                     poinçons, matrices, lettres et caracteres' de son imprimerie.
-                                    Encore en activité en 1673. Veuve attestée dès 1673</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Travaille fréquemment en
-                                    association avec son père Mathurin Hénault jusqu'en 1651</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Adresse : Paris (1635-1673), Rue
-                                    Clopin, devant le (collège du) Petit-Navarre ; Rue Saint-Jacques
-                                    ; (Au Palais,) Dans la salle Dauphine ; Rue Saint-Jacques. - À
-                                    l'Ange gardien ; À (l'Image) Saint Raphaël ; À l'Ange gardien et
-                                    à Saint Raphaël ; À l'Ange gardien</label>
+                                    Encore en activité en 1673. Veuve attestée dès 1673','Travaille
+                                    fréquemment en association avec son père Mathurin Hénault
+                                    jusqu'en 1651','Adresse : Paris (1635-1673), Rue Clopin, devant
+                                    le (collège du) Petit-Navarre ; Rue Saint-Jacques ; (Au Palais,)
+                                    Dans la salle Dauphine ; Rue Saint-Jacques. - À l'Ange gardien ;
+                                    À (l'Image) Saint Raphaël ; À l'Ange gardien et à Saint Raphaël
+                                    ; À l'Ange gardien</label>
                             </event>
                         </listEvent>
                     </person>
@@ -83,18 +76,12 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="Moreau3202_GBOOKS.xml">
+    <TEI corresp="Moreau2657_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Relation véritable de ce qui s'est fait et passé dans la ville d'Aix en
-                        Provence depuis l'enlèvement du roi Louis XIV, fait à Paris le sixième
-                        janvier 1649, et en l'affaire du Parlement où le comte d'Alais, madame sa
-                        femme et mademoiselle sa fille, le duc de Richelieu, monsieur de Scève,
-                        intendant, et plus de cent cinquante gentilshommes ont été arrêtés
-                        prisonniers, apportée par le Sr T., envoyé par messieurs du Parlement de
-                        Provence.</title>
-                    <author ref="isni:0000"/>
+                    <title>Les palmes héroïques du généreux duc de Beaufort.</title>
+                    <author ref="isni:0000000062449891">Charlotte Henault</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
                     /></extent>
@@ -107,45 +94,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
-                            <idno source="https://books.google.fr/books?id=b1pCAAAAcAAJ"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau776_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Consolations tirées du tableau de la passion de Nostre Sauveur, à la
-                        reine de la Grande-Bretagne, d’Écosse et d'Irlande.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Londres, The British Library</repository>
-                            <idno source="http://books.google.fr/books?id=-Fo4rLwYp1gC"/>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5723571z"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -200,12 +150,202 @@
             </body>
         </text>
     </TEI>
+    <TEI corresp="Moreau776_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Consolations tirées du tableau de la passion de Nostre Sauveur, à la
+                        reine de la Grande-Bretagne, d’Écosse et d'Irlande.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Londres, The British Library</repository>
+                            <idno source="http://books.google.fr/books?id=-Fo4rLwYp1gC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2751_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le philosophe d'État, ou Réflexions politiques sur les vertus civiles du
+                        Parlement et peuple de Paris.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=zB8lf3DAc0UC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3202_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Relation véritable de ce qui s'est fait et passé dans la ville d'Aix en
+                        Provence depuis l'enlèvement du roi Louis XIV, fait à Paris le sixième
+                        janvier 1649, et en l'affaire du Parlement où le comte d'Alais, madame sa
+                        femme et mademoiselle sa fille, le duc de Richelieu, monsieur de Scève,
+                        intendant, et plus de cent cinquante gentilshommes ont été arrêtés
+                        prisonniers, apportée par le Sr T., envoyé par messieurs du Parlement de
+                        Provence.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
+                            <idno source="https://books.google.fr/books?id=b1pCAAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1089_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le dialogue du soldat, du paysan, de polichinelle et du docteur Scatalon,
+                        au retour de la paix, avec les remerciments au roi et à la reine.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
+                            <idno source="https://books.google.fr/books?id=4M88AAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2552_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La nouvelle Paris, ou l'Heureux changement de ses maux par le retour de
+                        son roi.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k56103245"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
     <TEI corresp="Moreau3558_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Rois (les) sans roi, ou Réflexions des rois de la fève sur l'enlèvement
-                        du roi hors sa bonne ville de Paris.</title>
+                    <title>Les rois sans roi, ou Réflexions des rois de la fève sur l'enlèvement du
+                        roi hors sa bonne ville de Paris.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
@@ -244,7 +384,7 @@
                     <title>Lettre d'un gentilhomme de la ville d'Aix, en Provence, adressée à un
                         sien ami, à Paris, sur ce qui s'est passé depuis la détention du comte
                         d'Alais et du duc de Richelieu.</title>
-                    <author ref="isni:0000">H.R.P.</author>
+                    <author ref="isni:0000">H. R. P.</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
                     /></extent>
@@ -258,7 +398,7 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
-                            <idno source="https://books.google.fr/books?id=tXdKAAAAcAAJ&amp;hl=fr"/>
+                            <idno source="https://books.google.fr/books?id=tXdKAAAAcAAJ"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -314,15 +454,16 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2751_GBOOKS.xml">
+    <TEI corresp="Moreau2suppl112_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Philosophe (le) d'État, ou Réflexions politiques sur les vertus civiles
-                        du Parlement et peuple de Paris.</title>
-                    <author ref="isni:0000"/>
+                    <title>Lettre d’un gentilhomme de la cour à uu seigneur qui est à l'armée,
+                        tonchant l’attentat commis aux Filles-Dieu à Paris, en la personne de
+                        mademoiselle de Sainte-Croix, etc.</title>
+                    <author ref="isni:0000">Le C. L.</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="20"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -333,8 +474,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=zB8lf3DAc0UC"/>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=Z4ERvzt7kjgC&amp;hl=fr"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -359,9 +500,9 @@
                         Mothe-Houdancour, duc de Cardone, etc. Publiant les batailles qu'il a
                         données en Italie et Catalogne, avec les memorables actions de sa
                         vie.</title>
-                    <author ref="isni:0000"/>
+                    <author ref="isni:0000000066455041">René de Cerisiers</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="28"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="28"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -396,7 +537,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Requête (la) des auteurs présentée au Parlement à l'encontre de
+                    <title>La requête des auteurs présentée au Parlement à l'encontre de
                         Mazarin.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
@@ -429,16 +570,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1089_GBOOKS.xml">
+    <TEI corresp="Moreau2420_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Dialogue (le) du soldat, du paysan, de polichinelle et du docteur
-                        Scatalon, au retour de la paix, avec les remerciments au roi et à la
-                        reine.</title>
+                    <title>Le mathois , ou Marchand mêlé propre à tout faire, en vers
+                        burlesques.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -449,82 +589,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
-                            <idno source="https://books.google.fr/books?id=4M88AAAAcAAJ"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2043_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Lettre de Pierre de Provence à la reine, en forme d'avis, sur ce qui
-                        s'est passé en son pays.</title>
-                    <author ref="isni:0000">Pierre Provence de</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=hujnn4kcjAUC&amp;hl=fr"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2552_GALL.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Nouvelle (la) Paris, ou l'Heureux changement de ses maux par le retour de
-                        son roi.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k56103245"/>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=gt5dgmPXkKYC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -545,7 +611,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Visage (le) de bois au nez de Mazarin, et son exclusion de la conférence
+                    <title>Le visage de bois au nez de Mazarin, et son exclusion de la conférence
                         qui se tient à Ruel, par le che. M. D. L.</title>
                     <author ref="isni:0000">Che. D. L.</author>
                 </titleStmt>
@@ -562,79 +628,6 @@
                         <msIdentifier>
                             <repository>Florence, Bibliothèque nationale centrale</repository>
                             <idno source="https://books.google.fr/books?id=JM1N7oi16gYC&amp;hl=fr"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2657_GALL.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Palmes (les) héroïques du généreux duc de Beaufort.</title>
-                    <author ref="isni:0000000062449891">Charlotte Henault</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5723571z"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2420_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Mathois (le), ou Marchand mêlé propre à tout faire, en vers
-                        burlesques.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=gt5dgmPXkKYC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -688,12 +681,121 @@
             </body>
         </text>
     </TEI>
+    <TEI corresp="Moreau2961_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La raison d'État et le bouclier du Parlement.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=1Jt6698Z520C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2043_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettre de Pierre de Provence à la reine, en forme d'avis, sur ce qui
+                        s'est passé en son pays.</title>
+                    <author ref="isni:0000">Pierre de Provence</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=hujnn4kcjAUC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2045_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettre de Polichinelle à Jules Mazarin.</title>
+                    <author ref="isni:0000">Polichinelle</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
+                            <idno source="https://books.google.fr/books?id=_X1KAAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
     <TEI corresp="Moreau63_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Amazone (l') françoise au secours des Parisiens, ou l’Approche des
-                        troupes de madame la duchesse de Chevreuse.</title>
+                    <title>L'amazone françoise au secours des Parisiens, ou l’Approche des troupes
+                        de madame la duchesse de Chevreuse.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
@@ -709,6 +811,43 @@
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale</repository>
                             <idno source="https://books.google.fr/books?id=MZ7VCiScVhkC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau47_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Les admirables sentiments d’une fille villageoise envoyée à monsieur le
+                        prince de Condé touchant le parti qu’il doit prendre.</title>
+                    <author ref="isni:0000000062449891">Charlotte Hénault C. H.</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=tuD-zj3httUC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

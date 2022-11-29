@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_BesongneCardin">
     <teiHeader>
         <fileDesc>
@@ -58,17 +56,10 @@
                                     au Mont Saint-Hilaire (ou : près Saint-Hilaire) ; Au Palais, au
                                     haut de la montée de la Sainte-Chapelle ; Au Palais (, dans la
                                     galerie des Prisonniers) - Au Chapeau royal - Aux Roses
-                                    vermeilles</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Libraire. Vraisemblablement
-                                    originaire de Rouen, il est recu apprenti en cette ville, chez
-                                    Jacques I Besongne, en 1611. À nouveau (?) en apprentissage à
-                                    Paris en 1618. Reçu maître en fév. 1627</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Devise(s) : Ex dolore
-                                    gaudium</label>
+                                    vermeilles','Libraire. Vraisemblablement originaire de Rouen, il
+                                    est recu apprenti en cette ville, chez Jacques I Besongne, en
+                                    1611. À nouveau (?) en apprentissage à Paris en 1618. Reçu
+                                    maître en fév. 1627','Devise(s) : Ex dolore gaudium</label>
                             </event>
                         </listEvent>
                     </person>
@@ -81,15 +72,15 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="Moreau3281_GALL.xml">
+    <TEI corresp="Moreau3656_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Remercîment des Normands à Son Altesse de Longueville pour la
-                        paix.</title>
-                    <author ref="isni:0000"/>
+                    <title>Les sentiments du public touchant la doctrine prêchée par le père Favre
+                        .</title>
+                    <author ref="isni:0000000122809183">François Faure</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="15"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -100,8 +91,45 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k54259250"/>
+                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
+                            <idno source="https://books.google.fr/books?id=TkhCAAAAcAAJ&amp;hl=fr"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau113_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Apologie des Normands au roi pour la justification de leurs
+                        armes.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Vienne, Bibliothèque Nationale d'Autriche</repository>
+                            <idno source="https://books.google.fr/books?id=pUxKAAAAcAAJ&amp;hl=fr"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -194,43 +222,6 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau113_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Apologie des Normands au roi pour la justification de leurs
-                        armes.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Vienne, Bibliothèque Nationale d'Autriche</repository>
-                            <idno source="https://books.google.fr/books?id=pUxKAAAAcAAJ&amp;hl=fr"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
     <TEI corresp="Moreau871_MAZ.xml">
         <teiHeader>
             <fileDesc>
@@ -270,14 +261,51 @@
             </body>
         </text>
     </TEI>
+    <TEI corresp="Moreau3281_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Remercîment des Normands à Son Altesse de Longueville pour la
+                        paix.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k54259250"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
     <TEI corresp="Moreau1035_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Dernières (les) paroles de M. de Saint-Chamond, décédé en son hôtel à
+                    <title>Les dernières paroles de M. de Saint-Chamond, décédé en son hôtel à
                         Paris, le 10 de septembre 1649, âgé de soixante-trois années, avec un fidèle
                         récit des belles actions de sa vie, par le sieur de Figuire.</title>
-                    <author ref="isni:0000000062663425">Figuiere de</author>
+                    <author ref="isni:0000000062663425">Sieur de Figuiere</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="23"/><measure unit="decoration" quantity="1"
                     /></extent>
@@ -308,43 +336,6 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3656_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Sentiments (les) du public touchant la doctrine prêchée par le père Favre
-                        (sic).</title>
-                    <author ref="isni:0000000122809183">François Faure</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="15"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
-                            <idno source="https://books.google.fr/books?id=TkhCAAAAcAAJ&amp;hl=fr"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
     <TEI corresp="Moreau2427_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
@@ -355,7 +346,7 @@
                         théologien, fidèle officier du roi, à messieurs du Parlement.</title>
                     <author ref="isni:0000000367671864">Jean Rousse</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="30"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="46"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -388,10 +379,10 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Mercure (le) parisien, contenant tout ce qui s'est passé de plus
+                    <title>Le mercure parisien, contenant tout ce qui s'est passé de plus
                         particulier, tant dans Paris qu'au dehors, depuis la nuit du jour et fête
-                        des Rois jusques à présent, et qui n'ont été remarquées (sic) aux imprimés
-                        ci devant publiés.</title>
+                        des Rois jusques à présent, et qui n'ont été remarquées aux imprimés ci
+                        devant publiés.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="1"
@@ -425,16 +416,17 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1709_GBOOKS.xml">
+    <TEI corresp="Moreau652_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Instruction prompte et facile aux Parisiens pour bien apprendre
-                        l'exercice du mousquet et de la pique, et les rendre parfaits en l'art
-                        militaire.</title>
-                    <author ref="isni:0000"/>
+                    <title>Catéchisme des partisans ou Résolutions théologiques touchant
+                        l’imposition, levée et emploi des finances, dressé par demandes et par
+                        réponses, pour plus grande facilité, par le R. P. D. P. D. S. J.</title>
+                    <author ref="isni:0000000110570750">Pierre de Saint-Joseph R. P. D. P. D. S.
+                        I.</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="15"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -445,9 +437,10 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Florence, Bibliothèque nationale centrale de
-                                Florence</repository>
-                            <idno source="https://books.google.fr/books?id=BQFGxfTXEW0C"/>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17670"
+                            />
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -502,16 +495,17 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau652_MAZ.xml">
+    <TEI corresp="Moreau87_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Catéchisme des partisans ou Résolutions théologiques touchant
-                        l’imposition, levée et emploi des finances, dressé par demandes et par
-                        réponses, pour plus grande facilité, par le R. P. D. P. D. S. J.</title>
-                    <author ref="isni:0000000110570750">Pierre de Saint-Joseph</author>
+                    <title>L'antidésintéressé , ou l’Équitable censeur des libelles semés dans Paris
+                        sous le nom du Désintéressé , commençant par ces mots : « Pauvre peuple
+                        abusé, dessille tes yeux , » et tendant à désunir les habitants de cette
+                        ville d’avec les princes et le parlement.</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="15"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -522,10 +516,47 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17670"
-                            />
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=N3mr8bNIdS4C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1709_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Instruction prompte et facile aux Parisiens pour bien apprendre
+                        l'exercice du mousquet et de la pique, et les rendre parfaits en l'art
+                        militaire.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Florence, Bibliothèque nationale centrale de
+                                Florence</repository>
+                            <idno source="https://books.google.fr/books?id=BQFGxfTXEW0C"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

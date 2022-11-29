@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_LaureauLaurent">
     <teiHeader>
         <fileDesc>
@@ -54,11 +52,8 @@
                         <listEvent>
                             <event>
                                 <label type="bio" source="IdRef">Lieu d'activité : Paris. Dates
-                                    d'activité : 1652</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Publie des mazarinades en 1652.
-                                    Peut-être s'agit-il d'un pseudonyme</label>
+                                    d'activité : 1652','Publie des mazarinades en 1652. Peut-être
+                                    s'agit-il d'un pseudonyme</label>
                             </event>
                         </listEvent>
                     </person>
@@ -71,47 +66,6 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="Moreau3020_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Récit véritable de tout ce qui s'est fait et passé au Parlement, le jeudi
-                        26 septembre 1652, en présence de Son Altesse Royale , avec les arrêts
-                        portant cassation des procédures faites contre M. le duc de Beaufort et
-                        défenses à toutes personnes de s'assembler ni attrouper au Palai-Royal ni
-                        autres lieux à peine de la vue, et la députatio de M. Talon, avocat général,
-                        pour être envoyé à Sa Majesté par messieurs du Parlement.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="http://books.google.fr/books?id=ktK7xnC3d7kC"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
     <TEI corresp="Moreau3246_MAZ.xml">
         <teiHeader>
             <fileDesc>
@@ -195,11 +149,52 @@
             </body>
         </text>
     </TEI>
+    <TEI corresp="Moreau3020_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Récit véritable de tout ce qui s'est fait et passé au Parlement, le jeudi
+                        26 septembre 1652, en présence de Son Altesse Royale , avec les arrêts
+                        portant cassation des procédures faites contre M. le duc de Beaufort et
+                        défenses à toutes personnes de s'assembler ni attrouper au Palai-Royal ni
+                        autres lieux à peine de la vue, et la députatio de M. Talon, avocat général,
+                        pour être envoyé à Sa Majesté par messieurs du Parlement.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="http://books.google.fr/books?id=ktK7xnC3d7kC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
     <TEI corresp="Moreau14_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Abolition (l’) de M. le duc de Beaufort au parlement de Paris, avec les
+                    <title>L’abolition de M. le duc de Beaufort au parlement de Paris, avec les
                         dernières nouvelles de l’armée de M. le prince, et l’ordre que M. le prince
                         a donné pour ôter les vivres au maréchal de Turenne</title>
                     <author ref="isni:0000"/>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_CandyJeanAime">
     <teiHeader>
         <fileDesc>
@@ -54,18 +52,13 @@
                         <listEvent>
                             <event>
                                 <label type="bio" source="IdRef">Imprimeur du Roi en association
-                                    avec Guillaume I Barbier à partir de 1648</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Lyon : 1627-1658 ; Rue du Puy-Pelu
-                                    - Au Dauphin (royal)</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Variante(s) de prénom : Joannes
-                                    Amatus ; Jean-Aymé. Imprimeur-libraire ; imprimeur (ordinaire)
-                                    du Roi (1643) et du clergé. Imprime l'éd. lyonnaise de la
-                                    'Gazette' de 1640 à 1645 et d'oct. 1648 à janv. 1658. Teste le
-                                    10 janv. 1658 ; veuve attestée à partir du 17 janv. 1658</label>
+                                    avec Guillaume I Barbier à partir de 1648','Lyon : 1627-1658 ;
+                                    Rue du Puy-Pelu - Au Dauphin (royal)','Variante(s) de prénom :
+                                    Joannes Amatus ; Jean-Aymé. Imprimeur-libraire ; imprimeur
+                                    (ordinaire) du Roi (1643) et du clergé. Imprime l'éd. lyonnaise
+                                    de la 'Gazette' de 1640 à 1645 et d'oct. 1648 à janv. 1658.
+                                    Teste le 10 janv. 1658 ; veuve attestée à partir du 17 janv.
+                                    1658</label>
                             </event>
                             <event>
                                 <label type="bio" source="Antonomaz">imprimeur ordinaire du
@@ -82,14 +75,54 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
+    <TEI corresp="Moreau2suppl54_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Déclaration du roy portant attribulion de juger souterainement en dernier
+                        ressort de toutes causes, tant civiles que criminelles, à tous les
+                        présidiaux du ressort du parlement, et lesquelles ont été lues, publiées et
+                        registrées le jeudy vingt-huitième janvier, l'audience se tenant à
+                        Lyon.</title>
+                    <author ref="isni:0000000383255772">Louis XIV</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k9674804v"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
     <TEI corresp="Moreau3303_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
                     <title>Remontrance de la noblesse à monseigneur le duc d'Orléans pour estre
                         admise, conjointement avec le clergé, à l'audience de Leurs Majestés et pour
-                        obtenir d'elle (sic) le temps et la députation libre pour la tenue des
-                        Estats généraux, prononcée par monsieur le comte de Fiesque.</title>
+                        obtenir d'elle le temps et la députation libre pour la tenue des Estats
+                        généraux, prononcée par monsieur le comte de Fiesque.</title>
                     <author ref="idref:258436220">Charles de Fiesque</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
@@ -142,7 +175,7 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=wSPuhp4tgN4C&amp;hl=fr"/>
+                            <idno source="https://books.google.fr/books?id=wSPuhp4tgN4C"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

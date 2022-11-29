@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_LecheMarin">
   <teiHeader>
     <fileDesc>
@@ -57,19 +55,16 @@
                   1649-1679?. Adresse : Dans la (grande) salle du Palais (, au premier pilier,
                   vis-à-vis la chapelle ; proche le Bailliage ; vers la cour des Aides). Adresse :
                   Au septième pilier de la Grand-Salle (du Palais). Enseigne : Au Soleil
-                  d'or</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Libraire ; imprimeur et libraire ordinaire du Roi
-                  (1653-1661) ; imprimeur ordinaire de Monseigneur le duc d'Anjou (1652-1654). Entré
-                  en apprentissage chez l'imprimeur-libraire parisien Pierre Rocolet en mars 1639
-                  pour 6 ans. Reçu maître le 14 mai 1649. Aurait obtenu, en 1653 ou peu avant, un
-                  brevet d'imprimeur de la garde-robe du Roi. Poursuivi en justice par la communauté
-                  des imprimeurs et libraires de Paris pour usurpation de la qualité d'imprimeur et
-                  libraire ordinaire du Roi. Ne semble pas s'être prévalu de ce titre après 1661, un
-                  arrêt du 21 mars 1661 lui défendant de continuer à le prendre sous peine de 3 000
-                  l. d'amende. Antoine Fournot est cependant reçu imprimeur de la garde-robe du Roi
-                  le 9 mars 1680 'aux lieu et place de deffunct Marin Leché</label>
+                  d'or','Libraire ; imprimeur et libraire ordinaire du Roi (1653-1661) ; imprimeur
+                  ordinaire de Monseigneur le duc d'Anjou (1652-1654). Entré en apprentissage chez
+                  l'imprimeur-libraire parisien Pierre Rocolet en mars 1639 pour 6 ans. Reçu maître
+                  le 14 mai 1649. Aurait obtenu, en 1653 ou peu avant, un brevet d'imprimeur de la
+                  garde-robe du Roi. Poursuivi en justice par la communauté des imprimeurs et
+                  libraires de Paris pour usurpation de la qualité d'imprimeur et libraire ordinaire
+                  du Roi. Ne semble pas s'être prévalu de ce titre après 1661, un arrêt du 21 mars
+                  1661 lui défendant de continuer à le prendre sous peine de 3 000 l. d'amende.
+                  Antoine Fournot est cependant reçu imprimeur de la garde-robe du Roi le 9 mars
+                  1680 'aux lieu et place de deffunct Marin Leché</label>
               </event>
               <event>
                 <label type="bio" source="Antonomaz">Imprimeur &amp; Libraire ordinaire du

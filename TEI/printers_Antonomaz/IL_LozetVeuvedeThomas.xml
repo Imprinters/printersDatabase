@@ -1,112 +1,110 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_LozetVeuvedeThomas">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title type="standard" ref="isni:0000000075133052">
-          <forename>Veuve de Thomas</forename>
-          <surname>Lozet</surname>
-        </title>
-      </titleStmt>
-      <editionStmt>
-        <edition/>
-        <respStmt xml:id="ZC" ref="orcid:0000-0002-3327-3967">
-          <name>Zoé Cappe</name>
-          <resp>Créateur de la fiche</resp>
-        </respStmt>
-      </editionStmt>
-      <publicationStmt>
-        <publisher ref="https://github.com/Antonomaz" xml:id="Antonomaz">Antonomaz</publisher>
-        <availability status="restricted" n="cc-by">
-          <licence target="https://creativecommons.org/licenses/by/4.0"/>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <listBibl>
-          <bibl source="http://isni.org/isni/0000000075133052"/>
-          <bibl source="http://data.bnf.fr/ark:/12148/cb161739197#foaf:Person"/>
-          <bibl source="http://viaf.org/viaf/103682647"/>
-          <bibl source="http://www.idref.fr/241296188/id"/>
-        </listBibl>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person>
-            <persName type="standard">Lozet, Veuve de Thomas</persName>
-            <persName type="alternative">Loizet, Veuve de Thomas</persName>
-            <persName type="alternative">Loset, Veuve de Thomas</persName>
-            <sex>F</sex>
-            <birth when="1600" cert="low"/>
-            <death when="1652-11" cert="high"/>
-            <occupation>Imprimeur-libraire</occupation>
-            <residence cert="high">
-              <address>
-                <objectName/>
-                <street>en la grande salle du Palais , devant la chapelle.</street>
-                <settlement ref="geonames:2988507">Paris</settlement>
-                <country>France</country>
-              </address>
-            </residence>
-            <listEvent>
-              <event>
-                <label type="bio" source="IdRef">Paris</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Nom patronymique : Simone Balbie ou Françoise
-                  Bigault. - Imprimeur-libraire. - Succède à son mari l'imprimeur-libraire parisien
-                  Thomas Lozet, décédé en 1650 ou 1651. Publie des mazarinades. Sépulture le 25 nov.
-                  1652 à Paris, paroisse Saint-Étienne-du-Mont</label>
-              </event>
-            </listEvent>
-          </person>
-        </listPerson>
-      </particDesc>
-    </profileDesc>
-    <revisionDesc>
-      <listChange>
-        <change when="2022-07-10" who="#ZC">Création de la fiche</change>
-      </listChange>
-    </revisionDesc>
-  </teiHeader>
-  <TEI corresp="none">
     <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title/>
-          <author ref="isni:0000"/>
-        </titleStmt>
-        <extent>
-          <measure unit="pages" quantity="0"/>
-        </extent>
-        <publicationStmt>
-          <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-          <availability status="restricted" n="cc-by">
-            <licence target="https://creativecommons.org/licenses/by/4.0"/>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <msDesc>
-            <msIdentifier>
-              <repository>Sans lieu</repository>
-              <idno source="None"/>
-            </msIdentifier>
-            <physDesc>
-              <decoDesc>
-                <decoNote/>
-              </decoDesc>
-            </physDesc>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
+        <fileDesc>
+            <titleStmt>
+                <title type="standard" ref="isni:0000000075133052">
+                    <forename>Veuve de Thomas</forename>
+                    <surname>Lozet</surname>
+                </title>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+                <respStmt xml:id="ZC" ref="orcid:0000-0002-3327-3967">
+                    <name>Zoé Cappe</name>
+                    <resp>Créateur de la fiche</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher ref="https://github.com/Antonomaz" xml:id="Antonomaz"
+                    >Antonomaz</publisher>
+                <availability status="restricted" n="cc-by">
+                    <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl source="http://isni.org/isni/0000000075133052"/>
+                    <bibl source="http://data.bnf.fr/ark:/12148/cb161739197#foaf:Person"/>
+                    <bibl source="http://viaf.org/viaf/103682647"/>
+                    <bibl source="http://www.idref.fr/241296188/id"/>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person>
+                        <persName type="standard">Lozet, Veuve de Thomas</persName>
+                        <persName type="alternative">Loizet, Veuve de Thomas</persName>
+                        <persName type="alternative">Loset, Veuve de Thomas</persName>
+                        <sex>F</sex>
+                        <birth when="1600" cert="low"/>
+                        <death when="1652-11" cert="high"/>
+                        <occupation>Imprimeur-libraire</occupation>
+                        <residence cert="high">
+                            <address>
+                                <objectName/>
+                                <street>en la grande salle du Palais , devant la chapelle.</street>
+                                <settlement ref="geonames:2988507">Paris</settlement>
+                                <country>France</country>
+                            </address>
+                        </residence>
+                        <listEvent>
+                            <event>
+                                <label type="bio" source="IdRef">Paris','Nom patronymique : Simone
+                                    Balbie ou Françoise Bigault. - Imprimeur-libraire. - Succède à
+                                    son mari l'imprimeur-libraire parisien Thomas Lozet, décédé en
+                                    1650 ou 1651. Publie des mazarinades. Sépulture le 25 nov. 1652
+                                    à Paris, paroisse Saint-Étienne-du-Mont</label>
+                            </event>
+                        </listEvent>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-07-10" who="#ZC">Création de la fiche</change>
+            </listChange>
+        </revisionDesc>
     </teiHeader>
-    <text>
-      <body>
-        <div/>
-      </body>
-    </text>
-  </TEI>
+    <TEI corresp="Moreau1578_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Harangue faite au Parlement de Bordeaux, sur la présentation des lettres
+                        de monseigneur le Prince pour le gouvernement de Guyenne, par maître Jacques
+                        Fonteneil, écuyer et jurat de la ville.</title>
+                    <author ref="isni:0000000393482485">Jacques Fonteneil</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=j2hhv-JsnQAC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
 </teiCorpus>

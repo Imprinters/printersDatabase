@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_PoussetFrancois">
     <teiHeader>
         <fileDesc>
@@ -54,12 +52,8 @@
                         <listEvent>
                             <event>
                                 <label type="bio" source="IdRef">Fils du libraire-relieur Adam
-                                    Pousset</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Paris : 1647-1652? ; Rue des
-                                    Amandiers, devant le collège des Grassins ; Au Mont
-                                    Saint-Hilaire</label>
+                                    Pousset','Paris : 1647-1652? ; Rue des Amandiers, devant le
+                                    collège des Grassins ; Au Mont Saint-Hilaire</label>
                             </event>
                         </listEvent>
                     </person>
@@ -76,7 +70,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Arrivée (l') du duc de Lorraine dans cette ville avec la réception de Son
+                    <title>L'arrivée du duc de Lorraine dans cette ville avec la réception de Son
                         Altesse Royale et de messieurs les princes.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>

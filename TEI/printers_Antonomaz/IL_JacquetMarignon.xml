@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_JacquetMarignon">
   <teiHeader>
     <fileDesc>
@@ -34,7 +32,7 @@
         <listPerson>
           <person>
             <persName type="standard">Jacquet, Marignon</persName>
-            <persName type="alternative"/>
+            <persName type="alternative">Claude Morlot</persName>
             <sex>M</sex>
             <birth when="1600" cert="low"/>
             <death when="1700" cert="low"/>
@@ -49,7 +47,7 @@
             </residence>
             <listEvent>
               <event>
-                <label type="bio" source="IdRef"/>
+                <label type="bio"/>
               </event>
             </listEvent>
           </person>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_GirardJacques">
     <teiHeader>
         <fileDesc>
@@ -51,11 +49,8 @@
                         </residence>
                         <listEvent>
                             <event>
-                                <label type="bio" source="IdRef">Imprimeur</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Paris, 17e s. ruë de la vielle
-                                    Monnois sic, aux Trois maillet sic</label>
+                                <label type="bio" source="IdRef">Imprimeur','Paris, 17e s. ruë de la
+                                    vielle Monnois sic, aux Trois maillet sic</label>
                             </event>
                         </listEvent>
                     </person>
@@ -72,9 +67,9 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Glorieuse (la) conduite de monseigneur le duc de Nemours, et les
-                        avantages qu'il a remportés sur les troupes du maréchal d'Aumont, avec un
-                        petit avis aux Parisiens.</title>
+                    <title>La glorieuse conduite de monseigneur le duc de Nemours, et les avantages
+                        qu'il a remportés sur les troupes du maréchal d'Aumont, avec un petit avis
+                        aux Parisiens.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"

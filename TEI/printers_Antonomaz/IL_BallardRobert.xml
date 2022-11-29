@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_BallardRobert">
   <teiHeader>
     <fileDesc>
@@ -53,20 +51,14 @@
             <listEvent>
               <event>
                 <label type="bio" source="IdRef">À partir de 1666, travaille en association avec son
-                  fils Christophe Ballard</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Imprimeur-libraire ; seul imprimeur du Roi pour la
+                  fils Christophe Ballard','Imprimeur-libraire ; seul imprimeur du Roi pour la
                   musique (1639). Fils et successeur de Pierre I Ballard. Dénommé aussi Robert III
                   pour le distinguer de son oncle Robert (II) (1572?-1650?), luthiste du Roi. Recu
                   maître en janv. 1640, il semble avoir commencé à exercer dès 1638. Aurait succédé
                   à son père comme commissaire de l'artillerie. Consul (janv. 1650) ; juge consul
                   (janv. 1666) ; administrateur des hôpitaux de Paris. Nommé en 1666 noteur de la
-                  chapelle du Roi. . Décédé en oct. 1672.</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Paris : 1638?-1672 ; Rue Saint-Jean-de-Beauvais -
-                  Au (ou : À l'enseigne du) Mont Parnasse</label>
+                  chapelle du Roi. . Décédé en oct. 1672.','Paris : 1638?-1672 ; Rue
+                  Saint-Jean-de-Beauvais - Au (ou : À l'enseigne du) Mont Parnasse</label>
               </event>
               <event>
                 <label type="bio" source="Antonomaz">seul imprimeur du roi pour la musique.</label>

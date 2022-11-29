@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_HureSebastien">
   <teiHeader>
     <fileDesc>
@@ -58,14 +56,8 @@
                   Huré en 1651, d'abord en association avec sa belle-mère, veuve de celui-ci ; reçu
                   imprimeur du Roi en août 1662 par la cession d'Antoine Estienne ; se démet en
                   avril 1667 en faveur de Frédéric I Léonard, son associé depuis 1656, à qui il
-                  revend également son fonds</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Adresse : Paris : 1646-1667 ; Rue Saint-Jacques - À
-                  la Visitation - Au Coeur bon</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Devise(s) : Ego dormio, et cor meum vigilat</label>
+                  revend également son fonds','Adresse : Paris : 1646-1667 ; Rue Saint-Jacques - À
+                  la Visitation - Au Coeur bon','Devise(s) : Ego dormio, et cor meum vigilat</label>
               </event>
             </listEvent>
           </person>

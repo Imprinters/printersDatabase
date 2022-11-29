@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_HulpeauClaude">
   <teiHeader>
     <fileDesc>
@@ -56,12 +54,9 @@
                   Saint-Germain, près de la Tour d'argent ; Près du portail de la Monnaie ; Au bout
                   du pont Saint-Michel, à l'entrée du marché Neuf ; Rue de la Calandre, près le
                   Palais ; Sous les halles de Saint-Jacques-l'Hôpital, rue Saint-Denis - À l'Écu de
-                  Bourgogne - À l'Image Saint Nicolas</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Imprimeur-libraire. Vraisemblablement apparenté au
-                  libraire Jean II Hulpeau. Recu libraire en 1606, il commence aussi à imprimer peu
-                  après. Veuve attestée en fév. 1650</label>
+                  Bourgogne - À l'Image Saint Nicolas','Imprimeur-libraire. Vraisemblablement
+                  apparenté au libraire Jean II Hulpeau. Recu libraire en 1606, il commence aussi à
+                  imprimer peu après. Veuve attestée en fév. 1650</label>
               </event>
             </listEvent>
           </person>

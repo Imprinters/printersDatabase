@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_BoissetNicolas">
     <teiHeader>
         <fileDesc>
@@ -53,12 +51,10 @@
                         </residence>
                         <listEvent>
                             <event>
-                                <label type="bio" source="IdRef">Imprimeur-libraire</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Paris, 30 juin 1644 - 1663.
-                                    Adresses : rue Galende, à l'image Saint-Etienne (en 1649) ; rue
-                                    Saint-Jean-de-Beauvais, au coeur navré (en 1663)</label>
+                                <label type="bio" source="IdRef">Imprimeur-libraire','Paris, 30 juin
+                                    1644 - 1663. Adresses : rue Galende, à l'image Saint-Etienne (en
+                                    1649) ; rue Saint-Jean-de-Beauvais, au coeur navré (en
+                                    1663)</label>
                             </event>
                         </listEvent>
                     </person>
@@ -71,16 +67,14 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="Moreau3090_MAZ.xml">
+    <TEI corresp="Moreau1457_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Réjouissance (la) des poètes à monseigneur le duc d'Orléans sur
-                        l'heureuse naissance de monseigneur le Prince, son fils, par le sieur
-                        Colletet, le fils.</title>
-                    <author ref="isni:0000000117975435">François Colletet</author>
+                    <title>Le funeste hoc de Jules Mazarin.</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="3"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -91,10 +85,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14774"
-                            />
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=zKO2Utj0ScYC&amp;hl=fr"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -167,7 +159,47 @@
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale de Lyon, bibliothèque jésuite
                                 des Fontaines</repository>
-                            <idno source="https://books.google.fr/books?id=wSTE-GsPEHAC&amp;hl=fr"/>
+                            <idno source="https://books.google.fr/books?id=wSTE-GsPEHAC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3090_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La réjouissance des poètes à monseigneur le duc d'Orléans sur l'heureuse
+                        naissance de monseigneur le Prince, son fils, par le sieur Colletet, le
+                        fils.</title>
+                    <author ref="isni:0000000117975435">François Colletet</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14774"
+                            />
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -208,42 +240,6 @@
                             <idno
                                 source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17550"
                             />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1457_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Funeste (le) hoc de Jules Mazarin.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="3"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=zKO2Utj0ScYC&amp;hl=fr"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

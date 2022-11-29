@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_LaCosteNicolasde">
     <teiHeader>
         <fileDesc>
@@ -58,21 +56,13 @@
                                     Saint-Hilaire et) À la petite porte du Palais (, qui regarde (ou
                                     : devant) le quai des (ou : les) Augustins (ou : rue de Monsieur
                                     le Premier Président)) ; Rue des Sept-Voies. - À l'Écu de
-                                    Bretagne (ou : Aux Trois Hermines)</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Travaille en association avec son
-                                    frère Jean de La Coste entre 1630 et 1663 environ</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Devise(s) : 'Nos connectit amor' ;
-                                    'Ditat concordia fratres</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Imprimeur-libraire. - Entré en
-                                    apprentissage en janv. 1606. Libraire (12 oct. 1628) reçu
-                                    imprimeur en 1630. En activité jusqu'en 1666 ; veuve attestée à
-                                    cette date. Auteur de traductions de l'espagnol</label>
+                                    Bretagne (ou : Aux Trois Hermines)','Travaille en association
+                                    avec son frère Jean de La Coste entre 1630 et 1663
+                                    environ','Devise(s) : 'Nos connectit amor' ; 'Ditat concordia
+                                    fratres'','Imprimeur-libraire. - Entré en apprentissage en janv.
+                                    1606. Libraire (12 oct. 1628) reçu imprimeur en 1630. En
+                                    activité jusqu'en 1666 ; veuve attestée à cette date. Auteur de
+                                    traductions de l'espagnol</label>
                             </event>
                         </listEvent>
                     </person>
@@ -95,7 +85,7 @@
                         capitaines.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -107,7 +97,7 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
-                            <idno source="https://books.google.fr/books?id=90ZKAAAAcAAJ&amp;hl=fr"/>
+                            <idno source="https://books.google.fr/books?id=90ZKAAAAcAAJ"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

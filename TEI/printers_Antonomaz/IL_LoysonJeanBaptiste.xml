@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_LoysonJeanBaptiste">
     <teiHeader>
         <fileDesc>
@@ -65,19 +63,17 @@
                                     1669-1670 ; Au Palais, (dans la salle des Merciers ; à l'entrée
                                     de la salle des Merciers) proche (ou : devant) la
                                     Sainte-Chapelle 1672-1676 ;À la Croix d'or 1640 ; À la Croix
-                                    royale 1659-1662 ; À la Croix d'or 1665-1676</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Libraire. - Fils aîné du libraire
-                                    parisien Guillaume Loyson. Reçu maître le 20 oct. 1639, il
-                                    exerce dès 1638. Saisie de contrefaçons dans sa boutique de la
-                                    salle Dauphine du Palais le 3 mars 1648. Père du libraire Henri
-                                    Loyson, reçu en oct. 1664. En procès avec Damien Foucault et les
-                                    héritiers de Pierre Rocollet en fév. 1666 - janv. 1667 pour
-                                    contrefaçon de livres d'église à l'usage de Paris et de Rome
-                                    dont ils détenaient le privilège. Encore en activité en 1694, il
-                                    ne figure plus sur la liste établie pour la capitation en 1695
-                                    ni sur la liste professionnelle de 1697</label>
+                                    royale 1659-1662 ; À la Croix d'or 1665-1676','Libraire. - Fils
+                                    aîné du libraire parisien Guillaume Loyson. Reçu maître le 20
+                                    oct. 1639, il exerce dès 1638. Saisie de contrefaçons dans sa
+                                    boutique de la salle Dauphine du Palais le 3 mars 1648. Père du
+                                    libraire Henri Loyson, reçu en oct. 1664. En procès avec Damien
+                                    Foucault et les héritiers de Pierre Rocollet en fév. 1666 -
+                                    janv. 1667 pour contrefaçon de livres d'église à l'usage de
+                                    Paris et de Rome dont ils détenaient le privilège. Encore en
+                                    activité en 1694, il ne figure plus sur la liste établie pour la
+                                    capitation en 1695 ni sur la liste professionnelle de
+                                    1697</label>
                             </event>
                         </listEvent>
                     </person>
@@ -90,15 +86,16 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="Moreau1851_GBOOKS.xml">
+    <TEI corresp="Moreau2675_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Lettre d'un bon pauvre écrite à madame la Princesse douairière sur les
-                        affaires du temps présent.</title>
+                    <title>Parabole et similitude plaisante pour faire voir l'union et la concorde
+                        qui doivent être entre un roi et ses sujets, s'ils veulent vivre en paix et
+                        en prospérité.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -109,8 +106,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=NPPNB9B4fysC&amp;hl=fr"/>
+                            <repository>Florence, Bibliothèque nationale centrale</repository>
+                            <idno source="https://books.google.fr/books?id=bRsKLJApsLsC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -127,14 +124,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2079_GBOOKS.xml">
+    <TEI corresp="Moreau3772_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Lettre des provinces de France aux bourgeois de Paris.</title>
-                    <author ref="isni:0000"/>
+                    <title>Le théologien politique, pièce curieuse sur les affaires du temps pour la
+                        défense des bons François.</title>
+                    <author ref="isni:0000000108887898">Jacques Brousse</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -146,7 +144,7 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
-                            <idno source="https://books.google.fr/books?id=_XtKAAAAcAAJ&amp;hl=fr"/>
+                            <idno source="https://books.google.fr/books?id=CE1KAAAAcAAJ&amp;hl=fr"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -203,53 +201,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3772_GBOOKS.xml">
+    <TEI corresp="Moreau1851_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Théologien (le) politique, pièce curieuse sur les affaires du temps pour
-                        la défense des bons François.</title>
-                    <author ref="isni:0000000108887898">Jacques Brousse</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
-                            <idno source="https://books.google.fr/books?id=CE1KAAAAcAAJ&amp;hl=fr"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2675_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Parabole et similitude plaisante pour faire voir l'union et la concorde
-                        qui doivent être entre un roi et ses sujets, s'ils veulent vivre en paix et
-                        en prospérité.</title>
+                    <title>Lettre d'un bon pauvre écrite à madame la Princesse douairière sur les
+                        affaires du temps présent.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -260,8 +220,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Florence, Bibliothèque nationale centrale</repository>
-                            <idno source="https://books.google.fr/books?id=bRsKLJApsLsC"/>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=NPPNB9B4fysC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -300,6 +260,42 @@
                             <idno
                                 source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz18621"
                             />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2079_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettre des provinces de France aux bourgeois de Paris.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
+                            <idno source="https://books.google.fr/books?id=_XtKAAAAcAAJ"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

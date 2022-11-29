@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_DuCoqPierre">
   <teiHeader>
     <fileDesc>
@@ -53,13 +51,10 @@
             <listEvent>
               <event>
                 <label type="bio" source="IdRef">Lieu d'activité : Bordeaux. Dates d'activité :
-                  1642-1680. Adresse : Rue Saint-James. Enseigne : À l'enseigne du Coq</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Imprimeur-libraire. - Fils de l'imprimeur-libraire
-                  de Bordeaux Jacques Du Coq. Décédé à Bordeaux le 30 sept. 1680. Sa veuve lui
-                  succède entre 1681 et 1683 puis se remarie avec Pierre III Abegou, qui reprend
-                  l'imprimerie</label>
+                  1642-1680. Adresse : Rue Saint-James. Enseigne : À l'enseigne du
+                  Coq','Imprimeur-libraire. - Fils de l'imprimeur-libraire de Bordeaux Jacques Du
+                  Coq. Décédé à Bordeaux le 30 sept. 1680. Sa veuve lui succède entre 1681 et 1683
+                  puis se remarie avec Pierre III Abegou, qui reprend l'imprimerie</label>
               </event>
             </listEvent>
           </person>

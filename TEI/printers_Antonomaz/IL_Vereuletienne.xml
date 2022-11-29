@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_Vereuletienne">
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_VereulEtienne">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -54,15 +52,9 @@
               <event>
                 <label type="bio" source="IdRef">Lieu d'activité : Rouen. Dates d'activité :
                   1605-1655. Adresse : Rue aux Juifs (, près le Palais). Adresse : Dans la cour du
-                  Palais (, près la grande porte)</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Variante(s) de prénom : Stephanus. Reçu maître en
-                  1605. Encore attesté en activité par la communauté des libraires et imprimeurs de
-                  Rouen en juillet 1655</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Devise(s) : Superanda omnis Fortuna ferendo</label>
+                  Palais (, près la grande porte)','Variante(s) de prénom : Stephanus. Reçu maître
+                  en 1605. Encore attesté en activité par la communauté des libraires et imprimeurs
+                  de Rouen en juillet 1655','Devise(s) : Superanda omnis Fortuna ferendo</label>
               </event>
             </listEvent>
           </person>

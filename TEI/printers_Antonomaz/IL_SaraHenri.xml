@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_SaraHenri">
     <teiHeader>
         <fileDesc>
@@ -56,12 +54,9 @@
                             <event>
                                 <label type="bio" source="IdRef">Paris : 1621-1652? ; Rue
                                     Saint-Jean-de-Latran ; Au Mont Saint-Hilaire, près le Puits
-                                    Certain - À l'enseigne d'Alde</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Imprimeur (et libraire ordinaire)
-                                    de Monsieur. Entré en apprentissage de relieur en 1614. Décédé
-                                    entre 1652 et 1657</label>
+                                    Certain - À l'enseigne d'Alde','Imprimeur (et libraire
+                                    ordinaire) de Monsieur. Entré en apprentissage de relieur en
+                                    1614. Décédé entre 1652 et 1657</label>
                             </event>
                         </listEvent>
                     </person>
@@ -74,11 +69,49 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
+    <TEI corresp="Moreau1036_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Les dernières paroles de M. le duc de Châtillon mourant à M. le prince de
+                        Condé.</title>
+                    <author ref="isni:000000011884471X">Gaspard IV de Coligny, duc de
+                        Châtillon</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=CIWCfCP6aTIC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
     <TEI corresp="Moreau3347_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Rencontre (la) des esprits du duc de Châtillon et du baron (marquis) de
+                    <title>La rencontre des esprits du duc de Châtillon et du baron (marquis) de
                         Clanleu après leur mort, arrivée à Charenton.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
@@ -112,48 +145,11 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1036_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Dernières (les) paroles de M. le duc de Châtillon mourant à M. le prince
-                        de Condé.</title>
-                    <author ref="isni:000000011884471X">Gaspard Coligny de</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=CIWCfCP6aTIC"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
     <TEI corresp="Moreau1241_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Entretien (l’) familier du roi avec monsieur le duc d'Anjou, son frère,
+                    <title>L’entretien familier du roi avec monsieur le duc d'Anjou, son frère,
                         fidèlement recueilli par un des officiers de Sa Majesté.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>

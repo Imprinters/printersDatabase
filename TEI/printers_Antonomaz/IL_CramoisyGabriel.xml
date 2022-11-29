@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_CramoisyGabriel">
     <teiHeader>
         <fileDesc>
@@ -58,14 +56,9 @@
                                     frère (et non fils) de Sébastien I Cramoisy. Apprenti de son
                                     frère Sébastien à partir d'oct. 1613. Reçu libraire le 26 avril
                                     1629. Sous-directeur de l'Imprimerie royale. Membre de la
-                                    Compagnie des usages et la Compagnie de la Grand-Navire</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Travaille en association avec son
-                                    frère Sébastien I Cramoisy jusqu'en 1658</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Paris : 1629-1663? ; Rue
+                                    Compagnie des usages et la Compagnie de la
+                                    Grand-Navire','Travaille en association avec son frère Sébastien
+                                    I Cramoisy jusqu'en 1658','Paris : 1629-1663? ; Rue
                                     Saint-Jacques ; Dans la cour du collège de Clermont - Aux
                                     Cigognes</label>
                             </event>
@@ -84,7 +77,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Ministère (le) victorieux de l'envie, par M. du Faur, prédicateur du
+                    <title>Le ministère victorieux de l'envie, par M. du Faur, prédicateur du
                         Roy.</title>
                     <author ref="isni:0000000122809183">François Faure</author>
                 </titleStmt>

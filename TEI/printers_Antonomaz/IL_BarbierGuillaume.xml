@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_BarbierGuillaume">
   <teiHeader>
     <fileDesc>
@@ -55,20 +53,10 @@
                   (1647). Originaire de Chalon-sur-Saône. Établi à Lyon vers 1633. En apprentissage
                   jusqu'en oct. 1643 chez Jacques Roussin dont il rachète le fonds (dès sept. 1643)
                   et à qui il succède. Beau-frère du libraire François Comba. Veuve attestée à
-                  partir de 1665</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Associé à Jean-Aimé Candy entre 1648 et 1651 au
-                  moins ; à Jean Girin et François Comba de 1658 à 1663 ; à Philippe et Pierre Borde
-                  et à Laurent Arnaud de 1663 à 1665</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Devise(s) : Vincit Prudentia vires. Saloque soloque
-                  coeloque</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Lyon : 1643-1665 ; Rue Mercière ; En la place de
-                  Confort</label>
+                  partir de 1665','Associé à Jean-Aimé Candy entre 1648 et 1651 au moins ; à Jean
+                  Girin et François Comba de 1658 à 1663 ; à Philippe et Pierre Borde et à Laurent
+                  Arnaud de 1663 à 1665','Devise(s) : Vincit Prudentia vires. Saloque soloque
+                  coeloque','Lyon : 1643-1665 ; Rue Mercière ; En la place de Confort</label>
               </event>
               <event>
                 <label type="bio" source="Antonomaz">imprimeur du roi à Lyon.</label>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_QuenetRobert">
     <teiHeader>
         <fileDesc>
@@ -71,7 +69,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Règne (le) sans favori ou l'Abrégé de la vie du roi Henri le Grand, dédié
+                    <title>Le règne sans favori ou l'Abrégé de la vie du roi Henri le Grand, dédié
                         aux bons François.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>

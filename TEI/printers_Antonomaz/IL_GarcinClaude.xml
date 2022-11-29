@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_GarcinClaude">
   <teiHeader>
     <fileDesc>
@@ -57,11 +55,8 @@
                   ; imprimeur du collège. Nommé imprimeur de la ville le 8 juillet 1642 avec une
                   pension de 100 l. par an. Se qualifie en 1684, au moins, d'ancien imprimeur du
                   Roi, du clergé et de la ville. Son gendre et ancien compagnon Henri Martel lui
-                  succède</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Lieu d'activité : Marseille. Dates d'activité :
-                  1641-1691. Adresse : Au (ou : À l'enseigne du) Nom de Jésus</label>
+                  succède','Lieu d'activité : Marseille. Dates d'activité : 1641-1691. Adresse : Au
+                  (ou : À l'enseigne du) Nom de Jésus</label>
               </event>
               <event>
                 <label type="bio" source="Antonomaz">imprimeur du roi</label>

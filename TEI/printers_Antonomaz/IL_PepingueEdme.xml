@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_PepingueEdme">
     <teiHeader>
         <fileDesc>
@@ -57,14 +55,11 @@
                                 <label type="bio" source="IdRef">Lieu d'activité : Paris. Dates
                                     d'activité : 1643-1655. Adresse : En la grand-salle du Palais (,
                                     du côté de la cour des Aides (, proche la porte de la salle
-                                    Dauphine) ; du côté de la salle Dauphine)</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Variante(s) de prénom : Edmundus.
-                                    Libraire. Fils de l'imprimeur-libraire Théodore Pépingué. Épouse
-                                    Marie Jacquin, fille du libraire Julien I Jacquin. Reçu libraire
-                                    le 1er déc. 1643. Semble avoir succédé à sa mère en 1652. Veuve
-                                    mentionnée dès 1655</label>
+                                    Dauphine) ; du côté de la salle Dauphine)','Variante(s) de
+                                    prénom : Edmundus. Libraire. Fils de l'imprimeur-libraire
+                                    Théodore Pépingué. Épouse Marie Jacquin, fille du libraire
+                                    Julien I Jacquin. Reçu libraire le 1er déc. 1643. Semble avoir
+                                    succédé à sa mère en 1652. Veuve mentionnée dès 1655</label>
                             </event>
                         </listEvent>
                     </person>

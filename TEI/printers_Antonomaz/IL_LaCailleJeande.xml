@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_LaCailleJeande">
     <teiHeader>
         <fileDesc>
@@ -55,19 +53,12 @@
                         <listEvent>
                             <event>
                                 <label type="bio" source="IdRef">Devise(s) : Ille candela
-                                    Dei</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Paris : 1641-1673 ; Au Mont
-                                    Saint-Hilaire (ou : Rue Chartière), près le Puits-Certain ; Rue
-                                    Saint-Jacques - À l'Image Saint Sébastien - Aux Trois
-                                    Cailles</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Imprimeur-libraire ; imprimeur
-                                    (ordinaire) du Roi (1644) ; libraire juré de l'université
-                                    (1645). Ancien apprenti et gendre de Jean de La Coste. Reçu
-                                    maître en déc. 1641</label>
+                                    Dei','Paris : 1641-1673 ; Au Mont Saint-Hilaire (ou : Rue
+                                    Chartière), près le Puits-Certain ; Rue Saint-Jacques - À
+                                    l'Image Saint Sébastien - Aux Trois Cailles','Imprimeur-libraire
+                                    ; imprimeur (ordinaire) du Roi (1644) ; libraire juré de
+                                    l'université (1645). Ancien apprenti et gendre de Jean de La
+                                    Coste. Reçu maître en déc. 1641</label>
                             </event>
                             <event>
                                 <label type="bio" source="Antonomaz">imprimeur ordinaire du
@@ -84,6 +75,82 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
+    <TEI corresp="Moreau2630_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Ordre et réglement que nos seigneurs de la cour de Parlement veulent
+                        estre gardé et observé aux portes de la ville et fauxbourgs de Paris; par
+                        l'ordre de messieurs les prévôts des marchands et eschevins de ladite
+                        ville.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=cELBfAJNdf4C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3980_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Véritables sentiments de monseigneur le premier président pour le service
+                        du roi et pour le bien de tout le peuple.</title>
+                    <author ref="isni:0000000121204991">Mathieu Molé</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=p_xYp-0ohssC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
     <TEI corresp="M15586_MAZ.xml">
         <teiHeader>
             <fileDesc>

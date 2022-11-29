@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_DesHayesPierre">
     <teiHeader>
         <fileDesc>
@@ -61,19 +59,14 @@
                                     Épouse avant 1627 Marie Aignan (m. en janv. 1654), veuve, mère
                                     d'Antoine Cellier qu'il a pris pour apprenti en janv. 1624 et
                                     qui sera son associé. Oncle de François Muguet, son apprenti à
-                                    partir d'oct. 1655. Décédé en 1659</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Adresse : Paris (1606?-1658), Rue
-                                    de la Harpe (, proche la Rose rouge) (1606-1658) ; En l'île du
-                                    Palais, vis-à-vis des Augustins (1620). - Enseigne(s) : Au
-                                    Pilier rouge (1606-1624) ; À la Limace (1625) ; À l'Écu de
-                                    France (1629-1631) ; À la Limace (1632-1639) ; À la Rose rouge
-                                    (1640-1651) ; Aux Gants couronnés (1652-1657)</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Adresse : Charenton-le-Pont
-                                    (Charenton) (1608-1658)</label>
+                                    partir d'oct. 1655. Décédé en 1659','Adresse : Paris
+                                    (1606?-1658), Rue de la Harpe (, proche la Rose rouge)
+                                    (1606-1658) ; En l'île du Palais, vis-à-vis des Augustins
+                                    (1620). - Enseigne(s) : Au Pilier rouge (1606-1624) ; À la
+                                    Limace (1625) ; À l'Écu de France (1629-1631) ; À la Limace
+                                    (1632-1639) ; À la Rose rouge (1640-1651) ; Aux Gants couronnés
+                                    (1652-1657)','Adresse : Charenton-le-Pont (Charenton)
+                                    (1608-1658)</label>
                             </event>
                         </listEvent>
                     </person>

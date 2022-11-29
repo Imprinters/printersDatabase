@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_DareRobert">
     <teiHeader>
         <fileDesc>
@@ -54,15 +52,9 @@
                         <listEvent>
                             <event>
                                 <label type="bio" source="IdRef">Rouen : 1640?-1656 ; Dans la cour
-                                    du Palais</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Le Petit-Quevilly (Quevilly) :
-                                    1640?-1656</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Imprimeur-libraire. Fils de Thomas
-                                    I Daré. Dit âgé de 40 ans lors de son décès (juin 1656)</label>
+                                    du Palais','Le Petit-Quevilly (Quevilly) :
+                                    1640?-1656','Imprimeur-libraire. Fils de Thomas I Daré. Dit âgé
+                                    de 40 ans lors de son décès (juin 1656)</label>
                             </event>
                         </listEvent>
                     </person>
@@ -79,7 +71,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Sanglante (la) dispute entre le cardinal Mazarin et l'abbé de La Rivière,
+                    <title>La sanglante dispute entre le cardinal Mazarin et l'abbé de La Rivière,
                         le Visage de bois au nez du Mazarin et son exclusion de la conférence de
                         Ruel, et la Supplication faite au roi pour avancer le procès des partisans
                         et financiers.</title>
