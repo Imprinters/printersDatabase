@@ -4,6 +4,7 @@ from lxml import etree
 import xml.etree.ElementTree as ET
 import re
 
+
 ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
 
@@ -424,7 +425,7 @@ def to_tei():
                 label.set('type', 'bio')
                 label.set('source', 'IdRef')
                 bio = re.sub("^'", "", str(bio))
-                bio= re.sub("'$", "", str(bio)
+                bio= re.sub("'$", "", str(bio))
                 label.text = str(bio)
             else:
                 event = ET.SubElement(listevent, 'event')
@@ -575,14 +576,14 @@ def to_tei():
             # Écriture des fichiers xml
             tree = ET.ElementTree(root)
 
-            tree.write("imprimeurs_tei/%s.xml" % name_file, xml_declaration=True, encoding="utf-8")
+            tree.write("printers_Antonomaz/%s.xml" % name_file, xml_declaration=True, encoding="utf-8")
 
 
 def add_empty_maz():
     """Cette fonction sert à ajouter un élément <TEI> sans information dans les <teiCorpus> des imprimeurs pour lesquels
     on n'a pas de mazarinade"""
 
-    files = glob.glob("imprimeurs_tei/*.xml", recursive=True)
+    files = glob.glob("printers_Antonomaz/*.xml", recursive=True)
     output = []
     for file in files:
         parser = etree.XMLParser(remove_blank_text=True)
@@ -658,8 +659,11 @@ def add_empty_maz():
 
 
 if __name__ == "__main__":
+    try:
+        os.mkdir('printers_Antonomaz')
+    except:
+        pass
     # On procède d'abord à l'encodage automatique des fiches d'imprimeurs
     to_tei()
     # Puis on ajoute les <TEI> neutres
     add_empty_maz()
-
