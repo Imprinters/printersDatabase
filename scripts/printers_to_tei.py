@@ -3,6 +3,7 @@ import glob
 from lxml import etree
 import xml.etree.ElementTree as ET
 import re
+import os
 
 
 ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
@@ -198,14 +199,14 @@ def to_tei():
     """
     Cette fonction sert à créer automatiquement tout l'encodage des fiches des imprimeurs.
     Elle est construite sur la base d'un élément <teiCorpus>, dont le <teiHeader> contient
-    toutes les informations sur l'imprimeur récupérées dans la base imprimeurs (fichier CSV).
+    toutes les informations sur l'imprimeur récupérées dans la base imprimeurs (fichier TSV).
     Les élements <TEI> ajoutés à la suite du <teiHeader> contiennent les informations des mazarinades
     imprimées par cet imprimeur, si l'identifiant de l'imprimeur est renseigné dans les mazarinades.
     """
 
     # on ouvre le fichier CSV de la base imprimeurs
-    with open("../CSV/Antonomaz/base_imprimeurs_joined.csv") as csvfile:
-        csvreader = csv.reader(csvfile, delimiter=",")
+    with open("../CSV/Antonomaz/base_imprimeurs_joined.tsv") as csvfile:
+        csvreader = csv.reader(csvfile, delimiter="\t")
         next(csvreader, None)  # cette ligne sert à ne pas lire les headers du fichier
         for row in csvreader:
             # pour chaque ligne (chaque imprimeur) du CSV, on crée les éléments suivants en TEI
