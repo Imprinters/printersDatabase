@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_BlageartMichel">
     <teiHeader>
         <fileDesc>
@@ -57,16 +55,9 @@
                                     Neuve-Saint-Louis, vis-à-vis la petite porte du Palais ; Au bout
                                     du Pont-Neuf, au coin de la rue Dauphine ; Rue de la Calandre,
                                     près (ou : devant) le Palais ; Rue Dauphine - À la Fleur de
-                                    lys</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Devise(s) : Calcata
-                                    resurgit</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Frère puîné de Jérôme Blageart.
-                                    Entre en apprentissage en janv. 1614 chez Heureux Blanvillain
-                                    dont il épouse l'une des filles</label>
+                                    lys','Devise(s) : Calcata resurgit','Frère puîné de Jérôme
+                                    Blageart. Entre en apprentissage en janv. 1614 chez Heureux
+                                    Blanvillain dont il épouse l'une des filles</label>
                             </event>
                         </listEvent>
                     </person>
@@ -79,6 +70,43 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
+    <TEI corresp="Moreau736_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La conférence de deux mylords, s’en retournant en Angleterre, contre les
+                        méchants ministres et favoris.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=_Va39_EgED4C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
     <TEI corresp="Moreau2580_MAZ.xml">
         <teiHeader>
             <fileDesc>

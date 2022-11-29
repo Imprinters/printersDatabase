@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_GautierPierre">
     <teiHeader>
         <fileDesc>
@@ -50,7 +48,7 @@
                         </residence>
                         <listEvent>
                             <event>
-                                <label type="bio" source="IdRef"/>
+                                <label type="bio"/>
                             </event>
                         </listEvent>
                     </person>
@@ -67,13 +65,13 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Merveilleux (le) effet de la députation de messieurs du Parlement, avec
+                    <title>Le merveilleux effet de la députation de messieurs du Parlement, avec
                         tout ce qui s'est fait et passé en la cour, ensemble les serments de
                         fidélité faits au roi par madame la Princesse, messieurs les ducs d'Enguyen
-                        (sic), de Bouillon et de La Rochefoucault.</title>
+                        , de Bouillon et de La Rochefoucault.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="15"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="15"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -85,7 +83,7 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Londres, The British Library</repository>
-                            <idno source="https://books.google.fr/books?id=HxyAjX9fsDEC&amp;hl=fr"/>
+                            <idno source="https://books.google.fr/books?id=HxyAjX9fsDEC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

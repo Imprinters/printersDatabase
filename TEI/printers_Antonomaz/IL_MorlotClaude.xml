@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_MorlotClaude">
     <teiHeader>
         <fileDesc>
@@ -37,7 +35,7 @@
                 <listPerson>
                     <person>
                         <persName type="standard">Morlot, Claude</persName>
-                        <persName type="alternative"/>
+                        <persName type="alternative">Marignon Jacquet</persName>
                         <sex>M</sex>
                         <birth when="1579" cert="high"/>
                         <death when="1700" cert="low"/>
@@ -54,19 +52,13 @@
                         <listEvent>
                             <event>
                                 <label type="bio" source="IdRef">Enseignes : à la Sirène ; au Soleil
-                                    ; au Lion d'argent</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Adresses : rue Saint-Jacques ; rue
-                                    Galande (1619) ; rue des Amandiers (1622-1629) ; rue Bordelle,
-                                    au collège de Tournai ; en la ruelle, devant la petite porte de
+                                    ; au Lion d'argent','Adresses : rue Saint-Jacques ; rue Galande
+                                    (1619) ; rue des Amandiers (1622-1629) ; rue Bordelle, au
+                                    collège de Tournai ; en la ruelle, devant la petite porte de
                                     Saint-Séverin (1635-1637). - Rue des Sept-Voies, proche
                                     Saint-Hilaire (1639) ; rue du Petit-Pont (1640) ; au coin de la
                                     Rue de la Bûcherie, vis-à-vis la rue Saint-Julien-le-Pauvre, Aux
-                                    Vieilles Étuves(1644-1649)</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Imprimeur-libraire. Natif de
+                                    Vieilles Étuves(1644-1649)','Imprimeur-libraire. Natif de
                                     Blaise-sous-Arzillières (Marne). En apprentissage à partir du 11
                                     juin 1605 chez l'imprimeur-libraire parisien Martin II Vérard.
                                     Reçu maître le 4 oct. 1618. Attesté lors de l'enquête de 1644.
@@ -74,18 +66,21 @@
                                     1649 (il se dit âgé de 70 ans ou environ lors de son
                                     interrogatoire au Châtelet). Le parlement de Paris le condamne à
                                     être pendu dès le 20 juillet, pour avoir imprimé 'La Custode de
-                                    la Reine</label>
+                                    la Reine', libelle dirigé contre Anne d'Autriche, et plusieurs
+                                    autres pamphlets. Conduit au supplice, il est libéré par des
+                                    émeutiers qui selon les témoignages seraient des garçons
+                                    libraires et imprimeurs, des gens de boutique du quartier ou des
+                                    portefaix et crocheteurs. Évadé, il est repris et réincarcéré au
+                                    Châtelet avant le 21 août 1650 (date d'une lettre de Michel Le
+                                    Tellier au cardinal Mazarin, archives du ministère des Affaires
+                                    étrangères, Mémoires et documents, 871, fol. 382). On perd
+                                    ensuite sa trace</label>
                             </event>
                             <event>
-                                <label type="bio" source="IdRef"> libelle dirigé contre Anne
-                                    d'Autriche, et plusieurs autres pamphlets. Conduit au supplice,
-                                    il est libéré par des émeutiers qui selon les témoignages
-                                    seraient des garçons libraires et imprimeurs, des gens de
-                                    boutique du quartier ou des portefaix et crocheteurs. Évadé, il
-                                    est repris et réincarcéré au Châtelet avant le 21 août 1650
-                                    (date d'une lettre de Michel Le Tellier au cardinal Mazarin,
-                                    archives du ministère des Affaires étrangères, Mémoires et
-                                    documents, 871, fol. 382). On perd ensuite sa trace</label>
+                                <label type="bio" source="Antonomaz">Sa femme se nomme Marguerite
+                                    Jacquet, patronyme que l'on retrouve dans une mazarinade en
+                                    1652, imprimée par un certain Marignon Jacquet (cf. inventaire
+                                    FRAN_IR_005832 des Archives nationales).</label>
                             </event>
                         </listEvent>
                     </person>
@@ -98,15 +93,16 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="Moreau3352_GBOOKS.xml">
+    <TEI corresp="Moreau2687_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Repentir (le) de Mazarin, par lui témoigné à la reine, et la demande de
-                        son congé.</title>
-                    <author ref="isni:0000000121223121">Jules Mazarin</author>
+                    <title>Paraphraze sur le bref de Sa Sainteté, envoyé à la reine régente, mère du
+                        roi, touchant sa réconciliation avec plusieurs des plus signalés de son
+                        royaume et le soulagement de ses peuples, en vers burlesques.</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -117,8 +113,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=BvRfPIZ99t8C"/>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k56122676"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -135,14 +131,172 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3220_GBOOKS.xml">
+    <TEI corresp="Moreau2697_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Relation véritable de ce qui s'est passé au combat qui se rendit, mardi
-                        au matin, 16 février, entre Lonjumeau et Huitsous, à l'escorte du
-                        convoi.</title>
-                    <author ref="isni:0000">Meserdi</author>
+                    <title>Paris transformé en un paradis au retour de la paix, en vers
+                        burlesques.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k56968758"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3923_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le véritable bandeau de Thémis, ou la Justice bandée. Væ vobis qui
+                        judicatis terram.</title>
+                    <author ref="isni:0000000039582088">Nicolas Mercier de Poissy</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15005"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1467_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le gazetier désintéressé, et le Testament de Jules Mazarin.</title>
+                    <author ref="isni:0000000121223121">Jules Mazarin</author>
+                    <author ref="isni:0000000112972841">Savinien de Cyrano de Bergerac D.
+                        B.</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="20"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno
+                                source="https://www.google.fr/books/edition/Le_Gazettier_d%C3%A9sinteress%C3%A9_et_le_Testam/SRZ1iBUYiOIC"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau158_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Arrêt de la cour de parlement de Bordeaux , prononcé les chambres
+                        assemblées, par lequel il est fait défenses, à monsieur d’Epernon, de faire
+                        fabriquer monnaie avec son nom et effigie, et de prendre les qualités de
+                        très-haut et très-puissant prince et d’altesse qu'il s’attribue, avec
+                        cassation de ses ordonnances.</title>
+                    <author ref="isni:0000000119572170">Parlement de Bordeaux</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15032"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1391_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Fidèle traduction du sermon de Pâques fleuries, fait, en présence du roi
+                        et de sa cour, par un père théatin, dans l’église de Saint-Germain en Laye,
+                        en vers burlesques.</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
                     /></extent>
@@ -155,8 +309,157 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
-                            <idno source="https://books.google.fr/books?id=X0dKAAAAcAAJ&amp;hl=fr"/>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=r-eZauKitWcC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1337_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Extase de la France mourant d’amour pour Jésus-Christ crucifié, en vers
+                        burlesques.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5700749b"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau457_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Avertissement fait par M. de Châtillon, revenu des Champs-Elysées, à M.
+                        le prince de Condé, à Saint-Germain-en-Laye.</title>
+                    <author ref="isni:000000011884471X">Gaspard IV de Coligny, duc de
+                        Châtillon</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
+                            <idno source="https://books.google.fr/books?id=nFpCAAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau430_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>L’astrologue françois, prédisant les événements singulier et universels
+                        des États et empires du monde, selon le changement des globes célestes dans
+                        la présente année astronomique</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=scVv4HbV4e4C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau712_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le combat et le cartel de défi de l’amour à la paix, en dialogue.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5661665t"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -193,6 +496,43 @@
                         <msIdentifier>
                             <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
                             <idno source="https://books.google.fr/books?id=FktKAAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau774_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Consolations à la reyne de la Grande-Bretagne, d'Ecosse et d’Irlande,
+                        tirées du tableau de la passion de Nostre Sauveur.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=219MP52E_wwC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -248,15 +588,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau774_GBOOKS.xml">
+    <TEI corresp="Moreau3881_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Consolations à la reyne de la Grande-Bretagne, d'Ecosse et d’Irlande,
-                        tirées du tableau de la passion de Nostre Sauveur.</title>
+                    <title>Le triomphe des armes parisiennes et le retour de labondance à
+                        Paris.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -268,7 +608,7 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=219MP52E_wwC"/>
+                            <idno source="https://books.google.fr/books?id=KB1Bat7W0AYC&amp;hl=fr"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -285,12 +625,12 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau712_GALL.xml">
+    <TEI corresp="Moreau3802_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Combat (le) et le cartel de défi de l’amour à la paix, en
-                        dialogue.</title>
+                    <title>Le transport et les pleurs du Hiérémie anglois sur les misères du siècle,
+                        en vers burlesques.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
@@ -305,7 +645,7 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5661665t"/>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5429175c"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -322,15 +662,21 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3923_MAZ.xml">
+    <TEI corresp="Moreau571_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Véritable (le) bandeau de Thémis, ou la Justice bandée. Væ vobis qui
-                        judicatis terram.</title>
-                    <author ref="isni:0000000039582088">Nicolas Mercier de Poissy</author>
+                    <title>Ballet dansé devant le roi et la reine régente, sa mère, par le trio
+                        mazarinique, pour dire adieu à la France, en vers burlesques. Première
+                        entrée: Mazarin, vendeur de baume. Seconde entrée: Ses deux nièces, deux
+                        danseuses de corde. Troisièmeentrée: Les partisans,arracheursde dents.
+                        Quatrième entrée: Mazarin, vendeur d'oublies. Cinquième entrée: Sa grande
+                        nièce, maquerelle; sa cadette, garce. Sixième entrée: Les partisans, leveurs
+                        de manteaux. Grand ballet: Le trio mazarinique représentant les figures des
+                        sept planètes.</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -341,10 +687,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15005"
-                            />
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5707759w"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -361,18 +705,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau158_MAZ.xml">
+    <TEI corresp="Moreau2852_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Arrêt de la cour de parlement de Bordeaux , prononcé les chambres
-                        assemblées, par lequel il est fait défenses, à monsieur d’Epernon, de faire
-                        fabriquer monnaie avec son nom et effigie, et de prendre les qualités de
-                        très-haut et très-puissant prince et d’altesse qu'il s’attribue, avec
-                        cassation de ses ordonnances.</title>
-                    <author ref="isni:0000000119572170">France. Parlement de Bordeaux</author>
+                    <title>Première partie de l'art de bien dire des courtisans de la cour, qui
+                        consiste à bien enseigner, en vers burlesques.</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -383,10 +724,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15032"
-                            />
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k57077646"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -403,13 +742,13 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau856_MAZ.xml">
+    <TEI corresp="Moreau2824_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Custode (la) de la reyne, qui dit tout.</title>
-                    <author ref="isni:0000000063027789">Claude Morlot</author>
-                    <author ref="isni:0000000140417845">Claude de Chouvigny Blot-l'Eglise</author>
+                    <title>Le portrait du méchant ministre d'État Jules Mazarin et sa chute
+                        souhaitée.</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
                     /></extent>
@@ -422,10 +761,9 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz18475"
-                            />
+                            <repository>Florence, Bibliothèque nationale centrale de
+                                Florence</repository>
+                            <idno source="https://books.google.fr/books?id=um-lkpUZ8kEC&amp;hl=fr"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -446,8 +784,8 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Crotesque (sic) (le) adieu de carême au peuple de Paris, à Mazarin et à
-                        la guerre, en vers burlesques.</title>
+                    <title>Le crotesque adieu de carême au peuple de Paris, à Mazarin et à la
+                        guerre, en vers burlesques.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
@@ -485,7 +823,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Couronne (la) de gloire de nos généraux, les Césars françois.</title>
+                    <title>La couronne de gloire de nos généraux, les Césars françois.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
@@ -517,12 +855,52 @@
             </body>
         </text>
     </TEI>
+    <TEI corresp="Moreau856_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La custode de la reyne, qui dit tout.</title>
+                    <author ref="isni:0000000063027789">Claude Morlot</author>
+                    <author ref="isni:0000000140417845">Claude de Chouvigny, baron de
+                        Blot-l'Eglise</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz18475"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
     <TEI corresp="Moreau837_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Court-bouillon (le) de Mazarin, assaisonné par toutes les bonnes villes
-                        de France.</title>
+                    <title>Le court-bouillon de Mazarin, assaisonné par toutes les bonnes villes de
+                        France.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="0"
@@ -556,12 +934,50 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1337_GALL.xml">
+    <TEI corresp="Moreau3220_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Extase de la France mourant d’amour pour Jésus-Christ crucifié, en vers
-                        burlesques.</title>
+                    <title>Relation véritable de ce qui s'est passé au combat qui se rendit, mardi
+                        au matin, 16 février, entre Lonjumeau et Huitsous, à l'escorte du
+                        convoi.</title>
+                    <author ref="isni:0000">Meserdi</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
+                            <idno source="https://books.google.fr/books?id=X0dKAAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2581_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Ode royal et pacifique dédiée au roi et à monseigneur le duc
+                        d'Anjou.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
@@ -575,8 +991,85 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5612400q"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2554_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La nouvelle véritable du François étranger sur le débris de Mazarin,
+                        présentée à Messieurs du Parlement de Paris.</title>
+                    <author ref="viaf:311271135">E. de La Pante</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14957"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2538_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Nouveau recueil général contenant toutes les chansons mazarinistes, et
+                        plusieurs qui n'ont point estées chantées depuis la sortie de messieurs les
+                        princes, avec les tricotets et triolets de Mazarin depuis sa sortie.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="35"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
                             <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5700749b"/>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5721652b"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -689,7 +1182,7 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
-                            <idno source="https://books.google.fr/books?id=GUNKAAAAcAAJ&amp;hl=fr"/>
+                            <idno source="https://books.google.fr/books?id=GUNKAAAAcAAJ"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -706,15 +1199,16 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2581_GALL.xml">
+    <TEI corresp="Moreau2suppl174_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Ode royal (sic) et pacifique dédiée au roi et à monseigneur le duc
-                        d'Anjou.</title>
+                    <title>Relation véritable de ce qui s’est passé au combat qui se rendit mardi au
+                        matin, 16 février, entre Lonjumeau et Huissous à l’escorte du
+                        convoi.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -725,46 +1219,9 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5612400q"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2554_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Nouvelle (la) véritable du François étranger sur le débris de Mazarin,
-                        présentée à Messieurs du Parlement de Paris.</title>
-                    <author ref="viaf:311271135">E. de La Plante</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
                             <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14957"
+                                source="https://www.google.fr/books/edition/Relation_veritable_de_ce_qui_s_est_passe/X0dKAAAAcAAJ?hl=fr&amp;gbpv=0"
                             />
                         </msIdentifier>
                         <physDesc>
@@ -782,17 +1239,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2538_GALL.xml">
+    <TEI corresp="Moreau3352_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Nouveau recueil général contenant toutes les chansons mazarinistes, et
-                        plusieurs qui n'ont point estées (sic) chantées depuis la sortie de
-                        messieurs les princes, avec les tricotets et triolets de Mazarin depuis sa
-                        sortie.</title>
-                    <author ref="isni:0000"/>
+                    <title>Le repentir de Mazarin, par lui témoigné à la reine, et la demande de son
+                        congé.</title>
+                    <author ref="isni:0000000121223121">Jules Mazarin</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="35"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -803,8 +1258,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5721652b"/>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=BvRfPIZ99t8C"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -821,12 +1276,11 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2852_GALL.xml">
+    <TEI corresp="Moreau2496_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Première partie de l'art de bien dire des courtisans de la cour, qui
-                        consiste à bien enseigner, en vers burlesques.</title>
+                    <title>La mort et les funérailles de la guerre, en vers burlesques.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
@@ -840,8 +1294,10 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k57077646"/>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz18517"
+                            />
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -858,12 +1314,53 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2824_GBOOKS.xml">
+    <TEI corresp="Moreau2444_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Portrait (le) du méchant ministre d'État Jules Mazarin et sa chute
-                        souhaitée.</title>
+                    <title>Le mémoire des plus remarquables pièces faites depuis le 26 août (1648)
+                        jusques à présent, contenant une particulière description de toutes les
+                        affaires et négociations de l'État, et des barricades, avec l'emprisonnement
+                        de M. de Broussel et son élargissement.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14921"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau698_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Chronologie des reines malheureuses par l’insolence de leurs favoris,
+                        dédiée à la reine régente, pour lui servir d’exemple et de miroir.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
@@ -877,9 +1374,45 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Florence, Bibliothèque nationale centrale de
-                                Florence</repository>
-                            <idno source="https://books.google.fr/books?id=um-lkpUZ8kEC&amp;hl=fr"/>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=uaacpefoVKgC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1130_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Discours ou Entretien familier de deux amis se rencontrant sur le pavé de
+                        Paris, touchant les affaires de ce temps.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=IzSbIBnnhRwC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -933,43 +1466,6 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1505_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Grand (le) bréviaire de Mazarin réformé à l'usage et utilité de la
-                        France, par nos seigneurs du Parlement.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Vienne, Bibliothèque nationale</repository>
-                            <idno source="https://books.google.fr/books?id=nHdKAAAAcAAJ&amp;hl=fr"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
     <TEI corresp="Moreau1517_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
@@ -1007,12 +1503,12 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3802_GALL.xml">
+    <TEI corresp="Moreau1505_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Transport (le) et les pleurs du Hiérémie anglois sur les misères du
-                        siècle, en vers burlesques.</title>
+                    <title>Le grand bréviaire de Mazarin réformé à l'usage et utilité de la France,
+                        par nos seigneurs du Parlement.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
@@ -1026,8 +1522,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5429175c"/>
+                            <repository>Vienne, Bibliothèque nationale</repository>
+                            <idno source="https://books.google.fr/books?id=nHdKAAAAcAAJ&amp;hl=fr"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -1044,322 +1540,13 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3881_GBOOKS.xml">
+    <TEI corresp="Moreau18_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Triomphe (le) des armes parisiennes et le retour de labondance à
-                        Paris.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=KB1Bat7W0AYC&amp;hl=fr"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau571_GALL.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Ballet dansé devant le roi et la reine régente, sa mère, par le trio
-                        mazarinique, pour dire adieu à la France, en vers burlesques. Première
-                        entrée: Mazarin, vendeur de baume. Seconde entrée: Ses deux nièces, deux
-                        danseuses de corde. Troisièmeentrée: Les partisans,arracheursde dents.
-                        Quatrième entrée: Mazarin, vendeur d'oublies. Cinquième entrée: Sa grande
-                        nièce, maquerelle; sa cadette, garce. Sixième entrée: Les partisans, leveurs
-                        de manteaux. Grand ballet: Le trio mazarinique représentant les figures des
-                        sept planètes.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5707759w"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2687_GALL.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Paraphraze sur le bref de Sa Sainteté, envoyé à la reine régente, mère du
-                        roi, touchant sa réconciliation avec plusieurs des plus signalés de son
-                        royaume et le soulagement de ses peuples, en vers burlesques.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k56122676"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2697_GALL.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Paris transformé en un paradis au retour de la paix, en vers
-                        burlesques.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k56968758"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2444_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Mémoire (le) des plus remarquables pièces faites depuis le 26 août (1648)
-                        jusques à présent, contenant une particulière description de toutes les
-                        affaires et négociations de l'État, et des barricades, avec l'emprisonnement
-                        de M. de Broussel et son élargissement.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14921"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2496_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Mort (la) et les funérailles de la guerre, en vers burlesques.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz18517"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau457_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Avertissement fait par M. de Châtillon, revenu des Champs-Elysées, à M.
-                        le prince de Condé, à Saint-Germain-en-Laye.</title>
-                    <author ref="isni:000000011884471X">Gaspard IV de Coligny</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
-                            <idno source="https://books.google.fr/books?id=nFpCAAAAcAAJ"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau430_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Astrologue (l’) françois, prédisant les événements singulier (sic) et
-                        universels des États et empires du monde, selon le changement des globes
-                        célestes dans la présente année astronomique</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=scVv4HbV4e4C"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1798_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Lamentable description des royaumes démolis, des villes perdues par la
-                        malice des ministres d'État, envoyée à la reine régente par l'amirante de
-                        Castille, pour lui servir d'avertissement.</title>
+                    <title>L'accord passé entre les quatre empereurs de l’Orient et les empereurs,
+                        rois et princes de l’Occident, pour venger la mort du roi d’Angleterre à la
+                        sollicitation de la noblesse de France</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
@@ -1373,84 +1560,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=mUJKAAAAcAAJ"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau45_GALL.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Adieu (l') et le désespoir des autheurs (sic) et écrivains de libelles de
-                        la guerre civile, en vers burlesques</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5576896n"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau71_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Ambassadeur (l') des États de Catalogne envoyé par don Joseph de
-                        Marguerite à la reine régente, mère du roi, touchant les affaires de cette
-                        province et la paix particulière et générale.</title>
-                    <author ref="isni:0000000110630725">Joseph de Margarit, marquis
-                        d'Aguilar</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="http://books.google.fr/books?id=_GEwwpL9BPwC"/>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=Ca9SXN7UOVYC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -1505,16 +1616,128 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2suppl174_GBOOKS.xml">
+    <TEI corresp="Moreau70_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Relation véritable de ce qui s’est passé au combat qui se rendit mardi au
-                        matin, 16 février, entre Lonjumeau et Huissous à l’escorte du
-                        convoi.</title>
+                    <title>L’ambassadeur de Savoie envoyé du mandement de son Altesse, par le sénat
+                        de Chambéry, à la reine régente, mère du roi.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=dIWP8dshYK4C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau45_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>L'adieu et le désespoir des autheurs et écrivains de libelles de la
+                        guerre civile, en vers burlesques</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5576896n"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau71_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>L'ambassadeur des États de Catalogne envoyé par don Joseph de Marguerite
+                        à la reine régente, mère du roi, touchant les affaires de cette province et
+                        la paix particulière et générale.</title>
+                    <author ref="isni:0000000110630725">Joseph de Margarit, marquis
+                        d'Aguilar</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="http://books.google.fr/books?id=_GEwwpL9BPwC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau46_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>L'admirable harmonie des perfections, qualités et reproches de
+                        Mazarin</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -1526,9 +1749,45 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
-                            <idno
-                                source="https://www.google.fr/books/edition/Relation_veritable_de_ce_qui_s_est_passe/X0dKAAAAcAAJ?hl=fr&amp;gbpv=0"
-                            />
+                            <idno source="http://books.google.fr/books?id=E3hKAAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1798_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lamentable description des royaumes démolis, des villes perdues par la
+                        malice des ministres d'État, envoyée à la reine régente par l'amirante de
+                        Castille, pour lui servir d'avertissement.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=mUJKAAAAcAAJ"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

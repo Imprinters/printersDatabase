@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_DuBoscVeuvedeJean">
   <teiHeader>
     <fileDesc>
@@ -52,15 +50,8 @@
             </residence>
             <listEvent>
               <event>
-                <label type="bio" source="IdRef">Libraire</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Rouen, 1630-1648. Adresse : dans la cour du
-                  Palais</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Epouse Jean I Du Bosc le 25 juillet 1605. Lui
-                  succède en 1630</label>
+                <label type="bio" source="IdRef">Libraire','Rouen, 1630-1648. Adresse : dans la cour
+                  du Palais','Epouse Jean I Du Bosc le 25 juillet 1605. Lui succède en 1630</label>
               </event>
             </listEvent>
           </person>

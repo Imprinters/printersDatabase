@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_JacquardNicolas">
     <teiHeader>
         <fileDesc>
@@ -55,18 +53,9 @@
                         <listEvent>
                             <event>
                                 <label type="bio" source="IdRef">Clermont-Ferrand : 1653-1679 ; Près
-                                    la Grande fontaine</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Sens : 1639-1641</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Paris : 1646-1651 ; Rue Chartière
-                                    (, près le Puits Certain) - Au Treillis vert - À la Charité - À
-                                    la Renommée</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Imprimeur-libraire ; imprimeur
+                                    la Grande fontaine','Sens : 1639-1641','Paris : 1646-1651 ; Rue
+                                    Chartière (, près le Puits Certain) - Au Treillis vert - À la
+                                    Charité - À la Renommée','Imprimeur-libraire ; imprimeur
                                     ordinaire de monseigneur l'archevêque et du diocèse de Sens
                                     (1641-1650) ; à Clermont-Ferrand, (premier) imprimeur et
                                     libraire ordinaire du Roi, de monseigneur l'évêque et du clergé.
@@ -74,11 +63,8 @@
                                     Paris en juillet 1646 ; y exerce l'imprimerie à partir de 1649
                                     ou peu avant. Venu à Clermont-Ferrand en nov. 1651 à
                                     l'invitation de l'évêque. Dit, sans doute à tort, âgé de 60 ans
-                                    lors de son décès (1er janv. 1680)</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Devise(s) : Discite justitiam
-                                    moniti</label>
+                                    lors de son décès (1er janv. 1680)','Devise(s) : Discite
+                                    justitiam moniti</label>
                             </event>
                         </listEvent>
                     </person>
@@ -91,15 +77,15 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="Moreau3396_GBOOKS.xml">
+    <TEI corresp="Moreau2607_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Réponse de la reine au mémoire présenté au Parlement de la part de M. le
-                        prince de Conty, touchant l'entrée de l'archiduc Léopold en France.</title>
-                    <author ref="isni:0000000055360231">Anne d'Autriche</author>
+                    <title>Oraison funèbre sur la vie et la mort de madame la princesse douairière
+                        de Condé, par M. D. L. B. E.</title>
+                    <author ref="isni:0000">D. L. B. E.</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="27"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -111,7 +97,119 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=kUX8xjc15ZYC"/>
+                            <idno source="https://books.google.fr/books?id=GbsyH9wfsJMC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1386_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le fidèle domestique à monseigneur le duc d'Orléans, sur les affaires de
+                        ce temps.</title>
+                    <author ref="viaf:89186376">Jacques Labbé</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
+                            <idno source="https://books.google.fr/books?id=bTtKAAAAcAAJ&amp;hl=fr"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau466_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Aveuglement des esprits de ce temps discours qui sert de réponse à toutes
+                        les pièces qui choquent l’État et qui peuvent retarder le retour du roi à
+                        Paris</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="14"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=eJ3REIXM5LsC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3761_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le terme de Pâques sans trébuchet, en vers burlesque, suivant l'arrêt du
+                        14 avril 1649.</title>
+                    <author ref="isni:0000000063037063">Laurent de Laffemas</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5722057n"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -202,123 +300,13 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1386_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Fidèle (le) domestique à monseigneur le duc d'Orléans, sur les affaires
-                        de ce temps.</title>
-                    <author ref="viaf:89186376">Jacques Labbé</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
-                            <idno source="https://books.google.fr/books?id=bTtKAAAAcAAJ&amp;hl=fr"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1695_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Injuste (l') au trône de la fortune, ou le Fléau de la France.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=faoK4csF3F4C"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2927_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Pucelle (la) de Paris triomphant des injustes prétentions d'un Italien
-                        par la force de ses arrêts.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=SS8cLeuthP4C"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
     <TEI corresp="Moreau1028_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Dernière (la) soupe à l’oignon pour Mazarin ou la Confirmation de l’arrêt
+                    <title>La dernière soupe à l’oignon pour Mazarin ou la Confirmation de l’arrêt
                         du huitième janvier 1649, en vers burlesques.</title>
-                    <author ref="isni:0000000063037063">Laurent Laffemas de</author>
+                    <author ref="isni:0000000063037063">Laurent de Laffemas Nicolas Ledru</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
                     /></extent>
@@ -387,15 +375,92 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3761_GALL.xml">
+    <TEI corresp="Moreau384_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Terme (le) de Pâques sans trébuchet, en vers burlesque, suivant l'arrêt
-                        du 14 avril 1649.</title>
-                    <author ref="isni:0000000063037063">Laurent Laffemas, de</author>
+                    <title>Arrhes de la paix universelle sur les cérémonies et allégresses, faites à
+                        Rome pour le roi très-chrétien Louis XIV, dit Dieudonné, présentés à la
+                        reine régenté à Saint-Germain-en-Laye.</title>
+                    <author ref="viaf:89186376">Jacques Labbé</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=gvtvVJxYSY4C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1695_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>L'injuste au trône de la fortune, ou le Fléau de la France.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=faoK4csF3F4C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1648_BnF.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Histoire mémorable et véritable récit de ce qui s'est fait et passé à
+                        l'assassinat commis en la personne du baron de Saint-Églan, dans le carrosse
+                        de M. le duc de Beaufort, le 29 octobre 1650, ensemble l'exécution des
+                        assassineurs ) faite devant la Croix du Tiroir, le 14 novembre ensuivant,
+                        avec leurs noms, surnoms et lieux de leur naissance . Rarissime.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="1"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -407,7 +472,157 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5722057n"/>
+                            <idno
+                                source="https://essentiels.bnf.fr/fr/image/529a3062-d662-45b9-b074-a68795dc1573-un-fait-divers-1650"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3396_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Réponse de la reine au mémoire présenté au Parlement de la part de M. le
+                        prince de Conty, touchant l'entrée de l'archiduc Léopold en France.</title>
+                    <author ref="isni:0000000055360231">Anne d'Autriche</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=kUX8xjc15ZYC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau643_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le cartel burlesque entre deux amis, envoyé de Paris à Ruel et refusé
+                        pendant la conférence.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5679275k"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau994_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Les délices de la paix, représentés par les États et les villes de ce
+                        royaume, par le sieur Bertaut.</title>
+                    <author ref="isni:0000000061212972">Bertin Bertaut</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="20"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=64gHsfHxp4wC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1521_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La guerre burlesque ou L'injustice terrassée aux pieds de Monsieur de
+                        Beaufort.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5851853h"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -463,160 +678,11 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1521_GALL.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>La guerre burlesque ou L'injustice terrassée aux pieds de Monsieur de
-                        Beaufort.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5851853h"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2607_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Oraison funèbre sur la vie et la mort de madame la princesse douairière
-                        de Condé, par M. D. L. B. E.</title>
-                    <author ref="isni:0000">D. L. B. E.</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="27"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=GbsyH9wfsJMC"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau384_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Arrhes de la paix universelle sur les cérémonies et allégresses, faites à
-                        Rome pour le roi très-chrétien Louis XIV, dit Dieudonné, présentés à la
-                        reine régenté à Saint-Germain-en-Laye.</title>
-                    <author ref="viaf:89186376">Jacques Labbé</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=gvtvVJxYSY4C"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1225_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Entrée (l’) du roi dans son Parlement, pour la déclaration de sa
-                        majorité.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="15"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="http://books.google.fr/books?id=NmFlg0jcQR4C"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
     <TEI corresp="Moreau1285_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Esprit (l') du duc de Châtillon apparu à monsieur le prince de
+                    <title>L'esprit du duc de Châtillon apparu à monsieur le prince de
                         Condé.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
@@ -649,15 +715,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau643_GALL.xml">
+    <TEI corresp="Moreau1225_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Cartel (le) burlesque entre deux amis, envoyé de Paris à Ruel et refusé
-                        pendant la conférence.</title>
+                    <title>L’entrée du roi dans son Parlement, pour la déclaration de sa
+                        majorité.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="15"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -668,8 +734,45 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5679275k"/>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="http://books.google.fr/books?id=NmFlg0jcQR4C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2927_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La pucelle de Paris triomphant des injustes prétentions d'un Italien par
+                        la force de ses arrêts.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=SS8cLeuthP4C"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_ThoreauJulien">
   <teiHeader>
     <fileDesc>
@@ -55,16 +53,10 @@
                 <label type="bio" source="IdRef">À partir de 1647, travaille en association avec son
                   gendre Jean Fleuriau; en janv. 1652, résigne en faveur de ce dernier sa charge
                   d'imprimeur du Roi. Jean Fleuriau semble avoir encore publié sous le nom de J.
-                  Thoreau jusque vers 1663</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Imprimeur-libraire; libraire et imprimeur de
+                  Thoreau jusque vers 1663','Imprimeur-libraire; libraire et imprimeur de
                   l'université; imprimeur du Roi (1612-1652). Originaire de Saint-Hilaire-le-Lierru,
                   près de Mamers (Sarthe). Succède à Jean I Blanchet dont il épouse la veuve en
-                  avril 1608</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Poitiers : 1608-1656; 1661-1663</label>
+                  avril 1608','Poitiers : 1608-1656; 1661-1663</label>
               </event>
             </listEvent>
           </person>

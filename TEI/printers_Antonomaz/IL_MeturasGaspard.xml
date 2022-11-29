@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_MeturasGaspard">
     <teiHeader>
         <fileDesc>
@@ -57,15 +55,10 @@
                             <event>
                                 <label type="bio" source="IdRef">Paris : 1610-1680? ; Rue
                                     Saint-Jacques (, près (ou : proche) les (RR. PP.) Mathurins) - À
-                                    (l'enseigne de) la (Très-Sainte) Trinité</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Associé à partir de 1662 à son fils
-                                    Gaspard II Meturas, qui lui succède</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Libraire. Commence à exercer dès
-                                    1610, mais n'est recu maître qu'en sept. 1619</label>
+                                    (l'enseigne de) la (Très-Sainte) Trinité','Associé à partir de
+                                    1662 à son fils Gaspard II Meturas, qui lui succède','Libraire.
+                                    Commence à exercer dès 1610, mais n'est recu maître qu'en sept.
+                                    1619</label>
                             </event>
                         </listEvent>
                     </person>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_LangloisEmmanuel">
     <teiHeader>
         <fileDesc>
@@ -55,15 +53,8 @@
                             <event>
                                 <label type="bio" source="IdRef">Libraire. 1er fils de Jacques I
                                     Langlois. Reçu libraire en nov. 1652. Décédé après le 19 sept.
-                                    1683</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">De 1652 à 1678, travaille
-                                    fréquemment en association avec son père Jacques I
-                                    Langlois</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Paris : 1652-1683 ; Au Mont
+                                    1683','De 1652 à 1678, travaille fréquemment en association avec
+                                    son père Jacques I Langlois','Paris : 1652-1683 ; Au Mont
                                     Sainte-Geneviève (, vis-à-vis la fontaine) (, et en sa boutique
                                     à l'entrée de la grand-salle du Palais (, au sixième pilier)) ;
                                     Rue Saint-Jacques (, vis-à-vis Saint-Yves) - À la Reine de Paix
@@ -95,7 +86,7 @@
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="263"/><measure unit="decoration"
-                        quantity="0"/></extent>
+                        quantity="1"/></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
                     <availability status="restricted" n="cc-by">
@@ -106,7 +97,7 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=Ksm-vpyZmIkC&amp;hl=fr"/>
+                            <idno source="https://books.google.fr/books?id=Ksm-vpyZmIkC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -123,18 +114,16 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3suppl48_GBOOKS.xml">
+    <TEI corresp="Moreau2023_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Journal (le) ou histoire du temps présent contenant toutes les
-                        déclarations du Roy vérifiées en parlement et tous les arrêts rendus, les
-                        chambres assemblées, pour les affaires publiques depuis le mois d'avril 1651
-                        jusqu’en juin 1652.</title>
-                    <author ref="isni:0000"/>
+                    <title>Lettre de monsieur le garde des sceaux de France et premier président à
+                        M. le président de Bailleul.</title>
+                    <author ref="isni:0000000121204991">Mathieu Molé</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="323"/><measure unit="decoration"
-                        quantity="0"/></extent>
+                <extent><measure unit="pages" quantity="3"/><measure unit="decoration" quantity="0"
+                    /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
                     <availability status="restricted" n="cc-by">
@@ -144,10 +133,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno
-                                source="https://www.google.fr/books/edition/Le_Journal_ou_Histoire_du_temps_présent/6ALtHLTUQbAC?hl=framp;gbpv=0"
-                            />
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=NQwJpTdYTbQC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -175,7 +162,7 @@
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="325"/><measure unit="decoration"
-                        quantity="0"/></extent>
+                        quantity="2"/></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
                     <availability status="restricted" n="cc-by">
@@ -186,7 +173,7 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=6ALtHLTUQbAC&amp;hl=fr"/>
+                            <idno source="https://books.google.fr/books?id=6ALtHLTUQbAC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

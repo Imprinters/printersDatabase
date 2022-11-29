@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_LeRoyClaude">
     <teiHeader>
         <fileDesc>
@@ -57,10 +55,7 @@
                                 <label type="bio" source="IdRef">Imprimeur-libraire. Fils du
                                     libraire-relieur Jacques I Le Roy. Relieur attesté dès avant
                                     1641, il est recu libraire en déc. 1643 et imprimeur en 1686.
-                                    Décédé avant nov. 1691</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Paris : 1643-169.? ; Au Mont
+                                    Décédé avant nov. 1691','Paris : 1643-169.? ; Au Mont
                                     Saint-Hilaire (ou : Sainte-Geneviève)</label>
                             </event>
                         </listEvent>
@@ -74,6 +69,237 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
+    <TEI corresp="Moreau3941_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le véritable manifeste de la France à Son Altesse Royale et à messieurs
+                        du Parlement sur les désordres des gens de guerre.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=KltEO4-UzrQC&amp;hl=fr"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1472_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La gazette nouvelle, en vers burlesques, sur l'arrivée du roi en sa bonne
+                        ville de Paris, première semaine.</title>
+                    <author ref="isni:0000000061345732">Jean Loret</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz18482"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau461_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Avertissement sur la sanglante bataille, qui se doit faire, dans peu de
+                        temps d'ici, entre l'armée mazarine et celle de nos seigneurs les princes,
+                        prédit par Michel Nostradamus, neuvième prédiction</title>
+                    <author ref="isni:0000000083395220">Nostradamus</author>
+                    <author ref="isni:0000000061384678">Jacques M</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=MvEqwYRddN8C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3820_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Très-humble remontrances faite au roi et à la reine par messieurs les
+                        gens du roi, députés de la cour du Parlement pour le traité de la
+                        paix.</title>
+                    <author ref="idref:069054215">Gabriel Fournier</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=L5FRWpADOggC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau884_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La déclaration de monseigneur le duc de Beaufort, envoyée à messieurs du
+                        parlement.</title>
+                    <author ref="isni:000000012095909X">François de Bourbon-Vendôme, duc de
+                        Beaufort</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k850176t"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3255_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Relation véritable de tout ce qui s'est fait et passé en Parlement, dans
+                        la dernière assemblée tenue en présence de Son Altesse Royale et de monsieur
+                        le Prince, le 2? et 3? septembre 1652.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno
+                                source="https://www.google.fr/books/edition/Relation_veritable_de_tout_ce_qui_s_est/lLcigsBv5qMC"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
     <TEI corresp="Labadie152_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
@@ -95,117 +321,6 @@
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale</repository>
                             <idno source="http://books.google.fr/books?id=kwUNu8mDgEAC"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Labadie144_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>COURRIER (second) Bourdelois apportant toutes sor tes de
-                        nouvelles</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=8rqycIdJ-o0C"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Labadie145_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>COURRIER (troisième) Bourdelois apportant toutes sortes de
-                        nouvelles</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=P6gqR4iC7ogC"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Labadie149_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>COURRIER (septiesme) Bourdelois apportant toutes sortes de
-                        nouvelles</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="http://books.google.fr/books?id=jFLzReIh54sC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -259,16 +374,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3255_GBOOKS.xml">
+    <TEI corresp="Labadie149_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Relation véritable de tout ce qui s'est fait et passé en Parlement, dans
-                        la dernière assemblée tenue en présence de Son Altesse Royale et de monsieur
-                        le Prince, le 2? et 3? septembre 1652.</title>
+                    <title>COURRIER (septiesme) Bourdelois apportant toutes sortes de
+                        nouvelles</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -279,10 +393,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno
-                                source="https://www.google.fr/books/edition/Relation_veritable_de_tout_ce_qui_s_est/lLcigsBv5qMC?hl=fr&amp;gbpv=0"
-                            />
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="http://books.google.fr/books?id=jFLzReIh54sC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -299,12 +411,49 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3941_GBOOKS.xml">
+    <TEI corresp="Labadie144_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Véritable (le) manifeste de la France à Son Altesse Royale et à messieurs
-                        du Parlement sur les désordres des gens de guerre.</title>
+                    <title>COURRIER (second) Bourdelois apportant toutes sor tes de
+                        nouvelles</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=8rqycIdJ-o0C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Labadie148_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>COURRIER (sixiesme) Bourdelois apportant toutes sortes de
+                        nouvelles</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
@@ -318,46 +467,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=KltEO4-UzrQC&amp;hl=fr"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1931_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Lettre de l'archiduc Léopold envoyée à Son Altesse Royale, détestant la
-                        trahison du duc Charles, avec l'approche de son armée au service des
-                        princes.</title>
-                    <author ref="isni:0000000121391096">Léopold-Guillaume Habsbourg de</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=vmIJNzfto7MC&amp;hl=fr"/>
+                            <idno source="https://books.google.fr/books?id=roFI240wXPQC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -374,90 +485,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1960_GBOOKS.xml">
+    <TEI corresp="Labadie145_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Lettre de Mademoiselle écrite à Son Altesse Royale.</title>
-                    <author ref="isni:0000000109170813">Anne-Marie Louise Orléans (D')</author>
+                    <title>COURRIER (troisième) Bourdelois apportant toutes sortes de
+                        nouvelles</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=JX070b_TH94C&amp;hl=fr"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau884_GALL.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Déclaration (la) de monseigneur le duc de Beaufort, envoyée à messieurs
-                        du parlement.</title>
-                    <author ref="isni:000000012095909X">François Bourbon-Vendôme, duc de
-                        Beaufort</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k850176t"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2934_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Quatre (les) lettres du cardinal Mazarin envoyées à ses confédérés,
-                        surprises par M. de Tavannes tramant une horrible trahison, écrites de
-                        Melun, le 26 juin 1652.</title>
-                    <author ref="isni:0000000121223121">Jules Mazarin</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -469,46 +505,7 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=WRwzLNEVuksC"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2019_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Lettre de monsieur le comte de Tavannes à monseigneur le duc d'Orléans
-                        sur la trahison des Allemands découverte par les habitants de la ville
-                        d'Étampes, le 27? jour de mai 1652, avec la punition exemplaire qui en a été
-                        faite dans ladite ville.</title>
-                    <author ref="isni:0000000122798701">Jacques Saulx de</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=qtA6o2eTY6cC&amp;hl=fr"/>
+                            <idno source="https://books.google.fr/books?id=P6gqR4iC7ogC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -564,128 +561,13 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1570_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Harangue faite à Mademoiselle par messieurs d'Orléans à son arrivée, en
-                        présence de messieurs les ducs de Beaufort, de Rohan et autres seigneurs, et
-                        leur très-humble remercîment envoyé à son Altesse Royale.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Munich, Bibliothèque de l'Etat de Bavière</repository>
-                            <idno source="https://books.google.fr/books?id=smFCAAAAcAAJ"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau3820_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Très-humble remontrances (sic) faite au roi et à la reine par messieurs
-                        les gens du roi, députés de la cour du Parlement pour le traité de la
-                        paix.</title>
-                    <author ref="idref:069054215">Gabriel Fournier</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=L5FRWpADOggC"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1472_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Gazette (la) nouvelle, en vers burlesques, sur l'arrivée du roi en sa
-                        bonne ville de Paris, première semaine.</title>
-                    <author ref="isni:0000000061345732">Jean Loret</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz18482"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
     <TEI corresp="Moreau2361_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Manifeste (le) de la ville d'Orléans, présenté à Son Altesse Royale, où
-                        il est montré que, pour avoir bientôt la paix, il est nécessaire de se
-                        déclarer contre le Mazarin, à l'imitation des habitants de ladite ville
+                    <title>Le manifeste de la ville d'Orléans, présenté à Son Altesse Royale, où il
+                        est montré que, pour avoir bientôt la paix, il est nécessaire de se déclarer
+                        contre le Mazarin, à l'imitation des habitants de ladite ville
                         d'Orléans.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
@@ -758,6 +640,158 @@
             </body>
         </text>
     </TEI>
+    <TEI corresp="Moreau974_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La défaite des troupes du général Rose, dans la plaine de Brégy, par le
+                        duc de Wirtemberg et le comte de Fuensaldagne, et la construction du pont de
+                        Charenton par les troupes des princes, et ceux du maréchal de Turenne à
+                        celui de la Barre .</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=wCT_INlebMYC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1931_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettre de l'archiduc Léopold envoyée à Son Altesse Royale, détestant la
+                        trahison du duc Charles, avec l'approche de son armée au service des
+                        princes.</title>
+                    <author ref="isni:0000000121391096">Léopold-Guillaume de Habsbourg</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=vmIJNzfto7MC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1960_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettre de Mademoiselle écrite à Son Altesse Royale.</title>
+                    <author ref="isni:0000000109170813">Anne-Marie-Louise d’Orléans, duchesse de
+                        Montpensier La Grande Mademoiselle</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=JX070b_TH94C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1570_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Harangue faite à Mademoiselle par messieurs d'Orléans à son arrivée, en
+                        présence de messieurs les ducs de Beaufort, de Rohan et autres seigneurs, et
+                        leur très-humble remercîment envoyé à son Altesse Royale.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Munich, Bibliothèque de l'Etat de Bavière</repository>
+                            <idno source="https://books.google.fr/books?id=smFCAAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
     <TEI corresp="Moreau1298_MAZ.xml">
         <teiHeader>
             <fileDesc>
@@ -784,6 +818,83 @@
                             <idno
                                 source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14847"
                             />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2934_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Les quatre lettres du cardinal Mazarin envoyées à ses confédérés,
+                        surprises par M. de Tavannes tramant une horrible trahison, écrites de
+                        Melun, le 26 juin 1652.</title>
+                    <author ref="isni:0000000121223121">Jules Mazarin</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=WRwzLNEVuksC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2019_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettre de monsieur le comte de Tavannes à monseigneur le duc d'Orléans
+                        sur la trahison des Allemands découverte par les habitants de la ville
+                        d'Étampes, le 27? jour de mai 1652, avec la punition exemplaire qui en a été
+                        faite dans ladite ville.</title>
+                    <author ref="isni:0000000122798701">Jacques de Saulx</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=qtA6o2eTY6cC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

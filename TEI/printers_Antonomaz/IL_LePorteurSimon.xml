@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_LePorteurSimon">
     <teiHeader>
         <fileDesc>
@@ -67,97 +65,12 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="Moreau3387_GBOOKS.xml">
+    <TEI corresp="Moreau3130_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Réponse aux Intrigues de la paix et négociations faites à la cour par les
-                        amis de monseigneur le Prince depuis sa retraite en Guyenne jusqu'à
-                        présent.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="14"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
-                            <idno source="https://books.google.fr/books?id=tkJKAAAAcAAJ"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau3400_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Réponse (la) de messieurs les princes aux articles proposés dans celle
-                        qui fut faite aux députés du Parlement de Paris à Melun, le 16 juin 1652, 1.
-                        faisant voir que le conseil de Sa Majesté, gagné par le Mazarin, n'a
-                        d'autres desseins que l'entretenir la guerre, d'affamer, prendre et ruiner
-                        Paris pour affermir la tyrannie du Mazarin; 2. que les princes ne doivent
-                        poser les armes, sous quelques promesses qu'on leur donne, que Mazarin ne
-                        soit hors du royaume; 3. qu'il est nécessaire que Paris joigne ses armes à
-                        celles des princes pour se conserver les uns les autres; 4. quels sont les
-                        moyens de délivrer la France de l'oppression et de la tyrannie.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="19"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=IOBc94SWhx0C"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau876_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Déclaration (la) de messieurs de ville (sic) pour le parti des princes,
-                        faite en présence de Mademoiselle, et mise entre les mains de monseigneur le
-                        duc de Beaufort, et signee par huit colonels et plusieurs bourgeois, le 1er
-                        juillet 1652, avec ce qui s’est fait et passé entre l’armée des princes et
-                        celle des Mazarins.</title>
+                    <title>Relation de ce qui s'est passé le mardi 24 septembre dans le
+                        Palais-Royal, avec les noms des principaux de l'assemblée.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
@@ -171,8 +84,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Vienne, Biblothèque nationale d'Autriche</repository>
-                            <idno source="https://books.google.fr/books?id=6ntKAAAAcAAJ"/>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=IIKThKYA2aMC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -189,86 +102,14 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3421_GBOOKS.xml">
+    <TEI corresp="Moreau425_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Réponse (la) des princes aux arrêts du conseil du roi tenu à Pontoise le
-                        (sic) 18, 23 et 24 juillet et 1 août 1652.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="15"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=dxX7z94-4DEC"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2502_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Motifs (les) de la retraite de M. le duc de Beaufort dans sa
-                        solitude.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=aGh_QYQh_HMC"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2847_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Premier(le)courrier des princes, apportant toutes sortes de
-                        nouvelles.</title>
+                    <title>Les artictes et particularités du nouveau traité fait et arrêté dans une
+                        maison, au delà du pont de Charenton, entre M. le prince deCondé et le duc
+                        de Lorraine, en présence de Son Altesse Royale, le 12 septembre
+                        1652.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
@@ -282,48 +123,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
-                            <idno source="https://books.google.fr/books?id=m2VCAAAAcAAJ&amp;hl=fr"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau3792_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Trahison (la) du duc Charles tramée par le roi d'Angleterre et le
-                        cardinal de Rez (sic), coadjuteur de Paris, et découverte par monseigneur le
-                        duc de Beaufort, le dimanche 16 juin 1652.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno
-                                source="https://www.google.fr/books/edition/La_Trahizon_du_duc_Charles_tramée_par_l/gfVaw6BMXAUC?hl=fr&amp;gbpv=0"
-                            />
+                            <idno source="https://books.google.fr/books?id=J256xqdd98EC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -376,14 +177,12 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2356_GBOOKS.xml">
+    <TEI corresp="Moreau2847_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Manifeste (le) de la noblesse de Normandie, par lequel elle déclare
-                        reconnaître Son Altesse Royale pour lieutenant général pour le roi, et se
-                        joint aux princes et aux parlements pour mettre en exécution les
-                        déclarations et arrêt donnés contre le cardinal Mazarin.</title>
+                    <title>Le premier courrier des princes, apportant toutes sortes de
+                        nouvelles.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
@@ -397,8 +196,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=v9DPTTHUptgC"/>
+                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
+                            <idno source="https://books.google.fr/books?id=m2VCAAAAcAAJ"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -415,12 +214,53 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3130_GBOOKS.xml">
+    <TEI corresp="Moreau876_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Relation de ce qui s'est passé le mardi 24 septembre dans le
-                        Palais-Royal, avec les noms des principaux de l'assemblée.</title>
+                    <title>La déclaration de messieurs de ville pour le parti des princes, faite en
+                        présence de Mademoiselle, et mise entre les mains de monseigneur le duc de
+                        Beaufort, et signee par huit colonels et plusieurs bourgeois, le 1er juillet
+                        1652, avec ce qui s’est fait et passé entre l’armée des princes et celle des
+                        Mazarins.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Vienne, Biblothèque nationale d'Autriche</repository>
+                            <idno source="https://books.google.fr/books?id=6ntKAAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3792_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La trahison du duc Charles tramée par le roi d'Angleterre et le cardinal
+                        de Rez , coadjuteur de Paris, et découverte par monseigneur le duc de
+                        Beaufort, le dimanche 16 juin 1652.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
@@ -435,7 +275,9 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=IIKThKYA2aMC&amp;hl=fr"/>
+                            <idno
+                                source="https://www.google.fr/books/edition/La_Trahizon_du_duc_Charles_tramée_par_l/gfVaw6BMXAUC?hl=fr&amp;gbpv=0"
+                            />
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -452,16 +294,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1740_GALL.xml">
+    <TEI corresp="Moreau2502_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Journal (le) contenant ce qui se passe de plus remarquable dans le
-                        royaume pendant cette guerre civile, à Paris; le vendredi 23 août
-                        1652.</title>
+                    <title>Les motifs de la retraite de M. le duc de Beaufort dans sa
+                        solitude.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="44"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -472,8 +313,83 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k6116950k"/>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=aGh_QYQh_HMC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3521_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le résultat de la députation des six corps de marchands, avec la harangue
+                        faite au palais d'Orléans et la réponse de Son Altesse aux députés, jeudi
+                        dernier 17 septembre 1652.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=MwY3358fmKgC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3suppl54_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettre de la princesse Élisabeth envoyée au roi d’Angleterre, son frère,
+                        sur les entreprises faites avec le duc Charles.</title>
+                    <author ref="isni:0000000080907163">Elisabeth Stuart</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Londres, The British Library</repository>
+                            <idno source="https://books.google.fr/books?id=6vpmAAAAcAAJ"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -515,6 +431,201 @@
                             <idno
                                 source="https://www.google.fr/books/edition/La_défaite_des_troupes_des_Sieurs_de_l/h2VCAAAAcAAJ?hl=fr&amp;gbpv=0"
                             />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2356_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le manifeste de la noblesse de Normandie, par lequel elle déclare
+                        reconnaître Son Altesse Royale pour lieutenant général pour le roi, et se
+                        joint aux princes et aux parlements pour mettre en exécution les
+                        déclarations et arrêt donnés contre le cardinal Mazarin.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=v9DPTTHUptgC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3400_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La réponse de messieurs les princes aux articles proposés dans celle qui
+                        fut faite aux députés du Parlement de Paris à Melun, le 16 juin 1652, 1.
+                        faisant voir que le conseil de Sa Majesté, gagné par le Mazarin, n'a
+                        d'autres desseins que l'entretenir la guerre, d'affamer, prendre et ruiner
+                        Paris pour affermir la tyrannie du Mazarin; 2. que les princes ne doivent
+                        poser les armes, sous quelques promesses qu'on leur donne, que Mazarin ne
+                        soit hors du royaume; 3. qu'il est nécessaire que Paris joigne ses armes à
+                        celles des princes pour se conserver les uns les autres; 4. quels sont les
+                        moyens de délivrer la France de l'oppression et de la tyrannie.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="19"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=IOBc94SWhx0C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3387_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Réponse aux Intrigues de la paix et négociations faites à la cour par les
+                        amis de monseigneur le Prince depuis sa retraite en Guyenne jusqu'à
+                        présent.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="14"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
+                            <idno source="https://books.google.fr/books?id=tkJKAAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3421_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La réponse des princes aux arrêts du conseil du roi tenu à Pontoise le
+                        18, 23 et 24 juillet et 1 août 1652.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="15"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=dxX7z94-4DEC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1740_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le journal contenant ce qui se passe de plus remarquable dans le royaume
+                        pendant cette guerre civile, à Paris; le vendredi 23 août 1652.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="44"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k6116950k"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

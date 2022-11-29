@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_ClousierGervais">
     <teiHeader>
         <fileDesc>
@@ -55,11 +53,9 @@
                             <event>
                                 <label type="bio" source="IdRef">Paris : 1634-1681 ; Au Palais, sur
                                     les degrés de (ou : en montant pour aller à) la Sainte-Chapelle
-                                    (, à la seconde boutique) - À l'enseigne du Voyageur</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Libraire. Frère puîné de Francois I
-                                    Clousier. Recu libraire en août 1634</label>
+                                    (, à la seconde boutique) - À l'enseigne du Voyageur','Libraire.
+                                    Frère puîné de Francois I Clousier. Recu libraire en août
+                                    1634</label>
                             </event>
                         </listEvent>
                     </person>

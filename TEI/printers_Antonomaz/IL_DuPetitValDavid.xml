@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_DuPetitValDavid">
     <teiHeader>
         <fileDesc>
@@ -56,25 +54,16 @@
                             <event>
                                 <label type="bio" source="IdRef">Rouen : 1610-1658 ; Près le Palais
                                     ; (Rue aux Juifs,) Devant la grand-porte (du Palais ; et au haut
-                                    des degrés du Palais)</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">A travaillé en association avec ses
-                                    deux beaux-frères Jacques I Besongne et Jean I Berthelin, puis
-                                    avec Jean III Viret, autre imprimeur du Roi à partir de
-                                    1637</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Imprimeur-libraire ; imprimeur et
-                                    libraire ordinaire du Roi. Fils de Raphae͏̈l Du Petit Val, dont
-                                    il obtient la survivance comme imprimeur ordinaire du Roi par
-                                    lettres de provision dès le 25 juin 1609. Reçu maître en 1610.
-                                    Jusqu'en 1626, publie aussi parfois sous le nom de son père.
-                                    Poète, chaque année primé au concours des Palinods de Rouen de
-                                    1624 à 1633</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Devise(s) : Deo duce</label>
+                                    des degrés du Palais)','A travaillé en association avec ses deux
+                                    beaux-frères Jacques I Besongne et Jean I Berthelin, puis avec
+                                    Jean III Viret, autre imprimeur du Roi à partir de
+                                    1637','Imprimeur-libraire ; imprimeur et libraire ordinaire du
+                                    Roi. Fils de Raphae͏̈l Du Petit Val, dont il obtient la
+                                    survivance comme imprimeur ordinaire du Roi par lettres de
+                                    provision dès le 25 juin 1609. Reçu maître en 1610. Jusqu'en
+                                    1626, publie aussi parfois sous le nom de son père. Poète,
+                                    chaque année primé au concours des Palinods de Rouen de 1624 à
+                                    1633','Devise(s) : Deo duce</label>
                             </event>
                             <event>
                                 <label type="bio" source="Antonomaz">imprimeur du roi</label>
@@ -90,17 +79,16 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="Moreau911_MAZ.xml">
+    <TEI corresp="Moreau1suppl81_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Déclaration du roi, donnée sur les mouvements arrivés en sa province de
-                        Normandie, lue, publiée et enregistrée à Rouen, en parlement, le 9 avril
-                        1649.</title>
-                    <author ref="isni:0000000480502587">France. Parlement de Rouen</author>
-                    <author ref="isni:0000000383255772">Louis XIV</author>
+                    <title>La déclaration de monseigneur le prince de Conty, de messieurs les
+                        généraux, etc</title>
+                    <author ref="isni:0000000121755355">Parlement de Paris</author>
+                    <author ref="isni:0000000119302891">Armand de Bourbon Conti</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="23"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -113,8 +101,46 @@
                         <msIdentifier>
                             <repository>Paris, Bibliothèque Mazarine</repository>
                             <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17645"
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14571"
                             />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2288_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettres et arrêts pour la jonction des parlements du royaume et affaires
+                        présentes, et la très humble remontrance du Parlement au roy et à la reyne
+                        régente.</title>
+                    <author ref="isni:0000000480502587">Parlement de Normandie</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="40"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
+                            <idno source="https://books.google.fr/books?id=1kxKAAAAcAAJ"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -135,10 +161,10 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Histoire (l') du temps, ou le Véritable récit de ce qui s'est passé dans
-                        le Parlement, depuis le mois d'août 1647 jusques au mois de novembre 1648,
-                        avec les harangues et les avis différents qui ont été proposés dans les
-                        affaires qu'on y a solennellement traitées.</title>
+                    <title>L'histoire du temps, ou le Véritable récit de ce qui s'est passé dans le
+                        Parlement, depuis le mois d'août 1647 jusques au mois de novembre 1648, avec
+                        les harangues et les avis différents qui ont été proposés dans les affaires
+                        qu'on y a solennellement traitées.</title>
                     <author ref="isni:0000000078186360">Nicolas Johannes</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="240"/><measure unit="decoration"
@@ -172,54 +198,17 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2288_GBOOKS.xml">
+    <TEI corresp="Moreau911_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Lettres et arrêts pour la jonction des parlements du royaume et affaires
-                        présentes, et la très humble remontrance du Parlement au roy et à la reyne
-                        régente.</title>
-                    <author ref="isni:0000000480502587">Parlement de Normandie</author>
+                    <title>Déclaration du roi, donnée sur les mouvements arrivés en sa province de
+                        Normandie, lue, publiée et enregistrée à Rouen, en parlement, le 9 avril
+                        1649.</title>
+                    <author ref="isni:0000000480502587">France. Parlement de Rouen</author>
+                    <author ref="isni:0000000383255772">Louis XIV</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="40"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
-                            <idno source="https://books.google.fr/books?id=1kxKAAAAcAAJ&amp;hl=fr"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1suppl81_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Déclaration (la) de monseigneur le prince de Conty, de messieurs les
-                        généraux, etc</title>
-                    <author ref="isni:0000000121755355">France. Parlement de Paris</author>
-                    <author ref="isni:0000000119302891">Armand de Bourbon Conti</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="23"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -232,7 +221,7 @@
                         <msIdentifier>
                             <repository>Paris, Bibliothèque Mazarine</repository>
                             <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14571"
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17645"
                             />
                         </msIdentifier>
                         <physDesc>

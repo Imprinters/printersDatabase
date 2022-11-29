@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_LormeauLaurens">
     <teiHeader>
         <fileDesc>
@@ -50,7 +48,7 @@
                         </residence>
                         <listEvent>
                             <event>
-                                <label type="bio" source="IdRef"/>
+                                <label type="bio"/>
                             </event>
                         </listEvent>
                     </person>
@@ -67,10 +65,10 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Hécatombe (la) prophétique, ou les Cent Centuries de Don Pedro Oloso,
+                    <title>La hécatombe prophétique, ou les Cent Centuries de Don Pedro Oloso,
                         gentilhomme vénitien, astrologue de la république de Venise, où l'on
                         reconnoîtra l'heureuse entreprise de messieurs les Princes et la perte du
-                        cardinal Mazarin, présenté (sic) à Son Altesse Royale.</title>
+                        cardinal Mazarin, présenté à Son Altesse Royale.</title>
                     <author ref="isni:0000">Pedro Oloso</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="22"/><measure unit="decoration" quantity="0"

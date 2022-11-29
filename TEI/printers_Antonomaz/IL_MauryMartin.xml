@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_MauryMartin">
     <teiHeader>
         <fileDesc>
@@ -50,7 +48,7 @@
                         </residence>
                         <listEvent>
                             <event>
-                                <label type="bio" source="IdRef"/>
+                                <label type="bio"/>
                             </event>
                         </listEvent>
                     </person>
@@ -63,11 +61,11 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="Moreau2926-bad_GBOOKS.xml">
+    <TEI corresp="Moreau2926_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Puce (la) à l'oreille, ou la Cabale mazarine détruite par l'arrivée de
+                    <title>La puce à l'oreille, ou la Cabale mazarine détruite par l'arrivée de
                         l'archiduc Léopold.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>

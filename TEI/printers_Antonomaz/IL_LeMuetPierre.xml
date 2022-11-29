@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_LeMuetPierre">
     <teiHeader>
         <fileDesc>
@@ -53,11 +51,9 @@
                         <listEvent>
                             <event>
                                 <label type="bio" source="IdRef">Lieu d'activité : Paris. Dates
-                                    d'activité : 1652. Adresse : Près la porte Saint-Jacques</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Publie au moins une mazarinade en
-                                    1652. Peut-être s'agit-il d'un pseudonyme</label>
+                                    d'activité : 1652. Adresse : Près la porte
+                                    Saint-Jacques','Publie au moins une mazarinade en 1652.
+                                    Peut-être s'agit-il d'un pseudonyme</label>
                             </event>
                         </listEvent>
                     </person>
@@ -74,7 +70,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Caducée (le)d'État, faisant voir par la raison et par l’histoire : 1° Que
+                    <title>Le caducée d'État, faisant voir par la raison et par l’histoire : 1° Que
                         nous ne pouvons pas espérer la paix pendant que la reine sera dans le
                         conseil ; 2° Que l’entrée du conseil est interdite à la reine par les lois
                         de l’État ; 3° Que la reine est obligée de se retirer dans son apanage, pour

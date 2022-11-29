@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_DecourbeJean">
     <teiHeader>
         <fileDesc>
@@ -55,16 +53,12 @@
                                 <label type="bio" source="IdRef">Lieu d'activité : Paris. Dates
                                     d'activité : 1610?-1666?. Adresse : Rue
                                     Saint-Germain-l'Auxerrois. Enseigne : À l'Image Saint
-                                    Christophe</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Libraire-relieur. - Acquitte la
-                                    taxe d'ouverture de boutique en 1610-1612 sans avoir achevé son
-                                    apprentissage. Reçu relieur avant 1618 et colporteur en oct.
-                                    1633 (lettres de colporteur renouvelées en mars 1645). Publie
-                                    des mazarinades en 1649-1650. A deux fils, Gilles et Rolet
-                                    Decourbe, tous deux libraires-relieurs. Décédé avant le 8 avril
-                                    1666</label>
+                                    Christophe','Libraire-relieur. - Acquitte la taxe d'ouverture de
+                                    boutique en 1610-1612 sans avoir achevé son apprentissage. Reçu
+                                    relieur avant 1618 et colporteur en oct. 1633 (lettres de
+                                    colporteur renouvelées en mars 1645). Publie des mazarinades en
+                                    1649-1650. A deux fils, Gilles et Rolet Decourbe, tous deux
+                                    libraires-relieurs. Décédé avant le 8 avril 1666</label>
                             </event>
                         </listEvent>
                     </person>

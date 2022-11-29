@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_LoysonGuillaume">
     <teiHeader>
         <fileDesc>
@@ -57,15 +55,9 @@
                                     Au Palais, en (ou : au milieu de) la galerie des Prisonniers (,
                                     près la Chancellerie) ; Au Portique du Palais ; (En la ; Dans
                                     la) Cour de Saint-Jean-de-Latran - À la Salamandre - Au Nom de
-                                    Jésus</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Devise(s) : Nous brûlons le monde,
-                                    en brûlant je vis, c'est pour le conserver. - Splendor summus
-                                    haud intuendus. - Te annuente fruemur bonis</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Libraire. - Gendre (avril 1614) du
+                                    Jésus','Devise(s) : Nous brûlons le monde, en brûlant je vis,
+                                    c'est pour le conserver. - Splendor summus haud intuendus. - Te
+                                    annuente fruemur bonis','Libraire. - Gendre (avril 1614) du
                                     libraire parisien Claude de Monstr'?il et probablement établi au
                                     Palais dès 1614. Reçu maître en 1618, on trouve déjà une éd.
                                     sous son nom en 1617. Décédé avant le 18 août 1651 (veuve
@@ -82,15 +74,16 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="Moreau1851_GBOOKS.xml">
+    <TEI corresp="Moreau2675_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Lettre d'un bon pauvre écrite à madame la Princesse douairière sur les
-                        affaires du temps présent.</title>
+                    <title>Parabole et similitude plaisante pour faire voir l'union et la concorde
+                        qui doivent être entre un roi et ses sujets, s'ils veulent vivre en paix et
+                        en prospérité.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -101,8 +94,45 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=NPPNB9B4fysC&amp;hl=fr"/>
+                            <repository>Florence, Bibliothèque nationale centrale</repository>
+                            <idno source="https://books.google.fr/books?id=bRsKLJApsLsC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3772_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le théologien politique, pièce curieuse sur les affaires du temps pour la
+                        défense des bons François.</title>
+                    <author ref="isni:0000000108887898">Jacques Brousse</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
+                            <idno source="https://books.google.fr/books?id=CE1KAAAAcAAJ&amp;hl=fr"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -159,53 +189,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3772_GBOOKS.xml">
+    <TEI corresp="Moreau1851_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Théologien (le) politique, pièce curieuse sur les affaires du temps pour
-                        la défense des bons François.</title>
-                    <author ref="isni:0000000108887898">Jacques Brousse</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
-                            <idno source="https://books.google.fr/books?id=CE1KAAAAcAAJ&amp;hl=fr"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2675_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Parabole et similitude plaisante pour faire voir l'union et la concorde
-                        qui doivent être entre un roi et ses sujets, s'ils veulent vivre en paix et
-                        en prospérité.</title>
+                    <title>Lettre d'un bon pauvre écrite à madame la Princesse douairière sur les
+                        affaires du temps présent.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -216,8 +208,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Florence, Bibliothèque nationale centrale</repository>
-                            <idno source="https://books.google.fr/books?id=bRsKLJApsLsC"/>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=NPPNB9B4fysC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -256,6 +248,42 @@
                             <idno
                                 source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz18621"
                             />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2079_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettre des provinces de France aux bourgeois de Paris.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
+                            <idno source="https://books.google.fr/books?id=_XtKAAAAcAAJ"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

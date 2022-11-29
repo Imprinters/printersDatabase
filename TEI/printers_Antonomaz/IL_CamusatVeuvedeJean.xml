@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_CamusatVeuvedeJean">
     <teiHeader>
         <fileDesc>
@@ -55,28 +53,19 @@
                             <event>
                                 <label type="bio" source="IdRef">Travaille à partir de 1642 et
                                     jusqu'en juin 1651 en association avec Pierre Le Petit, son
-                                    gendre à partir de nov. 1643</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Adresse : Paris (1639-1652?), Rue
+                                    gendre à partir de nov. 1643','Adresse : Paris (1639-1652?), Rue
                                     Saint-Jacques. - À la Toison d'or (et à la Croix d'or), À la
-                                    Croix d'or</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Nom patronymique : Denise de
-                                    Courbes. - Imprimeur-libraire ; imprimeur-libraire de l'Académie
-                                    française (1639-1646). - Fille d'un Jean de Courbes mesureur
-                                    juré de grains et bourgeois de Paris, et non du libraire
-                                    parisien Jean de Courbe(s). Épouse l'imprimeur-libraire Jean
-                                    Camusat en juillet 1624. Lui succède à son décès (juin 1639).
-                                    Publie également sous le nom de Jean Camusat, jusqu'en 1642 au
-                                    moins. Se remarie le 15 juillet 1651 avec le libraire Louis de
-                                    Villac ; autorisée à s'en séparer de biens par acte du 17 juin
-                                    1653. Inventaire après décès 7 juin 1678</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Devise(s) : Tegit et quos tangit
-                                    inaurat</label>
+                                    Croix d'or','Nom patronymique : Denise de Courbes. -
+                                    Imprimeur-libraire ; imprimeur-libraire de l'Académie française
+                                    (1639-1646). - Fille d'un Jean de Courbes mesureur juré de
+                                    grains et bourgeois de Paris, et non du libraire parisien Jean
+                                    de Courbe(s). Épouse l'imprimeur-libraire Jean Camusat en
+                                    juillet 1624. Lui succède à son décès (juin 1639). Publie
+                                    également sous le nom de Jean Camusat, jusqu'en 1642 au moins.
+                                    Se remarie le 15 juillet 1651 avec le libraire Louis de Villac ;
+                                    autorisée à s'en séparer de biens par acte du 17 juin 1653.
+                                    Inventaire après décès 7 juin 1678','Devise(s) : Tegit et quos
+                                    tangit inaurat</label>
                             </event>
                         </listEvent>
                     </person>
@@ -89,15 +78,20 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="M10304_MAZ.xml">
+    <TEI corresp="Moreau3684_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>A monseigneur le Prince, sur son glorieux retour. Stances.</title>
-                    <author ref="isni:0000000121259263">François Le Métel de Boisrobert</author>
+                    <title>Sommaire de tout ce qui s'est passé de plus mémorable en Angleterre,
+                        depuis l'année 1640 jusqu'au 1er janvier 1650, contenant la convocation du
+                        Parlement, les causes et les effets des troubles, les différences des
+                        factions, le procès fait au roi, sa condamnation et son exécution de mort,
+                        ce qui a été fait pour l'établissement d'une république, et des partis qui
+                        sont maintenant dans cet état.</title>
+                    <author ref="isni:0000">G. D.</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="3"/><measure unit="decoration" quantity="0"
-                    /></extent>
+                <extent><measure unit="pages" quantity="133"/><measure unit="decoration"
+                        quantity="1"/></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
                     <availability status="restricted" n="cc-by">
@@ -107,10 +101,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14584"
-                            />
+                            <repository>Gand, Université de Gand</repository>
+                            <idno source="https://books.google.fr/books?id=Vd5EAAAAcAAJ"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -168,20 +160,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3684_GBOOKS.xml">
+    <TEI corresp="M10304_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Sommaire de tout ce qui s'est passé de plus mémorable en Angleterre,
-                        depuis l'année 1640 jusqu'au 1er janvier 1650, contenant la convocation du
-                        Parlement, les causes et les effets des troubles, les différences des
-                        factions, le procès fait au roi, sa condamnation et son exécution de mort,
-                        ce qui a été fait pour l'établissement d'une république, et des partis qui
-                        sont maintenant dans cet état.</title>
-                    <author ref="isni:0000">G. D.</author>
+                    <title>A monseigneur le Prince, sur son glorieux retour. Stances.</title>
+                    <author ref="isni:0000000121259263">François Le Métel de Boisrobert</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="133"/><measure unit="decoration"
-                        quantity="1"/></extent>
+                <extent><measure unit="pages" quantity="3"/><measure unit="decoration" quantity="0"
+                    /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
                     <availability status="restricted" n="cc-by">
@@ -191,8 +178,10 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Gand, Université de Gand</repository>
-                            <idno source="https://books.google.fr/books?id=Vd5EAAAAcAAJ"/>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14584"
+                            />
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

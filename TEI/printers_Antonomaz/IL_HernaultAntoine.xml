@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_HernaultAntoine">
   <teiHeader>
     <fileDesc>
@@ -53,12 +51,9 @@
             <listEvent>
               <event>
                 <label type="bio" source="IdRef">Lieu d'activité : Saumur. Dates d'activité :
-                  1646-1656. Enseigne : Au Nom de Jésus</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Imprimeur-libraire ; imprimeur ordinaire du Roi.
-                  Fils de René Hernault, de Saumur ; frère puîné et successeur d'André Hernault. À
-                  distinguer d'Antoine II Hernault, imprimeur-libraire à Angers</label>
+                  1646-1656. Enseigne : Au Nom de Jésus','Imprimeur-libraire ; imprimeur ordinaire
+                  du Roi. Fils de René Hernault, de Saumur ; frère puîné et successeur d'André
+                  Hernault. À distinguer d'Antoine II Hernault, imprimeur-libraire à Angers</label>
               </event>
               <event>
                 <label type="bio" source="Antonomaz">imprimeur du roi</label>

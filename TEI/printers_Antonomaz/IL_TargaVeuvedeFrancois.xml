@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_TargaVeuvedeFrancois">
     <teiHeader>
         <fileDesc>
@@ -56,20 +54,14 @@
                             <event>
                                 <label type="bio" source="IdRef">Lieu d'activité : Paris. Dates
                                     d'activité : 1642-1650. Adresse : Rue Saint-Victor. Enseigne :
-                                    Au Soleil d'or</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Nom patronymique : Madeleine
-                                    Julliot. - Imprimeur (ordinaire) de monseigneur l'archevêque de
-                                    Paris. - Fille de l'imprimeur-libraire parisien François
-                                    Julliot. Succède à son mari François I Targa ; attestée en
-                                    activité dès juillet 1642. Établie à la même adresse que son
-                                    beau-frère Pierre I Targa et probablement en association avec
-                                    lui. Encore en activité en 1650</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Devise(s) : Terreat hostes ut
-                                    attonito formidine</label>
+                                    Au Soleil d'or','Nom patronymique : Madeleine Julliot. -
+                                    Imprimeur (ordinaire) de monseigneur l'archevêque de Paris. -
+                                    Fille de l'imprimeur-libraire parisien François Julliot. Succède
+                                    à son mari François I Targa ; attestée en activité dès juillet
+                                    1642. Établie à la même adresse que son beau-frère Pierre I
+                                    Targa et probablement en association avec lui. Encore en
+                                    activité en 1650','Devise(s) : Terreat hostes ut attonito
+                                    formidine</label>
                             </event>
                         </listEvent>
                     </person>
@@ -82,82 +74,6 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="Moreau260_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Arrêt de la cour de parlement, portant confirmation de l’arrêt du 8
-                        janvier dernier à l’encontre du cardinal Mazarin.</title>
-                    <author ref="isni:0000000121755355">France. Parlement de Paris</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17615"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1626_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Hercule (le) triomphant, ou les Heureux succès de Sa Majesté en son
-                        voyage de Normandie</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
-                            <idno source="https://books.google.fr/books?id=1s88AAAAcAAJ"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
     <TEI corresp="Moreau1078_MAZ.xml">
         <teiHeader>
             <fileDesc>
@@ -196,11 +112,87 @@
             </body>
         </text>
     </TEI>
+    <TEI corresp="Moreau260_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Arrêt de la cour de parlement, portant confirmation de l’arrêt du 8
+                        janvier dernier à l’encontre du cardinal Mazarin.</title>
+                    <author ref="isni:0000000121755355">Parlement de Paris</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17615"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1626_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le hercule triomphant, ou les Heureux succès de Sa Majesté en son voyage
+                        de Normandie</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
+                            <idno source="https://books.google.fr/books?id=1s88AAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
     <TEI corresp="Moreau1779_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Juliade (la), ou Jules démasqué, où se voit au vif le caractère de son
+                    <title>La juliade , ou Jules démasqué, où se voit au vif le caractère de son
                         âme, par le sieur De La Campie, gentilhomme périgourdin.</title>
                     <author ref="viaf:381159474047427660548">De La Campie</author>
                 </titleStmt>

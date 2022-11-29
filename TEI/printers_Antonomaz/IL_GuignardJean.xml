@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_GuignardJean">
   <teiHeader>
     <fileDesc>
@@ -55,13 +53,8 @@
               <event>
                 <label type="bio" source="IdRef">Paris : 1652-1719 ; En la (ou : À l'entrée de la)
                   grand-salle (du Palais) (, du côté de la cour des Aides) ; Rue Saint-Jacques,
-                  vis-à-vis (ou : devant) la rue du Plâtre - À l'Image Saint Jean</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">À partir de 1686, associé à son fils Michel</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Variante : Jean Guignard le jeune. Libraire ;
+                  vis-à-vis (ou : devant) la rue du Plâtre - À l'Image Saint Jean','À partir de
+                  1686, associé à son fils Michel','Variante : Jean Guignard le jeune. Libraire ;
                   libraire de Son Altesse Sérénissime le duc d'Orléans. Fils aîné de Jean I
                   Guignard. Âgé de 69 ans lors de l'enquête de nov. 1701 et de 87 ans et demi lors
                   de son décès (avril 1719)</label>

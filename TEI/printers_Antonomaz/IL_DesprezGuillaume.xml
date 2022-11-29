@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_DesprezGuillaume">
     <teiHeader>
         <fileDesc>
@@ -63,14 +61,12 @@
                                     Ouvre un atelier d'imprimerie dès 1687, mais ne sera reçu
                                     imprimeur en la communauté qu'en nov. 1706. Dit âgé de 72 ans
                                     lors de l'enquête de nov. 1701. Décédé le 4 juillet 1708.
-                                    Inventaire après décès 22 juillet et 22 oct. 1709</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Paris : 1654-1709 ; Rue
-                                    Saint-Jacques (au-dessus des Mathurins ; vis-à-vis la (petite)
-                                    porte (du cloître) des Mathurins) ; Au pied de la tour de
-                                    Notre-Dame, du côté de l'archevêché - À (l'Image) Saint Prosper
-                                    - Aux Trois vertus - À Saint Prosper et aux Trois vertus</label>
+                                    Inventaire après décès 22 juillet et 22 oct. 1709','Paris :
+                                    1654-1709 ; Rue Saint-Jacques (au-dessus des Mathurins ;
+                                    vis-à-vis la (petite) porte (du cloître) des Mathurins) ; Au
+                                    pied de la tour de Notre-Dame, du côté de l'archevêché - À
+                                    (l'Image) Saint Prosper - Aux Trois vertus - À Saint Prosper et
+                                    aux Trois vertus</label>
                             </event>
                         </listEvent>
                     </person>
@@ -83,6 +79,86 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
+    <TEI corresp="Moreau1suppl202_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Relation véritable contenant tout ce qui s'est fait et passé au siège de
+                        Ville-neufve d'Agénois , où les trouppes du comte d'Harcourt ont esté
+                        défaites par celles de monsieur le Prince , sous la conduite des sieurs
+                        Marcin et Balthasar</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14789"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Labadie311_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>RELATION véritable contenant tout ce qui s'est fait &amp; passé au siege
+                        de Ville-neufve d'Agenois, où les trouppes du Comte d'Harcourt ont esté
+                        defaites, par celles de Monsieur le Prince, sous la conduite des sieurs
+                        Marcin, &amp; Balthazar</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=hQ0ENGOIQrgC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
     <TEI corresp="Labadie311_GALL.xml">
         <teiHeader>
             <fileDesc>
@@ -106,47 +182,6 @@
                         <msIdentifier>
                             <repository>Paris, Bibliothèque nationale de France</repository>
                             <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k851685m"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1suppl202_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Relation véritable contenant tout ce qui s'est fait et passé au siège de
-                        Ville-neufve d'Agénois , où les trouppes du comte d'Harcourt ont esté
-                        défaites par celles de monsieur le Prince , sous la conduite des sieurs
-                        Marcin (sic) et Balthasar</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14789"
-                            />
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

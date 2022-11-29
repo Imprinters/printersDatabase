@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_BeltrinkltleJeuneSamuel">
     <teiHeader>
         <fileDesc>
@@ -50,7 +48,7 @@
                         </residence>
                         <listEvent>
                             <event>
-                                <label type="bio" source="IdRef"/>
+                                <label type="bio"/>
                             </event>
                         </listEvent>
                     </person>
@@ -67,8 +65,8 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Vie (la), mœurs et généalogie de Jules Mazarin, cardinal, où se voient
-                        les banqueroutes de son père, les trahisons par lui faites, tant aux Saints
+                    <title>La vie , mœurs et généalogie de Jules Mazarin, cardinal, où se voient les
+                        banqueroutes de son père, les trahisons par lui faites, tant aux Saints
                         Pères, au roi d'Espagne, qu'à l'Empreur, et à présent les troubles en
                         France, et par arrêt du 8 janvier déclaré perturbateur du repos public,
                         ennemi du roi de l'État, et sa poursuite secrète contre MM.le vendôme et

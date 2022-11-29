@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_CoulonVeuvedAntoine">
     <teiHeader>
         <fileDesc>
@@ -55,17 +53,11 @@
                         <listEvent>
                             <event>
                                 <label type="bio" source="IdRef">Devise(s) : Pax certa melior quam
-                                    sperata victoria (. Typus Pacis). Pax et prudentia
-                                    vincunt</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Nom de jeune fille : Barbe
-                                    Maillard. Se remarie le 21 sept. 1650 avec le libraire Jean
-                                    Guignard. Cède son fonds à Jean Le Rat en 1652</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Paris : 1649-1652? ; Rue d'Écosse
-                                    (, au mont Saint-Hilaire) - Aux Trois Crémaillères</label>
+                                    sperata victoria (. Typus Pacis). Pax et prudentia vincunt','Nom
+                                    de jeune fille : Barbe Maillard. Se remarie le 21 sept. 1650
+                                    avec le libraire Jean Guignard. Cède son fonds à Jean Le Rat en
+                                    1652','Paris : 1649-1652? ; Rue d'Écosse (, au mont
+                                    Saint-Hilaire) - Aux Trois Crémaillères</label>
                             </event>
                         </listEvent>
                     </person>
@@ -78,15 +70,17 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="Moreau3902_GBOOKS.xml">
+    <TEI corresp="Moreau2200_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Tymbre (le) de l'Hôtel de Ville parlant au cardinal Mazarin sur les
-                        assemblées des Princes.</title>
-                    <author ref="isni:0000"/>
+                    <title>Lettre du sieur de Nacar à l'abbé de La Rivière, à Saint-Germain-en-Laye,
+                        sur les affaires de ce temps où est représenté les moyens pour faire la
+                        paix.</title>
+                    <author ref="isni:0000000122776772">Honorat Bueil de Racan sieur de
+                        Nacar</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -97,9 +91,9 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.com/books?id=T6-qQ_P6YsoC&amp;hl=fr"
-                            />
+                            <repository>Florence, Bibliothèque nationale centrale de
+                                Florence</repository>
+                            <idno source="https://books.google.fr/books?id=TCCC8Vx4Pw4C"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -116,16 +110,233 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1974_GBOOKS.xml">
+    <TEI corresp="Moreau3146_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Lettre de M . d'Auremesnil, chef de la noblesse de Caux en Normandie,
-                        envoyée à monseigneur le duc de Longueville, sur le sujet de la descente de
-                        six mille hommes aux ports de Dieppe, Saint- Valery et le Hâvre, conduits
-                        par le sieur de Tibermesnil, gouverneur pour les États de Hollande, avec le
-                        nombre de notre armée en Normandie.</title>
-                    <author ref="isni:0000000359658280">François de Pardieu d'Auremesnil</author>
+                    <title>Relation de tout ce qui s'est passé à l'arrivée des troupes de
+                        l'aarchiduc Léopold , près la ville de Saint-Quentin</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Munich, Bibliothèque de l'Etat de Bavière</repository>
+                            <idno source="https://books.google.fr/books?id=VWVCAAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2668_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Panégyrique royal de Louis XIV. Unius anni erat Saül, cum regnare
+                        cœpisset, Regum, cap. 1.</title>
+                    <author ref="isni:0000000039582088">Nicolas Mercier de Poissy</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=ShXHb7ylRTQC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2683_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le paranymphe aromatique, dédié à monseigneur le duc de Beaufort.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5612444w"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2602_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>L'oracle de Morphée pour le retour du roi.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5620112j"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1439_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La france réjouie par le génie du roi pour la conservation de son
+                        royaume, présentée à Sa Majesté.</title>
+                    <author ref="isni:0000">Laisné</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5851788c"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1398_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le flambeau d'Olympe, dédié à monseigneur le duc de Beaufort, avec la
+                        voix et les vœux du peuple, par le sieur Barroys.</title>
+                    <author ref="isni:0000">Henri de Barroys</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5576494f"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1400_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La foi barbare et la liberté des volontés forcées ès personnes des
+                        députés du Parlement.</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
                     /></extent>
@@ -138,45 +349,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Munich, Bibliothèque de l'Etat de Bavière</repository>
-                            <idno source="https://books.google.fr/books?id=4kVCAAAAcAAJ&amp;hl=fr"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau865_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Décadence (la) des mauvais ministres d’État, et les fruits qu'ils ont
-                        reçus pour leurs salaires, dédiée aux amateurs de la paix.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=6zmnVD_kpzUC"/>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=diXkpPx3szAC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -231,355 +405,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1398_GALL.xml">
+    <TEI corresp="Moreau487_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Flambeau (le) d'Olympe, dédié à monseigneur le duc de Beaufort, avec la
-                        voix et les vœux du peuple, par le sieur Barroys.</title>
-                    <author ref="isni:0000">Henri de Barroys</author>
+                    <title>Avis aux grands de la terre, sur le peu d’assurance qu’ils doivent avoir
+                        en leurs grandeurs, dédié aux conservateurs de leur vie.</title>
+                    <author ref="isni:0000000367671864">Jean Rousse</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5576494f"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau3546_GALL.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Revers (le) du prince de Condé, en vers burlesques, et le regret de
-                        quitter la ville de Paris pour aller loger au château de Vincennes.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5459873s"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau3568_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Ruine (la) et disette d'argent commune aujourd'huy par toute la France,
-                        par les désordres et les injustices de la guerre, avec le remède certain qui
-                        n'a point été connu aux plus raffinés et inventifs jusques à présent, fait
-                        par B. D. L. F.</title>
-                    <author ref="isni:0000">B.D.L.F.</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
-                            <idno source="https://books.google.fr/books?id=HWJCAAAAcAAJ"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau3563_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Royauté (la) de Charles second , roi de la Grand' Bretagne, etc.,
-                        reconnue au parlement d'Écosse et proclamée par tout le royaume, envoyée à
-                        la reine d'Angleterre, traduit fidèlementdes placars (sic) et affiches
-                        publiques, imprimées à Édimbourg, le 15 février 1649.</title>
-                    <author ref="isni:0000000417553410">Parlement d'Écosse</author>
-                    <author ref="isni:0000">Guillaume Scot</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
-                            <idno source="https://books.google.fr/books?id=3XZKAAAAcAAJ"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau3531_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Retour (le) du roi désiré à Paris, par J.-J. de Barthès,
-                        ecclésiastique.</title>
-                    <author ref="viaf:190692780">Jean-Jacques de Barthes</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=Lc_iueg4pY8C"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau3545_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Revers (le) du mauvais temps passé et la libre entrée de la paix, livrée
-                        à ses adorateurs, par Questier, dit Fort Lys, parisien.</title>
-                    <author ref="isni:0000000061406291">Mathurin Questier</author>
-                    <author ref="isni:0000000108887898">Jacques Brousse</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="15"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
-                            <idno source="https://books.google.fr/books?id=yUJKAAAAcAAJ"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau3553_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Rivière (la) en fuite après son débordement, avec l'emprisonnement du
-                        chevalier, son frère, au château de la Bastille.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=utf0IN2Tp8sC&amp;hl=fr"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1621_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Héraclite (le) courtisan. Væ , væ , væ , superbia commune nobilitatis
-                        malum .</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=MD37X_WppjoC"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1619_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Hazard (le) de la blanque renversé et la consolation des marchands
-                        forains.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
-                            <idno source="https://books.google.fr/books?id=CU5KAAAAcAAJ"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2200_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Lettre du sieur de Nacar à l'abbé de La Rivière, à Saint-Germain-en-Laye,
-                        sur les affaires de ce temps où est représenté les moyens (sic) pour faire
-                        la paix.</title>
-                    <author ref="isni:0000000122776772">Honorat Bueil de</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -592,7 +426,7 @@
                         <msIdentifier>
                             <repository>Florence, Bibliothèque nationale centrale de
                                 Florence</repository>
-                            <idno source="https://books.google.fr/books?id=TCCC8Vx4Pw4C&amp;hl=fr"/>
+                            <idno source="https://books.google.fr/books?id=n4mK0M6_WOAC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -609,13 +443,11 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2993_GALL.xml">
+    <TEI corresp="Moreau759_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Recit du duel memorable fait à Ruel entre dix laquais des deputez, &amp;
-                        autant d'estaphiers de Mazarin. Le vingt-huictiesme mars mil six cens
-                        quarante-neuf. En vers burlesques.</title>
+                    <title>Le conseil de Saint-Germain-en-Laye sur les affaires présentes.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
@@ -629,8 +461,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k58149528"/>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=FwrDshHTB48C"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -647,12 +479,49 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3485_GBOOKS.xml">
+    <TEI corresp="Moreau2898_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Requête (la) des bourgeois de Paris à nosseigneurs du Parlement touchant
-                        la police et les vivres.</title>
+                    <title>Les progrès des armes du roi sur les frontières de la Lorraine, et la
+                        prise de la ville de Clermont par le marquis de La Ferté Senneterre.</title>
+                    <author ref="isni:0000000122122357">Henri de La Ferté-Senneterre</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=muzOf6RGHloC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau865_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La décadence des mauvais ministres d’État, et les fruits qu'ils ont reçus
+                        pour leurs salaires, dédiée aux amateurs de la paix.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
@@ -666,8 +535,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Munich, Bibliohthèque de l'État de Bavière</repository>
-                            <idno source="https://books.google.fr/books?id=yEdCAAAAcAAJ"/>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=6zmnVD_kpzUC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -684,17 +553,17 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2066_GBOOKS.xml">
+    <TEI corresp="Moreau870_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Lettre déchiffrée contenant plusieurs avis qu'un des émissaires et
-                        espions de Jules Mazarin lui donnoit de ce qui s'est passé depuis le 21
-                        février 1649, avec l'ordre des chiffres qui se peuvent lire aussi facilement
-                        que les lettres communes.</title>
-                    <author ref="isni:0000"/>
+                    <title>La décharge des sceaux du chancelier de France, et remis entre les mains
+                        de M. de Châteauneuf, et la déclaration du duc de Bouillon touchant sa
+                        fidélité au service du roi.</title>
+                    <author ref="isni:0000000061255622">Frédéric-Maurice de La Tour d'Auvergne, duc
+                        de Bouillon</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -705,82 +574,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bilbiothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=5wBiJtc8Bv8C&amp;hl=fr"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2532_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Nompareille (la) du temps, ou la Prosopopée de Thémis et la Fortune
-                        plaidant le procès de Mazarin.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque nationale</repository>
-                            <idno source="https://books.google.fr/books?id=xWA0MEoq22gC&amp;hl=fr"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2524_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Naissance (la) d'un monstre épouvantable, engendré d'une belle et jeune
-                        femme, native de Mark, à deux lieues de Calais, le 23 février 1649.</title>
-                    <author ref="isni:0000">G. D. B.</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Vienne, Bibliothèque nationale</repository>
-                            <idno source="https://books.google.fr/books?id=j31KAAAAcAAJ"/>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=dhz-g-mJrMgC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -834,17 +629,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau4043_GBOOKS.xml">
+    <TEI corresp="Moreau2532_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Visions (les) nocturnes de Mᵉ Mathurin Questier, Parisien, dans
-                        l'explication desquelles on verra naïvement dépeint (sic) les affaires du
-                        temps présent, dédiées aux débellateurs des ennemis du repos de la
-                        France.</title>
-                    <author ref="isni:0000000061406291">Mathurin Questier</author>
+                    <title>La nompareille du temps, ou la Prosopopée de Thémis et la Fortune
+                        plaidant le procès de Mazarin.</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -855,8 +648,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Florence, Bibliothèque nationale centrale</repository>
-                            <idno source="https://books.google.fr/books?id=fb-f3KCVbC4C"/>
+                            <repository>Lyon, Bibliothèque nationale</repository>
+                            <idno source="https://books.google.fr/books?id=xWA0MEoq22gC&amp;hl=fr"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -873,13 +666,13 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau4071_GBOOKS.xml">
+    <TEI corresp="Moreau2524_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Vrai (le) Parisien et la harangue d'un bourgeois faite à ses compagnons,
-                        allant au dernier convoi.</title>
-                    <author ref="isni:0000"/>
+                    <title>La naissance d'un monstre épouvantable, engendré d'une belle et jeune
+                        femme, native de Mark, à deux lieues de Calais, le 23 février 1649.</title>
+                    <author ref="isni:0000">G. D. B.</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
                     /></extent>
@@ -892,8 +685,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=LP2_b8nlm3YC&amp;"/>
+                            <repository>Vienne, Bibliothèque nationale</repository>
+                            <idno source="https://books.google.fr/books?id=j31KAAAAcAAJ"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -910,51 +703,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau4067_GBOOKS.xml">
+    <TEI corresp="Moreau3546_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Vrai (le) courtisan sans flatterie, qui déclare ce que c'est que
-                        l'autorité royale.</title>
-                    <author ref="isni:0000000108887898">Jacques Brousse</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
-                            <idno source="https://books.google.fr/books?id=cTtKAAAAcAAJ"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1541_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Harangue au roi pour la paix, par un ecclésiastique.</title>
+                    <title>Le revers du prince de Condé, en vers burlesques, et le regret de quitter
+                        la ville de Paris pour aller loger au château de Vincennes.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -965,8 +722,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=GVszpvglzeQC"/>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5459873s"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -983,12 +740,12 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2683_GALL.xml">
+    <TEI corresp="Moreau3553_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Paranymphe (le) aromatique, dédié à monseigneur le duc de
-                        Beaufort.</title>
+                    <title>La rivière en fuite après son débordement, avec l'emprisonnement du
+                        chevalier, son frère, au château de la Bastille.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
@@ -1002,8 +759,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5612444w"/>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=utf0IN2Tp8sC&amp;hl=fr"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -1020,11 +777,126 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2602_GALL.xml">
+    <TEI corresp="Moreau3531_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Oracle (l') de Morphée pour le retour du roi.</title>
+                    <title>Le retour du roi désiré à Paris, par J.-J. de Barthès,
+                        ecclésiastique.</title>
+                    <author ref="viaf:190692780">Jean-Jacques de Barthes</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=Lc_iueg4pY8C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3563_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La royauté de Charles second , roi de la Grand' Bretagne, etc., reconnue
+                        au parlement d'Écosse et proclamée par tout le royaume, envoyée à la reine
+                        d'Angleterre, traduit fidèlementdes placars et affiches publiques, imprimées
+                        à Édimbourg, le 15 février 1649.</title>
+                    <author ref="isni:0000000417553410">Parlement d'Écosse</author>
+                    <author ref="isni:0000">Guillaume Scot</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
+                            <idno source="https://books.google.fr/books?id=3XZKAAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3545_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le revers du mauvais temps passé et la libre entrée de la paix, livrée à
+                        ses adorateurs, par Questier, dit Fort Lys, parisien.</title>
+                    <author ref="isni:0000000061406291">Mathurin Questier</author>
+                    <author ref="isni:0000000108887898">Jacques Brousse</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="15"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
+                            <idno source="https://books.google.fr/books?id=yUJKAAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2suppl88_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La France conservée par le génie du roy, présentée à Sa Majesté.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
@@ -1039,7 +911,7 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5620112j"/>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k58466370"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -1056,50 +928,13 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2668_GBOOKS.xml">
+    <TEI corresp="Moreau1621_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Panégyrique royal de Louis XIV. Unius anni erat Saül, cum regnare
-                        cœpisset, Regum, cap. 1.</title>
-                    <author ref="isni:0000000039582088">Nicolas Mercier de Poissy</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=ShXHb7ylRTQC"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1439_GALL.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>France (la) réjouie par le génie du roi pour la conservation de son
-                        royaume, présentée à Sa Majesté.</title>
-                    <author ref="isni:0000">LAISNÉ</author>
+                    <title>Le héraclite courtisan. Væ , væ , væ , superbia commune nobilitatis malum
+                        .</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
                     /></extent>
@@ -1112,8 +947,45 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5851788c"/>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=MD37X_WppjoC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1619_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le hazard de la blanque renversé et la consolation des marchands
+                        forains.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
+                            <idno source="https://books.google.fr/books?id=CU5KAAAAcAAJ"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -1134,7 +1006,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Louanges (les) des Parisiens, données en l'honneur du Parlement.</title>
+                    <title>Les louanges des Parisiens, données en l'honneur du Parlement.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="18"/><measure unit="decoration" quantity="1"
@@ -1150,6 +1022,82 @@
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale</repository>
                             <idno source="https://books.google.fr/books?id=fpzSADo3_k8C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3485_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La requête des bourgeois de Paris à nosseigneurs du Parlement touchant la
+                        police et les vivres.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Munich, Bibliohthèque de l'État de Bavière</repository>
+                            <idno source="https://books.google.fr/books?id=yEdCAAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2464_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La métamorphose morale, ou l'Heureux changement de nos fortunes par la
+                        prudence de nos seigneurs du Parlement.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14925"
+                            />
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -1206,15 +1154,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2464_MAZ.xml">
+    <TEI corresp="Moreau4067_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Métamorphose (la) morale, ou l'Heureux changement de nos fortunes par la
-                        prudence de nos seigneurs du Parlement.</title>
-                    <author ref="isni:0000"/>
+                    <title>Le vrai courtisan sans flatterie, qui déclare ce que c'est que l'autorité
+                        royale.</title>
+                    <author ref="isni:0000000108887898">Jacques Brousse</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -1225,10 +1173,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14925"
-                            />
+                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
+                            <idno source="https://books.google.fr/books?id=cTtKAAAAcAAJ"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -1245,50 +1191,14 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1204_GALL.xml">
+    <TEI corresp="Moreau4043_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Éloge (l’) de monseigneur le prince de Conty.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k57131964"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1290_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>État (l’) de la marche et le lieu où est à présent l’armée de l’archiduc
-                        Léopold, commandée par le marquis de Noirmoutier et le comte de
-                        Fuensaldagne, avec ce qui s’y est passé de plus mémorable.</title>
-                    <author ref="isni:0000"/>
+                    <title>Les visions nocturnes de Mᵉ Mathurin Questier, Parisien, dans
+                        l'explication desquelles on verra naïvement dépeint les affaires du temps
+                        présent, dédiées aux débellateurs des ennemis du repos de la France.</title>
+                    <author ref="isni:0000000061406291">Mathurin Questier</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
                     /></extent>
@@ -1301,8 +1211,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
-                            <idno source="https://books.google.fr/books?id=TEZCAAAAcAAJ"/>
+                            <repository>Florence, Bibliothèque nationale centrale</repository>
+                            <idno source="https://books.google.fr/books?id=fb-f3KCVbC4C"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -1319,15 +1229,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau487_GBOOKS.xml">
+    <TEI corresp="Moreau4071_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Avis aux grands de la terre, sur le peu d’assurance qu’ils doivent avoir
-                        en leurs grandeurs, dédié aux conservateurs de leur vie.</title>
-                    <author ref="isni:0000000367671864">Jean Rousse</author>
+                    <title>Le vrai Parisien et la harangue d'un bourgeois faite à ses compagnons,
+                        allant au dernier convoi.</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -1338,9 +1248,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Florence, Bibliothèque nationale centrale de
-                                Florence</repository>
-                            <idno source="https://books.google.fr/books?id=n4mK0M6_WOAC"/>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=LP2_b8nlm3YC&amp;"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -1394,15 +1303,18 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1763_GALL.xml">
+    <TEI corresp="Moreau1974_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Journal poëtique de la guerre parisienne, dédié aux conservateurs du roi,
-                        des lois et de la patrie, par M. Q. D. Fort -Lys.</title>
-                    <author ref="isni:0000000061406291">Mathurin Questier</author>
+                    <title>Lettre de M . d'Auremesnil, chef de la noblesse de Caux en Normandie,
+                        envoyée à monseigneur le duc de Longueville, sur le sujet de la descente de
+                        six mille hommes aux ports de Dieppe, Saint- Valery et le Hâvre, conduits
+                        par le sieur de Tibermesnil, gouverneur pour les États de Hollande, avec le
+                        nombre de notre armée en Normandie.</title>
+                    <author ref="isni:0000000359658280">François de Pardieu d'Auremesnil</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -1413,8 +1325,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5425942h"/>
+                            <repository>Munich, Bibliothèque de l'Etat de Bavière</repository>
+                            <idno source="https://books.google.fr/books?id=4kVCAAAAcAAJ"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -1431,13 +1343,85 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau603_GBOOKS.xml">
+    <TEI corresp="Moreau1541_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Bourgeois (le) Saturnien, errant par la ville de Paris pour apprendre ce
-                        qui se fait et passe tant du parlement, de l’Hôtel de Ville que du peuple de
-                        Paris.</title>
+                    <title>Harangue au roi pour la paix, par un ecclésiastique.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=GVszpvglzeQC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1204_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>L’éloge de monseigneur le prince de Conty.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k57131964"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1290_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>L’état de la marche et le lieu où est à présent l’armée de l’archiduc
+                        Léopold, commandée par le marquis de Noirmoutier et le comte de
+                        Fuensaldagne, avec ce qui s’y est passé de plus mémorable.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
@@ -1451,8 +1435,122 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="http://books.google.fr/books?id=QYCWmLejymEC"/>
+                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
+                            <idno source="https://books.google.fr/books?id=TEZCAAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2993_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Recit du duel memorable fait à Ruel entre dix laquais des deputez, &amp;
+                        autant d'estaphiers de Mazarin. Le vingt-huictiesme mars mil six cens
+                        quarante-neuf. En vers burlesques.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k58149528"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2066_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettre déchiffrée contenant plusieurs avis qu'un des émissaires et
+                        espions de Jules Mazarin lui donnoit de ce qui s'est passé depuis le 21
+                        février 1649, avec l'ordre des chiffres qui se peuvent lire aussi facilement
+                        que les lettres communes.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bilbiothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=5wBiJtc8Bv8C&amp;hl=fr"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1763_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Journal poëtique de la guerre parisienne, dédié aux conservateurs du roi,
+                        des lois et de la patrie, par M. Q. D. Fort -Lys.</title>
+                    <author ref="isni:0000000061406291">Mathurin Questier</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5425942h"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

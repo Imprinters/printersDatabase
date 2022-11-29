@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_LangloisDenis">
     <teiHeader>
         <fileDesc>
@@ -60,12 +58,9 @@
                                     arrêt du 17 févr. 1667 lui enjoint de fermer son atelier, ainsi
                                     qu'à 12 autres imprimeurs, faute de satisfaire aux conditions
                                     requises. Encore en activité en nov. 1667 (quittance alors un
-                                    apprenti)</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Paris : 1644-1667? ; Rue des
-                                    Sept-Voies ; Au Mont Saint-Hilaire (, près la Puits Certain ;
-                                    dans la cour d'Albret) - À l'enseigne du Pélican</label>
+                                    apprenti)','Paris : 1644-1667? ; Rue des Sept-Voies ; Au Mont
+                                    Saint-Hilaire (, près la Puits Certain ; dans la cour d'Albret)
+                                    - À l'enseigne du Pélican</label>
                             </event>
                         </listEvent>
                     </person>
@@ -78,16 +73,54 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="M14622_MAZ.xml">
+    <TEI corresp="Moreau3686_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Arrest d'absolution de Me Guy Joly, conseiller du Roy au Chastelet. Avec
-                        la permission de continuer son information. En Parlement le 1. février
-                        1650.</title>
-                    <author ref="isni:0000000121755355">France. Parlement de Paris</author>
+                    <title>Sommaire relation de ce qui s'est passé à Saint-Germain, en la députation
+                        de la cour des Aydes, pour le retour de Leurs Majestés à Paris, avec la
+                        harangue de M. Amelot, premier président, sur ce sujet, et sa réplique sur
+                        la réponse de M. le chancelier, de la part de la reine, au sujet de
+                        l'éloignement du roi.</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Munich, Bibliothèque de l'Etat de Bavière</repository>
+                            <idno source="https://www.google.fr/books/edition/_/uUhCAAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2645_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La paix au milieu de la guerre. dIscours chrétien.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -100,7 +133,7 @@
                         <msIdentifier>
                             <repository>Paris, Bibliothèque Mazarine</repository>
                             <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17618"
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14963"
                             />
                         </msIdentifier>
                         <physDesc>
@@ -154,14 +187,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau836_GALL.xml">
+    <TEI corresp="Moreau1488_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Cours (le) de la reyne, ou le grand Promenoir des Parisiens</title>
+                    <title>Les généreux sentiments de la noblesse françoise contre le mauvais
+                        gouvernement de l'État par un ministre étranger.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="2"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -172,8 +206,45 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque Nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k56923062"/>
+                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
+                            <idno source="http://books.google.fr/books?id=lHdKAAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1438_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La france prosternée aux pieds de messieurs du Parlement pour leur
+                        demander justice.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="http://books.google.fr/books?id=51rQ1ylFdWAC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -194,7 +265,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Fils (le) de l’impudique et le perfide voluptueux.</title>
+                    <title>Le fils de l’impudique et le perfide voluptueux.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
@@ -228,15 +299,55 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1066_MAZ.xml">
+    <TEI corresp="Moreau3859_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Deux (les) friperies, ou les Drilles revêtus, raillerie en vers
-                        burlesques.</title>
+                    <title>Les triolets du temps, selon les visions d'un petit fils du grand
+                        Nostradamus. Faits pour la consolation des bons François. Et dediés au
+                        Parlement.</title>
+                    <author ref="isni:0000000025438667">Jean Duval</author>
+                    <author ref="isni:0000000122493086">Jacques Carpentier de Marigny</author>
+                    <author ref="isni:0000000112972841">Savinien de Cyrano de Bergerac</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5429419s"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3860_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Triolets nouveaux sur la paix, faits dans la Pomme de pin, pour l'heureux
+                        retour du roy.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -247,10 +358,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz18476"
-                            />
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5429167t"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -267,49 +376,12 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2053_GBOOKS.xml">
+    <TEI corresp="Moreau3847_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Lettre de Son Altesse Royale à M. le duc d 'Amville (sic ), avec la
-                        Réponse de M. le duc d'Amville à Son Altesse Royale.</title>
-                    <author ref="isni:0000000121336441">Gaston France de</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
-                            <idno source="https://books.google.fr/books?id=kEZKAAAAcAAJ&amp;hl=fr"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2586_GALL.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Oie (l') royale tirée devant Leurs Majestés. Prosopopée, ou l'Oie qui
-                        parle.</title>
+                    <title>Triolets à la mode sur la paix, faits dans la Pomme de pin, pour
+                        l'heureux retour du roi à Paris.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="1"
@@ -323,8 +395,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5723644d"/>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5429368x"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -341,13 +413,52 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2591_GBOOKS.xml">
+    <TEI corresp="Moreau3850_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Ombre (l') de monsieur de Châtillon, ou les Avis héroïques et importants
-                        donnés à monsieur le prince de Condé.</title>
+                    <title>Triolets de joie chantés par Paris, pour chasser la mélancolie. Première
+                        partie.</title>
                     <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5429173j"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau514_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Les avis héroïques et importants, donnés à M. le prince de Condé par
+                        monsieur de Châtillon, revenu de l'autre monde, par l'auteur même des
+                        Triolets.</title>
+                    <author ref="isni:000000011884471X">Gaspard IV de Coligny, duc de
+                        Châtillon</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
                     /></extent>
@@ -360,8 +471,10 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=8CpHJSvRQ4kC"/>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14621"
+                            />
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -378,16 +491,52 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2568_MAZ.xml">
+    <TEI corresp="Moreau836_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Observations curieuses sur l'état et gouvernement de France, avec les
-                        noms, dignités et familles principales, comme il est en la présente année
-                        1649, nouvellement revue et augmentée (sic).</title>
+                    <title>Le cours de la reyne, ou le grand Promenoir des Parisiens</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="36"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k56923062"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="M14622_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Arrest d'absolution de Me Guy Joly, conseiller du Roy au Chastelet. Avec
+                        la permission de continuer son information. En Parlement le 1. février
+                        1650.</title>
+                    <author ref="isni:0000000121755355">Parlement de Paris</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -400,8 +549,45 @@
                         <msIdentifier>
                             <repository>Paris, Bibliothèque Mazarine</repository>
                             <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17432"
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17618"
                             />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2248_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettre, ou Cartel du mois de mai à madamee...., sous le nom de Flore, par
+                        Florent Fleury, en vers burlesques ou non.</title>
+                    <author ref="isni:0000">Florent Fleury</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=BoAoL-nlFYEC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -424,9 +610,9 @@
                 <titleStmt>
                     <title>Lettre latine de la reine de Suède envoyée au Parlement de Paris sur les
                         affaires présentes, translatée de son original en françois.</title>
-                    <author ref="isni:0000000112298199">Christine Suède de</author>
+                    <author ref="isni:0000000112298199">Christine de Suède</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -438,45 +624,7 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=hAxf43b3F4cC&amp;hl=fr"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2207_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Lettre du vrai soldat françois au cavalier Georges, ensuite de la Lettre
-                        à M. le cardinal, burlesque.</title>
-                    <author ref="isni:0000000063043308">Longin-Toupin</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="19"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale de Lyon, bibliothèque jésuite
-                                des Fontaines</repository>
-                            <idno source="https://books.google.fr/books?id=Red5B4O2DdoC&amp;hl=fr"/>
+                            <idno source="https://books.google.fr/books?id=hAxf43b3F4cC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -530,15 +678,169 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2248_GBOOKS.xml">
+    <TEI corresp="Moreau1066_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Lettre, ou Cartel du mois de mai à madamee...., sous le nom de Flore, par
-                        Florent Fleury, en vers burlesques ou non.</title>
-                    <author ref="isni:0000">Florent Fleury</author>
+                    <title>Les deux friperies, ou les Drilles revêtus, raillerie en vers
+                        burlesques.</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz18476"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2591_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>L'ombre de monsieur de Châtillon, ou les Avis héroïques et importants
+                        donnés à monsieur le prince de Condé.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=8CpHJSvRQ4kC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2568_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Observations curieuses sur l'état et gouvernement de France, avec les
+                        noms, dignités et familles principales, comme il est en la présente année
+                        1649, nouvellement revue et augmentée .</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="36"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17432"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2586_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>L'oie royale tirée devant Leurs Majestés. Prosopopée, ou l'Oie qui
+                        parle.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5723644d"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2562_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Nouvelles remontrances au roi par ses conseillers secrétaires, contenant
+                        les raisons et moyens de leurs oppositions afin d'être payés sur le fait de
+                        leurs gages, tant pour l'année dernière 1649 que pour l'avenir.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="18"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -550,7 +852,121 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=BoAoL-nlFYEC&amp;hl=fr"/>
+                            <idno source="https://books.google.fr/books?id=nSsqonAGQicC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3suppl62_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Observations curieuses sur l’État et gouvernement de France, avec les
+                        noms, dignitez et familles principales, comme il est en la présente année
+                        1649.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="31"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17562"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2351_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Manifeste au roi, contenant quel doit être le conseil d'un prince, à la
+                        gloire du Parlement, par L. S. D. T.</title>
+                    <author ref="isni:0000000054900937">Jean Du Teil L. S. D. T.</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=Kh0XsVhDVXIC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2476_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le miracle nouveau d'un crucifix qui parla, vendredi dernier, dans
+                        Saint-Germain, à la reine régente.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=kLIv-CrSUm4C"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -571,7 +987,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Vrais (les) moyens de faire la paix, ou Avis aux bons François sur les
+                    <title>Les vrais moyens de faire la paix, ou Avis aux bons François sur les
                         affaires présentes.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
@@ -648,10 +1064,10 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title> La guerre sans canons, raillerie en vers burlesques.</title>
+                    <title>La guerre sans canons, raillerie en vers burlesques.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -663,7 +1079,7 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=eMkjHM5wkQcC&amp;hl=fr"/>
+                            <idno source="https://books.google.fr/books?id=eMkjHM5wkQcC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -680,326 +1096,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3859_GALL.xml">
+    <TEI corresp="Moreau2053_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Les triolets du temps, selon les visions d'un petit fils du grand
-                        Nostradamus. Faits pour la consolation des bons François. Et dediés au
-                        Parlement.</title>
-                    <author ref="isni:0000000025438667">Jean Duval</author>
-                    <author ref="isni:0000000122493086">Jacques Carpentier Marigny de</author>
-                    <author ref="isni:0000000112972841">Hercule Savinien Cyrano Bergerac de</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5429419s"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau3850_GALL.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Triolets de joie chantés par Paris, pour chasser la mélancolie. Première
-                        partie.</title>
-                    <author ref="isni:0000"/>
+                    <title>Lettre de Son Altesse Royale à M. le duc d'Amville ), avec la Réponse de
+                        M. le duc d'Amville à Son Altesse Royale.</title>
+                    <author ref="isni:0000000121336441">Gaston d'Orléans</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5429173j"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau3847_GALL.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Triolets à la mode sur la paix, faits dans la Pomme de pin, pour
-                        l'heureux retour du roi à Paris.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5429368x"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau3859_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Les triolets du temps, selon les visions d'un petit fils du grand
-                        Nostradamus. Faits pour la consolation des bons François. Et dediés au
-                        Parlement.</title>
-                    <author ref="isni:0000000025438667">Jean Duval</author>
-                    <author ref="isni:0000000122493086">Jacques Carpentier Marigny de</author>
-                    <author ref="isni:0000000112972841">Hercule Savinien Cyrano Bergerac de</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Munich, Bibliothèque de l'Etat de Bavière</repository>
-                            <idno source="https://books.google.fr/books?id=Dc1BAAAAcAAJ&amp;hl=fr"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau3686_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Sommaire relation de ce qui s'est passé à Saint-Germain, en la députation
-                        de la cour des Aydes, pour le retour de Leurs Majestés à Paris, avec la
-                        harangue de M. Amelot, premier président, sur ce sujet, et sa réplique sur
-                        la réponse de M. le chancelier, de la part de la reine, au sujet de
-                        l'éloignement du roi.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Munich, Bibliothèque de l'Etat de Bavière</repository>
-                            <idno
-                                source="https://www.google.fr/books/edition/_/uUhCAAAAcAAJ?hl=fr&amp;sa=X&amp;ved=2ahUKEwipk6Oc9aXwAhV09OAKHVXCB6IQ7_IDMAx6BAgHEAI"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau514_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Avis (les) héroïques et importants, donnés à M. le prince de Condé par
-                        monsieur de Châtillon, revenu de l'autre monde, par l'auteur même des
-                        Triolets.</title>
-                    <author ref="isni:000000011884471X">Gaspard IV de Coligny</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14621"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2645_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Paix (la) au milieu de la guerre. dIscours chrétien.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14963"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1438_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>France (la) prosternée aux pieds de messieurs du Parlement pour leur
-                        demander justice.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="http://books.google.fr/books?id=51rQ1ylFdWAC"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1488_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Généreux (les) sentiments de la noblesse françoise contre le mauvais
-                        gouvernement de l'État par un ministre étranger.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="2"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -1011,158 +1116,7 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
-                            <idno source="http://books.google.fr/books?id=lHdKAAAAcAAJ"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2351_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Manifeste au roi, contenant quel doit être le conseil d'un prince, à la
-                        gloire du Parlement, par L. S. D. T.</title>
-                    <author ref="isni:0000000054900937">Jean du Teil L. S. D. T.</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=Kh0XsVhDVXIC"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2476_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Miracle (le) nouveau d'un crucifix qui parla, vendredi dernier, dans
-                        Saint-Germain, à la reine régente.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=kLIv-CrSUm4C"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1suppl75_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Courrier (le) de la cour portant les nouvelles de Saint-Germain,
-                        etc</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="http://books.google.fr/books?id=DVicTD55W74C"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau3suppl62_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Observations curieuses sur l’État et gouvernement de France, avec les
-                        noms, dignitez et familles principales, comme il est en la présente année
-                        1649.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="31"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17562"
-                            />
+                            <idno source="https://books.google.fr/books?id=kEZKAAAAcAAJ"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

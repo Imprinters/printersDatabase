@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_LozetThomas">
     <teiHeader>
         <fileDesc>
@@ -70,54 +68,13 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="Moreau177_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Arrêt de la cour de parlement de Bordeaux, portant cassation des
-                        jugements, condammnations et ordonnances du sieur Foulé; ensemble inhibition
-                        et défenses, aux gens de guerre, de s'employer pour la levée des
-                        tailles.</title>
-                    <author ref="isni:0000000119572170">France. Parlement de Bordeaux</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15041"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
     <TEI corresp="Moreau179_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
                     <title>Arrêt du parlement de Bordeaux, du 6 mai 1650, contre le sieur Foulé en
                         faveur des trésoriers de France, de Limoges.</title>
-                    <author ref="isni:0000000119572170">France. Parlement de Bordeaux</author>
+                    <author ref="isni:0000000119572170">Parlement de Bordeaux</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
                     /></extent>
@@ -150,7 +107,7 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau177_GBOOKS.xml">
+    <TEI corresp="Moreau177_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -171,8 +128,10 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Londres, The British Library</repository>
-                            <idno source="https://books.google.fr/books?id=Ndby1-w8u2cC"/>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15041"
+                            />
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

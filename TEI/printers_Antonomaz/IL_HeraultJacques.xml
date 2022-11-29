@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_HeraultJacques">
   <teiHeader>
     <fileDesc>
@@ -51,12 +49,10 @@
             </residence>
             <listEvent>
               <event>
-                <label type="bio" source="IdRef">Rouen</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Vraisemblablement fils du libraire de Rouen Jacques
-                  I Herault. Établi vers 1641. Sépulture le 9 sept. 1690 à Rouen ; dit alors âgé de
-                  72 ans environ. Sa veuve lui succède. Père du libraire Eustache Herault</label>
+                <label type="bio" source="IdRef">Rouen','Vraisemblablement fils du libraire de Rouen
+                  Jacques I Herault. Établi vers 1641. Sépulture le 9 sept. 1690 à Rouen ; dit alors
+                  âgé de 72 ans environ. Sa veuve lui succède. Père du libraire Eustache
+                  Herault</label>
               </event>
             </listEvent>
           </person>

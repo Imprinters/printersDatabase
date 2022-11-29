@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_HuartFrancois">
     <teiHeader>
         <fileDesc>
@@ -50,7 +48,7 @@
                         </residence>
                         <listEvent>
                             <event>
-                                <label type="bio" source="IdRef"/>
+                                <label type="bio"/>
                             </event>
                         </listEvent>
                     </person>
@@ -63,15 +61,15 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="Moreau1667_GALL.xml">
+    <TEI corresp="Moreau450_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Horoscope (l') impérial de Louis XIV prédit par l'oracle françois et
-                        Michel Nostradamus.</title>
-                    <author ref="isni:0000"/>
+                    <title>Avertissement aux bons François, sur ce qui doit arriver devant la ville
+                        d’Estempes , prédit par Michel Nostradamus, huietiesme partie</title>
+                    <author ref="isni:0000000061384678">Jacques Mengau</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="20"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -82,8 +80,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k72774c"/>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="http://books.google.fr/books?id=nJw6c8XB6DUC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -100,15 +98,16 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau450_GBOOKS.xml">
+    <TEI corresp="Moreau446-vi_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Avertissement aux bons François, sur ce qui doit arriver devant la ville
-                        d’Estempes (sic), prédit par Michel Nostradamus, huietiesme partie</title>
-                    <author ref="isni:0000000061384678">Jacques Mengau</author>
+                    <title>Réglement du conseil d'Éstat du roy pour la subsistance des troupes de Sa
+                        Majesté en Guyenne et provinces circonvoisines, avec l'ordre pour la
+                        fourniture des estappes et autres ustancilles .</title>
+                    <author ref="isni:0000000083395220">Nostradamamus</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -119,8 +118,45 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="http://books.google.fr/books?id=nJw6c8XB6DUC"/>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=RD8VEjA2l0AC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1667_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>L'horoscope impérial de Louis XIV prédit par l'oracle françois et Michel
+                        Nostradamus.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="20"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k72774c"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

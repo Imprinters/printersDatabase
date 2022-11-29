@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_BazavoinePierre">
   <teiHeader>
     <fileDesc>
@@ -53,11 +51,8 @@
             <listEvent>
               <event>
                 <label type="bio" source="IdRef">Lieu d'activité : Paris. Dates d'activité : 1652.
-                  Adresse : Rue Montmartre. Enseigne : À l'Image Notre Dame</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Imprimeur-libraire. Publie une mazarinade en 1652.
-                  Peut-être s'agit-il d'un pseudonyme</label>
+                  Adresse : Rue Montmartre. Enseigne : À l'Image Notre Dame','Imprimeur-libraire.
+                  Publie une mazarinade en 1652. Peut-être s'agit-il d'un pseudonyme</label>
               </event>
             </listEvent>
           </person>

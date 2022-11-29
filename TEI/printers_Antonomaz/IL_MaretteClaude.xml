@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_MaretteClaude">
     <teiHeader>
         <fileDesc>
@@ -53,14 +51,11 @@
                         </residence>
                         <listEvent>
                             <event>
-                                <label type="bio" source="IdRef">Imprimeur-libraire</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Paris, 1607-1649. Rue Galande, aux
-                                    écoles de Picardie, près la place Maubert (1627-1629); rue des
-                                    Carmes, au Nom de Jésus (1643); rue des Lavandières, près la
-                                    place Maubert, aux Trois coeurs (1649); au 5e pilier de la
-                                    grande salle du Palais (1649)</label>
+                                <label type="bio" source="IdRef">Imprimeur-libraire','Paris,
+                                    1607-1649. Rue Galande, aux écoles de Picardie, près la place
+                                    Maubert (1627-1629); rue des Carmes, au Nom de Jésus (1643); rue
+                                    des Lavandières, près la place Maubert, aux Trois coeurs (1649);
+                                    au 5e pilier de la grande salle du Palais (1649)</label>
                             </event>
                         </listEvent>
                     </person>
@@ -81,7 +76,7 @@
                         Majesté aux taillables du Bourdelois, Bazadois, Condommois &amp; autres pays
                         adjacents, en consideration de la guerre.</title>
                     <author ref="isni:0000000383255772">Louis XIV</author>
-                    <author ref="isni:0000000121754977">France. Conseil d'État</author>
+                    <author ref="isni:0000000121754977">Conseil d'État</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
                     /></extent>
@@ -118,7 +113,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Métamorphose (la) de la France envoyée à une dame de la campagne.</title>
+                    <title>La métamorphose de la France envoyée à une dame de la campagne.</title>
                     <author ref="isni:0000">V.S.B.</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"

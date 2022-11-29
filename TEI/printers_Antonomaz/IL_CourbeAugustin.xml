@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_CourbeAugustin">
     <teiHeader>
         <fileDesc>
@@ -62,16 +60,10 @@
                                     communauté encore en vie. Veuve attestée entre fév. 1672 et 1676
                                     (importante créancière lors de la faillite Jolly). Mais
                                     plusieurs publications paraissent encore sous le nom d'Augustin
-                                    Courbé, jusqu'en 1692</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Devise(s) : Curvata resurgo</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Paris : 1623-1662 ; (En la) Petite
-                                    salle du Palais (ou : Au Palais, dans la Petite salle) ; Au
-                                    Palais, en la galerie (ou : salle) des Merciers - À la
-                                    Palme</label>
+                                    Courbé, jusqu'en 1692','Devise(s) : Curvata resurgo','Paris :
+                                    1623-1662 ; (En la) Petite salle du Palais (ou : Au Palais, dans
+                                    la Petite salle) ; Au Palais, en la galerie (ou : salle) des
+                                    Merciers - À la Palme</label>
                             </event>
                             <event>
                                 <label type="bio" source="Antonomaz">imprimeur et libraire ordinaire
@@ -132,7 +124,7 @@
                     <author ref="isni:0000000083438411">Claude Joly</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="235"/><measure unit="decoration"
-                        quantity="0"/></extent>
+                        quantity="1"/></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
                     <availability status="restricted" n="cc-by">

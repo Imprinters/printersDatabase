@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_DedinIsaac">
     <teiHeader>
         <fileDesc>
@@ -55,23 +53,24 @@
                         </residence>
                         <listEvent>
                             <event>
-                                <label type="bio" source="IdRef">Imprimeur-libraire</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Autre(s) graphie(s) : Dédin. De
-                                    confession calviniste. Reçu maître le 20 avril 1628. Encore en
-                                    activité en juillet 1652 (témoin au procès de Bernard de Bautru,
-                                    avocat au Conseil du Roi)</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Paris : 1628-1652? ; Rue des Noyers
-                                    (, au coin de la rue Saint-Jean-de-Beauvais) ; Rue
-                                    Saint-Jean-de-Beauvais - Aux Trois Pigeons - Au Petit
-                                    Écu</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Devise(s) : Dabit Deus his quoque
+                                <label type="bio" source="IdRef">Imprimeur-libraire','Autre(s)
+                                    graphie(s) : Dédin. De confession calviniste. Reçu maître le 20
+                                    avril 1628. Encore en activité en juillet 1652 (témoin au procès
+                                    de Bernard de Bautru, avocat au Conseil du Roi)','Paris :
+                                    1628-1652? ; Rue des Noyers (, au coin de la rue
+                                    Saint-Jean-de-Beauvais) ; Rue Saint-Jean-de-Beauvais - Aux Trois
+                                    Pigeons - Au Petit Écu','Devise(s) : Dabit Deus his quoque
                                     finem</label>
+                            </event>
+                            <event>
+                                <label type="bio" source="Antonomaz">Dans l'inventaire
+                                    FRAN_IR_041365 des Archives nationales, on lit : Association
+                                    d'imprimeurs entre Isaac Dedin et de Jacques Le Gentil, après
+                                    estimation de l'imprimerie dud. Dedin, qui se monte à la somme
+                                    de 810 livres sur lesquelles Le Gentil paiera 405 livres. Ils
+                                    partageront également gains et frais et l'association ne prendra
+                                    fin qu'au décès de l'un d'eux (estimation de l'imprimerie
+                                    jointe), acte daté du 17 mai 1639.</label>
                             </event>
                         </listEvent>
                     </person>
@@ -84,81 +83,6 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="Moreau3397_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Réponse de Mademoiselle à l'archiduc Léopold touchant le traité de
-                        l'accommodement de la paix.</title>
-                    <author ref="isni:0000000109170813">Anne-Marie-Louise-Henriette d'Orléans,
-                        duchesse de Montpensier</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Londres, The British Library</repository>
-                            <idno source="https://books.google.fr/books?id=ZZTS6V4kmK4C"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau3002_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Récit véritable de ce qui fut dit à l'arrivée de messieurs les députés du
-                        Parlement de Normandie (à Ruel).</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=Apf3uqKtnJwC"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
     <TEI corresp="Moreau1308_GALL.xml">
         <teiHeader>
             <fileDesc>
@@ -196,11 +120,125 @@
             </body>
         </text>
     </TEI>
+    <TEI corresp="Moreau3810_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Très-humble remontrance à la reine régente par messieurs du Parlement de
+                        Paris en faveur des Parlements de Bordeaux et de Provence, sur le sujet des
+                        désordres qui sont ès dites provinces, prononcée par M. le président de
+                        Novin, le 25ᵉ jour d'octobre 1649.</title>
+                    <author ref="isni:0000000121755355">Parlement de Paris</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=IWKzFvFOxmcC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1029_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Dernière supplication du cardinal Mazarin, faicte à monseigneur le prince
+                        de Conty, pour la seureté de sa personne.</title>
+                    <author ref="isni:0000000121223121">Jules Mazarin</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=nhKe0b3qUnwC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3397_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Réponse de Mademoiselle à l'archiduc Léopold touchant le traité de
+                        l'accommodement de la paix.</title>
+                    <author ref="isni:0000000109170813">Anne-Marie-Louise d’Orléans, duchesse de
+                        Montpensier La Grande Mademoiselle</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Londres, The British Library</repository>
+                            <idno source="https://books.google.fr/books?id=ZZTS6V4kmK4C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
     <TEI corresp="Moreau1275_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Espagne (l’) demandant la paix aux pieds de la Majesté Royale et du
+                    <title>L’espagne demandant la paix aux pieds de la Majesté Royale et du
                         Parlement.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
@@ -217,6 +255,43 @@
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale de Lyon</repository>
                             <idno source="https://books.google.fr/books?id=ULzVPLJGdR4C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3002_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Récit véritable de ce qui fut dit à l'arrivée de messieurs les députés du
+                        Parlement de Normandie (à Ruel).</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=Apf3uqKtnJwC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

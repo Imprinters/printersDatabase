@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_SavreuxCharles">
   <teiHeader>
     <fileDesc>
@@ -56,20 +54,14 @@
                   vis-à-vis le collège des Trois-Évêques ; Rue (Neuve-) Notre-Dame (, proche
                   l'église Sainte-Geneviève-des-Ardents) ; Au pied (ou : Sous) la (grosse) tour (de)
                   Notre-Dame (, du côté de l'archevêché) ; Au parvis Notre-Dame - À l'enseigne des
-                  Trois Vertus</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Devise(s) : Hoc fac et vives. Ardet amans spe nixa
-                  fides</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Libraire ; libraire et relieur ordinaire du
-                  chapitre de léglise de Paris ; imprimeur ordinaire de l'archevêché. En oct. 1626
-                  entre en apprentissage pour 5 ans chez François Piot. Ouvre boutique en juillet
-                  1641 avant d'être reçu et doit fermer. Reçu maître le 20 mars 1642. En fév. 1656
-                  embastillé 15 jours pour avoir imprimé la 1re \'Provinciale\' de Pascal. En
-                  1673-1674 son fonds sera racheté par Guillaume I Desprez qui publiera aussi
-                  quelques années sous la raison :\'En la boutique de Charles Savreux</label>
+                  Trois Vertus','Devise(s) : Hoc fac et vives. Ardet amans spe nixa fides','Libraire
+                  ; libraire et relieur ordinaire du chapitre de léglise de Paris ; imprimeur
+                  ordinaire de l'archevêché. En oct. 1626 entre en apprentissage pour 5 ans chez
+                  François Piot. Ouvre boutique en juillet 1641 avant d'être reçu et doit fermer.
+                  Reçu maître le 20 mars 1642. En fév. 1656 embastillé 15 jours pour avoir imprimé
+                  la 1re \'Provinciale\' de Pascal. En 1673-1674 son fonds sera racheté par
+                  Guillaume I Desprez qui publiera aussi quelques années sous la raison :\'En la
+                  boutique de Charles Savreux</label>
               </event>
             </listEvent>
           </person>

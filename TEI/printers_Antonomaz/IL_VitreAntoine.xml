@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_VitreAntoine">
     <teiHeader>
         <fileDesc>
@@ -74,20 +72,13 @@
                                     ans en août 1654. Élu consul en 1664. Décédé à Paris en juillet
                                     1674. Lambert Roulland continue à publier sous son adresse
                                     jusqu'en 1679 environ. Également auteur de divers mémoires et
-                                    d'un ouvrage sur l'aumône</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Paris : 1609?-1674 ; 1674-1679? ;
+                                    d'un ouvrage sur l'aumône','Paris : 1609?-1674 ; 1674-1679? ;
                                     (Rue Perdue ; Proche l'horloge du Palais et ; Devant l'horloge
                                     du Palais et) Au collège Saint-Michel (, près (ou : à) la place
                                     Maubert) 1610-1623. - (Rue des Carmes, proche (ou : au)) Collège
                                     des Lombards 1627-1646. - Rue Saint-Jacques (, devant (la
                                     chapelle) Saint-Yves ; proche (le) Petit Châtelet)
-                                    1649-1655</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Devise(s) : Virtus non territa
-                                    monstris</label>
+                                    1649-1655','Devise(s) : Virtus non territa monstris</label>
                             </event>
                         </listEvent>
                     </person>
@@ -100,6 +91,45 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
+    <TEI corresp="Moreau3316_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Remontrance du clergé de France faite au roi, la reine régente, sa mère,
+                        présente, par révérend père en Dieu messire Gillebert de Choiseuil du Plessy
+                        Praslain , évèque de Comange , assisté de MM. les évêques et députés de
+                        l'assemblée générale.</title>
+                    <author ref="viaf:34495750">Gilbert de Choiseul du Plessis-Praslain</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="22"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=nmWe8axzDPMC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
     <TEI corresp="Moreau3315_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
@@ -124,45 +154,6 @@
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale</repository>
                             <idno source="https://books.google.fr/books?id=1Bi1pkCSpd0C"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau3316_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Remontrance du clergé de France faite au roi, la reine régente, sa mère,
-                        présente, par révérend père en Dieu messire Gillebert de Choiseuil du Plessy
-                        Praslain (sic), évèque de Comange (sic), assisté de MM. les évêques et
-                        députés de l'assemblée générale.</title>
-                    <author ref="viaf:34495750">Gilbert de Choiseul du Plessis-Praslain</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="22"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=nmWe8axzDPMC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

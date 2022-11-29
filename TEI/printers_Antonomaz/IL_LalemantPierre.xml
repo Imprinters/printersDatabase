@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_LalemantPierre">
     <teiHeader>
         <fileDesc>
@@ -57,10 +55,7 @@
                                 <label type="bio" source="IdRef">Professeur de rhétorique au collège
                                     du cardinal Lemoine. Recteur de l'Université (1653-1655).
                                     Génovéfain (1656). Prieur de Sainte-Geneviève. Chancelier de
-                                    l'Université (1662). Orateur</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Écrit aussi en latin</label>
+                                    l'Université (1662). Orateur','Écrit aussi en latin</label>
                             </event>
                         </listEvent>
                     </person>
@@ -95,7 +90,7 @@
                         <msIdentifier>
                             <repository>Munich, Bibliothèque de l'Etat de Bavière</repository>
                             <idno
-                                source="https://www.google.fr/books/edition/Relation_véritable_de_tout_ce_qui_s_est/hmVCAAAAcAAJ?hl=fr&amp;gbpv=0"
+                                source="https://www.google.fr/books/edition/Relation_véritable_de_tout_ce_qui_s_est/hmVCAAAAcAAJ"
                             />
                         </msIdentifier>
                         <physDesc>

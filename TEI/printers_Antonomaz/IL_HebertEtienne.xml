@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_HebertEtienne">
     <teiHeader>
         <fileDesc>
@@ -53,12 +51,10 @@
                         </residence>
                         <listEvent>
                             <event>
-                                <label type="bio" source="IdRef">Imprimeur-libraire</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Paris, 1633-1657?. Rue des Sept
-                                    Voyes (1634); rue d'Ecosse, derrière St-Hilaire, à l'image
-                                    St-Ambroise (1635); Au mont St-Hilaire (1649)</label>
+                                <label type="bio" source="IdRef">Imprimeur-libraire','Paris,
+                                    1633-1657?. Rue des Sept Voyes (1634); rue d'Ecosse, derrière
+                                    St-Hilaire, à l'image St-Ambroise (1635); Au mont St-Hilaire
+                                    (1649)</label>
                             </event>
                         </listEvent>
                     </person>
@@ -94,45 +90,6 @@
                         <msIdentifier>
                             <repository>Paris, Bibliothèque nationale de France</repository>
                             <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5675894r"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau612_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Buﬂesque (le) On de ce temps renouvelé, qui sait, qui fait et qui dit
-                        tout ce qui s’est passé depuis la guerre. Première partie.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="68"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz18625"
-                            />
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -186,11 +143,50 @@
             </body>
         </text>
     </TEI>
+    <TEI corresp="Moreau612_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le buﬂesque On de ce temps renouvelé, qui sait, qui fait et qui dit tout
+                        ce qui s’est passé depuis la guerre. Première partie.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="68"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz18625"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
     <TEI corresp="Moreau644_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Cassandre (la) françoise, avec le Riéveil-matin des Parisiens.</title>
+                    <title>La cassandre françoise, avec le Riéveil-matin des Parisiens.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_AlliotGervais">
     <teiHeader>
         <fileDesc>
@@ -55,12 +53,9 @@
                         <listEvent>
                             <event>
                                 <label type="bio" source="IdRef">Imprimeur-libraire. Recu apprenti
-                                    en avril 1607. Veuve attestée en 1654</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Paris : 1621-1654 ; Au (ou : Dans
-                                    la cour du) Palais, contre (ou : proche; près; vis-à-vis) la
-                                    chapelle Saint-Michel (, et en sa maison, rue
+                                    en avril 1607. Veuve attestée en 1654','Paris : 1621-1654 ; Au
+                                    (ou : Dans la cour du) Palais, contre (ou : proche; près;
+                                    vis-à-vis) la chapelle Saint-Michel (, et en sa maison, rue
                                     Saint-Jean-de-Latran) - À l'|Arbre verdoyant</label>
                             </event>
                         </listEvent>
@@ -74,53 +69,15 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="Moreau253_GBOOKS.xml">
+    <TEI corresp="Moreau475_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Arrêt de la cour de parlement, donné, toutes les chambres assemblées, le
-                        8 mars 1649, en faveur du maréchal de Turenne, et pour autoriser l'entrée de
-                        son armée en France.</title>
-                    <author ref="isni:0000000121755355">Parlement de Paris </author>
+                    <title>Avis à M le cardinal Mazarin, sur le sujet de sa sortie hors le royaume
+                        de France.</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
-                            <idno source="https://books.google.fr/books?id=cORBAAAAcAAJ"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau231_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Arrêt de la cour de parlement pour le payement des rentes de l’Hôtel de
-                        Ville de Paris.</title>
-                    <author ref="isni:0000000121755355">France. Parlement de Paris</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -133,46 +90,8 @@
                         <msIdentifier>
                             <repository>Paris, Bibliothèque Mazarine</repository>
                             <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15110"
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14619"
                             />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau3097_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Relation contenant la suite et conclusion du Journal de tout ce qui s'est
-                        passé au Parlement pour les affaires publiques, depuis Pâques 1652 jusqu'en
-                        janvier 1653.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="263"/><measure unit="decoration"
-                        quantity="0"/></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=Ksm-vpyZmIkC&amp;hl=fr"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -193,13 +112,13 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Courrier (le) étranger, contenant la lettre decréance que l'archiduc
+                    <title>Le courrier étranger, contenant la lettre decréance que l'archiduc
                         Léopold a envoyée à messieurs de la cour du parlement de Paris, ensemble ce
                         qui s’est passé en ladite cour sur le même sujet, et la harangue faite par
                         messieurs les gens du roi à Saint-Germain-en- Laye.</title>
-                    <author ref="isni:0000"/>
+                    <author ref="isni:0000000121391096">Léopold-Guillaume de Habsbourg</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -212,47 +131,7 @@
                         <msIdentifier>
                             <repository>Munich, Bibliothèque de l'État de Bavière</repository>
                             <idno
-                                source="https://www.google.fr/books/edition/Le_Courrier_%C3%A9tranger/QeNBAAAAcAAJ?hl=fr&amp;gbpv=0"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2568_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Observations curieuses sur l'état et gouvernement de France, avec les
-                        noms, dignités et familles principales, comme il est en la présente année
-                        1649, nouvellement revue et augmentée (sic).</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="36"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17432"
+                                source="https://www.google.fr/books/edition/Le_Courrier_%C3%A9tranger/QeNBAAAAcAAJ"
                             />
                         </msIdentifier>
                         <physDesc>
@@ -280,7 +159,7 @@
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="248"/><measure unit="decoration"
-                        quantity="0"/></extent>
+                        quantity="1"/></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
                     <availability status="restricted" n="cc-by">
@@ -293,6 +172,46 @@
                             <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
                             <idno
                                 source="https://www.google.fr/books/edition/Suite_du_vrai_journal_des_assemblees_du/ckdKAAAAcAAJ?hl=fr&amp;gbpv=0"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2568_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Observations curieuses sur l'état et gouvernement de France, avec les
+                        noms, dignités et familles principales, comme il est en la présente année
+                        1649, nouvellement revue et augmentée .</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="36"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17432"
                             />
                         </msIdentifier>
                         <physDesc>
@@ -350,18 +269,16 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3suppl48_GBOOKS.xml">
+    <TEI corresp="Moreau231_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Journal (le) ou histoire du temps présent contenant toutes les
-                        déclarations du Roy vérifiées en parlement et tous les arrêts rendus, les
-                        chambres assemblées, pour les affaires publiques depuis le mois d'avril 1651
-                        jusqu’en juin 1652.</title>
-                    <author ref="isni:0000"/>
+                    <title>Arrêt de la cour de parlement pour le payement des rentes de l’Hôtel de
+                        Ville de Paris.</title>
+                    <author ref="isni:0000000121755355">Parlement de Paris</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="323"/><measure unit="decoration"
-                        quantity="0"/></extent>
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
+                    /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
                     <availability status="restricted" n="cc-by">
@@ -371,9 +288,9 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
                             <idno
-                                source="https://www.google.fr/books/edition/Le_Journal_ou_Histoire_du_temps_présent/6ALtHLTUQbAC?hl=framp;gbpv=0"
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15110"
                             />
                         </msIdentifier>
                         <physDesc>
@@ -391,15 +308,16 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau475_MAZ.xml">
+    <TEI corresp="Moreau253_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Avis à M le cardinal Mazarin, sur le sujet de sa sortie hors le royaume
-                        de France.</title>
-                    <author ref="isni:0000"/>
+                    <title>Arrêt de la cour de parlement, donné, toutes les chambres assemblées, le
+                        8 mars 1649, en faveur du maréchal de Turenne, et pour autoriser l'entrée de
+                        son armée en France.</title>
+                    <author ref="isni:0000000121755355">Parlement de Paris</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -410,10 +328,83 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14619"
-                            />
+                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
+                            <idno source="https://books.google.fr/books?id=cORBAAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3097_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Relation contenant la suite et conclusion du Journal de tout ce qui s'est
+                        passé au Parlement pour les affaires publiques, depuis Pâques 1652 jusqu'en
+                        janvier 1653.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="263"/><measure unit="decoration"
+                        quantity="1"/></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=Ksm-vpyZmIkC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2023_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettre de monsieur le garde des sceaux de France et premier président à
+                        M. le président de Bailleul.</title>
+                    <author ref="isni:0000000121204991">Mathieu Molé</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="3"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=NQwJpTdYTbQC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -441,7 +432,7 @@
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="325"/><measure unit="decoration"
-                        quantity="0"/></extent>
+                        quantity="2"/></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
                     <availability status="restricted" n="cc-by">
@@ -452,7 +443,7 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=6ALtHLTUQbAC&amp;hl=fr"/>
+                            <idno source="https://books.google.fr/books?id=6ALtHLTUQbAC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -479,7 +470,7 @@
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="331"/><measure unit="decoration"
-                        quantity="0"/></extent>
+                        quantity="1"/></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
                     <availability status="restricted" n="cc-by">
@@ -491,7 +482,7 @@
                         <msIdentifier>
                             <repository>Florence, Bibliothèque nationale centrale de
                                 Florence</repository>
-                            <idno source="https://books.google.fr/books?id=akbrbMjmzv0C&amp;hl=fr"/>
+                            <idno source="https://books.google.fr/books?id=akbrbMjmzv0C"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_MillangesGuillaume">
   <teiHeader>
     <fileDesc>
@@ -51,15 +49,10 @@
             </residence>
             <listEvent>
               <event>
-                <label type="bio" source="IdRef">Imprimeur du roi à Bordeaux</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Bordeaux : 1620-1649 ; Bazas : 1630</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">En 1625, succède à son frère Jacques, mais on
-                  trouve un livre avec son adresse dès 1620. Avait chaque année un contrat avec les
-                  jésuites pour l'impression des livres de classe</label>
+                <label type="bio" source="IdRef">Imprimeur du roi à Bordeaux','Bordeaux : 1620-1649
+                  ; Bazas : 1630','En 1625, succède à son frère Jacques, mais on trouve un livre
+                  avec son adresse dès 1620. Avait chaque année un contrat avec les jésuites pour
+                  l'impression des livres de classe</label>
               </event>
             </listEvent>
           </person>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_MettayerMichel">
     <teiHeader>
         <fileDesc>
@@ -56,30 +54,20 @@
                         <listEvent>
                             <event>
                                 <label type="bio" source="IdRef">Saint-Germain-en-Laye :
-                                    1649</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">(Premier) imprimeur (et libraire)
-                                    ordinaire (et extraordinaire) du Roi (1647-1668). Sans lien de
-                                    parenté connu avec Jamet et Pierre Mettayer. D'abord établi à
-                                    Sens, de 1640 à 1643 au moins, il est attesté à Paris dès 1647.
-                                    Par un arrêt du Conseil du 21 mars 1661, il lui est fait
-                                    défense, ainsi qu'à 7 autres, de se prévaloir du titre
-                                    d'imprimeur ordinaire du Roi ; il continue pourtant de le faire
-                                    figurer en tête de ses publications jusqu'en 1668 au
-                                    moins</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Paris : 1647-1668 ; En l'île
-                                    Notre-Dame (, proche le pont Marie ; sur le pont Marie) ; Rue de
-                                    la Huchette (, attenant à l'enseigne de la Bastille, vis-à-vis
-                                    l'Y grec ; attenant à la Croix blanche, vis-à-vis la Fleur de
-                                    lys) - À l'Image Saint Jean - Au Cygne - À la Coupe - À la Croix
-                                    blanche - À l'enseigne du Temple - À l'enseigne de la
-                                    Bastille</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Sens : 1640-1643</label>
+                                    1649','(Premier) imprimeur (et libraire) ordinaire (et
+                                    extraordinaire) du Roi (1647-1668). Sans lien de parenté connu
+                                    avec Jamet et Pierre Mettayer. D'abord établi à Sens, de 1640 à
+                                    1643 au moins, il est attesté à Paris dès 1647. Par un arrêt du
+                                    Conseil du 21 mars 1661, il lui est fait défense, ainsi qu'à 7
+                                    autres, de se prévaloir du titre d'imprimeur ordinaire du Roi ;
+                                    il continue pourtant de le faire figurer en tête de ses
+                                    publications jusqu'en 1668 au moins','Paris : 1647-1668 ; En
+                                    l'île Notre-Dame (, proche le pont Marie ; sur le pont Marie) ;
+                                    Rue de la Huchette (, attenant à l'enseigne de la Bastille,
+                                    vis-à-vis l'Y grec ; attenant à la Croix blanche, vis-à-vis la
+                                    Fleur de lys) - À l'Image Saint Jean - Au Cygne - À la Coupe - À
+                                    la Croix blanche - À l'enseigne du Temple - À l'enseigne de la
+                                    Bastille','Sens : 1640-1643</label>
                             </event>
                         </listEvent>
                     </person>
@@ -92,14 +80,15 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="Moreau3310_GALL.xml">
+    <TEI corresp="Moreau1445_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Remontrance des bons François à messieurs du Parlement.</title>
-                    <author ref="isni:0000">les Français</author>
+                    <title>La france vengée des malheurs dont elle étoit menacée par les armes de
+                        Jules Mazarin.</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -110,8 +99,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5425933j"/>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=L7q_8cyM1hQC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -128,15 +117,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau209_MAZ.xml">
+    <TEI corresp="Moreau1470_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Arrêt de la cour de parlement pour le rabais du pied fourché, avec
-                        défense, aux fermiers et leurs commis, de lever ledit droit</title>
-                    <author ref="isni:0000000121755355">France. Parlement de Paris</author>
+                    <title>La gazette des halles, sur les affaires du temps. Première
+                        nouvelle.</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -147,9 +136,9 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <repository>Lyon, Bibliothèque municipale</repository>
                             <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15087"
+                                source="https://www.google.fr/books/edition/La_gazette_des_halles_tovchant_les_affai/KV_sSF7z2bcC?hl=fr&amp;gbpv=0"
                             />
                         </msIdentifier>
                         <physDesc>
@@ -167,14 +156,13 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3009_GALL.xml">
+    <TEI corresp="Moreau1469_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Recit veritable de ce qui s'est passé aux barricades de l'annee mil cinq
-                        cens quatre vingt huict, depuis le septiesme may, jusques au dernier juin
-                        ensuivant. Descrites en vers burlesque.</title>
-                    <author ref="isni:0000"/>
+                    <title>La gazette de la place Maubert, ou Suite de la Gazette des halles,
+                        touchant les affaires du temps. Second nouvelle.</title>
+                    <author ref="isni:0000">Auteur de la Gazette des Halles</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="14"/><measure unit="decoration" quantity="1"
                     /></extent>
@@ -188,7 +176,7 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k10485771"/>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k57216137"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -205,19 +193,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="M15191_MAZ.xml">
+    <TEI corresp="Moreau1suppl193_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Arrest de la cour de Parlement, portant commandement à tous huiβiers
-                        &amp; sergens de se retirer &amp; faire leur demeure aux lieux ou ils
-                        doivent resider pour le fait de leurs charges, à peine de faux &amp; de mil
-                        livres d'amende : et a tous commiβionnaires de se servir de leurs
-                        commiβions, ny faire aucuns exploicts ny acte de justice sur pareille
-                        peine.</title>
-                    <author ref="isni:0000000121755355">France. Parlement de Paris</author>
+                    <title>Les raisons ou les motifs véritables de la deffense du Parlement,
+                        etc</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="22"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -230,7 +214,84 @@
                         <msIdentifier>
                             <repository>Paris, Bibliothèque Mazarine</repository>
                             <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15175"
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17568"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1360_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Factum contenant les justes défenses des rentiers de l’Hôtel de Ville de
+                        Paris, et les moyens véritables de la sûreté de leurs rentes et de leur
+                        conservation.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="35"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=2CFPmTItOPEC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau473_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Avis à messieurs du parlement, sur la continuation de la trève et
+                        suspension d’armes.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17526"
                             />
                         </msIdentifier>
                         <physDesc>
@@ -287,16 +348,19 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1360_GBOOKS.xml">
+    <TEI corresp="M15191_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Factum contenant les justes défenses des rentiers de l’Hôtel de Ville de
-                        Paris, et les moyens véritables de la sûreté de leurs rentes et de leur
-                        conservation.</title>
-                    <author ref="isni:0000"/>
+                    <title>Arrest de la cour de Parlement, portant commandement à tous huiβiers
+                        &amp; sergens de se retirer &amp; faire leur demeure aux lieux ou ils
+                        doivent resider pour le fait de leurs charges, à peine de faux &amp; de mil
+                        livres d'amende : et a tous commiβionnaires de se servir de leurs
+                        commiβions, ny faire aucuns exploicts ny acte de justice sur pareille
+                        peine.</title>
+                    <author ref="isni:0000000121755355">Parlement de Paris</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="35"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -307,8 +371,46 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=2CFPmTItOPEC"/>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15175"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2226_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettre envoyée à la reine, à la mort du duc de Châtillon.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=7zFtapEXuhEC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -329,7 +431,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Sanglante (la) dispute arrivée sur le jeu entre le cardinal Mazarin et
+                    <title>La sanglante dispute arrivée sur le jeu entre le cardinal Mazarin et
                         l'abbé de La Rivière à Saint-Germain-en-Laye.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
@@ -346,44 +448,6 @@
                         <msIdentifier>
                             <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
                             <idno source="https://books.google.fr/books?id=tX1KAAAAcAAJ"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1805_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Larmes (les) et complaintes de la reine d'Angleterre sur la mort de son
-                        époux, à l'imitation des quatrains du sieur de Pibrac, par David
-                        Ferrand.</title>
-                    <author ref="isni:0000000121174331">David Ferrand</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=3iOvE_l0SL8C"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -439,12 +503,14 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2905_GALL.xml">
+    <TEI corresp="Moreau1805_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Pronostic (le) sur les affaires de notre temps.</title>
-                    <author ref="isni:0000"/>
+                    <title>Les larmes et complaintes de la reine d'Angleterre sur la mort de son
+                        époux, à l'imitation des quatrains du sieur de Pibrac, par David
+                        Ferrand.</title>
+                    <author ref="isni:0000000121174331">David Ferrand</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
                     /></extent>
@@ -457,8 +523,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k54255031"/>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=3iOvE_l0SL8C"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -475,12 +541,93 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2227_GBOOKS.xml">
+    <TEI corresp="Moreau2suppl8_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Lettre envoyée à la reine de Suède pour la divertir de prendre les armes
-                        contre les Parisiens, par un bon et véritable François.</title>
+                    <title>Arrêt de la Chambre des comptes pour la vérification de la déclaration du
+                        roy du 22 octobre 1648, douné le vingt-septième novembre mil six cent
+                        quarante huict pour le soulagement du peuple.</title>
+                    <author ref="isni:000000011940779X">Chambre des comptes</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17594"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau209_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Arrêt de la cour de parlement pour le rabais du pied fourché, avec
+                        défense, aux fermiers et leurs commis, de lever ledit droit</title>
+                    <author ref="isni:0000000121755355">Parlement de Paris</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15087"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2308_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Liste de messieurs les députés pour faire observer les arrêts et
+                        régléments sur le fait des rentes assignées sur l'Hôtel de Ville de Paris,
+                        pourvoir à l'ordre du paiement desdites rentes, et veiller à la conservation
+                        des fonds destinés à icelle .</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
@@ -495,7 +642,7 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=7zFtapEXuhEC&amp;hl=fr"/>
+                            <idno source="https://books.google.fr/books?id=VjXv2b1_MAAC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -512,50 +659,14 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1469_GALL.xml">
+    <TEI corresp="Moreau3330_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Gazette (la) de la place Maubert, ou Suite de la Gazette des halles,
-                        touchant les affaires du temps. Second nouvelle.</title>
-                    <author ref="isni:0000">Auteur de la Gazette des Halles</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="14"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k57216137"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1470_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Gazette (la) des halles, sur les affaires du temps. Première
-                        nouvelle.</title>
-                    <author ref="isni:0000"/>
+                    <title>Remontrance faite par madame la princesse douairière de Condé au prince
+                        de Condé, son fils, en faveur de la ville de Paris.</title>
+                    <author ref="isni:0000000106554782">Charlotte-Marguerite de Montmorency,
+                        princesse de Condé</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
                     /></extent>
@@ -568,10 +679,44 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno
-                                source="https://www.google.fr/books/edition/La_gazette_des_halles_tovchant_les_affai/KV_sSF7z2bcC?hl=fr&amp;gbpv=0"
-                            />
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=mAwmoHR2IiQC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3310_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Remontrance des bons François à messieurs du Parlement.</title>
+                    <author ref="isni:0000">les Français</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5425933j"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -592,7 +737,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Mine (la) éventée de Jules Mazarin par un ingénieur, avec un sonnet à
+                    <title>La mine éventée de Jules Mazarin par un ingénieur, avec un sonnet à
                         monseigneur le duc de Beaufort.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
@@ -611,47 +756,6 @@
                             <idno
                                 source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14927"
                             />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2448_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Mémoires présentés à nos seigneurs du Parlement pour montrer que les
-                        dix-huit députés, nommés pour la conservation des rentes de l'Hôtel de
-                        Ville, peuvent s'assembler quand ils le jugeront nécessaire pour se
-                        rapporter les uns aux autres les désordres qu'ils auront remarqués dans
-                        chaque nature de rente, et pour en arrêter le cours et y chercher
-                        conjointement le remède.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="9"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="http://books.google.fr/books?id=prLeEpaOD_YC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -711,15 +815,14 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1suppl193_MAZ.xml">
+    <TEI corresp="Moreau688_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Raisons (les) ou les motifs véritables de la deffense du Parlement,
-                        etc</title>
+                    <title>La chasse à Mazarin.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="22"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -730,10 +833,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17568"
-                            />
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5543990r"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -750,15 +851,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau473_MAZ.xml">
+    <TEI corresp="Moreau676_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Avis à messieurs du parlement, sur la continuation de la trève et
-                        suspension d’armes.</title>
+                    <title>Les centuries de la naissance de Jules Mazarin, apportee de Sicile par un
+                        courrier à Saint-Germain-en-Laye.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -769,10 +870,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17526"
-                            />
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=dBDJZpDnl00C&amp;hl=fr"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -825,88 +924,11 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2suppl8_MAZ.xml">
+    <TEI corresp="Moreau2905_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Arrêt de la Chambre des comptes pour la vérification de la déclaration du
-                        roy du 22 octobre 1648, douné le vingt-septième novembre mil six cent
-                        quarante huict pour le soulagement du peuple.</title>
-                    <author ref="isni:0000000107259769">France. Chambre des comptes</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17594"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau688_GALL.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Chasse (la) à Mazarin.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5543990r"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau676_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Centuries (les) de la naissance de Jules Mazarin, apportee (sic) de
-                        Sicile par un courrier à Saint-Germain-en-Laye.</title>
+                    <title>Le pronostic sur les affaires de notre temps.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
@@ -920,8 +942,46 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=dBDJZpDnl00C&amp;hl=fr"/>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k54255031"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3009_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Recit veritable de ce qui s'est passé aux barricades de l'annee mil cinq
+                        cens quatre vingt huict, depuis le septiesme may, jusques au dernier juin
+                        ensuivant. Descrites en vers burlesque.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="14"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k10485771"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

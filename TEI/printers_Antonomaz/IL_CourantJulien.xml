@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_CourantJulien">
     <teiHeader>
         <fileDesc>
@@ -55,23 +53,14 @@
                             <event>
                                 <label type="bio" source="IdRef">Lieu d'activité : Pontoise. Dates
                                     d'activité : 1652. Adresse : Rue des Limandes. Adresse : Près
-                                    Saint-Maclou</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Lieu d'activité : Compiègne. Dates
-                                    d'activité : 1652</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Lieu d'activité : Rouen. Dates
-                                    d'activité : 1646?-1691. Adresse : Derrière le Palais, près la
-                                    Bastille. Adresse : Devant la porte du Palais, à la Tour carrée.
-                                    Adresse : Sur le Quai. Adresse : Au bas des degrés du Palais.
-                                    Enseigne : À l'Image Saint Nicolas. Enseigne : Aux Armes de
-                                    France. Enseigne : À l'Encre</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Variante(s) de prénom : Jullianus.
-                                    - Imprimeur-libraire ; imprimeur ordinaire du Roi (1652). - Fils
+                                    Saint-Maclou','Lieu d'activité : Compiègne. Dates d'activité :
+                                    1652','Lieu d'activité : Rouen. Dates d'activité : 1646?-1691.
+                                    Adresse : Derrière le Palais, près la Bastille. Adresse : Devant
+                                    la porte du Palais, à la Tour carrée. Adresse : Sur le Quai.
+                                    Adresse : Au bas des degrés du Palais. Enseigne : À l'Image
+                                    Saint Nicolas. Enseigne : Aux Armes de France. Enseigne : À
+                                    l'Encre','Variante(s) de prénom : Jullianus. -
+                                    Imprimeur-libraire ; imprimeur ordinaire du Roi (1652). - Fils
                                     de l'imprimeur-libraire de Rouen Nicolas Courant ; baptisé le 23
                                     juin 1625. Reçu maître à Rouen en 1646 ou peu avant. Semble
                                     avoir succédé à sa mère, veuve de Nicolas Courant, décédée en
@@ -80,21 +69,14 @@
                                     met ses presses au service du roi et de la Cour, tant à Pontoise
                                     qu'à Compiègne, et imprime dans des conditions difficiles de
                                     nombreuses petites publications officielles (aurait également
-                                    imprimé, sous la fausse adresse de 'Paris, Veuve
-                                    Guillemot</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef"> le libelle 'Le Parlement burlesque
-                                    de Paris</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef"> 1652). Récompensé par des lettres
-                                    patentes royales du 7 sept. 1652 qui le nomment imprimeur
-                                    ordinaire du Roi. Maintenu dans ces prérogatives, pour les
-                                    publications de toutes les juridictions séant à Rouen sauf le
-                                    parlement de Normandie, par arrêt du Conseil du 30 déc. 1673, en
-                                    dépit du procès intenté par Eustache I Viret, autre imprimeur du
-                                    Roi à Rouen, qui conserve cependant l'exclusivité de
+                                    imprimé, sous la fausse adresse de 'Paris, Veuve Guillemot', le
+                                    libelle 'Le Parlement burlesque de Paris', 1652). Récompensé par
+                                    des lettres patentes royales du 7 sept. 1652 qui le nomment
+                                    imprimeur ordinaire du Roi. Maintenu dans ces prérogatives, pour
+                                    les publications de toutes les juridictions séant à Rouen sauf
+                                    le parlement de Normandie, par arrêt du Conseil du 30 déc. 1673,
+                                    en dépit du procès intenté par Eustache I Viret, autre imprimeur
+                                    du Roi à Rouen, qui conserve cependant l'exclusivité de
                                     l'impression des arrêts du parlement et du Conseil du Roi.
                                     Épouse en 2es noces, en nov. 1675, Marguerite Maurry
                                     (1650-1722), fille de l'imprimeur-libraire Louis I Maurry et
@@ -117,12 +99,164 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
+    <TEI corresp="Moreau2173_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettre du roi envoyée à messieurs les colonels de sa bonne ville de
+                        Paris.</title>
+                    <author ref="isni:0000000383255772">Louis XIV</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=Jx_JjhkHXRoC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3153_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Relation des députés du Parlement, séant à Pontoise, pour l'éloignement
+                        de M. le cardinal Mazarin.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=M-Ia54pL93IC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3960_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La véritable réponse faite par le roi à la lettre envoyée par Son Altesse
+                        Royale, du 27 août 1652, touchant les motifs de l'accommodement à la paix
+                        générale.</title>
+                    <author ref="isni:0000000121430729">Henri Duplessis-Guénégaud</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=ukH2_U6OwZoC&amp;hl=fr"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1suppl212_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Response du roy donnée par escrit aux sieurs le Vieux et Piètre sur les
+                        asseurances qu'ils ont portées à Sa Majesté des bonnes intentions qu'avoit
+                        sa bonne ville de Paris pour son service et pour le restablisse nient de son
+                        auctorité</title>
+                    <author ref="isni:0000000383255772">Louis XIV</author>
+                    <author ref="isni:0000000121430729">Henri Duplessis-Guénégaud</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipales</repository>
+                            <idno source="https://books.google.fr/books?id=RFK0r4eAbk8C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
     <TEI corresp="Moreau766_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Consentement (le) donné par le roi à l’éloignement du cardinal Mazarin,
-                        le 12 août 1652</title>
+                    <title>Le consentement donné par le roi à l’éloignement du cardinal Mazarin, le
+                        12 août 1652</title>
                     <author ref="isni:0000000383255772">Louis XIV</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
@@ -154,16 +288,17 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3960_GBOOKS.xml">
+    <TEI corresp="Moreau3890_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Véritable (la) réponse faite par le roi à la lettre envoyée par Son
-                        Altesse Royale, du 27 août 1652, touchant les motifs de l'accommodement à la
-                        paix générale.</title>
-                    <author ref="isni:0000000121430729">Henri du Plessis-Guénégaud</author>
+                    <title>Troisième arrêt du conseil d'État du roi, portant cassation de l'arrêt
+                        donné par le Parlement de Paris, le vingt-quatrième juillet dernier, pour la
+                        vente du reste des meubles de M. le cardinale Mazarin, et défense audit
+                        Parlement et aux commissaires nommés de l'exécuter.</title>
+                    <author ref="isni:0000000121754977">Conseil d'État</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -174,8 +309,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=ukH2_U6OwZoC&amp;hl=fr"/>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=zZEsh61n99AC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -192,16 +327,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau928_GBOOKS.xml">
+    <TEI corresp="Moreau2761_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Déclaration du roi, portant injonction à tous les officiers du parlement
-                        qui sont à Paris, de se rendre, dans trois jours, dans la ville de Pontoise,
-                        à peine de suppression de leurs charges.</title>
-                    <author ref="isni:0000000121209573">Louis De Bourbon</author>
+                    <title>La pièce royale, ou la Défense de leurs majestés sur l'éloignement de M.
+                        le Prince.</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="14"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -212,8 +346,245 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
-                            <idno source="https://books.google.fr/books?id=vW08AAAAcAAJ"/>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=xBMOVPNMUd8C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1018_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Dernière déclaration du roi, portant attribution des affaires de la
+                        chambre de l’édit à la cour de parlement de Paris, transférée à Pontoise,
+                        vérifiée en parlement, le premier jour d’octobre 1652, avec la Lettre de M.
+                        de Mondejeux , gouverneur d'Arras, écrite à Sa Majesté sur le sujet des
+                        présentes affaires.</title>
+                    <author ref="isni:0000000383255772">Louis XIV</author>
+                    <author ref="isni:0000000450947585">Jean de Schulemberg</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=ER9JSMrRviYC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2570_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Observations politiques sur le prétendu manifeste de monsieur le
+                        Prince.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="26"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=BXCCsqaNKewC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2suppl84_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Extrait des registres du parlement, séant à Pontoise, contenant la
+                        relation faite par M. le président de Novion, de ce qui s'est passé au sujet
+                        de léloignement du cardinal Mazarin.</title>
+                    <author ref="isni:0000000121755355">Parlement de Paris</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno
+                                source="https://www.google.fr/books/edition/Extraict_des_registres_dv_parlement_séa/M-Ia54pL93IC?hl=fr&amp;gbpv=0"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2suppl105_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Journal contenant tout ce qui s’est fait et passé au siége du chasteau de
+                        Monront depuis le 15 aoust 1652, jour de la capitulation jusqu'à
+                        préseat.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=GAnJP_ZyHvoC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau376_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Arrêt du conseil d’État du roi, du 29 août 1652, portant injonction, à
+                        messieurs de la cour des aydes de Paris, de se rendre, dans trois jours,
+                        dans la ville de Pontoise; à faute de ce, déclarés criminels d’Etat,
+                        désobéissants et rebelles à Sa Majesté.</title>
+                    <author ref="isni:0000000121754977">Conseil d'État</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=OlAQNOgxqMwC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau375_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Arrêt du conseil d'État, portant défense de lever droits d’entrée en la
+                        ville de Paris, du quatorzième jour d'août 1652 Autre, portant le payement
+                        des rentes de l'hôtel de ville (à Pontoise et dans les provinces fidèles),
+                        du 17 dudit août. Et autre, portant cassation de la prétendue élection faite
+                        du sieur Broussel à la charge de prévôt des marchands de la ville de Paris,
+                        et des nommés Gervais et Holry à celle d'échevins, du 19 du même mois
+                        ci-dessus.</title>
+                    <author ref="isni:0000000121754977">Conseil d'État</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=clQSAoVlAJsC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -268,56 +639,14 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2173_GBOOKS.xml">
+    <TEI corresp="Moreau3446_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Lettre du roi envoyée à messieurs les colonels de sa bonne ville de
-                        Paris.</title>
+                    <title>Réponse faite par le roi à Son Altesse Royale.</title>
                     <author ref="isni:0000000383255772">Louis XIV</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=Jx_JjhkHXRoC"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1018_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Dernière déclaration du roi, portant attribution des affaires de la
-                        chambre de l’édit à la cour de parlement de Paris, transférée à Pontoise,
-                        vérifiée en parlement, le premier jour d’octobre 1652, avec la Lettre de M.
-                        de Mondejeux (sic), gouverneur d'Arras, écrite à Sa Majesté sur le sujet des
-                        présentes affaires.</title>
-                    <author ref="isni:0000000383255772">Louis XIV </author>
-                    <author ref="isni:0000000450947585">Jean Schulemberg de</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -329,7 +658,7 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=ER9JSMrRviYC"/>
+                            <idno source="https://books.google.fr/books?id=Ckd-GPKYQ7UC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -346,15 +675,54 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2056_GBOOKS.xml">
+    <TEI corresp="Moreau928_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Lettre de Son Altesse Royale écrite au roi, avec la Réponse du roi à Son
-                        Altesse Royale.</title>
-                    <author ref="isni:0000000121336441">Gaston France de</author>
+                    <title>Déclaration du roi, portant injonction à tous les officiers du parlement
+                        qui sont à Paris, de se rendre, dans trois jours, dans la ville de Pontoise,
+                        à peine de suppression de leurs charges.</title>
+                    <author ref="isni:0000000121209573">Louis De Bourbon</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
+                            <idno source="https://books.google.fr/books?id=vW08AAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau942_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Déclaration du roi, portant translation du parlement de Paris en la ville
+                        de Pontoise , avec l’Arrêt d’enregistrement d’icelle</title>
+                    <author ref="isni:0000000383255772">Louis XIV</author>
+                    <author ref="viaf:3346153653285955900004">Parlement de Ponthoise</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -366,44 +734,7 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=fc0eGPtbuTsC&amp;hl=fr"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau3153_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Relation des députés du Parlement, séant à Pontoise, pour l'éloignement
-                        de M. le cardinal Mazarin.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=M-Ia54pL93IC"/>
+                            <idno source="https://books.google.fr/books?id=wiMXlq9SQcMC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -461,14 +792,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2suppl84_GBOOKS.xml">
+    <TEI corresp="Moreau2939_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Extrait des registres du parlement, séant à Pontoise, contenant la
-                        relation faite par M. le président de Novion, de ce qui s'est passé au sujet
-                        de léloignement du cardinal Mazarin.</title>
-                    <author ref="isni:0000000121755355">Parlement de Paris</author>
+                    <title>Quatrième arrêt du conseil d'État du roi portant cassation de l'assemblée
+                        tenue en l'Hôtel-de-Ville de Paris, le 29 du mois passé, et defense aux
+                        habitants de payer aucunes taxes en conséquence de ce qui s'en est
+                        ensuivi.</title>
+                    <author ref="isni:0000000121754977">Conseil d'État</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="0"
                     /></extent>
@@ -482,9 +814,45 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno
-                                source="https://www.google.fr/books/edition/Extraict_des_registres_dv_parlement_séa/M-Ia54pL93IC?hl=fr&amp;gbpv=0"
-                            />
+                            <idno source="https://books.google.fr/books?id=Ic3WUV9WB2cC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2056_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettre de Son Altesse Royale écrite au roi, avec la Réponse du roi à Son
+                        Altesse Royale.</title>
+                    <author ref="isni:0000000121336441">Gaston d'Orléans</author>
+                    <author ref="isni:0000000383255772">Louis XIV</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=fc0eGPtbuTsC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

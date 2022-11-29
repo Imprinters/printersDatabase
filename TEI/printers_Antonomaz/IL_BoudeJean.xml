@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_BoudeJean">
   <teiHeader>
     <fileDesc>
@@ -54,24 +52,15 @@
             <listEvent>
               <event>
                 <label type="bio" source="IdRef">Toulouse : 1607?-1684 ; Près le collège de Foix - À
-                  l'enseigne Saint Jean</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Narbonne : 1658</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Travaille en association avec son fils Jean-Jacques
-                  Boude jusqu'à la mort de celui-ci (mars 1675), puis avec sa belle-fille Élisabeth
-                  Hénault (veuve Jean-Jacques Boude) jusqu'en 1677. Nicolas d'Estey travaille dans
-                  son atelier en 1626.</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Imprimeur-libraire ; imprimeur (ordinaire) du Roi,
-                  des États généraux de la province de Languedoc et de l'université de Toulouse.
-                  Imprime en 1662 pour le collège des Jésuites de Béziers, mais à Toulouse en dépit
-                  de l'adresse portée sur lesdites impressions. Réimprime la 'Gazette' à partir de
-                  1673. Se retire en mars 1684. Décédé en 1689. Grand-père de l'imprimeur-libraire
-                  Jean II Boude.</label>
+                  l'enseigne Saint Jean','Narbonne : 1658','Travaille en association avec son fils
+                  Jean-Jacques Boude jusqu'à la mort de celui-ci (mars 1675), puis avec sa
+                  belle-fille Élisabeth Hénault (veuve Jean-Jacques Boude) jusqu'en 1677. Nicolas
+                  d'Estey travaille dans son atelier en 1626.','Imprimeur-libraire ; imprimeur
+                  (ordinaire) du Roi, des États généraux de la province de Languedoc et de
+                  l'université de Toulouse. Imprime en 1662 pour le collège des Jésuites de Béziers,
+                  mais à Toulouse en dépit de l'adresse portée sur lesdites impressions. Réimprime
+                  la 'Gazette' à partir de 1673. Se retire en mars 1684. Décédé en 1689. Grand-père
+                  de l'imprimeur-libraire Jean II Boude.</label>
               </event>
               <event>
                 <label type="bio" source="Antonomaz">imprimeur du roi à Toulouse.</label>

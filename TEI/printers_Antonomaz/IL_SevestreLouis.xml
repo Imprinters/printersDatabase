@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_SevestreLouis">
     <teiHeader>
         <fileDesc>
@@ -55,11 +53,8 @@
                             <event>
                                 <label type="bio" source="IdRef">2e fils de Louis II Sevestre; né
                                     après 1605. Décédé entre 1690 et déc. 1692 (veuve
-                                    attestée)</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Paris : 1634-1690 ; Rue du Mûrier,
-                                    près Saint-Nicolas-du-Chardonnet</label>
+                                    attestée)','Paris : 1634-1690 ; Rue du Mûrier, près
+                                    Saint-Nicolas-du-Chardonnet</label>
                             </event>
                         </listEvent>
                     </person>
@@ -72,6 +67,162 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
+    <TEI corresp="Moreau2849-iii_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Troisième factum, ou Défense de messire Philippe de La Mothe Houdancourt,
+                        duc de Cardone et maré chal de France, ci-devant vice-roi et capitaine
+                        général en Catalogne, avec plusieurs requêtes, arrêts et autres actes sur ce
+                        intervenus tant au conseil qu'ailleurs.</title>
+                    <author ref="isni:0000000000367647">Henri de La Mothe-Houdancourt</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="63"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=9D4mf3jVDB4C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2849-iv_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Quatrième factum, ou Défense de messire Philippe de La Mothe Houdancourt,
+                        duc de Cardone et maré chal de France, ci-devant vice-roi et capitaine
+                        général en Catalogne, avec plusieurs requêtes, arrêts et autres actes sur ce
+                        intervenus tant au conseil qu'ailleurs.</title>
+                    <author ref="isni:0000000000367647">Henri de La Mothe-Houdancourt</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="84"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=m8CpO81awHEC "/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2849-i_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Premier factum, ou Défense de messire Philippe de La Mothe Houdancourt,
+                        duc de Cardone et maré chal de France, ci-devant vice-roi et capitaine
+                        général en Catalogne, avec plusieurs requêtes, arrêts et autres actes sur ce
+                        intervenus tant au conseil qu'ailleurs.</title>
+                    <author ref="isni:0000000000367647">Henri de La Mothe-Houdancourt</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="36"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=GCIR1vpoowQC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2849-ii_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Second factum, ou Défense de messire Philippe de La Mothe Houdancourt,
+                        duc de Cardone et maré chal de France, ci-devant vice-roi et capitaine
+                        général en Catalogne, avec plusieurs requêtes, arrêts et autres actes sur ce
+                        intervenus tant au conseil qu'ailleurs.</title>
+                    <author ref="isni:0000000000367647">Henri de La Mothe-Houdancourt</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="64"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=jV-j_qRI08QC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
     <TEI corresp="Moreau2775_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
@@ -93,6 +244,44 @@
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale</repository>
                             <idno source="http://books.google.fr/books?id=AxV83rHxHf4C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1084_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le dialogue de Saint-Germain en Laye en forme de tragédie, par lequel on
+                        remarquera la fidélité des Parisiens au roi, dédié à monseigneur le duc de
+                        Beaufort, par le S. D. B. P. C. D. S. M. Première partie.</title>
+                    <author ref="isni:0000000121002759">Claude Du Bosc de Montandré</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5691649j"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -147,15 +336,14 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2930_GALL.xml">
+    <TEI corresp="Moreau683_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Pyralide (la), dédiée à monseigneur, monseigneur le duc de Beaufort, par
-                        le sieur Barrois.</title>
-                    <author ref="isni:0000000061693956">Sieur Barrois</author>
+                    <title>Chant royal du siége de Paris, dédié à monseigneur de Beaufort</title>
+                    <author ref="isni:0000000061693956">H. de Barrois</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="5"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -166,8 +354,9 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5576455b"/>
+                            <repository>Lyon, Bibliothèque municipale de Lyon, bibliothèque jésuite
+                                des Fontaines</repository>
+                            <idno source="https://books.google.fr/books?id=KAbYLt1T7kYC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -184,16 +373,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1084_GALL.xml">
+    <TEI corresp="Moreau1101_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Dialogue (le) de Saint-Germain en Laye en forme de tragédie, par lequel
-                        on remarquera la fidélité des Parisiens au roi, dédié à monseigneur le duc
-                        de Beaufort, par le S. D. B. P. C. D. S. M. Première partie.</title>
-                    <author ref="isni:0000000121002759">Claude Dubosc de Montandré</author>
+                    <title>Discours adressé aux soldats françois, dédié à M. Deslandes Payen,
+                        conseiller au parlement.</title>
+                    <author ref="isni:0000000000073542">F. de Cheffault Coeur Affranchi </author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -204,8 +392,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5691649j"/>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=rmS6LEpHXfoC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -226,7 +414,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Espérance (l') de la paix et de l'abondance des vivres à Paris.</title>
+                    <title>L'espérance de la paix et de l'abondance des vivres à Paris.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
@@ -258,15 +446,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1101_GBOOKS.xml">
+    <TEI corresp="Moreau2930_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Discours adressé aux soldats françois, dédié à M. Deslandes Payen,
-                        conseiller au parlement.</title>
-                    <author ref="isni:0000"/>
+                    <title>La pyralide , dédiée à monseigneur, monseigneur le duc de Beaufort, par
+                        le sieur Barrois.</title>
+                    <author ref="isni:0000000061693956">H. de Barrois</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="5"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -277,8 +465,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=rmS6LEpHXfoC"/>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5576455b"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -295,14 +483,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau683_pp.7-8_GBOOKS.xml">
+    <TEI corresp="Moreau90_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Chant royal du siége de Paris, dédié à monseigneur de Beaufort</title>
-                    <author ref="isni:0000000061693956">H. Barrois de</author>
+                    <title>L'antigazette de Flandre contre ceux qui blâment la garde qui se fait à
+                        Paris.</title>
+                    <author ref="isni:0000000000073542">F. de Cheffault Coeur Affranchi</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -313,9 +502,10 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale de Lyon, bibliothèque jésuite
-                                des Fontaines</repository>
-                            <idno source="https://books.google.fr/books?id=KAbYLt1T7kYC&amp;hl=fr"/>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno
+                                source="https://www.google.fr/books/edition/L_antigazette_de_Flandre/ws88AAAAcAAJ"
+                            />
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

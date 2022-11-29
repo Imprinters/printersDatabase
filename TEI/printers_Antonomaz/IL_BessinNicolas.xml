@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_BessinNicolas">
     <teiHeader>
         <fileDesc>
@@ -56,13 +54,9 @@
                                 <label type="bio" source="IdRef">Paris : 1642-167 ; Rue de Reims,
                                     près le collège ; Rue Saint-Jean-de-Beauvais ; Au Palais (, en
                                     l'allée (de la chapelle) Saint-Michel, vis-à-vis de la porte de
-                                    la rue)</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Fils et successeur de Jacques I
-                                    Bessin ; gendre d'Adrien Bacot. Recu maître en mars 1642. Encore
-                                    en activité en 1669, mais veuve attestée lors de la visite de
-                                    mars 1679</label>
+                                    la rue)','Fils et successeur de Jacques I Bessin ; gendre
+                                    d'Adrien Bacot. Recu maître en mars 1642. Encore en activité en
+                                    1669, mais veuve attestée lors de la visite de mars 1679</label>
                             </event>
                         </listEvent>
                     </person>
@@ -75,18 +69,17 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="Moreau3338_GBOOKS.xml">
+    <TEI corresp="Moreau3683_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Remontrances (les) du Parlement de Bordeaux faites au roi et à la reine
-                        régente, suivant la copie présentée au Parlement de Paris, par MM. de
-                        Gourgues, président, Monjon, Guyonnet et Voisins, conseillers et députés du
-                        Parelement de Bordeaux, le 7 septembre 1650.</title>
-                    <author ref="viaf:201154261">Arnaud de Pontac</author>
-                    <author ref="isni:0000000119572170">le Parlement de Bordeaux</author>
+                    <title>Sommaire de la doctrine curieuse du cardinal Mazarin, par lui déclaré en
+                        une lettre qu'il écrit à un sien confident, pour se purger de l'arrêt du
+                        Parlement et des faits dont il est accusé. Ensemble la réponse à icelle, par
+                        laquelle il est dissuadé de se représenter au Parlement.</title>
+                    <author ref="isni:0000">T. T.</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="19"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="18"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -97,8 +90,121 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Londres, The British Library</repository>
-                            <idno source="http://books.google.fr/books?id=-PUzjb9Oo7sC"/>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=1bHtBjVWiM4C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1411_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le françois fidèle à Jules Mazarin, traitant des devoirs des bons
+                        ministres envers leurs maîtres.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=txs8QHpE5MwC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3851_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Les triolets de la Cour</title>
+                    <author ref="isni:0000000120990126">Paul Scarron</author>
+                    <author ref="isni:0000000122493086">Jacques Carpentier de Marigny</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="10"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k55426215"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2889_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Procès verbal contenant ce qui s'est passé, tant à Pont-sur-Yonne qu'en
+                        la ville de Sens, au voyage de messieurs les députés du Parlement de Paris,
+                        présenté à la cour par M. Du Coudray Géniers , conseiller en icelle et l'un
+                        des députés, le 7 février 1652, en présence de Son Altesse Royale.</title>
+                    <author ref="viaf:98152636171720052976">Jacques Du Coudray Géniers</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="14"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=1wo-2bMIDtgC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -119,7 +225,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Remercîments (les) de la France à monseigneur le duc de Beaufort.</title>
+                    <title>Les remercîments de la France à monseigneur le duc de Beaufort.</title>
                     <author ref="isni:0000">F. P. R.</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
@@ -151,15 +257,14 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3501_GALL.xml">
+    <TEI corresp="Moreau3277_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Requête présentée à monseigneur le Prince par les vignerons de son
-                        gouvernement de Bourgogne, en vers burlesques.</title>
-                    <author ref="isni:0000"/>
+                    <title>Remercîment des Rordelois au roi sur le sujet de la paix.</title>
+                    <author ref="isni:0000000393482485">Jacques Fonteneil</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -170,45 +275,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k54275450"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2996_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Recit exact et fidel de ce qui s'est passé a la conference de Ruel, pour
-                        la negotiation de la paix.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="26"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=sX4dDV58L1UC&amp;hl=fr"/>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=yPv6jbSaR7QC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -266,8 +334,8 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Dernières (les) barricades de Paris, en vers burlesques, avec autres
-                        vers, envoyés à M. Scarron, sur l'arrivée d'un convoi à Paris.</title>
+                    <title>Les dernières barricades de Paris, en vers burlesques, avec autres vers,
+                        envoyés à M. Scarron, sur l'arrivée d'un convoi à Paris.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="1"
@@ -299,15 +367,14 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2076_GBOOKS.xml">
+    <TEI corresp="Moreau1099_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Lettre des peuples de la province de Poitou, envoyée à nos seigneurs du
-                        Parlement de Paris, sur le sujet des partisans et maltotiers.</title>
+                    <title>Discours à messieurs de Paris sur le sujet des taxes.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -318,8 +385,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
-                            <idno source="https://books.google.fr/books?id=skJKAAAAcAAJ&amp;hl=fr"/>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=DJeerC_71OgC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -373,18 +440,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2889_GBOOKS.xml">
+    <TEI corresp="Moreau3501_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Procès verbal contenant ce qui s'est passé, tant à Pont-sur-Yonne qu'en
-                        la ville de Sens, au voyage de messieurs les députés du Parlement de Paris,
-                        présenté à la cour par M. Du Coudray Géniers (sic), conseiller en icelle et
-                        l'un des députés, le 7 février 1652, en présence de Son Altesse
-                        Royale.</title>
-                    <author ref="isni:0000">Jacques Du Coudray Géniers</author>
+                    <title>Requête présentée à monseigneur le Prince par les vignerons de son
+                        gouvernement de Bourgogne, en vers burlesques.</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="14"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -395,8 +459,201 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=1wo-2bMIDtgC&amp;hl=fr"/>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k54275450"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3338_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Les remontrances du Parlement de Bordeaux faites au roi et à la reine
+                        régente, suivant la copie présentée au Parlement de Paris, par MM. de
+                        Gourgues, président, Monjon, Guyonnet et Voisins, conseillers et députés du
+                        Parelement de Bordeaux, le 7 septembre 1650.</title>
+                    <author ref="viaf:201154261">Arnaud de Pontac</author>
+                    <author ref="isni:0000000119572170">Parlement de Bordeaux</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="19"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Londres, The British Library</repository>
+                            <idno source="http://books.google.fr/books?id=-PUzjb9Oo7sC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3340_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Remontrances faites au roi et à la reine régente par monsieur le
+                        président de Galliffet, député du Parlement de Provence, pour le changement
+                        du gouverneur.</title>
+                    <author ref="isni:0000000121732655">Parlement de Provence</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=geJPe1rEqD8C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2500_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Les motifs de l'union des bourgeois de Paris avec le Parlement,
+                        représentés à la reine, servans de réponse aux libelles jettés dans Paris,
+                        où est découverte la fausse politique des deux ministres cardinaux.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Florence, Bibliothèque nationale centrale</repository>
+                            <idno source="https://books.google.fr/books?id=S2immbQnKmMC&amp;hl=fr"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau657_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Les causes du retardement de la paix entre le roi d’une part, le roi
+                        d’Espagne et l’empereur d’autre, et les remèdes qui s’y peuvent
+                        apporter</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=PYhfk1mJs4kC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1962_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lettre de messieurs de la cour du Parlement de Bordeaux, pour réponse à
+                        la lettre de messieurs de la cour du Parlement de Paris, concernant les
+                        arrêts donnés contre le cardinal Mazarin, et pour la liberté de messieurs
+                        les princes.</title>
+                    <author ref="isni:0000000119572170">Parlement de Bordeaux</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=bFqQ4yAcZwAC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -455,54 +712,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3851_GALL.xml">
+    <TEI corresp="Moreau2996_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Les triolets de la Cour</title>
-                    <author ref="isni:0000000120990126">Paul Scarron</author>
-                    <author ref="isni:0000000122493086">Jacques Carpentier Marigny de</author>
+                    <title>Recit exact et fidel de ce qui s'est passé a la conference de Ruel, pour
+                        la negotiation de la paix.</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="10"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k55426215"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau3683_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Sommaire de la doctrine curieuse du cardinal Mazarin, par lui déclaré en
-                        une lettre qu'il écrit à un sien confident, pour se purger de l'arrêt du
-                        Parlement et des faits dont il est accusé. Ensemble la réponse à icelle, par
-                        laquelle il est dissuadé de se représenter au Parlement.</title>
-                    <author ref="isni:0000">T. T.</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="18"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="26"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -514,7 +732,7 @@
                     <msDesc>
                         <msIdentifier>
                             <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=1bHtBjVWiM4C"/>
+                            <idno source="https://books.google.fr/books?id=sX4dDV58L1UC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -531,14 +749,12 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2500_GBOOKS.xml">
+    <TEI corresp="Moreau2076_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Motifs (les) de l'union des bourgeois de Paris avec le Parlement,
-                        représentés à la reine, servans (sic) de réponse aux libelles jettés dans
-                        Paris, où est découverte la fausse politique des deux ministres
-                        cardinaux.</title>
+                    <title>Lettre des peuples de la province de Poitou, envoyée à nos seigneurs du
+                        Parlement de Paris, sur le sujet des partisans et maltotiers.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
@@ -552,8 +768,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Florence, Bibliothèque nationale centrale</repository>
-                            <idno source="https://books.google.fr/books?id=S2immbQnKmMC&amp;hl=fr"/>
+                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
+                            <idno source="https://books.google.fr/books?id=skJKAAAAcAAJ"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -576,8 +792,8 @@
                 <titleStmt>
                     <title>Agréable récit de ce qui s’est passé aux dernières barricades de Paris,
                         décrites en vers burlesques.</title>
-                    <author ref="isni:0000000000029242 ">Claude-Charles l'Aubespine Verderonne de
-                    </author>
+                    <author ref="isni:0000000000029242 ">Claude-Charles de l'Aubespine
+                        Verderonne</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="23"/><measure unit="decoration" quantity="1"
                     /></extent>

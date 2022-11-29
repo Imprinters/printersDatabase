@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_ChrestienAntoine">
     <teiHeader>
         <fileDesc>
@@ -57,10 +55,8 @@
                             <event>
                                 <label type="bio" source="IdRef">Lieu d'activité : Paris. Dates
                                     d'activité : 1651-1665. Adresse : Rue des Sept-Voies (, devant
-                                    le collège de Fortet ; devant le collège de Montaigu)</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Variante(s) de prénom : Antonio. -
+                                    le collège de Fortet ; devant le collège de
+                                    Montaigu)','Variante(s) de prénom : Antonio. -
                                     Imprimeur-libraire. - Entré en apprentissage chez
                                     l'imprimeur-libraire parisien Mathurin Hénault en nov. 1638.
                                     Reçu maître le 7 juin 1651 ; épouse la veuve de
@@ -83,7 +79,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Départ (le) de messieurs les députés des six corps de marchands de cette
+                    <title>Le départ de messieurs les députés des six corps de marchands de cette
                         ville de Paris, hors la ville de Pontoise, dans lequel, outre la réception
                         que le roi leur a faite, est la réponse qu’il a faite par écrit aux sieurs
                         Le Vieux et Piètre, procureur du roi en l’hôtel-de-ville, la déclaration du

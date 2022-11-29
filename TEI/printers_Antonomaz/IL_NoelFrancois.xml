@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_NoelFrancois">
     <teiHeader>
         <fileDesc>
@@ -50,7 +48,7 @@
                         </residence>
                         <listEvent>
                             <event>
-                                <label type="bio" source="IdRef"/>
+                                <label type="bio"/>
                             </event>
                         </listEvent>
                     </person>
@@ -63,11 +61,49 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI corresp="Moreau3083_GBOOKS.xml">
+    <TEI corresp="Moreau2101_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Regrets de Paris sur la mort de M. le duc de Nemours .</title>
+                    <title>Lettre du comte duc d'Olivarez ministre d'Estat du roy d'Espagne: A Jules
+                        Mazarin cardinal, et n'agueres ministre d'Estat du roy de France.</title>
+                    <author ref="isni:0000000061191892">Luis Méndez de Haro</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=4EtAL3gWoz0C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1404_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le foudroiement des géants mazarinistes, abîmés sous les ruines du fameux
+                        et désolé bourg de Charenton.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
@@ -81,8 +117,47 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=gpAwtXczPkoC"/>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14576"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau122_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Apologie pour la France, sur sa préséance contre l'Espagne en cour de
+                        Rome.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="31"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=W49FZnaXMx4C"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -103,8 +178,8 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Apparition (l') de la guerre et de la paix à l'hermite du mont Valérien,
-                        et le dialogue de ce religieux avec un gentilhormme, sur les desseins
+                    <title>L'apparition de la guerre et de la paix à l'hermite du mont Valérien, et
+                        le dialogue de ce religieux avec un gentilhormme, sur les desseins
                         pernicieux du cardinal Mazarin, sur le mérite du sacerdoce et la gloire du
                         parlement.</title>
                     <author ref="isni:0000"/>
@@ -175,11 +250,128 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3596_GALL.xml">
+    <TEI corresp="Moreau3848_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Satyrique (le), ou le Mazarin métamorphosé.</title>
+                    <title>Les triolets d'Apollon et des neuf Muses.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5429369b"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3804_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Trente-cinq anagrammes sur l'auguste nom de Sa Majesté très-chrétienne,
+                        Louis quatorzième du nom, roi de France et de Navarre. Le sujet des
+                        anagrammes: L'absence inopinée du roi et l'affliction des bons François sont
+                        fort aimés de Dieu; et ce qu'ils doivent faire pour se conserver cet amour
+                        divin, venir au-dessus de leurs entreprises militaires et de leur entier
+                        soulagement.</title>
+                    <author ref="isni:0000000375032296">Jean Douet</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=_NHsfHtsMqQC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2849-v_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Cinquième factum, ou Défense de messire Philippe de La Mothe Houdancourt,
+                        duc de Cardone et maré chal de France. Contenant les injusties et
+                        extraordinnaires procédures faites contre liu, par les artifices du Cardinal
+                        Mazarin.</title>
+                    <author ref="isni:0000000000367647">Henri de La Mothe-Houdancourt</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="36"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=3SxNTAbqZlsC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3721_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La subtilité du cardinal Mazarin découverte sur la conférence faite à
+                        Ruel pour la paix.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
@@ -193,82 +385,9 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5707904m"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau3538_GALL.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Réveil-matin (le) des curieux touchant les regrets de la petite Nichon,
-                        poëme burlesque sur l'amprisonnement (sic) des Princes.</title>
-                    <author ref="viaf:202034862">Nichon</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5426078b"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau3589_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Satyre (la) des satyres du temps.</title>
-                    <author ref="isni:0000000121002759">Claude Du Bosc de Montandré</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="10"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
                             <repository>Paris, Bibliothèque Mazarine</repository>
                             <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14582"
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17515"
                             />
                         </msIdentifier>
                         <physDesc>
@@ -286,15 +405,16 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau961_GBOOKS.xml">
+    <TEI corresp="Moreau3746_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Décret infernal contre Jules Mazarin et tous les partisans de
+                    <title>Le tableau des tyrans favoris, et la description des malversations qu'ils
+                        commettent dans les Etats qu'ils gouvernent, envoyé par l'Espagne à la
                         France.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -305,8 +425,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
-                            <idno source="https://books.google.fr/books?id=c0dKAAAAcAAJ"/>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=VEHuCRg4n_sC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -327,7 +447,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Perle (la) des triolets, ou l'Antiquité renouvelée, avec les noms et
+                    <title>La perle des triolets, ou l'Antiquité renouvelée, avec les noms et
                         surnoms des plus généreux frondeurs de la ville et faubourgs de
                         Paris.</title>
                     <author ref="isni:0000"/>
@@ -345,233 +465,6 @@
                         <msIdentifier>
                             <repository>Paris, Bibliothèque nationale de France</repository>
                             <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5612297b"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1627_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Héros (le) parisien aux vrais François</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
-                            <idno source="http://books.google.fr/books?id=ZU1KAAAAcAAJ"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau1679_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Illustre (l') prince duc de Beaufort, exilé, rétabli, et remis au trône
-                        de sa gloire.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14863"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2101_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Lettre du comte duc d'Olivarez ministre d'Estat du roy d'Espagne: A Jules
-                        Mazarin cardinal, et n'agueres ministre d'Estat du roy de France.</title>
-                    <author ref="isni:0000000061191892">Luis Méndez de Haro</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=4EtAL3gWoz0C&amp;hl=fr"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2952_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Questions, en forme de dialogue, du conseil de conscience au conseil
-                        d'État, avec les réponses.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=ufj5djdY3OEC"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2094_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Lettre du cardinal Mazarin écrite au comte Pigneranda, plénipotentiaire
-                        d'Espagne pour la paix générale à Munster, par laquelle se justifie le
-                        mauvais dessein du cardinal Mazarin, tant sur la ville de Paris que sur tout
-                        l'État.</title>
-                    <author ref="isni:0000000121223121">Jules Mazarin</author>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
-                            <idno source="https://books.google.fr/books?id=O3ivp5UC-bMC&amp;hl=fr"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau2593_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Ombre (l') du grand Armand, cardinal, duc de Richelieu, parlant à Jules
-                        Mazarin.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17450"
-                            />
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -630,89 +523,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau4073_GBOOKS.xml">
+    <TEI corresp="Moreau2593_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Vrai (le) politique, ou l'Homme d'État désintéressé, au roi Louis XIV,
-                        surnommé de Dieu donné.</title>
+                    <title>L'ombre du grand Armand, cardinal, duc de Richelieu, parlant à Jules
+                        Mazarin.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="15"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=xjEsqFOW5ZsC"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau4056_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Voix (la) du peuple à monseigneur le duc de Beaufort, pair de
-                        France.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=opCQZ72EX3YC"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau3721_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Subtilité (la) du cardinal Mazarin découverte sur la conférence faite à
-                        Ruel pour la paix.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -725,7 +544,7 @@
                         <msIdentifier>
                             <repository>Paris, Bibliothèque Mazarine</repository>
                             <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17515"
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz17450"
                             />
                         </msIdentifier>
                         <physDesc>
@@ -743,16 +562,14 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3746_GBOOKS.xml">
+    <TEI corresp="Moreau3589_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Tableau (le) des tyrans favoris, et la description des malversations
-                        qu'ils commettent dans les Etats qu'ils gouvernent, envoyé par l'Espagne à
-                        la France.</title>
-                    <author ref="isni:0000"/>
+                    <title>La satyre des satyres du temps.</title>
+                    <author ref="isni:0000000121002759">Claude Du Bosc de Montandré</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="10"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -763,8 +580,10 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=VEHuCRg4n_sC"/>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14582"
+                            />
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -781,13 +600,49 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1598_GBOOKS.xml">
+    <TEI corresp="Moreau3538_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Harangue faite au roi par monsieur Talon, son avocat général au Parlement
-                        de Paris.</title>
-                    <author ref="isni:0000000108628124">Omer Talon</author>
+                    <title>Le réveil-matin des curieux touchant les regrets de la petite Nichon,
+                        poëme burlesque sur l'amprisonnement des Princes.</title>
+                    <author ref="viaf:202034862">Nichon</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5426078b"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3596_GALL.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le satyrique , ou le Mazarin métamorphosé.</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
                     /></extent>
@@ -800,8 +655,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Munich, Bibliothèque de l'Etat de Bavière</repository>
-                            <idno source="https://books.google.fr/books?id=31tCAAAAcAAJ"/>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5707904m"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -818,14 +673,58 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1501_GBOOKS.xml">
+    <TEI corresp="Moreau3suppl9_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Glorieux (les) travaux du Parlement pour le maintien de l'autorité du roi
-                        et pour le soulagement de ses peuples, par L . D . M . E . J. Du
-                        Bail.</title>
-                    <author ref="isni:0000000116952813">Louis Moreau Du Bail</author>
+                    <title>Arrêt de la cour de Parlement de Bordeaux, toutes les chambres
+                        assemblées, portant défense à toutes personnes, de quelle qualité et
+                        condition qu'ils soient , de faire aucunes menées et pratiques sur le sujet
+                        du rétablissement du duc d’Espernon, avec la permission d'en informer et se
+                        saisir des contrevenants. Ensemble que le roy sera très-humblement supplié
+                        de nommer au plus tôt un gouverneur dans la province de Guyenne, en
+                        conséquence de la Déclaration du mois d'octobre dernier. Du 18 avril
+                        1651.</title>
+                    <author ref="isni:0000000119572170">Parlement de Bordeaux</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15050"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1679_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>L'illustre prince duc de Beaufort, exilé, rétabli, et remis au trône de
+                        sa gloire.</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="1"
                     /></extent>
@@ -838,8 +737,10 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Florence, Bibliothèque nationale centrale</repository>
-                            <idno source="https://books.google.fr/books?id=qf-I0dsLGaMC"/>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14863"
+                            />
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -856,12 +757,11 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1404_MAZ.xml">
+    <TEI corresp="Moreau1627_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Foudroiement (le) des géants mazarinistes, abîmés sous les ruines du
-                        fameux et désolé bourg de Charenton.</title>
+                    <title>Le héros parisien aux vrais François</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
@@ -875,10 +775,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14576"
-                            />
+                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
+                            <idno source="http://books.google.fr/books?id=ZU1KAAAAcAAJ"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -938,7 +836,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Litanies (les) du temps.</title>
+                    <title>Les litanies du temps.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="0"
@@ -972,51 +870,12 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau2483_MAZ.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Misérable (la) chûte du ministre d'État étranger, son bannissement, sa
-                        fuite préméditée et sa retraite en Turquie.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14936"
-                            />
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
     <TEI corresp="Moreau2478_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Miroir (le) des souverains, où se voit l'art de régner, et quelles sont
-                        les personnes qu'ils doivent élire pour être leurs commensaux, leurs
+                    <title>Le miroir des souverains, où se voit l'art de régner, et quelles sont les
+                        personnes qu'ils doivent élire pour être leurs commensaux, leurs
                         domestiques, leurs serviteurs, leurs conseillers et leurs ministres d'État,
                         quel est le devoir de ces divers esprits, et quelle doit être leur
                         récompense.</title>
@@ -1053,11 +912,50 @@
             </body>
         </text>
     </TEI>
+    <TEI corresp="Moreau2483_MAZ.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La misérable chûte du ministre d'État étranger, son bannissement, sa
+                        fuite préméditée et sa retraite en Turquie.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Paris, Bibliothèque Mazarine</repository>
+                            <idno
+                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz14936"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
     <TEI corresp="Moreau2405_MAZ.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Manne (la) céleste, ou l'Heureuse arrivée du premier convoi de vivres à
+                    <title>La manne céleste, ou l'Heureuse arrivée du premier convoi de vivres à
                         Paris, avec la généreuse sortie des Parisiens.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
@@ -1096,10 +994,10 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Mars (le) captif mis en liberté par Thémis, et le Typhon de la France
-                        banni par la même déesse, ou la Délivrance de monseigneur le prince de Condé
-                        par l'entremise du Parlement, et l'éloignement du cardinal Mazarin ordonné
-                        par l'arrêt de cet auguste corps.</title>
+                    <title>Le mars captif mis en liberté par Thémis, et le Typhon de la France banni
+                        par la même déesse, ou la Délivrance de monseigneur le prince de Condé par
+                        l'entremise du Parlement, et l'éloignement du cardinal Mazarin ordonné par
+                        l'arrêt de cet auguste corps.</title>
                     <author ref="isni:0000">R. D. S. J.</author>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="15"/><measure unit="decoration" quantity="0"
@@ -1131,15 +1029,15 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3suppl64_GBOOKS.xml">
+    <TEI corresp="Moreau610_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Ombre (l') du grand Armand, cardinal duc de Richelieu, parlant à Jules
-                        Mazarin.</title>
-                    <author ref="isni:0000000123198599">Armand Jean du Plessis de Richelieu</author>
+                    <title>Le burlesque Festin, ou l’Alliance contractée entre Mardi Gras et la
+                        Foire Saint-Germain</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="11"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -1150,8 +1048,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Londres, The British Library</repository>
-                            <idno source="https://books.google.fr/books?id=N3nb3ekj0TYC"/>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5684331g"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -1168,19 +1066,125 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau3suppl9_MAZ.xml">
+    <TEI corresp="Moreau696_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Arrêt de la cour de Parlement de Bordeaux, toutes les chambres
-                        assemblées, portant défense à toutes personnes, de quelle qualité et
-                        condition qu'ils soient (sic), de faire aucunes menées et pratiques sur le
-                        sujet du rétablissement du duc d’Espernon, avec la permission d'en informer
-                        et se saisir des contrevenants. Ensemble que le roy sera très-humblement
-                        supplié de nommer au plus tôt un gouverneur dans la province de Guyenne, en
-                        conséquence de la Déclaration du mois d'octobre dernier. Du 18 avril
-                        1651.</title>
-                    <author ref="isni:0000000119572170">France. Parlement de Bordeaux</author>
+                    <title>Le chevalier chrétien parlant des misères du temps à la reine
+                        régente.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="23"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Florence, Bibliothèque nationale centrale de
+                                Florence</repository>
+                            <idno source="https://books.google.fr/books?id=V0mVtEIXbZ4C"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau621_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Les canons foudroyants, ou les Redoutables paroles du conducteur de nos
+                        armées aux princes et aux peuples.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=CAK6seG35ZcC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau671_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La censure ecclésiastique de Rome la sainte contre la vie dépravée de
+                        Jules Mazarin.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=d1oE4tLFqFgC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau4056_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La voix du peuple à monseigneur le duc de Beaufort, pair de
+                        France.</title>
+                    <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="6"/><measure unit="decoration" quantity="1"
                     /></extent>
@@ -1193,10 +1197,121 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque Mazarine</repository>
-                            <idno
-                                source="https://mazarinum.bibliotheque-mazarine.fr/ark:/61562/mz15050"
-                            />
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=opCQZ72EX3YC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau4073_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Le vrai politique, ou l'Homme d'État désintéressé, au roi Louis XIV,
+                        surnommé de Dieu donné.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="15"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=xjEsqFOW5ZsC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau983_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Défense de messire Philippe de La Mothe Houdancourt, duc de Cardone et
+                        maréchal de France, au libelle jetté dans Paris par le chevalier de La
+                        Valette, et affiché à Saint-Germain-en-Laye par ordre du cardinal
+                        Mazarin.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="36"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=IeRc7lQjRwYC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau961_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Décret infernal contre Jules Mazarin et tous les partisans de
+                        France.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Vienne, Bibliothèque nationale d'Autriche</repository>
+                            <idno source="https://books.google.fr/books?id=c0dKAAAAcAAJ"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -1254,15 +1369,16 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1760_GBOOKS.xml">
+    <TEI corresp="Moreau1501_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Journal des signalées actions de monsieur de La Mothe Houdancourt, duc de
-                        Cardone, et maréchal de France.</title>
-                    <author ref="isni:0000"/>
+                    <title>Les glorieux travaux du Parlement pour le maintien de l'autorité du roi
+                        et pour le soulagement de ses peuples, par L . D . M . E . J. Du
+                        Bail.</title>
+                    <author ref="isni:0000000116952813">Louis Moreau Du Bail</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="43"/><measure unit="decoration" quantity="0"
+                <extent><measure unit="pages" quantity="16"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -1273,10 +1389,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
-                            <idno
-                                source="https://www.google.fr/books/edition/Journal_des_signal%C3%A9es_actions_de_M_de_L/fuNBAAAAcAAJ?hl=fr&amp;gbpv=0"
-                            />
+                            <repository>Florence, Bibliothèque nationale centrale</repository>
+                            <idno source="https://books.google.fr/books?id=qf-I0dsLGaMC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -1293,13 +1407,121 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau1781_GBOOKS.xml">
+    <TEI corresp="Moreau1598_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Juste (la) réfutation des injustes louanges qu'impudemment a osé donner
-                        un médecin du roi à Jules Mazarin, le plus scélérat de tous les hommes, et
-                        qui est en exécration à Dieu, aux anges et à toute la nature.</title>
+                    <title>Harangue faite au roi par monsieur Talon, son avocat général au Parlement
+                        de Paris.</title>
+                    <author ref="isni:0000000108628124">Omer Talon</author>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Munich, Bibliothèque de l'Etat de Bavière</repository>
+                            <idno source="https://books.google.fr/books?id=31tCAAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau2952_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Questions, en forme de dialogue, du conseil de conscience au conseil
+                        d'État, avec les réponses.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=ufj5djdY3OEC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Socard81_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La muette ingratte. Suite de la belle gueuse.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="18"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Munich, Bibliothèque de l'Etat de Bavière</repository>
+                            <idno source="https://books.google.fr/books?id=c888AAAAcAAJ"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau3083_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Regrets de Paris sur la mort de M. le duc de Nemours .</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
@@ -1313,8 +1535,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
-                            <idno source="https://books.google.fr/books?id=q0hCAAAAcAAJ"/>
+                            <repository>Lyon, Bibliothèque municipale</repository>
+                            <idno source="https://books.google.fr/books?id=gpAwtXczPkoC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -1331,14 +1553,17 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau5_GALL.xml">
+    <TEI corresp="Moreau2094_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>À monsieur de Broussel , conseiller du roi au parlement de Paris</title>
-                    <author ref="isni:0000"/>
+                    <title>Lettre du cardinal Mazarin écrite au comte Pigneranda, plénipotentiaire
+                        d'Espagne pour la paix générale à Munster, par laquelle se justifie le
+                        mauvais dessein du cardinal Mazarin, tant sur la ville de Paris que sur tout
+                        l'État.</title>
+                    <author ref="isni:0000000121223121">Jules Mazarin</author>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -1349,8 +1574,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5660368q"/>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=O3ivp5UC-bMC"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -1405,15 +1630,14 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau671_GBOOKS.xml">
+    <TEI corresp="Moreau5_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Censure (la) ecclésiastique de Rome la sainte contre la vie dépravée de
-                        Jules Mazarin.</title>
+                    <title>À monsieur de Broussel , conseiller du roi au parlement de Paris</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
-                <extent><measure unit="pages" quantity="12"/><measure unit="decoration" quantity="1"
+                <extent><measure unit="pages" quantity="4"/><measure unit="decoration" quantity="1"
                     /></extent>
                 <publicationStmt>
                     <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
@@ -1424,8 +1648,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=d1oE4tLFqFgC"/>
+                            <repository>Paris, Bibliothèque nationale de France</repository>
+                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5660368q"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>
@@ -1442,12 +1666,52 @@
             </body>
         </text>
     </TEI>
-    <TEI corresp="Moreau621_GBOOKS.xml">
+    <TEI corresp="Moreau1760_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Canons (les) foudroyants, ou les Redoutables paroles du conducteur de nos
-                        armées aux princes et aux peuples.</title>
+                    <title>Journal des signalées actions de monsieur de La Mothe Houdancourt, duc de
+                        Cardone, et maréchal de France.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="43"/><measure unit="decoration" quantity="1"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
+                            <idno
+                                source="https://www.google.fr/books/edition/Journal_des_signal%C3%A9es_actions_de_M_de_L/fuNBAAAAcAAJ?hl=fr&amp;gbpv=0"
+                            />
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
+    <TEI corresp="Moreau1781_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>La juste réfutation des injustes louanges qu'impudemment a osé donner un
+                        médecin du roi à Jules Mazarin, le plus scélérat de tous les hommes, et qui
+                        est en exécration à Dieu, aux anges et à toute la nature.</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"
@@ -1461,119 +1725,8 @@
                 <sourceDesc>
                     <msDesc>
                         <msIdentifier>
-                            <repository>Lyon, Bibliothèque municipale</repository>
-                            <idno source="https://books.google.fr/books?id=CAK6seG35ZcC"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau610_GALL.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Burlesque (le) Festin, ou l’Alliance contractée entre Mardi Gras et la
-                        Foire Saint-Germain</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Paris, Bibliothèque nationale de France</repository>
-                            <idno source="https://gallica.bnf.fr/ark:/12148/bpt6k5684331g"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Moreau696_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Chevalier (le) chrétien parlant des misères du temps à la reine
-                        régente.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="23"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Florence, Bibliothèque nationale centrale de
-                                Florence</repository>
-                            <idno source="https://books.google.fr/books?id=V0mVtEIXbZ4C"/>
-                        </msIdentifier>
-                        <physDesc>
-                            <decoDesc>
-                                <decoNote/>
-                            </decoDesc>
-                        </physDesc>
-                    </msDesc>
-                </sourceDesc>
-            </fileDesc>
-        </teiHeader>
-        <text>
-            <body>
-                <div/>
-            </body>
-        </text>
-    </TEI>
-    <TEI corresp="Socard81_GBOOKS.xml">
-        <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>La muette ingratte. Suite de la belle gueuse.</title>
-                    <author ref="isni:0000"/>
-                </titleStmt>
-                <extent><measure unit="pages" quantity="18"/><measure unit="decoration" quantity="1"
-                    /></extent>
-                <publicationStmt>
-                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
-                    <availability status="restricted" n="cc-by">
-                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <msDesc>
-                        <msIdentifier>
-                            <repository>Munich, Bibliothèque de l'Etat de Bavière</repository>
-                            <idno source="https://books.google.fr/books?id=c888AAAAcAAJ"/>
+                            <repository>Munich, Bibliothèque de l'État de Bavière</repository>
+                            <idno source="https://books.google.fr/books?id=q0hCAAAAcAAJ"/>
                         </msIdentifier>
                         <physDesc>
                             <decoDesc>

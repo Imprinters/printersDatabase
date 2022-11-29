@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_QuenetAntoine">
     <teiHeader>
         <fileDesc>
@@ -54,15 +52,12 @@
                         <listEvent>
                             <event>
                                 <label type="bio" source="IdRef">Paris : 1649?-1690 ; Rue des Carmes
-                                    ; Quai des Augustins - À l'|Image Sainte Barbe</label>
-                            </event>
-                            <event>
-                                <label type="bio" source="IdRef">Libraire-relieur. Fils du
-                                    libraire-relieur Robert Quenet, il commence à publier sous la
-                                    Fronde, sans qualité de libraire. Recu maître en mars 1653. Opte
-                                    pour la librairie lors de la création d'une communauté des
-                                    relieurs distincte de celle des imprimeurs et libraires
-                                    (1686)</label>
+                                    ; Quai des Augustins - À l'|Image Sainte
+                                    Barbe','Libraire-relieur. Fils du libraire-relieur Robert
+                                    Quenet, il commence à publier sous la Fronde, sans qualité de
+                                    libraire. Recu maître en mars 1653. Opte pour la librairie lors
+                                    de la création d'une communauté des relieurs distincte de celle
+                                    des imprimeurs et libraires (1686)</label>
                             </event>
                         </listEvent>
                     </person>
@@ -75,6 +70,43 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
+    <TEI corresp="Moreau111_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Apologie des Écossois, et les véritables raisons pour lesquelles ils ont
+                        élu Charles second contre l’injuste procédé des Anglais.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=HNEKG6kTU2MC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
     <TEI corresp="Moreau777_GBOOKS.xml">
         <teiHeader>
             <fileDesc>
@@ -112,11 +144,48 @@
             </body>
         </text>
     </TEI>
+    <TEI corresp="Moreau3827_GBOOKS.xml">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Les très-humbles remerciements des bourgeois de Paris à Mademoiselle,
+                        pour nous avoir procuré la paix.</title>
+                    <author ref="isni:0000"/>
+                </titleStmt>
+                <extent><measure unit="pages" quantity="7"/><measure unit="decoration" quantity="0"
+                    /></extent>
+                <publicationStmt>
+                    <publisher ref="https://github.com/Antonomaz">Antonomaz</publisher>
+                    <availability status="restricted" n="cc-by">
+                        <licence target="https://creativecommons.org/licenses/by/4.0"/>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>Lyon, Bibliothèque municipale de Lyon</repository>
+                            <idno source="https://books.google.fr/books?id=-Tn_y2yOEvgC"/>
+                        </msIdentifier>
+                        <physDesc>
+                            <decoDesc>
+                                <decoNote/>
+                            </decoDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div/>
+            </body>
+        </text>
+    </TEI>
     <TEI corresp="Moreau2942_GALL.xml">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Qu'en dira-t-on (le) de Mazarin, burlesques (sic).</title>
+                    <title>Le qu'en dira-t-on de Mazarin, burlesques .</title>
                     <author ref="isni:0000"/>
                 </titleStmt>
                 <extent><measure unit="pages" quantity="8"/><measure unit="decoration" quantity="1"

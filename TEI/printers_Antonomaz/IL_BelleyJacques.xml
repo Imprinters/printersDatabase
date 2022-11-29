@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Imprinters/ODD/main/schema/ODD_printers.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="IL_BelleyJacques">
   <teiHeader>
     <fileDesc>
@@ -55,10 +53,7 @@
             </residence>
             <listEvent>
               <event>
-                <label type="bio" source="IdRef">Paris</label>
-              </event>
-              <event>
-                <label type="bio" source="IdRef">Autre(s) graphie(s) : Belé ; Belles. -
+                <label type="bio" source="IdRef">Paris','Autre(s) graphie(s) : Belé ; Belles. -
                   Libraire-relieur. - Reçu maître le 15 janv. 1637. Père de Nicolas I Belley,
                   libraire et relieur. Publie des mazarinades entre 1650 et 1652. Semble avoir
                   rédigé lui-même au moins une partie des pièces qu'il publie en 1650. Travaille
